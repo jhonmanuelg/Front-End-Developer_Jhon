@@ -103,7 +103,7 @@ header .user img {
     height: 17rem;
     width: 17rem;    
     border-radius: 50%;
-    object-fit: scale-down;
+    object-fit:unset;
     margin-bottom: 1rem;
     border: .2rem solid var(--yellow);
     box-shadow: 0px 4px 5pc rgb(122, 122, 35);

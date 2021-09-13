@@ -226,15 +226,15 @@
 
             </div>
 
-            <form id="my-form" action="https://formspree.io/f/mrgrrnvy" class="contact-form" nome="formulario" method="GET" >
+            <form id="my-form" action="https://formspree.io/f/mrgrrnvy" class="contact-form" nome="formulario" method="POST" >
 
-                <input type="text" nome="name" placeholder="Seu name " class="box " title="Nome só letras minuscula y mayuscula espacio em blanco minimo 2 letras" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" >
+                <input type="text" nome="name" placeholder="Seu name " class="box " title="Nome só letras minuscula y mayuscula espacio em blanco minimo 2 letras" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
-                <input type="email" nome="email" placeholder="Seu email " class="box " title="ingreçar o email Correcto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" >
+                <input type="email" nome="email" placeholder="Seu email " class="box " title="ingreçar o email Correcto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
 
-                <input type="text" nome="assunto" placeholder="Seu assunto " class="box " >
+                <input type="text" nome="assunto" placeholder="Seu assunto " class="box " required>
 
-                <textarea name="mensagem" cols="50 " rows="10 " class="box message " placeholder="escriva seu mensagem " title="Os assunto é obligatorio" data-pattern="^.{1,1555}$" title="seu mensagem não pude pasar 1555 caracteres " ></textarea>
+                <textarea name="mensagem" cols="50 " rows="10 " class="box message " placeholder="escriva seu mensagem " title="Os assunto é obligatorio" data-pattern="^.{1,1555}$" title="seu mensagem não pude pasar 1555 caracteres " required></textarea>
 
                 <button type="submit"  class="btn " id="my-form-button"> Enviar <i class="fas fa-paper-plane "></i> </button>
 
