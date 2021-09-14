@@ -10,6 +10,8 @@
  
  nome.addEventListener('click',()=>{alertNome.style.display="none";});
  email.addEventListener('click',alertaNome);
+
+ 
  
   form.addEventListener("submit", e=>{
     e.preventDefault()
@@ -48,6 +50,11 @@
      alertNome.innerText="O nome e muito corto,Insira Nome é Sobrenome";
      alertNome.style.display=""; 
    }
+
+   
  };
+
+
+ 
  
 

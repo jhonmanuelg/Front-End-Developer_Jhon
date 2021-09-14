@@ -43,6 +43,7 @@
     <!-- home section starts  -->
 
     <section class="home" id="home">
+        
 
         <h3>Óla !</h3>
         <h1>eu sou <span>Jhon Manuel</span></h1>
@@ -72,7 +73,7 @@
 
                 <p>
 
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, in veritatis dicta blanditiis quos provident maxime cupiditate perferendis voluptates praesentium.
+                    Tenho experiência pessoal e de trabalho em projetos de curso com as seguintes tecnologias que me ajudaram a aprender a desenvolver na área de Front End.
 
                 </p>
 
@@ -83,22 +84,22 @@
 
                 <div class="box">
                     <span>HTML5.</span>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Hypertext Markup Language <br> com as principal tag</h3>
                 </div>
 
                 <div class="box">
                     <span>CSS.</span>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Cascading Style Sheets <br> As principal estilos para descrever a apresentação.</h3>
                 </div>
 
                 <div class="box">
                     <span>JS</span>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>linguagem para dar vida página da web. </h3>
                 </div>
 
                 <div class="box">
                     <span>REACT</span>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h3>Baseado em componentes, o que permite o reaproveitamento de código </h3>
                 </div>
 
             </div>
@@ -226,17 +227,21 @@
 
             </div>
 
-            <form id="my-form" action="https://formspree.io/f/mrgrrnvy" class="contact-form" nome="formulario" method="POST" >
+            <form id="my-form" action="https://formspree.io/f/mrgrrnvy" class="contact-form" nome="formulario"  method="POST" >
 
-                <input type="text" nome="name" placeholder="Seu name " class="box " title="Nome só letras minuscula y mayuscula espacio em blanco minimo 2 letras" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="text" nome="name" id="nome" placeholder="Seu name " class="box " title="Nome só letras minuscula y mayuscula espacio em blanco minimo 2 letras" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"  required="required">
 
-                <input type="email" nome="email" placeholder="Seu email " class="box " title="ingreçar o email Correcto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <label id='alertNome' style="display: none;color: brown;"></label> 
 
-                <input type="text" nome="assunto" placeholder="Seu assunto " class="box " required>
+                <input type="email" nome="email" id="email" placeholder="Seu email " class="box " title="ingreçar o email Correcto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required="required">
+                <label id='alertNome' style="display: none;color: brown;"></label> 
 
-                <textarea name="mensagem" cols="50 " rows="10 " class="box message " placeholder="escriva seu mensagem " title="Os assunto é obligatorio" data-pattern="^.{1,1555}$" title="seu mensagem não pude pasar 1555 caracteres " required></textarea>
+                <input type="text" nome="assunto" placeholder="Seu assunto " class="box " required="required">
 
-                <button type="submit"  class="btn " id="my-form-button"> Enviar <i class="fas fa-paper-plane "></i> </button>
+                <textarea name="mensagem" cols="50 " rows="10 " class="box message " placeholder="escriva seu mensagem " title="Os assunto é obligatorio" data-pattern="^.{1,1555}$" title="seu mensagem não pude pasar 1555 caracteres "  id="msj" 
+                ></textarea>
+
+                <button type="submit"  class="btn " id="my-form-button"> Enviar <i class="fas fa-paper-plane envial"></i> </button>
 
                 <p id="my-form-status"></p>
 
