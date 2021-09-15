@@ -2,7 +2,8 @@
 
   const nome=document.getElementById('nome')
   const email=document.getElementById('email')
-  const telefone=document.getElementById('assonto')
+  const assonto=document.getElementById('assonto')
+  const mensagem=document.getElementById('mensagem')
   const form=document.getElementById('form')
   const alertNome=document.getElementById('alertNome')
  
@@ -28,10 +29,14 @@
      alert("O correio é inválido")
      entrar= true
     }
-    if(!regexTelefone.test(assonto.value)){
-     alert("O número é inválido")
+    if(!regexassonto.test(assonto.value)){
+     alert("O assonto é obligatorio")
      entrar= true
-    }else{
+    }
+    if(!regexmensagem.test(mensagem.value)){
+      alert("O mensagemé obligatorio")
+      entrar= true
+     }else{
    
      alert("Mensagem enviado")
      form.reset();
@@ -55,6 +60,6 @@
  };
 
 
- function 
+
  
 
