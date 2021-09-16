@@ -41,8 +41,11 @@
      alert("Mensagem enviado")
      form.reset();
          return false;
+         
      
    }
+
+   
   })
  
  function alertaNome(){
@@ -55,7 +58,7 @@
      alertNome.innerText="O nome e muito corto,Insira Nome é Sobrenome";
      alertNome.style.display=""; 
    }
-
+      
    
  };
 
