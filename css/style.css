@@ -159,7 +159,7 @@ header .navbar ul li a:hover {
 }
 
 .home {
-    background-image: url('../img/code-3.png');
+    background-image: url('../img/cogigo-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;   
     display: flex;
@@ -186,6 +186,7 @@ header .navbar ul li a:hover {
 
 .home p {
     font-size: 2rem;
+    font-weight: bold;
     color: #eee;
     padding: 1rem 0;
 }
@@ -249,6 +250,7 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
+    
     width: 27rem;
     margin: 8rem 1rem;
     padding-left: 4rem;
@@ -256,7 +258,9 @@ header .navbar ul li a:hover {
     position: relative;
 }
 
-.education .box-container .box span {
+
+
+.education .box-container .education .box-container .box span {
     font-size: 1.3rem;
     background: #222;
     color: #fff;
