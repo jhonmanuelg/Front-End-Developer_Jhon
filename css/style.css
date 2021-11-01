@@ -231,12 +231,14 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box span {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 2.3rem;
     color: var(--yellow);
 }
 
 .about .row .counter .box h3 {
-    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
@@ -292,6 +294,10 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #fff;
     background: var(--yellow);
+}
+.span{
+    color: var(--yellow) ;
+    font-size: 2rem;
 }
 
 .portfolio .box-container {
