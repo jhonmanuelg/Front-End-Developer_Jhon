@@ -56,6 +56,7 @@ section {
     margin: 4rem;
     font-size: 2rem;
     border-radius: 5rem;
+    
 }
 
 .btn i {
@@ -103,7 +104,7 @@ header .user img {
     height: 17rem;
     width: 17rem;    
     border-radius: 50%;
-    object-fit:inherit;
+    object-fit: cover;   
     margin-bottom: 1rem;
     border: .2rem solid var(--yellow);
     box-shadow: 0px 4px 5pc rgb(122, 122, 35);
@@ -118,8 +119,8 @@ header .user .name {
 header .user .post {
     font-size: 2rem;
     color: 3.5rem;
-    color: #fff;
-    font-weight: 400;
+    color: var(--yellow);
+    font-weight: 800;
 }
 
 header .navbar {
@@ -370,20 +371,29 @@ header .navbar ul li a:hover {
     text-transform: capitalize;
 }
 
-.contact .row form .Mensagem {
-    height: 15rem;
+.contact .row form .message {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 25rem;
     resize: none;
+   
 }
 
 .contact .row .content .title {
     text-transform: uppercase;
-    color: #fff;
+    color: var(--yellow);
     font-size: 3rem;
+    margin: 0 13rem;
     padding-bottom: 2rem;
 }
 
 .contact .row .content .info h3 {
-   
+   margin-top: 4rem;
     color: var(--yellow);
     display: flex;
     align-items: center;
@@ -393,6 +403,7 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content .info h3 i {
+    margin-bottom: -2rem;
     width: 30px;
     border-radius: 50%;
     font-size: 30px;
@@ -401,10 +412,17 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content .info h3 i:hover {
-    background: var(--yellow);
-    
+    background: var(--yellow); 
     
     box-shadow: 0px 2px 7px var(--yellow);
+}
+
+.icons1{
+    margin-top: 8rem;   
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
 }
 
 .contact .row form {
@@ -429,10 +447,10 @@ header .navbar ul li a:hover {
 .top {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 10%;
+    width: 2.7%;
     position: fixed;
     bottom: 7.5rem;
-    left: 148rem;
+    right: 2px;
     z-index: 100;
     display: none;
 }
@@ -461,6 +479,9 @@ header .navbar ul li a:hover {
     }
     body {
         padding: 0;
+    }
+    .top{
+        width: 6.9%;
     }
 }
 
