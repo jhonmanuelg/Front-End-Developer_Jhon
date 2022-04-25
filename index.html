@@ -48,7 +48,7 @@
 
 
         <h3>Óla !</h3>
-        <h1>eu sou <span>Jhon Manuel</span></h1>
+        <h1>eu sou <br> <span>Jhon Manuel</span></h1>
         <p class="span">
             Seja benvindo.
 
@@ -320,11 +320,11 @@
 
             <div id="error_message"></div>
 
-            <form id="form nome" onsubmit="submit" nomr="formulário" class="contact-form" action="https://formspree.io/f/mrgrrnvy" method="post">
+            <form id="form" nome="formulário" class="contact-form" method="POST" action="https://formspree.io/f/mrgrrnvy" >
 
                 <input type="text" placeholder="Name" id="name" class="box" title="Nome só letras minuscula y MAYUSCULA espacio em blanco minimo 4 letras"
                 pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required="required">
-                <label id="alertNome" style="display: none;color: var(--yellow)" for=""></label> 
+                <!-- <label id="alertNome" style="display: none;color: var(--yellow)" for=""></label>  -->
 
                 <input type="text" placeholder="Email" id="email" class="box" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required="required"  title="ingreçar seu email"> 
 
@@ -336,7 +336,7 @@
 
                 <textarea placeholder="Mensagem" id="men" class="box message" required="required" placeholder="escriva seu mensagem " title="Seu mensagem é muito importante Obgrigado"></textarea >
                 
-                <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane envial"></i>
+                <button type="submit"  class="btn"> Enviar <i class="fas fa-paper-plane envial"></i>
                 </button>
 
             </form>
@@ -362,7 +362,8 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js " defer></script>
-    <script src="js/valida-form.js"></script>
+    <!-- <script src="js/valida-form.js"></script> -->
+    <script src="js/mensagem.js"></script>
 
 
 

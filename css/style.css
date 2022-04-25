@@ -452,7 +452,7 @@ header .navbar ul li a:hover {
     bottom: 7.5rem;
     right: 2px;
     z-index: 100;
-    display: none;
+   
 }
 
 
@@ -465,7 +465,12 @@ header .navbar ul li a:hover {
     .home {
         padding: 1rem 4rem;
     }
+    .top{
+        width: 6.5%;
+    }
+
 }
+
 
 @media (max-width:991px) {
     header {
@@ -480,16 +485,17 @@ header .navbar ul li a:hover {
     body {
         padding: 0;
     }
-    .top{
-        width: 6.9%;
-    }
 }
 
 @media (max-width:768px) {
     html {
         font-size: 50%;
     }
+    .top{
+        display: none;
+    }
 }
+
 
 @media (max-width:400px) {
     header {
@@ -509,5 +515,8 @@ header .navbar ul li a:hover {
     }
     .contact .row form {
         margin: 3rem 0;
+    }
+    .top{
+        display: none;
     }
 }
