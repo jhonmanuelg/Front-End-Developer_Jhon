@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" href="./img/jh-cabesalho.ico" type="image/x-icon">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portafolho Front End Jhon</title>
@@ -54,7 +52,7 @@
 
         </p>
         <p>
-            <br> <br>
+
             Meu principal objetivo é <strong> o be Professional Developer and grow </strong> t no setor do FRONT END é
             minha paixão, eu sou uma pessoa ama o sucesso e aprendo de meu erro, adoro desafios e mais trabalhar em
             equipe com adaptação a todos os tipos de pessoas com minha mitologia <strong>soft skills.</strong> Muito
@@ -85,53 +83,55 @@
 
                 </p>
 
-                <a href="pdf/Jhon Manuel Gil Barcenas_CV.pdf" download="Curriculum-Jhon"><button class="btn"> download CV
+                <a href="pdf/Jhon Manuel Gil Barcenas_CV.pdf" download="Curriculum-Jhon"><button class="btn"> download
+                        CV
                         <i class="fas fa-download"></i> </button></a>
             </div>
 
             <div class="counter">
                 <div class="box">
+
                     <span>GIT</span>
-                    <h3>
+                    <p>
                         É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de
                         software, mas pode ser usado para registrar o histórico de edições de qualquer tipo.
-                    </h3>
+                    </p>
                 </div>
                 <div class="box">
                     <span>GITHUB</span>
-                    <h3>
+                    <p>
                         É ma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
                         Ele permite que programadores, utilitários ou qualquer usuário cadastrado
-                    </h3>
+                    </p>
                 </div>
 
                 <div class="box">
                     <span>HTML 5</span>
-                    <h3>Hypertext Markup Language. <br>È uma linguagem de marcação da estrutura para a World Wide Web e
-                        é uma tecnologia chave da Internet </h3>
+                    <p>Hypertext Markup Language. <br>È uma linguagem de marcação da estrutura para a World Wide Web e
+                        é uma tecnologia chave da Internet </p>
                 </div>
 
                 <div class="box ">
                     <span>CSS</span>
-                    <h3>Cascading Style Sheets. <br> Hojas de estilo en cascada é um mecanismo para adicionar estilo
-                        (cores, fontes, espaçamento, etc.) a um documento web. </h3>
+                    <p>Cascading Style Sheets. <br> Hojas de estilo en cascada é um mecanismo para adicionar estilo
+                        (cores, fontes, espaçamento, etc.) a um documento web. </p>
                 </div>
                 <div class="box ">
                     <span>BOOTSTRAP 5</span>
-                    <h3>Bootstrap é um framework. <br> Componentes de interface e front-end para sites e aplicações web
-                        usando HTML, CSS e JavaScript.</h3>
+                    <p>Bootstrap é um framework. <br> Componentes de interface e front-end para sites e aplicações web
+                        usando HTML, CSS e JavaScript.</p>
                 </div>
 
                 <div class="box">
                     <span>JAVASCRIPT</span>
-                    <h3>é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem
-                        dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e, funcional). </h3>
+                    <p>é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem
+                        dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e, funcional). </p>
                 </div>
 
                 <div class="box">
                     <span>REACT</span>
-                    <h3> é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (frontend)
-                        em páginas web. É mantido pelo Facebook, Instagram, outras.</h3>
+                    <p> é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (frontend)
+                        em páginas web. É mantido pelo Facebook, Instagram, outras.</p>
                 </div>
 
             </div>
@@ -233,7 +233,8 @@
                             class='bx bxl-github' style='color:#ffffff'></i></a>
                 </h3>
                 <a href="https://jhonmanuelg.github.io/projeto-entrevista-bootstrap-5/" target="_black"><img
-                        src="./img/Captura de tela 2021-11-11 104505.png" alt="projeto-entrevista-bootstrap-5" target="_black"></a>
+                        src="./img/Captura de tela 2021-11-11 104505.png" alt="projeto-entrevista-bootstrap-5"
+                        target="_black"></a>
 
             </div>
 
@@ -284,17 +285,15 @@
 
             <div class="content">
 
-                
-
                 <div class="info">
                     <h3 class="title">contacto</h3>
                     <p>
                         Quero entrar em contato comigo, preencha o formulário ao lado para que possamos entrar em
-                        contato com você o mas rapido possível. <br> E você também tem minhas redes sociais para que
+                        contato com você o mas rapido possível. E você também tem minhas redes sociais para que
                         possa me contactar, muito obrigado pela atenção,
                         eu desejo muito sucesso prar você.
                     </p>
-                   
+
 
                     <div class="icons1">
 
@@ -318,29 +317,30 @@
 
             </div>
 
-            <div id="error_message"></div>
+            <!-- action="https://formspree.io/f/mrgrrnvy" -->
 
-            <form id="form" nome="formulário" class="contact-form" method="POST" action="https://formspree.io/f/mrgrrnvy" >
 
-                <input type="text" placeholder="Name" id="name" class="box" title="Nome só letras minuscula y MAYUSCULA espacio em blanco minimo 4 letras"
-                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required="required">
-                <!-- <label id="alertNome" style="display: none;color: var(--yellow)" for=""></label>  -->
+            <form id="form" nome="formulário" class="contact-form" onsubmit="return validation()">
+                <div id="error_message"></div>
+                <input type="text" placeholder="Name" id="name" class="box">
 
-                <input type="text" placeholder="Email" id="email" class="box" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required="required"  title="ingreçar seu email"> 
+                <input type="text" placeholder="Assunto" id="subject" class="box">
 
-                <input type="text" placeholder=" Assunto" id="subject" class="box" placeholder="escriva seu mensagem "
-                title="Os assunto é obligatorio" data-pattern="^.{1,1555}$"
-                title="seu mensagem não pude pasar 1555 caracteres ">
+                <input type="text" id="phone" placeholder="Celular" class="box">
 
-                <input type="text" id="phone" class="box" required="required" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx" title="Introdusca seu Número">            
+                <input type="text" placeholder="Email" id="email" class="box">
 
-                <textarea placeholder="Mensagem" id="men" class="box message" required="required" placeholder="escriva seu mensagem " title="Seu mensagem é muito importante Obgrigado"></textarea >
-                
-                <button type="submit"  class="btn"> Enviar <i class="fas fa-paper-plane envial"></i>
+
+                <textarea placeholder="Mensagem" id="message" class="box message"></textarea>
+
+                <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane envial"></i>
                 </button>
 
             </form>
-           
+
+
+
+
 
 
 
@@ -362,10 +362,10 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js " defer></script>
-    <!-- <script src="js/valida-form.js"></script> -->
-    <script src="js/mensagem.js"></script>
 
 
+
+    <script src="js/valida-form.js"></script>
 
     <!-- ===============icons======================== -->
 

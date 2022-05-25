@@ -1,52 +1,46 @@
-// const email = document.getElementById("email")
-// const assonto = document.getElementById("assonto")
-// const nome = document.getElementById("nome")
-// const alertNome = document.getElementById('alertNome')
+function validation(){
+    
+    var name = document.getElementById("name").value;
+    var subject = document.getElementById("subject").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    var error_message = document.getElementById("error_message");
+    var text;
 
+    error_message.style.padding = "10px";
 
-// nome.addEventListener("click", () => {
-//   alertNome.style.display = "none";
-// });
-// email.addEventListener("click", alertaNome);
+    if(nome.length < 4){
+        text = "O nome é inválido";
+        error_message.innerHTML = text;
+        return false;
+    }
+    if(subject.length < 10){
+        text = "O Assunto é inválido";
+        error_message.innerHTML = text;
+        return false;
+    }
+    if(isNaN(phone) || phone.length != 9){
+        text = "O número de celular é inválido só (DDD)9xx.xx.xx";
+        error_message.innerHTML = text;
+        return false;
+    }
+    if(email.indexOf("^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$") == - 1 || email.length < 20){
+        text = "O número de E-mail é inválido";
+        error_message.innerHTML = text;
+        return false;
+    }
+    if(message.length <= 300){
+        text = "A Mensagem leva apenas 300 corater";
+        error_message.innerHTML = text;
+        return false;
+    }
 
-// function alertaNome() {
-//   console.log("click");
-//   if (nome.value === "") {
-//     alertNome.innerText = "Insira Nome é Sobrenome";
-//     alertNome.style.display = "";
-//   }
-//   if (nome.value.length > 0 && nome.value.length < 6) {
-//     alertNome.innerText = "O nome e muito corto,Insira Nome é Sobrenome";
-//     alertNome.style.display = "";
-//   }
-// }
+    alert("Formulário enviado com sucesso")
 
+ return true;
 
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
+}
 
-//   let regexEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
-//   let entrar = false;
-
-//   if (nome.value.length < 6) {
-//     alert("Insira Nome é Sobrenome");
-//   }
-//   if (!regexEmail.test(email.value)) {
-//     alert("O correio é inválido");
-//     entrar = true;
-//   }
-//   if (!regexassonto.test(assonto.value)) {
-//     alert("O assonto é obligatorio");
-//     entrar = true;
-//   }
-//   if (!regexmensagem.test(mensagem.value)) {
-//     alert("O mensagemé obligatorio");
-//     entrar = true;
-//   } else {
-//     alert("Mensagem enviado");
-//     form.reset();
-//     return false;
-//   }
-// });
 
 

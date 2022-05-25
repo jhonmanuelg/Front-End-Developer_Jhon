@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
 :root {
     --yellow: #f9ca24;
 }
@@ -48,6 +49,8 @@ section {
 }
 
 .btn {
+    width: 200px;
+    height: 32px;
     padding: .7rem 3rem;
     background: #333;
     color: #fff;
@@ -56,7 +59,7 @@ section {
     margin: 4rem;
     font-size: 2rem;
     border-radius: 5rem;
-    
+
 }
 
 .btn i {
@@ -102,9 +105,9 @@ header {
 
 header .user img {
     height: 17rem;
-    width: 17rem;    
+    width: 17rem;
     border-radius: 50%;
-    object-fit: cover;   
+    object-fit: cover;
     margin-bottom: 1rem;
     border: .2rem solid var(--yellow);
     box-shadow: 0px 4px 5pc rgb(122, 122, 35);
@@ -162,7 +165,7 @@ header .navbar ul li a:hover {
 .home {
     background-image: url('../img/cogigo-1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -186,13 +189,14 @@ header .navbar ul li a:hover {
 }
 
 .home p {
+    text-align: justify;
     font-size: 2rem;
     font-weight: bold;
     color: #eee;
     padding: 1rem 0;
 }
 
-.home .span{
+.home .span {
     color: var(--yellow);
     font-size: 3rem;
     font-weight: bold;
@@ -208,9 +212,10 @@ header .navbar ul li a:hover {
 }
 
 .info p {
+    text-align: justify;
     margin: 40px 40px;
-    margin-bottom: 40px;
-    font-size: 2rem;
+    margin-bottom: 220px;
+    font-size: 1.5rem;
     text-align: center;
     color: #eee;
 }
@@ -225,6 +230,7 @@ header .navbar ul li a:hover {
 
 .about .row .counter .box {
     width: 20rem;
+    height: 120;
     background: #222;
     text-align: center;
     padding: 2rem;
@@ -237,10 +243,13 @@ header .navbar ul li a:hover {
     color: var(--yellow);
 }
 
-.about .row .counter .box h3 {
+.about .row .counter .box p {
+    text-align: center;
     margin-top: 1rem;
     font-size: 1.5rem;
     color: #fff;
+    position: relative;
+
 }
 
 .education .box-container {
@@ -253,14 +262,12 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box {
-    
     width: 27rem;
     margin: 8rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
 }
-
 
 
 .education .box-container .education .box-container .box span {
@@ -296,8 +303,9 @@ header .navbar ul li a:hover {
     color: #fff;
     background: var(--yellow);
 }
-.span{
-    color: var(--yellow) ;
+
+.span {
+    color: var(--yellow);
     font-size: 2rem;
 }
 
@@ -306,7 +314,7 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 0;
+    padding: 8rem 0;
 }
 
 .portfolio .box-container .box {
@@ -318,7 +326,7 @@ header .navbar ul li a:hover {
     cursor: pointer;
 }
 
-.portfolio .box-container .box h3{
+.portfolio .box-container .box h3 {
     font-size: 1.5rem;
     color: #fff;
     text-align: center;
@@ -358,7 +366,7 @@ header .navbar ul li a:hover {
     width: 100%;
 }
 
-.aimg{
+.aimg {
     font-size: 40px;
     text-align: center;
     position: relative;
@@ -381,7 +389,7 @@ header .navbar ul li a:hover {
     width: 100%;
     height: 25rem;
     resize: none;
-   
+
 }
 
 .contact .row .content .title {
@@ -393,7 +401,7 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content .info h3 {
-   margin-top: 4rem;
+    margin-top: 4rem;
     color: var(--yellow);
     display: flex;
     align-items: center;
@@ -412,13 +420,13 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content .info h3 i:hover {
-    background: var(--yellow); 
-    
+    background: var(--yellow);
+
     box-shadow: 0px 2px 7px var(--yellow);
 }
 
-.icons1{
-    margin-top: 8rem;   
+.icons1 {
+    margin-top: 8rem;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -432,11 +440,23 @@ header .navbar ul li a:hover {
     margin-bottom: 4rem;
 }
 
+#error_message{
+   
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    color: #f9ca24;
+    margin-bottom: 9px;
+    padding: 0px;
+    background-color: #a8040481;
+    transition: all o.5s ease;
+
+}
 
 /* ==========style para validar =========*/
 
-.none {
-    display: none;
+.none {   
+    display:inline ;
     color: var(--yellow);
     font-size: 2rem;
     display: flex;
@@ -452,7 +472,7 @@ header .navbar ul li a:hover {
     bottom: 7.5rem;
     right: 2px;
     z-index: 100;
-   
+
 }
 
 
@@ -462,11 +482,17 @@ header .navbar ul li a:hover {
     html {
         font-size: 55%;
     }
+
     .home {
         padding: 1rem 4rem;
     }
-    .top{
-        width: 6.5%;
+
+    .top {
+        width:50%;
+        margin-right:  -170px;
+    }
+    #error_message{
+        padding: 0px;
     }
 
 }
@@ -476,12 +502,16 @@ header .navbar ul li a:hover {
     header {
         left: -120%;
     }
+
     #menu {
         display: block;
     }
+
     header.toggle {
         left: 0%;
     }
+
+
     body {
         padding: 0;
     }
@@ -491,9 +521,11 @@ header .navbar ul li a:hover {
     html {
         font-size: 50%;
     }
-    .top{
+
+    .top {
         display: none;
     }
+
 }
 
 
@@ -501,22 +533,36 @@ header .navbar ul li a:hover {
     header {
         width: 100vw;
     }
+
     .heading {
         margin: 0 3rem;
     }
+
     .about .row .counter .box {
         width: 100%;
     }
+
     .education .box-container .box {
         width: 100%;
     }
+
     .portfolio .box-container .box {
         width: 100%;
     }
+
     .contact .row form {
         margin: 3rem 0;
     }
-    .top{
+
+    .top {
         display: none;
+    }
+
+
+
+    .none{
+        margin-left: 50px;
+        display: inline;
+
     }
 }
