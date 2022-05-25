@@ -10,7 +10,7 @@ function validation(){
 
     error_message.style.padding = "10px";
 
-    if(nome.length < 4){
+    if(nome.length < 5){
         text = "O nome é inválido";
         error_message.innerHTML = text;
         return false;
