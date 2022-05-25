@@ -49,7 +49,7 @@ section {
 }
 
 .btn {
-    width: 200px;
+    width: 230px;
     height: 32px;
     padding: .7rem 3rem;
     background: #333;
@@ -57,7 +57,7 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     margin: 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 5rem;
 
 }
@@ -69,6 +69,8 @@ section {
 
 .btn:hover {
     background: var(--yellow);
+    color: black;
+    
 }
 
 .heading {
@@ -215,7 +217,7 @@ header .navbar ul li a:hover {
     text-align: justify;
     margin: 40px 40px;
     margin-bottom: 220px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: #eee;
 }
@@ -246,7 +248,7 @@ header .navbar ul li a:hover {
 .about .row .counter .box p {
     text-align: center;
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #fff;
     position: relative;
 
@@ -464,6 +466,10 @@ header .navbar ul li a:hover {
     align-items: center;
 }
 
+.top img{
+    width: 30px;   
+}
+
 .top {
     background-repeat: no-repeat;
     background-size: cover;
@@ -488,9 +494,9 @@ header .navbar ul li a:hover {
     }
 
     .top {
-        width:50%;
-        margin-right:  -170px;
+        margin-right:  20.9px;
     }
+
     #error_message{
         padding: 0px;
     }
@@ -520,10 +526,20 @@ header .navbar ul li a:hover {
 @media (max-width:768px) {
     html {
         font-size: 50%;
+    }   
+
+}
+
+@media (max-width:560px) {
+    .top img{
+        width: 100%;
+        display: none;
     }
 
-    .top {
-        display: none;
+    .none{
+        margin-left: 50px;
+        display: inline;
+
     }
 
 }
@@ -554,15 +570,5 @@ header .navbar ul li a:hover {
         margin: 3rem 0;
     }
 
-    .top {
-        display: none;
-    }
-
-
-
-    .none{
-        margin-left: 50px;
-        display: inline;
-
-    }
+   
 }
