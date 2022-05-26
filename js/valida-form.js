@@ -9,12 +9,14 @@ function validation(){
     var text;
 
     error_message.style.padding = "10px";
+   
 
     if(nome.length < 5){
         text = "O nome é inválido";
         error_message.innerHTML = text;
         return false;
     }
+   
     if(subject.length < 10){
         text = "O Assunto é inválido";
         error_message.innerHTML = text;
@@ -37,8 +39,10 @@ function validation(){
     }
 
     alert("Formulário enviado com sucesso")
+    validation();
 
  return true;
+ 
 
 }
 

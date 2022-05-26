@@ -237,13 +237,16 @@ header .navbar ul li a:hover {
     text-align: center;
     padding: 2rem;
     margin: 2rem;
+    border-radius: 3px;
 }
+
 
 .about .row .counter .box span {
     text-align: center;
     font-size: 2.3rem;
     color: var(--yellow);
 }
+
 
 .about .row .counter .box p {
     text-align: center;

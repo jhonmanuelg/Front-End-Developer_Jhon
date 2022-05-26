@@ -111,7 +111,7 @@
                         é uma tecnologia chave da Internet </p>
                 </div>
 
-                <div class="box ">
+                <div class="box">
                     <span>CSS</span>
                     <p>Cascading Style Sheets. <br> Hojas de estilo en cascada é um mecanismo para adicionar estilo
                         (cores, fontes, espaçamento, etc.) a um documento web. </p>
@@ -320,20 +320,20 @@
             <!-- action="https://formspree.io/f/mrgrrnvy" -->
 
 
-            <form id="form" nome="formulário" class="contact-form" onsubmit="return validation()">
+            <form action="https://formspree.io/f/mrgrrnvy" id="form" nome="formulário" class="contact-form" onsubmit="return validation()">
                 <div id="error_message"></div>
-                <input type="text" placeholder="Name" id="name" class="box">
+                <input type="text" placeholder="Name" id="name" class="box" required>
 
-                <input type="text" placeholder="Assunto" id="subject" class="box">
+                <input type="text" placeholder="Assunto" id="subject" class="box" required>
 
-                <input type="text" id="phone" placeholder="Celular" class="box">
+                <input type="text" id="phone" placeholder="Celular" class="box" required>
 
-                <input type="text" placeholder="Email" id="email" class="box">
+                <input type="text" placeholder="Email" id="email" class="box" required>
 
 
-                <textarea placeholder="Mensagem" id="message" class="box message"></textarea>
+                <textarea placeholder="Mensagem" id="message" class="box message" required></textarea>
 
-                <button type="submit" class="btn"> Enviar <i class="fas fa-paper-plane envial"></i>
+                <button type="submit" class="btn" > Enviar <i class="fas fa-paper-plane envial"></i>
                 </button>
 
             </form>
