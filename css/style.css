@@ -322,11 +322,12 @@ header .navbar ul li a:hover {
     padding: 8rem 0;
 }
 
+
 .portfolio .box-container .box {
-    height: 20rem;
-    width: 26rem;
+    height: 23rem;
+    width: 33rem;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 3rem;
     overflow: hidden;
     cursor: pointer;
 }
@@ -335,7 +336,16 @@ header .navbar ul li a:hover {
     font-size: 1.5rem;
     color: #fff;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.portfolio .box-container .box h3 a i{
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 35px;
 }
 
 .portfolio .box-container .box img {
@@ -369,6 +379,10 @@ header .navbar ul li a:hover {
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-bottom: 2px solid var(--yellow);
 }
 
 .aimg {
@@ -410,6 +424,7 @@ header .navbar ul li a:hover {
     color: var(--yellow);
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 2rem;
     padding: 1rem 0;
     font-weight: normal;
@@ -417,17 +432,16 @@ header .navbar ul li a:hover {
 
 .contact .row .content .info h3 i {
     margin-bottom: -2rem;
-    width: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    font-size: 30px;
-    padding-right: 1rem;
+    font-size: 35px;
+    padding: 0.2rem;
     transition: all 400ms;
 }
 
 .contact .row .content .info h3 i:hover {
-    background: var(--yellow);
-
-    box-shadow: 0px 2px 7px var(--yellow);
+    box-shadow: 0px 0px 17px var(--yellow);
 }
 
 .icons1 {
@@ -444,6 +458,8 @@ header .navbar ul li a:hover {
     margin: 2rem;
     margin-bottom: 4rem;
 }
+
+
 
 /* ============ Error menssagem */
 

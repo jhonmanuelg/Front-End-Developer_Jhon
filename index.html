@@ -208,10 +208,9 @@
 
                 <h3 class="h3">
                     Projeto de meu portafolho.
-                    <a href="https://github.com/jhonmanuelg/Portfolho-jhon-1.git" target="_black"><i
-                            class='bx bxl-github' style='color:#ffffff'></i></a>
+                    <a href="https://github.com/jhonmanuelg/Portfolho-jhon-1.git" target="_black"> <i class='bx bxl-github' style='color:#ffffff'></i> </a>
                 </h3>
-                <a href=" https://jhonmanuelg.github.io/Portfolho-jhon-1/" target="_black"><img
+                <a href=" https://jhonmanuelg.github.io/Portfolho-jhon-1/" target="_black"><img 
                         src="./img/jhon-imagen.jpg" alt="jhon-imagen"></a>
 
 
@@ -322,18 +321,18 @@
             <!-- action="https://formspree.io/f/mrgrrnvy" -->
             
             <!--  action="https://formspree.io/f/mrgrrnvy" -->
-            <form id="form" nome="formulário" class="contact-form" action="">
+            <form id="form" nome="formulário" class="contact-form" action="enviar.php" method="post">
                
-                <input class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
+                <input name="nome" class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
 
-                <input type="text" placeholder="Assunto" maxlength="35" minlength="4"   id="assunto" class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input name="assunto" type="text" placeholder="Assunto" maxlength="35" minlength="4"   id="assunto" class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
-                <input type="text" id="phone" placeholder="(XX)9XXXX-XXXX" class="box" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$" required >
+                <input name="phone" type="text" id="phone" placeholder="(XX)9XXXX-XXXX" class="box" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$" required >
 
-                <input type="text" placeholder="Email" id="email" class="box" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <input name="email" type="text" placeholder="Email" id="email" class="box" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
 
 
-                <textarea placeholder="Mensagem" id="mensaje" class="box message" maxlength="3.535" minlength="20"  required></textarea>
+                <textarea name="mensaje" placeholder="Mensagem" id="mensaje" class="box message" maxlength="3535" minlength="20"  required></textarea>
 
                 <button type="submit" class="btn"  value="Enviar Mensaje" id="btnSend"> Enviar <i class="fas fa-paper-plane envial"></i>
                 </button>
