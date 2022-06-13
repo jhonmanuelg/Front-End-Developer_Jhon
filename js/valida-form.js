@@ -5,41 +5,41 @@ $(document).ready(function () {
     // Validado Nombre ==============================
     if ($("#names").val() == "") {
       errores += "<p>Escreva seu nome</p>";
-      $("#names").css("border-bottom-color", "#F14B4B");
+      $("#names").css("border-bottom-color", "#f9ca24");
     } else {
-      $("#names").css("border-bottom-color", "#d1d1d1");
+      $("#names").css("border-bottom-color", "#222");
     }
 
     // validar assunto =============================
     if ($("#assunto").val() == "") {
       errores += "<p>Escreva seu assunto</p>";
-      $("#assunto").css("border-bottom-color", "#F14B4B");
+      $("#assunto").css("border-bottom-color", "#f9ca24");
     } else {
-      $("#assunto").css("border-bottom-color", "#d1d1d1");
+      $("#assunto").css("border-bottom-color", "#222");
     }
 
     // validar assunto =============================
     if ($("#phone").val() == "") {
-        errores += "<p>span Escreva sue Celular</p>";
-        $("#phone").css("border-bottom-color", "#F14B4B");
+        errores += "<p>Escreva sue Celular</p>";
+        $("#phone").css("border-bottom-color", "#f9ca24");
       } else {
-        $("#phone").css("border-bottom-color", "#d1d1d1");
+        $("#phone").css("border-bottom-color", "#222");
       }
 
     // Validado Correo ==============================
     if ($("#email").val() == "") {
       errores += "<p>Digite sue E-mail</p>";
-      $("#email").css("border-bottom-color", "#F14B4B");
+      $("#email").css("border-bottom-color", "#f9ca24");
     } else {
-      $("#email").css("border-bottom-color", "#d1d1d1");
+      $("#email").css("border-bottom-color", "#222");
     }
 
     // Validado Mensaje ==============================
     if ($("#mensaje").val() == "") {
       errores += "<p>Escreve sue mensagem</p>";
-      $("#mensaje").css("border-bottom-color", "#F14B4B");
+      $("#mensaje").css("border-bottom-color", "#f9ca24");
     } else {
-      $("#mensaje").css("border-bottom-color", "#d1d1d1");
+      $("#mensaje").css("border-bottom-color", "#222");
     }
 
     // ENVIANDO MENSAJE ============================
