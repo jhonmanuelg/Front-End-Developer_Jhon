@@ -122,7 +122,7 @@ header .user .name {
 }
 
 header .user .post {
-    font-size: 2rem;
+    font-size: 2rem; 
     color: 3.5rem;
     color: var(--yellow);
     font-weight: 800;
