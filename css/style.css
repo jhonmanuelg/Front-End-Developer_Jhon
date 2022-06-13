@@ -445,18 +445,83 @@ header .navbar ul li a:hover {
     margin-bottom: 4rem;
 }
 
-#error_message{
-   
-    width: 50%;
-    text-align: center;
-    font-size: 14px;
-    color: #f9ca24;
-    margin-bottom: 9px;
-    padding: 0px;
-    background-color: #ff1818f9;
-    transition: all o.5s ease;
+/* ============ Error menssagem */
 
+
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.mensaje_modal{
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0px 0px 15px var(--yellow);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3{
+    text-align: center;
+    font-family: 'Ubuntu';
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mensaje_modal h3:after{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #222;
+	margin: 10px 0px 15px;
+}
+
+.mensaje_modal p{
+    font-size: 16px;
+    color: #606060;
+}
+
+.mensaje_modal p:before{
+    content: "\f00d";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #E25151;
+    margin-right: 8px;
+}
+
+#btnClose{
+    font-size: 14px;
+    display: inline-block;
+	padding: 3px 10px;
+	margin-top: 10px;
+    width: 40%;
+    text-align: center;
+
+	background: #E25151;
+	color: #fff;
+    font-weight: bold;
+	border: 2px solid #B14141;
+	cursor: pointer;
+    border-radius: 30px;
+    border: none;
+
+	float: right;
+}
+
+
+/* FIN ============ Error menssagem */
+
 
 /* ==========style para validar =========*/
 
