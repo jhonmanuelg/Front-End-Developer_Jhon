@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // Validado Nombre ==============================
     if ($("#names").val() == "") {
-      errores += "<p>span Escreva seu nome</p>";
+      errores += "<p>Escreva seu nome</p>";
       $("#names").css("border-bottom-color", "#F14B4B");
     } else {
       $("#names").css("border-bottom-color", "#d1d1d1");

@@ -323,17 +323,17 @@
             
             <!--  action="https://formspree.io/f/mrgrrnvy" -->
             <form id="form" nome="formulário" class="contact-form" action="">
-                <!-- <div id="error_message"></div> -->
-                <input type="text" placeholder="Name" id="names" class="box" required >
+               
+                <input class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
 
-                <input type="text" placeholder="Assunto" id="assunto" class="box" required>
+                <input type="text" placeholder="Assunto" maxlength="35" minlength="4"   id="assunto" class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
-                <input type="text" id="phone" placeholder="Celular" class="box required">
+                <input type="text" id="phone" placeholder="Celular" class="box" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" required >
 
-                <input type="text" placeholder="Email" id="email" class="box" required>
+                <input type="text" placeholder="Email" id="email" class="box" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
 
 
-                <textarea placeholder="Mensagem" id="mensaje" class="box message" required></textarea>
+                <textarea placeholder="Mensagem" id="mensaje" class="box message" maxlength="3.535" minlength="20"  required></textarea>
 
                 <button type="submit" class="btn"  value="Enviar Mensaje" id="btnSend"> Enviar <i class="fas fa-paper-plane envial"></i>
                 </button>
