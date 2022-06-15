@@ -1,7 +1,5 @@
 <?php
-include_once ("conection.php"){
-    conectionPROTAFOLHO::conectionPROTAFOLHO():
-}
+
 
 // llamar a los campo
 
