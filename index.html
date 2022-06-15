@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"> </script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="php/enviar.php">
     <link rel="stylesheet" href="css/font-awesome.css">
     <title>Portafolho Front End Jhon</title>
 
@@ -85,9 +86,7 @@
 
                 </p>
 
-                <a href="pdf/Jhon Manuel Gil Barcenas_CV.pdf" download="Curriculum-Jhon"><button class="btn"> Download
-                        CV
-                        <i class="fas fa-download"></i> </button></a>
+                <a href="pdf/Jhon Manuel Gil Barcenas_CV.pdf" download="Curriculum-Jhon"><button class="btn">Download CV<i class="fas fa-download"></i> </button></a>
             </div>
 
             <div class="counter">
@@ -323,7 +322,7 @@
             <!--  action="https://formspree.io/f/mrgrrnvy" -->
             <form id="form" nome="formulário" class="contact-form" action="enviar.php" method="post">
                
-                <input name="nome" class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
+                <input name="nomes" class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required >
 
                 <input name="assunto" type="text" placeholder="Assunto" maxlength="35" minlength="4"   id="assunto" class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
