@@ -4,6 +4,10 @@
 
 :root {
     --yellow: #f9ca24;
+    --white: #fff;
+    --fondo: #111;
+    --fondoBTN:#333;
+    --fondoCard:  #222;
 }
 
 * {
@@ -19,7 +23,7 @@
 
 *::selection {
     background: var(--yellow);
-    color: #333;
+    color: var(--fondoBTN);
 }
 
 html {
@@ -32,7 +36,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #222;
+    background: var(--fondoCard);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -40,7 +44,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: #111;
+    background: var(--fondo);
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -54,8 +58,8 @@ section {
     width: 230px;
     height: 32px;
     padding: .7rem 3rem;
-    background: #333;
-    color: #fff;
+    background: var(--fondoBTN);
+    color: var(--white);
     cursor: pointer;
     margin-top: 1rem;
     margin: 4rem;
@@ -80,8 +84,8 @@ section {
     margin: 0 6rem;
     font-size: 4rem;
     padding: 1rem;
-    border-bottom: .1rem solid #fff4;
-    color: #fff;
+    border-bottom: .1rem solid var(--fondoBTN);
+    color: var(--white);
 }
 
 .heading span {
@@ -95,7 +99,7 @@ header {
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background: #fffcfcea;
+    background: var(--white);
     border-right: 1px solid rgba(255, 255, 255, 0.367);
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
@@ -119,7 +123,7 @@ header .user img {
 
 header .user .name {
     font-size: 3.5rem;
-    color: #fff;
+    color: var(--white);
     font-weight: 700;
 }
 
@@ -143,8 +147,8 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background: #333;
-    color: #fff;
+    background: var(--fondoBTN);
+    color: var(--white);
     font-size: 2rem;
     border-radius: 5rem;
 }
@@ -157,8 +161,8 @@ header .navbar ul li a:hover {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: #333;
-    color: #fff;
+    background: var(--fondoBTN);
+    color: var(--white);
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -180,12 +184,12 @@ header .navbar ul li a:hover {
 
 .home h3 {
     font-size: 2.5rem;
-    color: #fff;
+    color: var(--white);
 }
 
 .home h1 {
     font-size: 5rem;
-    color: #fff;
+    color: var(--white);
 }
 
 .home h1 span {
@@ -196,7 +200,7 @@ header .navbar ul li a:hover {
     text-align: justify;
     font-size: 2rem;
     font-weight: bold;
-    color: #eee;
+    color: var(--white);
     padding: 1rem 0;
 }
 
@@ -220,8 +224,9 @@ header .navbar ul li a:hover {
     margin: 40px 40px;
     margin-bottom: 30px;
     font-size: 2rem;
+    font-weight: 700;
     text-align: center;
-    color: #eee;
+    color: var(--white);
 }
 
 .about .row .counter {
@@ -235,7 +240,7 @@ header .navbar ul li a:hover {
 .about .row .counter .box {
     width: 20rem;
     height: 120;
-    background: #222;
+    background: var(--fondoCard);
     text-align: center;
     padding: 2rem;
     margin: 2rem;
@@ -254,7 +259,7 @@ header .navbar ul li a:hover {
     text-align: center;
     margin-top: 1rem;
     font-size: 1.4rem;
-    color: #fff;
+    color: var(--white);
     position: relative;
 
 }
@@ -272,28 +277,28 @@ header .navbar ul li a:hover {
     width: 27rem;
     margin: 8rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid var(--white);
     position: relative;
 }
 
 
 .education .box-container .education .box-container .box span {
     font-size: 1.3rem;
-    background: #222;
-    color: #fff;
+    background: var(--fondoCard);
+    color: var(--white); 
     border-radius: 5rem;
     padding: .5rem 2.5rem;
 }
 
 .education .box-container .box h3 {
     font-size: 2rem;
-    color: #fff;
+    color: var(--white);
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p {
     font-size: 1.4rem;
-    color: #eee;
+    color: var(--white);
     padding: 1rem 0;
 }
 
@@ -307,7 +312,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color: #fff;
+    color: var(--white);
     background: var(--yellow);
 }
 
@@ -336,7 +341,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box h3 {
     font-size: 1.5rem;
-    color: #fff;
+    color: var(--white);
     text-align: center;
     margin-bottom: 2.5rem;
 }
@@ -376,8 +381,8 @@ header .navbar ul li a:hover {
 .contact .row form .box {
     padding: 1.5rem;
     margin: 1rem 0;
-    background: #3333;
-    color: #fff;
+    background: var(--fondoCard);
+    color: var(--white);
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
@@ -403,8 +408,8 @@ header .navbar ul li a:hover {
 .contact .row form .message {
     padding: 1.5rem;
     margin: 1rem 0;
-    background: #3333;
-    color: #fff;
+    background: var(--fondoCard);
+    color: var(--white);
     text-transform: none;
     font-size: 1.7rem;
     width: 100%;
@@ -484,7 +489,7 @@ header .navbar ul li a:hover {
     box-shadow: 0px 0px 4px var(--yellow);
     width: 400px;
     padding: 30px 20px 15px;
-    background: #181818;
+    background: var(--fondoCard);
 }
 
 .mensaje_modal h1{
@@ -507,7 +512,7 @@ header .navbar ul li a:hover {
     display: block;
     width: 100%;
     height: 1px;
-    background: #f9ca24;
+    background: var(--yellow);
     margin: 10px 0px 15px;
 }
 
@@ -539,7 +544,7 @@ header .navbar ul li a:hover {
     text-align: center;
 
     background: #E25151;
-    color: #fff;
+    color: var(--yellow);
     font-weight: bold;
     border: 2px solid #B14141;
     cursor: pointer;
