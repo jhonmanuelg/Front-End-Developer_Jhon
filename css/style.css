@@ -481,10 +481,10 @@ header .navbar ul li a:hover {
 
 .mensaje_modal {
     border-radius: 3px;
-    box-shadow: 0px 0px 15px var(--yellow);
+    box-shadow: 0px 0px 8px var(--yellow);
     width: 400px;
     padding: 30px 20px 15px;
-    background: #333;
+    background: #181818;
 }
 
 .mensaje_modal h3 {
