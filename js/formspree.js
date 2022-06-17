@@ -18,7 +18,7 @@ async function handlesubmit(event) {
     var mensajeModal =
     '<div class="modal_wrap">' +
     '<div class="mensaje_modal">' +
-    "<h3>E-mail enviado com sucesso</h3>" +
+    "<h1>✔</h1> <h3>E-mail enviado com sucesso</h3>" +
     '<span id="btnClose">Cerrar</span>' +
     "</div>" +
     "</div>";

@@ -487,6 +487,13 @@ header .navbar ul li a:hover {
     background: #181818;
 }
 
+.mensaje_modal h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00A700; 
+    text-align: center;
+}
+
 .mensaje_modal h3 {
     color: var(--yellow);
     text-align: center;
@@ -496,7 +503,7 @@ header .navbar ul li a:hover {
 }
 
 .mensaje_modal h3:after {
-    content: '';
+    content: '';   
     display: block;
     width: 100%;
     height: 1px;
@@ -504,22 +511,22 @@ header .navbar ul li a:hover {
     margin: 10px 0px 15px;
 }
 
-.mensaje_modal p:before{
+.mensaje_modal p:before {
     content: 'X ';
     font-family: FontAwesome;
     font-weight: bold;
     display: inline-block;
     margin-right: 8px;
     color: red;
-    
+
 }
 
 .mensaje_modal p {
     font-size: 16px;
     font-weight: 600;
     color: var(--yellow);
-   
-    
+
+
 }
 
 
@@ -656,6 +663,7 @@ header .navbar ul li a:hover {
     .portfolio .box-container .box {
         width: 100%;
     }
+
 
     .contact .row form {
         margin: 3rem 0;
