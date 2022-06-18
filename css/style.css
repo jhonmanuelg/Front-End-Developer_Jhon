@@ -691,6 +691,10 @@ header .navbar ul li a:hover {
     .contact .row .content{
         margin-top: -60px;
     }
+    .btn{
+        width: 340px;
+        font-size: 19px;
+    }
 
 }
 
