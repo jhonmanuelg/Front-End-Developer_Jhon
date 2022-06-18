@@ -403,7 +403,7 @@ header .navbar ul li a:hover {
 }
 
 .contact .row form .box:focus {
-    border-left: 3px solid var(--yellow);
+    border-left: 4px solid var(--yellow);
 }
 
 .aimg {
@@ -679,8 +679,12 @@ header .navbar ul li a:hover {
 
     }
 
-    .btnDownl{
-        margin-left: 28px;
+    .about .row .counter .box{
+        width: 37rem;
+    }
+
+    .portfolio .box-container .box{
+        width: 37rem;
     }
 
 }
