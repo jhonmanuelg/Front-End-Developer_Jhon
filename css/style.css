@@ -56,33 +56,16 @@ section {
 /*============= Button ==================*/
 .btn {
     width: 260px;
-    height: 32px;
+    height: 34px;
     padding: 0.7rem 3rem;
     background: var(--fondoBTN);
     color: var(--white);
     cursor: pointer;
-    text-align: center;
-    align-items: center;
     font-size: 1.6rem;
     font-weight: 500;
     border-radius: 5rem;
     margin-top: 90px;
     transition: all 0.9s;
-}
-
-.btnDownl{    
-    margin-left: 150px;
-    margin-bottom: 80px;
-}
-
-.btnDownl a{
-    font-weight: 600;
-    color: var(--white);
-    transition: all 0.9s;
-}
-
-.btnDownl a:hover{
-    color: var(--fondo);
 }
 
 .btn i {
@@ -250,7 +233,6 @@ header .navbar ul li a:hover {
     margin-bottom: 30px;
     font-size: 2rem;
     font-weight: 700;
-    text-align: center;
     color: var(--white);
 }
 
@@ -610,7 +592,7 @@ header .navbar ul li a:hover {
 /* FIN ============ Error menssagem */
 
 
-/* ==========style para validar =========*/
+/* ==========style para flecha varibar =========*/
 
 .none {
     display: inline;
