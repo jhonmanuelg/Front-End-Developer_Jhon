@@ -67,20 +67,22 @@ section {
     font-weight: 500;
     border-radius: 5rem;
     margin-top: 90px;
+    transition: all 0.9s;
 }
 
-.btnDownl{
-    
+.btnDownl{    
     margin-left: 150px;
     margin-bottom: 80px;
 }
+
 .btnDownl a{
     font-weight: 600;
     color: var(--white);
+    transition: all 0.9s;
 }
 
 .btnDownl a:hover{
-    color: black;
+    color: var(--fondo);
 }
 
 .btn i {
@@ -91,9 +93,10 @@ section {
 
 .btn:hover {
     background: var(--yellow);
-    color: black;
+    color: var(--fondo);
 
 }
+
 /*============= fin Button ==================*/
 
 .heading {
@@ -167,11 +170,14 @@ header .navbar ul li a {
     background: var(--fondoBTN);
     color: var(--white);
     font-size: 2rem;
+    font-weight: bold;
     border-radius: 5rem;
+    transition: all 0.9s;
 }
 
 header .navbar ul li a:hover {
     background: var(--yellow);
+    color: var(--fondo);
 }
 
 #menu {
@@ -495,6 +501,7 @@ header .navbar ul li a:hover {
 .contact .row .content .icons1 .github i {
     color: var(--white);
 }
+
 
 .contact .row form {
     flex: 1 1 45rem;
