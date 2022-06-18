@@ -709,7 +709,10 @@ header .navbar ul li a:hover {
     .portfolio .box-container .box {
         width: 100%;
     }
-
+    
+    .btnDownl{
+        margin-left: 28px;
+    }
 
     .contact .row form {
         margin: 3rem 0;
