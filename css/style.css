@@ -688,6 +688,10 @@ header .navbar ul li a:hover {
         width: 37rem;
     }
 
+    .contact .row .content{
+        margin-top: -60px;
+    }
+
 }
 
 
