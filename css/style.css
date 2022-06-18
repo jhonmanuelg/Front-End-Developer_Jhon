@@ -201,6 +201,7 @@ header .navbar ul li a:hover {
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
+    transition: all 0.5s;
 }
 
 
@@ -240,6 +241,7 @@ header .navbar ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
+    transition: all 0.5s;
 }
 
 .info p {
@@ -258,6 +260,7 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    transition: all 0.5s;
 }
 
 .about .row .counter .box {
@@ -292,6 +295,7 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    transition: all 0.5s;
     padding: 1rem 0;
     padding-left: 3rem;
 }
@@ -348,6 +352,7 @@ header .navbar ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
     flex-wrap: wrap;
     padding: 8rem 0;
 }
@@ -396,6 +401,7 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    transition: all 0.5s;
 }
 
 .contact .row .content {
@@ -458,6 +464,7 @@ header .navbar ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
     font-size: 2rem;
     padding: 1rem 0;
     font-weight: normal;
@@ -483,6 +490,7 @@ header .navbar ul li a:hover {
     align-items: center;
     justify-items: center;
     justify-content: space-evenly;
+    transition: all 0.5s;
 }
 
 /* ======================Redes sociales============================= */
@@ -587,10 +595,10 @@ header .navbar ul li a:hover {
     width: 40%;
     text-align: center;
 
-    background: #E25151;
+    background: red;
     color: var(--yellow);
     font-weight: bold;
-    border: 2px solid #B14141;
+    border: none;
     cursor: pointer;
     border-radius: 30px;
     border: none;
