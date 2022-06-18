@@ -6,8 +6,8 @@
     --yellow: #f9ca24;
     --white: #fff;
     --fondo: #111;
-    --fondoBTN:#333;
-    --fondoCard:  #222;
+    --fondoBTN: #333;
+    --fondoCard: #222;
 }
 
 * {
@@ -53,22 +53,38 @@ section {
     min-height: 100vh;
     padding: 1rem;
 }
-
+/*============= Button ==================*/
 .btn {
-    width: 230px;
+    width: 260px;
     height: 32px;
-    padding: .7rem 3rem;
+    padding: 0.7rem 3rem;
     background: var(--fondoBTN);
     color: var(--white);
     cursor: pointer;
-    margin-top: 1rem;
-    margin: 4rem;
-    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
     border-radius: 5rem;
+    margin-top: 90px;
+}
 
+.btnDownl{
+    
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.btnDownl a{
+    font-weight: 600;
+    color: var(--white);
+}
+
+.btnDownl a:hover{
+    color: black;
 }
 
 .btn i {
+    margin-left: 9px;
     padding: 0 .5rem;
     font-size: 1.8rem;
 }
@@ -78,6 +94,7 @@ section {
     color: black;
 
 }
+/*============= fin Button ==================*/
 
 .heading {
     text-align: center;
@@ -285,7 +302,7 @@ header .navbar ul li a:hover {
 .education .box-container .education .box-container .box span {
     font-size: 1.3rem;
     background: var(--fondoCard);
-    color: var(--white); 
+    color: var(--white);
     border-radius: 5rem;
     padding: .5rem 2.5rem;
 }
@@ -312,7 +329,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color: var(--white);
+    color: var(--fondoCard);
     background: var(--yellow);
 }
 
@@ -332,7 +349,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box {
     height: 23rem;
-    width: 33rem;
+    width: 29rem;
     border-radius: 1rem;
     margin: 3rem;
     overflow: hidden;
@@ -346,14 +363,15 @@ header .navbar ul li a:hover {
     margin-bottom: 2.5rem;
 }
 
-
 .portfolio .box-container .box h3 a i {
+    color: var(--white);
     margin: auto;
     width: 35px;
     height: 35px;
     border-radius: 50%;
     font-size: 35px;
 }
+
 
 .portfolio .box-container .box img {
     height: 100%;
@@ -364,6 +382,8 @@ header .navbar ul li a:hover {
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
 }
+
+/*============ Icons de contacto ============*/
 
 .contact .row {
     display: flex;
@@ -459,6 +479,23 @@ header .navbar ul li a:hover {
     justify-content: space-evenly;
 }
 
+/* ======================Redes sociales============================= */
+.contact .row .content .icons1 .twitter i {
+    color: #2AA9E0;
+}
+
+.contact .row .content .icons1 .instagram i {
+    color: #fa0c0e;
+}
+
+.contact .row .content .icons1 .linkedin i {
+    color: #0c9efa;
+}
+
+.contact .row .content .icons1 .github i {
+    color: var(--white);
+}
+
 .contact .row form {
     flex: 1 1 45rem;
     padding: 2rem;
@@ -489,13 +526,13 @@ header .navbar ul li a:hover {
     box-shadow: 0px 0px 4px var(--yellow);
     width: 400px;
     padding: 30px 20px 15px;
-    background: var(--fondoCard);
+    background: var(--fondo);
 }
 
-.mensaje_modal h1{
+.mensaje_modal h1 {
     font-size: 30px;
     font-weight: bold;
-    color: #00A700; 
+    color: #00A700;
     text-align: center;
 }
 
@@ -508,7 +545,7 @@ header .navbar ul li a:hover {
 }
 
 .mensaje_modal h3:after {
-    content: '';   
+    content: '';
     display: block;
     width: 100%;
     height: 1px;
