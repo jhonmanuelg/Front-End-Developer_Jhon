@@ -390,7 +390,7 @@ header .navbar ul li a:hover {
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
-    margin-top: -302px;
+    margin-top: -29rem;
 }
 
 .contact .row form .box {
@@ -639,6 +639,10 @@ header .navbar ul li a:hover {
         padding: 0px;
     }
 
+    .contact .row .content{
+        margin-top: 1rem;
+    }
+
 }
 
 
@@ -661,9 +665,21 @@ header .navbar ul li a:hover {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:880px) {
     html {
         font-size: 50%;
+    }
+    .contact .row .content{
+        margin-top: 4rem;
+    }
+
+    .contact .row .content .info h3{
+        margin-top: 1rem;
+    }
+
+    
+    .icons1{
+        margin-top: 14rem;
     }
 
 }
@@ -729,4 +745,12 @@ header .navbar ul li a:hover {
     }
 
 
+}
+
+@media (max-width:236px){
+    .btn{
+        width: 340px;
+        font-size: 19px;
+    }
+    
 }
