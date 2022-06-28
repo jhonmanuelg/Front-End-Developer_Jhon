@@ -1,6 +1,4 @@
-@import url(./font-awesome.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;800;900&display=swap');
 
 :root {
     --yellow: #f9ca24;
@@ -8,6 +6,7 @@
     --fondo: #111;
     --fondoBTN: #333;
     --fondoCard: #222;
+
 }
 
 * {
@@ -53,6 +52,7 @@ section {
     min-height: 100vh;
     padding: 1rem;
 }
+
 /*============= Button ==================*/
 .btn {
     width: 260px;
@@ -80,7 +80,10 @@ section {
 
 }
 
+
 /*============= fin Button ==================*/
+
+
 
 .heading {
     text-align: center;
@@ -115,13 +118,18 @@ header {
 }
 
 header .user img {
+    border-radius: 50%;
+    background: #393838;
+    box-shadow: -16px 16px 33px #2a2929,
+        16px -16px 33px #484747;
+
     height: 17rem;
     width: 17rem;
-    border-radius: 50%;
+
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .2rem solid var(--yellow);
-    box-shadow: 0px 4px 5pc rgb(122, 122, 35);
+    /* border: .2rem solid var(--yellow);
+    box-shadow: 0px 4px 5pc rgb(122, 122, 35); */
 }
 
 header .user .name {
@@ -206,10 +214,11 @@ header .navbar ul li a:hover {
 .home p {
     text-align: justify;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
 }
+
 
 .home .span {
     color: var(--yellow);
@@ -232,7 +241,6 @@ header .navbar ul li a:hover {
     margin: 40px 40px;
     margin-bottom: 30px;
     font-size: 2rem;
-    font-weight: 700;
     color: var(--white);
 }
 
@@ -248,11 +256,18 @@ header .navbar ul li a:hover {
 .about .row .counter .box {
     width: 20rem;
     height: 120;
+    transition: all 300ms;
     background: var(--fondoCard);
     text-align: center;
     padding: 2rem;
     margin: 2rem;
     border-radius: 3px;
+}
+
+.about .row .counter .box:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+
 }
 
 
@@ -363,6 +378,13 @@ header .navbar ul li a:hover {
     height: 35px;
     border-radius: 50%;
     font-size: 35px;
+    transition: all 300ms;
+}
+
+.portfolio .box-container .box h3 a i:hover {
+    opacity: 0.8;
+    transform: scale(1.15);
+
 }
 
 
@@ -464,8 +486,10 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content .info h3 i:hover {
-    box-shadow: 0px 0px 17px var(--yellow);
+    opacity: 0.8;
+    transform: scale(2.10);
 }
+
 
 .icons1 {
     margin-top: 8rem;
@@ -522,7 +546,7 @@ header .navbar ul li a:hover {
 .mensaje_modal {
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--yellow);
-    width: 400px;
+    width: 20%;
     padding: 30px 20px 15px;
     background: var(--fondo);
 }
@@ -535,10 +559,11 @@ header .navbar ul li a:hover {
 }
 
 .mensaje_modal h3 {
-    color: var(--yellow);
+    color: red;
     text-align: center;
     font-family: 'Ubuntu';
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -553,10 +578,10 @@ header .navbar ul li a:hover {
 
 .mensaje_modal p:before {
     content: 'X ';
-    font-family: FontAwesome;
+    font-family: 'Ubuntu';
     font-weight: bold;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 12px;
     color: red;
 
 }
@@ -564,9 +589,7 @@ header .navbar ul li a:hover {
 .mensaje_modal p {
     font-size: 16px;
     font-weight: 600;
-    color: var(--yellow);
-
-
+    color: var(--white);
 }
 
 
@@ -574,8 +597,8 @@ header .navbar ul li a:hover {
     font-size: 14px;
     display: inline-block;
     padding: 3px 10px;
-    margin-top: 10px;
-    width: 40%;
+    margin-top: 18px;
+    width: 60%;
     text-align: center;
 
     background: red;
@@ -589,7 +612,10 @@ header .navbar ul li a:hover {
     float: right;
 }
 
-
+#btnClose:hover{
+    color: var(--fondo);
+    background-color: rgba(255, 0, 0, 0.445);
+}
 /* FIN ============ Error menssagem */
 
 
@@ -639,7 +665,7 @@ header .navbar ul li a:hover {
         padding: 0px;
     }
 
-    .contact .row .content{
+    .contact .row .content {
         margin-top: 1rem;
     }
 
@@ -669,16 +695,17 @@ header .navbar ul li a:hover {
     html {
         font-size: 50%;
     }
-    .contact .row .content{
+
+    .contact .row .content {
         margin-top: 4rem;
     }
 
-    .contact .row .content .info h3{
+    .contact .row .content .info h3 {
         margin-top: 1rem;
     }
 
-    
-    .icons1{
+
+    .icons1 {
         margin-top: 14rem;
     }
 
@@ -696,18 +723,19 @@ header .navbar ul li a:hover {
 
     }
 
-    .about .row .counter .box{
+    .about .row .counter .box {
         width: 37rem;
     }
 
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 37rem;
     }
 
-    .contact .row .content{
+    .contact .row .content {
         margin-top: -20px;
     }
-    .btn{
+
+    .btn {
         width: 340px;
         font-size: 19px;
     }
@@ -735,10 +763,7 @@ header .navbar ul li a:hover {
     .portfolio .box-container .box {
         width: 100%;
     }
-    
-    .btnDownl{
-        margin-left: 28px;
-    }
+
 
     .contact .row form {
         margin: 3rem 0;
@@ -747,10 +772,10 @@ header .navbar ul li a:hover {
 
 }
 
-@media (max-width:236px){
-    .btn{
+@media (max-width:236px) {
+    .btn {
         width: 340px;
         font-size: 19px;
     }
-    
+
 }
