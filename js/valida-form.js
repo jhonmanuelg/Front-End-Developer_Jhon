@@ -50,7 +50,7 @@ $(document).ready(function () {
       var mensajeModal =
         '<div class="modal_wrap">' +
         '<div class="mensaje_modal">' +
-        "<h3>Erros encontrados</h3>" +
+        "<h3>Erros Encontrados</h3>" +
         errores +
         '<span id="btnClose">Cerrar</span>' +
         "</div>" +
