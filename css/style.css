@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
     --yellow: #f9ca24;
@@ -6,11 +6,12 @@
     --fondo: #111;
     --fondoBTN: #333;
     --fondoCard: #222;
+    --fonttitle: 'sans-serif';
 
 }
 
 * {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -200,15 +201,18 @@ header .navbar ul li a:hover {
 .home h3 {
     font-size: 2.5rem;
     color: var(--white);
+    font-weight: 300;
 }
 
 .home h1 {
     font-size: 5rem;
     color: var(--white);
+    font-weight: 300;
 }
 
 .home h1 span {
     color: var(--yellow);
+    font-weight: 700;
 }
 
 .home p {
@@ -217,6 +221,7 @@ header .navbar ul li a:hover {
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
+    font-weight: 300;
 }
 
 
@@ -254,7 +259,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box {
-    width: 20rem;
+    width: 28rem;
     height: 120;
     transition: all 300ms;
     background: var(--fondoCard);
@@ -281,7 +286,7 @@ header .navbar ul li a:hover {
 .about .row .counter .box p {
     text-align: center;
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     color: var(--white);
     position: relative;
 
@@ -290,7 +295,7 @@ header .navbar ul li a:hover {
 .education .box-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     transition: all 0.5s;
     padding: 1rem 0;
@@ -369,6 +374,8 @@ header .navbar ul li a:hover {
     color: var(--white);
     text-align: center;
     margin-bottom: 2.5rem;
+    font-weight: 500;
+    padding: 3px;
 }
 
 .portfolio .box-container .box h3 a i {
