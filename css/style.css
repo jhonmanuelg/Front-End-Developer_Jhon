@@ -58,7 +58,7 @@ section {
 .btn {
     width: 260px;
     height: 34px;
-    padding: 0.7rem 3rem;
+    padding: 0rem 3rem;
     background: var(--fondoBTN);
     color: var(--white);
     cursor: pointer;
@@ -79,6 +79,10 @@ section {
     background: var(--yellow);
     color: var(--fondo);
 
+}
+
+.btnDownl{
+    margin-left: 14rem;
 }
 
 
@@ -249,6 +253,7 @@ header .navbar ul li a:hover {
     color: var(--white);
 }
 
+
 .about .row .counter {
     margin-top: 3rem;
     flex: 1 1 48rem;
@@ -286,7 +291,7 @@ header .navbar ul li a:hover {
 .about .row .counter .box p {
     text-align: center;
     margin-top: 1rem;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color: var(--white);
     position: relative;
 
@@ -716,6 +721,10 @@ header .navbar ul li a:hover {
         margin-top: 14rem;
     }
 
+    .btnDownl{
+        margin-left: 3rem;
+    }
+
 }
 
 @media (max-width:560px) {
@@ -747,6 +756,10 @@ header .navbar ul li a:hover {
         font-size: 19px;
     }
 
+    .btnDownl{
+        margin-left: 3rem;
+    }
+
 }
 
 
@@ -776,13 +789,21 @@ header .navbar ul li a:hover {
         margin: 3rem 0;
     }
 
+    .btn{
+        margin-left: -3rem;
+    }
+
+    .btnDownl{
+        margin-left: 0rem;
+    }
+
 
 }
 
-@media (max-width:236px) {
+/* @media (max-width:236px) {
     .btn {
         width: 340px;
         font-size: 19px;
     }
 
-}
+} */
