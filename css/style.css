@@ -54,19 +54,22 @@ section {
     padding: 1rem;
 }
 
-/*============= Button ==================*/
+/*======================================== Button ==================*/
 .btn {
-    width: 260px;
-    height: 34px;
-    padding: 0rem 3rem;
-    background: var(--fondoBTN);
-    color: var(--white);
-    cursor: pointer;
-    font-size: 1.6rem;
-    font-weight: 500;
-    border-radius: 5rem;
-    margin-top: 90px;
-    transition: all 0.9s;
+    padding: 0.8em 1.8em;
+    border: 2px solid var(--yellow);
+    position: relative;
+    margin-top: 40px;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: var(--yellow);
 }
 
 .btn i {
@@ -75,13 +78,31 @@ section {
     font-size: 1.8rem;
 }
 
-.btn:hover {
+.btn::before {
+    content: '';
+    width: 0;
+    height: 480%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(35deg);
     background: var(--yellow);
-    color: var(--fondo);
-
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
 }
 
-.btnDownl{
+.btn:hover::before {
+    width: 110%;
+}
+
+.btn:hover {
+    color: #111;
+    font-weight: 500;
+}
+
+
+.btnDownl {
     margin-left: 14rem;
 }
 
@@ -108,8 +129,8 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 100%;
-    width: 35rem;
+    height: 72rem;
+    width: 36rem;
     background: var(--white);
     border-right: 1px solid rgba(255, 255, 255, 0.367);
     background-image: url("../img/teclado.jpg");
@@ -122,32 +143,32 @@ header {
     text-align: center;
 }
 
-header .user img {
+header .user-modelo1 img {
     border-radius: 50%;
     background: #393838;
     box-shadow: -16px 16px 33px #2a2929,
         16px -16px 33px #484747;
 
-    height: 17rem;
-    width: 17rem;
+    height: 14rem;
+    width: 14rem;
 
     object-fit: cover;
     margin-bottom: 1rem;
-    /* border: .2rem solid var(--yellow);
-    box-shadow: 0px 4px 5pc rgb(122, 122, 35); */
+
 }
 
-header .user .name {
+header .user-modelo1 .name {
     font-size: 3.5rem;
     color: var(--white);
     font-weight: 700;
 }
 
-header .user .post {
+header .user-modelo1 .post {
     font-size: 2rem;
     color: 3.5rem;
-    color: var(--yellow);
+    color: var(--white);
     font-weight: 800;
+    margin-bottom: 0.5rem;
 }
 
 header .navbar {
@@ -160,21 +181,19 @@ header .navbar ul {
 }
 
 header .navbar ul li a {
+    width: 280px;
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background: var(--fondoBTN);
-    color: var(--white);
+    background-color: transparent;
+    color: var(--yellow);
     font-size: 2rem;
     font-weight: bold;
-    border-radius: 5rem;
+    border-radius: 0.2rem;
     transition: all 0.9s;
 }
 
-header .navbar ul li a:hover {
-    background: var(--yellow);
-    color: var(--fondo);
-}
+/* ============ CSS menu ============ */
 
 #menu {
     position: fixed;
@@ -188,6 +207,8 @@ header .navbar ul li a:hover {
     z-index: 1000;
     display: none;
 }
+
+/* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
     background-image: url('../img/cogigo-1.jpg');
@@ -206,6 +227,7 @@ header .navbar ul li a:hover {
     font-size: 2.5rem;
     color: var(--white);
     font-weight: 300;
+    margin-bottom: 6px;
 }
 
 .home h1 {
@@ -253,8 +275,10 @@ header .navbar ul li a:hover {
     color: var(--white);
 }
 
+/* =================CSS minhas Experiência =========== */
 
 .about .row .counter {
+    border-radius: 0.2rem;
     margin-top: 3rem;
     flex: 1 1 48rem;
     display: flex;
@@ -296,6 +320,8 @@ header .navbar ul li a:hover {
     position: relative;
 
 }
+
+/* ==================== CSS Meu Formação ================*/
 
 .education .box-container {
     display: flex;
@@ -355,6 +381,8 @@ header .navbar ul li a:hover {
     font-size: 2rem;
 }
 
+/* =================== Css Meu Projeto ========= */
+
 .portfolio .box-container {
     display: flex;
     align-items: center;
@@ -368,7 +396,7 @@ header .navbar ul li a:hover {
 .portfolio .box-container .box {
     height: 23rem;
     width: 29rem;
-    border-radius: 1rem;
+    border-radius: 0.2rem;
     margin: 3rem;
     overflow: hidden;
     cursor: pointer;
@@ -434,6 +462,7 @@ header .navbar ul li a:hover {
     color: var(--white);
     text-transform: none;
     font-size: 1.7rem;
+    border-radius: 0.2rem;
     width: 100%;
 }
 
@@ -624,10 +653,11 @@ header .navbar ul li a:hover {
     float: right;
 }
 
-#btnClose:hover{
+#btnClose:hover {
     color: var(--fondo);
     background-color: rgba(255, 0, 0, 0.445);
 }
+
 /* FIN ============ Error menssagem */
 
 
@@ -687,6 +717,8 @@ header .navbar ul li a:hover {
 @media (max-width:991px) {
     header {
         left: -120%;
+        height: 54%;
+        height: 139rem;
     }
 
     #menu {
@@ -708,6 +740,21 @@ header .navbar ul li a:hover {
         font-size: 50%;
     }
 
+    header {
+        height: 139rem;
+    }
+    header .user-modelo1 .name{
+        margin-top: 27px;
+    }
+
+    header .navbar {
+        margin-top: 18px;
+    }
+
+    header .navbar ul li a {
+        width: 253px;
+    }
+
     .contact .row .content {
         margin-top: 4rem;
     }
@@ -721,13 +768,17 @@ header .navbar ul li a:hover {
         margin-top: 14rem;
     }
 
-    .btnDownl{
+    .btnDownl {
         margin-left: 3rem;
     }
 
 }
 
 @media (max-width:560px) {
+    header {
+        height: 120rem;
+    }
+
     .top img {
         width: 100%;
         display: none;
@@ -756,7 +807,7 @@ header .navbar ul li a:hover {
         font-size: 19px;
     }
 
-    .btnDownl{
+    .btnDownl {
         margin-left: 3rem;
     }
 
@@ -765,7 +816,8 @@ header .navbar ul li a:hover {
 
 @media (max-width:400px) {
     header {
-        width: 100vw;
+
+        height: 100rem;
     }
 
     .heading {
@@ -789,11 +841,15 @@ header .navbar ul li a:hover {
         margin: 3rem 0;
     }
 
-    .btn{
+    .btn {
         margin-left: -3rem;
     }
 
     .btnDownl{
+        margin-left: 1rem;
+    }
+
+    .btnDownl {
         margin-left: 0rem;
     }
 
