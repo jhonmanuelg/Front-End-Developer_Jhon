@@ -143,6 +143,10 @@ header {
     text-align: center;
 }
 
+header .user-modelo1{
+    max-width: 100%;
+}
+
 header .user-modelo1 img {
     border-radius: 50%;
     background: #393838;
@@ -746,7 +750,7 @@ header .navbar ul li a {
         height: 139rem;
     }
     header .user-modelo1 .name{
-        margin-top: 27px;
+        margin-top: 9px;
     }
 
     header .navbar {
@@ -781,6 +785,11 @@ header .navbar ul li a {
         height: 120rem;
     }
 
+    header .user-modelo1{
+        margin-top: -32rem;
+        margin-bottom: 7rem;
+    }
+
     .top img {
         width: 100%;
         display: none;
@@ -793,7 +802,7 @@ header .navbar ul li a {
     }
 
     .about .row .counter .box {
-        width: 37rem;
+        width: 41rem;
     }
 
     .portfolio .box-container .box {
