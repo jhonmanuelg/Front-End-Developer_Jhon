@@ -129,8 +129,8 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 72rem;
-    width: 36rem;
+    height: 77rem;
+    width: 35rem;
     background: var(--white);
     border-right: 1px solid rgba(255, 255, 255, 0.367);
     background-image: url("../img/teclado.jpg");
@@ -143,7 +143,7 @@ header {
     text-align: center;
 }
 
-header .user-modelo1{
+header .user-modelo1 {
     max-width: 100%;
 }
 
@@ -271,12 +271,9 @@ header .navbar ul li a {
     transition: all 0.5s;
 }
 
-.info p {
-    text-align: justify;
-    margin: 40px 40px;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    color: var(--white);
+.info .undraw_mobile {
+    width: 100%;
+   
 }
 
 /* =================CSS minhas Experiência =========== */
@@ -500,39 +497,15 @@ header .navbar ul li a {
 
 }
 
-.contact .row .content .title {
-    text-transform: uppercase;
-    color: var(--yellow);
-    font-size: 3rem;
-    margin: 0 13rem;
-    padding-bottom: 2rem;
+.contact .row .content .info {
+    width: 41rem;
+    height: 0rem;
+    margin-bottom: 10rem;
 }
 
-.contact .row .content .info h3 {
-    margin-top: 4rem;
-    color: var(--yellow);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s;
-    font-size: 2rem;
-    padding: 1rem 0;
-    font-weight: normal;
-}
 
-.contact .row .content .info h3 i {
-    margin-bottom: -2rem;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 35px;
-    padding: 0.2rem;
-    transition: all 400ms;
-}
-
-.contact .row .content .info h3 i:hover {
-    opacity: 0.8;
-    transform: scale(2.10);
+.contact .row .content1 .info  img{
+   width: 50%;
 }
 
 
@@ -543,22 +516,66 @@ header .navbar ul li a {
     justify-items: center;
     justify-content: space-evenly;
     transition: all 0.5s;
+    animation: float 5s ease-in-out infinite;
 }
 
+.icons1 i {
+    margin-bottom: -2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 0.2rem;
+    cursor: pointer;
+
+}
+
+.icons1 .twitter {
+    animation-delay: 0s;
+}
+
+.icons1 .instagram {
+    animation-delay: 3s;
+}
+
+.icons1 .linkedin {
+    animation-delay: 5s;
+}
+
+.icons1 .github {
+    animation-delay: 6s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-16px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
 /* ======================Redes sociales============================= */
-.contact .row .content .icons1 .twitter i {
+.twitter {
     color: #2AA9E0;
 }
 
-.contact .row .content .icons1 .instagram i {
+.icons1 .instagram {
     color: #fa0c0e;
 }
 
-.contact .row .content .icons1 .linkedin i {
+.icons1 .linkedin {
     color: #0c9efa;
 }
 
-.contact .row .content .icons1 .github i {
+.icons1 .github {
     color: var(--white);
 }
 
@@ -704,6 +721,9 @@ header .navbar ul li a {
     .home {
         padding: 1rem 4rem;
     }
+   header{
+    height: 83rem;
+   }
 
     .top {
         margin-right: 10.9px;
@@ -749,7 +769,8 @@ header .navbar ul li a {
     header {
         height: 139rem;
     }
-    header .user-modelo1 .name{
+
+    header .user-modelo1 .name {
         margin-top: 9px;
     }
 
@@ -785,7 +806,7 @@ header .navbar ul li a {
         height: 120rem;
     }
 
-    header .user-modelo1{
+    header .user-modelo1 {
         margin-top: -32rem;
         margin-bottom: 7rem;
     }
@@ -802,7 +823,7 @@ header .navbar ul li a {
     }
 
     .about .row .counter .box {
-        width: 41rem;
+        width: 41.1rem;
     }
 
     .portfolio .box-container .box {
@@ -852,7 +873,7 @@ header .navbar ul li a {
         margin-left: -3rem;
     }
 
-    .btnDownl{
+    .btnDownl {
         margin-left: 1rem;
     }
 
