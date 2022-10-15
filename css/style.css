@@ -789,14 +789,20 @@ header .navbar ul li a {
 
     header {
         width: 100%;
-        height: 81.5rem;
+        height: 98.5rem;
     }
 
     header .navbar ul li a {
+        width: 28rem;
+    }
+
+    .about .row .counter .box{
         width: 42rem;
     }
 
-
+    .portfolio .box-container .box {
+        width: 42rem;
+    }
 
     .btn {
         width: 36rem;
@@ -809,6 +815,14 @@ header .navbar ul li a {
 
     .top img {
         display: none;
+    }
+    .contact .row {
+        margin-bottom: 5rem;
+    }
+
+    .contact .row .content {
+        width: 100%;
+
     }
 
 }
@@ -837,16 +851,7 @@ header .navbar ul li a {
 
     .contact .row form {
         margin: 3rem 0;
-    }
-
-    .contact .row {
-        margin-bottom: 5rem;
-    }
-
-    .contact .row .content {
-        width: 111%;
-
-    }
+    }  
 
 
     .btn::before {
