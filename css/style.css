@@ -482,7 +482,7 @@ header .navbar ul li a {
     padding: 4rem;
     padding-bottom: 0;
     width: 80%;
-    margin: auto;    
+    margin: auto;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -749,99 +749,108 @@ header .navbar ul li a {
 
 /* media queries  */
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
 
-    html{
+    html {
         font-size: 55%;
     }
 
-    .home{
-        padding:1rem 4rem;
+    .home {
+        padding: 1rem 4rem;
     }
 
 }
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
-   header{
-       left:-120%;
-   }
+    header {
+        left: -120%;
+    }
 
-   #menu{
-       display: block;
-   }
+    #menu {
+        display: block;
+    }
 
-   header.toggle{
-    left:0%;
-   }
+    header.toggle {
+        left: 0%;
+    }
 
-   body{
-       padding:0;
-   }
+    body {
+        padding: 0;
+    }
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    html{
+    html {
         font-size: 50%;
     }
-    header{
-        height: 77.5rem;
-    }
-    header .navbar ul li a{
-        width: 24rem;
-    }
- 
- }
 
-@media (max-width:400px){
-
-    header{
-        width: 100vw;
-        height: 77.5rem;
-    }
-    header .navbar ul li a {
-        width: 38rem;
-    }
-
-    .heading{
-        margin:0 3rem;
-    }
-
-    .about .row .counter .box{
+    header {
         width: 100%;
-    }
- 
-    .education .box-container .box{
-        width:100%;
+        height: 81.5rem;
     }
 
-    .portfolio .box-container .box{
-        width:100%;
+    header .navbar ul li a {
+        width: 42rem;
     }
 
-    .contact .row form{
-        margin:3rem 0;
-    }
-   
-    .contact .row .content{
-        width: 111%;
-        margin-left: -2rem;
-    }
-    .top img{
-        display: none;
-    }
 
-    .btn::before{
-        display: none;
-    }
-    .btn{
+
+    .btn {
         width: 36rem;
         margin-left: auto;
     }
-    .btnDownl{
+
+    .btnDownl {
         margin-left: -1.5rem;
     }
 
- }
+    .top img {
+        display: none;
+    }
+
+}
+
+@media (max-width:400px) {
+
+    header {
+        width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 100%;
+    }
+
+    .contact .row form {
+        margin: 3rem 0;
+    }
+
+    .contact .row {
+        margin-bottom: 5rem;
+    }
+
+    .contact .row .content {
+        width: 111%;
+
+    }
+
+
+    .btn::before {
+        display: none;
+    }
+
+}
