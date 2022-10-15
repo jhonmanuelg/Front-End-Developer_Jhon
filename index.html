@@ -314,23 +314,23 @@
 
 
             <form id="form" nome="formulário" class="content" action="https://formspree.io/f/xjvlqrql"
-                method="POST">
+                method="POST" >
 
                 <input name="nomes" class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4"
-                    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
                 <input name="assunto" type="text" placeholder="Assunto" maxlength="35" minlength="4" id="assunto"
-                    class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                    class="box" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
                 <input name="phone" type="text" id="phone" placeholder="(XX)9XXXX-XXXX" class="box"
-                    pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$">
+                    pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$" required>
 
                 <input name="email" type="text" placeholder="Email" id="email" class="box"
-                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
 
 
                 <textarea name="mensaje" placeholder="Mensagem" id="mensaje" class="box message" maxlength="3535"
-                    minlength="20"></textarea>
+                    minlength="20" required></textarea>
 
                 <button type="submit" class="btn" value="value" id="btnSend"> Enviar <i
                         class="fas fa-paper-plane envial"></i>

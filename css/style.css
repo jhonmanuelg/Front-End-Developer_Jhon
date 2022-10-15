@@ -177,6 +177,7 @@ header .user-modelo1 .post {
 
 header .navbar {
     width: 100%;
+    margin-bottom: 8rem;
 }
 
 header .navbar ul {

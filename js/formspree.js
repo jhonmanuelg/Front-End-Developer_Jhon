@@ -6,13 +6,12 @@ async function btnSend(event) {
   event.preventDefault();
 
   const form = new FormData(this);
-  const response = await fetch(this.action, {
-    method: this.method,
-    body: form,
-    header: {
-      Accept: "application/Json",
-    },
-  });
+  const response = await fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+  })
   if (response.ok) {
     this.reset();
     var mensajeModal =
