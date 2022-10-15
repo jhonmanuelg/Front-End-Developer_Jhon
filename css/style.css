@@ -761,10 +761,20 @@ header .navbar ul li a {
 
 }
 
+
+@media (max-width:1024px){
+    header {
+        height: 64.5rem;
+    }
+}
+}
+
 @media (max-width:991px) {
 
     header {
         left: -120%;
+        width: 46%;
+        height: 98.5rem;
     }
 
     #menu {
@@ -788,7 +798,7 @@ header .navbar ul li a {
     }
 
     header {
-        width: 100%;
+        width: 36%;
         height: 98.5rem;
     }
 
@@ -825,6 +835,17 @@ header .navbar ul li a {
 
     }
 
+}
+
+
+@media (max-width: 560px){
+    header {
+        width: 56%;
+        height: 98.5rem;
+    }
+    .btn{
+        margin-left: 0;
+    }
 }
 
 @media (max-width:400px) {
