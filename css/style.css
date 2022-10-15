@@ -103,7 +103,7 @@ section {
 
 
 .btnDownl {
-    margin-left: 14rem;
+    margin-right: 14rem;
 }
 
 
@@ -247,7 +247,7 @@ header .navbar ul li a {
 
 .home p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -273,10 +273,23 @@ header .navbar ul li a {
 
 .info .undraw_mobile {
     width: 100%;
-   
+
 }
 
 /* =================CSS minhas Experiência =========== */
+.row .info {
+    width: 75%;
+}
+
+.row .info p {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 1rem 0;
+    font-weight: 300;
+}
 
 .about .row .counter {
     border-radius: 0.2rem;
@@ -300,8 +313,9 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box:hover {
-    opacity: 0.8;
-    transform: scale(1.10);
+    opacity: 0.5;
+    transform: scale(1.13);
+    cursor: none;
 
 }
 
@@ -439,13 +453,27 @@ header .navbar ul li a {
     transform: scale(1.2);
 }
 
+.contactComigo {
+    width: 75%;
+    margin: auto;
+
+
+}
+
+.contactParafo {
+    text-align: justify;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 1rem 0;
+    font-weight: 300;
+}
+
 /*============ Icons de contacto ============*/
 
 .contact .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
     transition: all 0.5s;
 }
 
@@ -453,7 +481,12 @@ header .navbar ul li a {
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
-    margin-top: -29rem;
+    width: 80%;
+    margin: auto;    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
 }
 
 .contact .row form .box {
@@ -491,7 +524,6 @@ header .navbar ul li a {
     color: var(--white);
     text-transform: none;
     font-size: 1.7rem;
-    width: 100%;
     height: 25rem;
     resize: none;
 
@@ -501,11 +533,12 @@ header .navbar ul li a {
     width: 41rem;
     height: 0rem;
     margin-bottom: 10rem;
+    border: 2px solid red;
 }
 
 
-.contact .row .content1 .info  img{
-   width: 50%;
+.contact .row .content1 .info img {
+    width: 50%;
 }
 
 
@@ -713,181 +746,102 @@ header .navbar ul li a {
 
 /* media queries  */
 
-@media (max-width:1200px) {
-    html {
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+    html{
         font-size: 55%;
     }
 
-    .home {
-        padding: 1rem 4rem;
+    .home{
+        padding:1rem 4rem;
     }
+
+}
+
+@media (max-width:991px){
+
    header{
-    height: 83rem;
+       left:-120%;
    }
 
-    .top {
-        margin-right: 10.9px;
-    }
+   #menu{
+       display: block;
+   }
 
-    #error_message {
-        padding: 0px;
-    }
+   header.toggle{
+    left:0%;
+   }
 
-    .contact .row .content {
-        margin-top: 1rem;
-    }
+   body{
+       padding:0;
+   }
 
 }
 
+@media (max-width:768px){
 
-@media (max-width:991px) {
-    header {
-        left: -120%;
-        height: 54%;
-        height: 139rem;
-    }
-
-    #menu {
-        display: block;
-    }
-
-    header.toggle {
-        left: 0%;
-    }
-
-
-    body {
-        padding: 0;
-    }
-}
-
-@media (max-width:880px) {
-    html {
+    html{
         font-size: 50%;
     }
-
-    header {
-        height: 139rem;
+    header{
+        height: 77.5rem;
     }
-
-    header .user-modelo1 .name {
-        margin-top: 9px;
+    header .navbar ul li a{
+        width: 24rem;
     }
+ 
+ }
 
-    header .navbar {
-        margin-top: 18px;
+@media (max-width:400px){
+
+    header{
+        width: 100vw;
+        height: 77.5rem;
     }
-
     header .navbar ul li a {
-        width: 253px;
+        width: 38rem;
     }
 
-    .contact .row .content {
-        margin-top: 4rem;
+    .heading{
+        margin:0 3rem;
     }
 
-    .contact .row .content .info h3 {
-        margin-top: 1rem;
-    }
-
-
-    .icons1 {
-        margin-top: 14rem;
-    }
-
-    .btnDownl {
-        margin-left: 3rem;
-    }
-
-}
-
-@media (max-width:560px) {
-    header {
-        height: 120rem;
-    }
-
-    header .user-modelo1 {
-        margin-top: -32rem;
-        margin-bottom: 7rem;
-    }
-
-    .top img {
+    .about .row .counter .box{
         width: 100%;
+    }
+ 
+    .education .box-container .box{
+        width:100%;
+    }
+
+    .portfolio .box-container .box{
+        width:100%;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+   
+    .contact .row .content{
+        width: 111%;
+        margin-left: -2rem;
+    }
+    .top img{
         display: none;
     }
 
-    .none {
-        margin-left: 50px;
-        display: inline;
-
+    .btn::before{
+        display: none;
+    }
+    .btn{
+        width: 36rem;
+        margin-left: auto;
+    }
+    .btnDownl{
+        margin-left: -1.5rem;
     }
 
-    .about .row .counter .box {
-        width: 41.1rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 37rem;
-    }
-
-    .contact .row .content {
-        margin-top: -20px;
-    }
-
-    .btn {
-        width: 340px;
-        font-size: 19px;
-    }
-
-    .btnDownl {
-        margin-left: 3rem;
-    }
-
-}
-
-
-@media (max-width:400px) {
-    header {
-
-        height: 100rem;
-    }
-
-    .heading {
-        margin: 0 3rem;
-    }
-
-    .education .box-container .box {
-        width: 100%;
-    }
-
-    .portfolio .box-container .box {
-        width: 100%;
-    }
-
-
-    .contact .row form {
-        margin: 3rem 0;
-    }
-
-    .btn {
-        margin-left: -3rem;
-    }
-
-    .btnDownl {
-        margin-left: 1rem;
-    }
-
-    .btnDownl {
-        margin-left: 0rem;
-    }
-
-
-}
-
-/* @media (max-width:236px) {
-    .btn {
-        width: 340px;
-        font-size: 19px;
-    }
-
-} */
+ }
