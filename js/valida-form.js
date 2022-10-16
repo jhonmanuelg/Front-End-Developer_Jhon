@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $("#btnSend").click(function () {   
+  $("#my-form-button").click(function () {   
     
     var errores = "";  
     
@@ -69,10 +69,6 @@ $(document).ready(function () {
     
   });
   
-  // metodo para mandar el email
-  
-
-
 });
 
 

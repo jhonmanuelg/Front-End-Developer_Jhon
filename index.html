@@ -311,9 +311,9 @@
         </div>
 
         <div class="row">
+            <p id="my-form-status"></p>
 
-
-            <form id="form" nome="formulário" class="content" action="https://formspree.io/f/xjvlqrql"
+            <form id="my-form" nome="formulário" class="content" action="https://formspree.io/f/xjvlqrql"
                 method="POST" >
 
                 <input name="nomes" class="box" type="text" placeholder="Name" id="names" maxlength="25" minlength="4"
@@ -329,13 +329,13 @@
                     pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
 
 
-                <textarea name="mensaje" placeholder="Mensagem" id="mensaje" class="box message" maxlength="3535"
-                    minlength="20" required></textarea>
+                <textarea required name="message" placeholder="Mensagem" id="mensaje" class="box message" maxlength="3535"
+                    minlength="20" ></textarea>
 
-                <button type="submit" class="btn" value="value" id="btnSend"> Enviar <i
+                <button type="submit" class="btn" value="value" id="my-form-button"> Enviar <i
                         class="fas fa-paper-plane envial"></i>
                 </button>
-
+               
             </form>
         </div>
 
