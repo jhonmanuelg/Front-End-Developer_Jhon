@@ -7,7 +7,6 @@
     --fondoBTN: #333;
     --fondoCard: #222;
     --fonttitle: 'sans-serif';
-
 }
 
 * {
@@ -159,6 +158,9 @@ header .user-modelo1 img {
     object-fit: cover;
     margin-bottom: 1rem;
 
+}
+header .user-modelo1 span{
+    color: var(--yellow);
 }
 
 header .user-modelo1 .name {
