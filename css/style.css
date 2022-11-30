@@ -964,6 +964,9 @@ header .navbar ul li a {
         width: 69%;
         margin-bottom: -5rem;
     }
+    header .navbar ul {
+        margin-top: 16rem;        
+    }
 
     .heading {
         margin: 0 3rem;
