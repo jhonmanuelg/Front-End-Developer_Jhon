@@ -1002,6 +1002,11 @@ header .navbar ul li a {
         height: 32rem;
         font-size: 2rem;
     }
+
+    .about .row .counter .box span {
+        font-size: 3rem;
+        
+    }
     .portfolio .box-container .box h3{
         font-size: 2rem;
     }
