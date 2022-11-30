@@ -960,6 +960,11 @@ header .navbar ul li a {
         font-size: 2rem;
     }
 
+    header .navbar {
+        width: 69%;
+        margin-bottom: -5rem;
+    }
+
     .heading {
         margin: 0 3rem;
     }
