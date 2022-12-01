@@ -322,7 +322,7 @@ header .navbar ul li a {
 
 .about .row .counter .box:hover {
     opacity: 0.8;
-    transform: scale(1.23);
+    transform: scale(1.09);
     cursor: none;
 
 }
@@ -427,15 +427,17 @@ header .navbar ul li a {
 
 .portfolio .box-container .box h3 {
     font-size: 1.5rem;
-    color: var(--white);
-    text-align: center;
+    color: var(--yellow);
     margin-bottom: 2.5rem;
     font-weight: 500;
     padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio .box-container .box h3 a i {
-    color: var(--white);
+    color: var(--yellow);
     margin: auto;
     width: 35px;
     height: 35px;
@@ -446,7 +448,7 @@ header .navbar ul li a {
 
 .portfolio .box-container .box h3 a i:hover {
     opacity: 0.8;
-    transform: scale(1.15);
+    transform: scale(0.15);
 
 }
 
@@ -454,11 +456,13 @@ header .navbar ul li a {
 .portfolio .box-container .box img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .portfolio .box-container .box:hover img {
-    transform: scale(1.2);
+    opacity: 0.8;
+    transform: scale(1.09);
+
 }
 
 
