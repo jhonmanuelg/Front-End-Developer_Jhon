@@ -358,7 +358,7 @@ header .navbar ul li a {
 
 .education .box-container .box {
     width: 27rem;
-    margin: 8rem 1rem;
+    margin: 4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid var(--white);
     position: relative;
