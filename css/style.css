@@ -475,6 +475,7 @@ header .navbar ul li a {
     align-items: center;
 }
 .contact .row {
+    margin-bottom: 7rem;
     width: 100%;
     transition: all 0.5s;
 }
