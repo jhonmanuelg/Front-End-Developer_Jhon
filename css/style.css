@@ -55,6 +55,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
+    width: 25rem;
     padding: 0.8em 1.8em;
     border: 2px solid var(--yellow);
     position: relative;
@@ -286,7 +287,7 @@ header .navbar ul li a {
 
 /* =================CSS minhas Experiência =========== */
 .row .info {
-    width: 75%;
+    width: 87%;
 }
 
 .row .info p {
@@ -560,14 +561,14 @@ header .navbar ul li a {
 }
 
 .contactParafo {
-    width: 70%;      
-    align-items: center;
+    width: 87%;      
+    align-items: cente;
     font-size: 1.6rem;
     margin-top: 2rem;
-    font-weight: 600;
+    text-align: justify;
+    font-weight: 500;
     color: var(--white);
     padding: 1rem 0;
-    font-weight: 300;
 }
 
 .icons_button {
