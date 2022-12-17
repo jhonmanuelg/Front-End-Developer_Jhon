@@ -186,10 +186,13 @@ header .navbar {
 header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header .navbar ul li a {
-    width: 30rem;
+    width: 22rem;
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
@@ -323,8 +326,6 @@ header .navbar ul li a {
 .about .row .counter .box:hover {
     opacity: 0.8;
     transform: scale(1.09);
-    cursor: none;
-
 }
 
 
@@ -336,7 +337,7 @@ header .navbar ul li a {
 
 
 .about .row .counter .box p {
-    text-align: center;
+    text-align: justify;
     margin-top: 3rem;
     font-size: 1.5rem;
     color: var(--white);
