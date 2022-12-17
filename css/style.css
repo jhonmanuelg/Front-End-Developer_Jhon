@@ -211,7 +211,7 @@ header .navbar ul li a {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: var(--fondoBTN);
+    background: var(--fondoCard);
     color: var(--white);
     cursor: pointer;
     font-size: 2.5rem;
