@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #f9ca24;
+    --yellow: #7300ff;
     --white: #fff;
-    --fondo: #111;
-    --fondoBTN: #333;
-    --fondoCard: #222;
+    --fondo: #0e011d;
+    --fondoBTN: #e9dbfb;
+    --fondoCard: #381c58;
     --fonttitle: 'sans-serif';
 }
 
@@ -64,6 +64,7 @@ section {
     background-color: transparent;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 900;
     font-size: 16px;
     transition: .3s;
     z-index: 1;
@@ -331,6 +332,7 @@ header .navbar ul li a {
 
 .about .row .counter .box span {
     text-align: center;
+    font-weight: bold;
     font-size: 2.3rem;
     color: var(--yellow);
 }
@@ -402,6 +404,7 @@ header .navbar ul li a {
 
 .span {
     color: var(--yellow);
+    font-weight: 600;
     font-size: 2rem;
 }
 
@@ -413,17 +416,16 @@ header .navbar ul li a {
     justify-content: center;
     transition: all 0.5s;
     flex-wrap: wrap;
-    padding: 8rem 0;
+    padding: 1rem 0;
 }
 
 
 .portfolio .box-container .box {
-    height: 23rem;
+    height: 18rem;
     width: 29rem;
     border-radius: 0.2rem;
-    margin: 3rem;
-    overflow: hidden;
-    cursor: pointer;
+    margin: 3rem 2rem 7rem;
+    overflow: visible;
 }
 
 .portfolio .box-container .box h3 {
@@ -993,6 +995,7 @@ header .navbar ul li a {
         margin: 0 3rem;
     }
     .row .info p{
+        width: 87%;
         font-size: 2rem;
     }
 
