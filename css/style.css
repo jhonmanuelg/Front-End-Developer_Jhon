@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #9239ff;
+    --yellow: #7300ff;
     --white: #fff;
     --fondo: #0e011d;
-    --fondoBTN: #e9dbfb;
+    --fondoBTN: #c79ffb;
     --fondoCard: #381c58;
     --fonttitle: 'sans-serif';
 }
@@ -62,7 +62,7 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background-color: transparent;
+    background: #00000036;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -133,7 +133,6 @@ header {
     height: 77rem;
     width: 35rem;
     background: var(--white);
-    border-right: 1px solid rgba(255, 255, 255, 0.367);
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +197,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: transparent;
+    background-color: #00000076;
     color: var(--yellow);
     font-size: 2rem;
     font-weight: bold;
