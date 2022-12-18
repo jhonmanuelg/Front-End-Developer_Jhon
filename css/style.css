@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #caa0fe;
+    --yellow: #9239ff;
     --white: #fff;
     --fondo: #0e011d;
     --fondoBTN: #e9dbfb;
@@ -57,7 +57,7 @@ section {
 .btn {
     width: 25rem;
     padding: 0.8em 1.8em;
-    border: 2px solid var(--yellow);
+    border: 3px solid var(--yellow);
     position: relative;
     margin-top: 40px;
     border-radius: 0.1rem;
@@ -99,7 +99,7 @@ section {
 
 .btn:hover {
     color: #111;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 
