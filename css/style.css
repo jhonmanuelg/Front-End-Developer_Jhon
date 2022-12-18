@@ -363,7 +363,7 @@ header .navbar ul li a {
     width: 27rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid var(--white);
+    border-left: .2rem solid var(--yellow);
     position: relative;
 }
 
