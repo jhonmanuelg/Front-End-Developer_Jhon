@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #7300ff;
+    --yellow: #ff2a00;
     --white: #fff;
-    --fondo: #0e011d;
-    --fondoBTN: #c79ffb;
-    --fondoCard: #381c58;
+    --fondo: #341000;
+    --fondoBTN: #ff5601;
+    --fondoCard: #532118;
     --fonttitle: 'sans-serif';
 }
 
@@ -113,6 +113,7 @@ section {
 
 
 .heading {
+    width: 91%;
     text-align: center;
     margin: 0 6rem;
     font-size: 4rem;
@@ -197,7 +198,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: #00000076;
+    background-color: #5321181a;
     color: var(--yellow);
     font-size: 2rem;
     font-weight: bold;
