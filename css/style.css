@@ -4,7 +4,7 @@
     --yellow: #fe5b3a;
     --white: #fff;
     --fondo: #210a00;
-    --fondoBTN: #ff5601;
+    --fondoBTN: #8730058a;
     --fondoCard: #532118;
     --fonttitle: 'sans-serif';
 }
@@ -21,8 +21,8 @@
 }
 
 *::selection {
-    background: var(--yellow);
-    color: var(--fondoBTN);
+    background: var(--fondoBTN);
+    color: var(--yellow);
 }
 
 html {
