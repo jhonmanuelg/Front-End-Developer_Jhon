@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #7300ff;
+    --yellow: #caa0fe;
     --white: #fff;
     --fondo: #0e011d;
     --fondoBTN: #e9dbfb;
@@ -334,7 +334,7 @@ header .navbar ul li a {
 .about .row .counter .box span {
     text-align: center;
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     color: var(--yellow);
 }
 
