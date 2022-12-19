@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #fe5b3a;
+    --yellow: #8f6ffa;
     --white: #fff;
-    --fondo: #210a00;
-    --fondoBTN: #fbc9b0a4;
-    --fondoCard: #532118;
+    --fondo: #1c172a;
+    --fondoBTN: #4c23c8;
+    --fondoCard: #120b29;
     --fonttitle: 'sans-serif';
 }
 
@@ -62,7 +62,7 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: #00000036;
+    background: #20124d7c;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -198,7 +198,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: #5321181a;
+    background-color: #20124d7c;
     color: var(--yellow);
     font-size: 2rem;
     font-weight: bold;
@@ -501,11 +501,12 @@ header .navbar ul li a {
     padding: 1.5rem;
     margin: 1rem 0;
     background: var(--fondoCard);
-    color: var(--white);
+   
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
     width: 100%;
+    font-weight: 700;
 }
 
 .contact .row form .box:focus {
