@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #8f6ffa;
+    --yellow: #fd441f;
     --white: #fff;
-    --fondo: #1c172a;
-    --fondoBTN: #4c23c8;
-    --fondoCard: #120b29;
+    --fondo: #170900;
+    --fondoBTN: #ae3a00ce;
+    --fondoCard: #532118;
     --fonttitle: 'sans-serif';
 }
 
@@ -62,7 +62,7 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: #20124d7c;
+    background: #00000036;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
@@ -133,7 +133,7 @@ header {
     z-index: 1000;
     height: 77rem;
     width: 35rem;
-    background: var(--white);
+    color: var(--fondoCard);
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,9 +151,7 @@ header .user-modelo1 {
 header .user-modelo1 img {
     border-radius: 50%;
     background: #393838;
-    box-shadow: -16px 16px 33px #2a2929,
-        16px -16px 33px #484747;
-
+    box-shadow: -16px 16px 33px #2a2929, 16px -16px 33px #484747;
     height: 14rem;
     width: 14rem;
 
@@ -198,7 +196,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background-color: #20124d7c;
+    background-color: #5321181a;
     color: var(--yellow);
     font-size: 2rem;
     font-weight: bold;
@@ -497,11 +495,12 @@ header .navbar ul li a {
     flex-wrap: wrap;
 }
 
+
 .contact .row form .box {
     padding: 1.5rem;
     margin: 1rem 0;
     background: var(--fondoCard);
-   
+    color: var(--white);
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
@@ -970,9 +969,6 @@ header .navbar ul li a {
         margin-top: 5rem;        
     }
 
-    header .navbar ul li a{
-
-    }
 
     .btn {
         margin-left: 0;
