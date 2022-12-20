@@ -806,8 +806,8 @@ header .navbar ul li a {
     width: 60%;
     text-align: center;
 
-    background: red;
-    color: var(--yellow);
+    background: rgb(77, 0, 0);
+    color: var(--white);
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -818,8 +818,7 @@ header .navbar ul li a {
 }
 
 #btnClose:hover {
-    color: var(--fondo);
-    background-color: rgba(255, 0, 0, 0.445);
+    background-color: rgba(202, 76, 76, 0.533);
 }
 
 
