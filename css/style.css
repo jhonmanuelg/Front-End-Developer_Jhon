@@ -703,14 +703,14 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(1):hover span {
-    background: #c7d9f7;
+    background: #91b9fe;
 }
 
 .button_span_btn:nth-child(2):hover span {
-    background: #c792a7;
+    background: #ff91bd;
 }
 .button_span_btn:nth-child(3):hover span {
-    background: #a5cddf;
+    background: #53c2f6;
 }
 .button_span_btn:nth-child(4):hover span {
     background: #727272bd;
