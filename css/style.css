@@ -3,7 +3,7 @@
 :root {
     --yellow: #fd441f;
     --white: #fff;
-    --fondo: #170900;
+    --fondo: #0a0500;
     --fondoBTN: #ae3a00ce;
     --fondoCard: #532118;
     --fonttitle: 'sans-serif';
@@ -21,7 +21,7 @@
 }
 
 *::selection {
-    background: var(--fondoBTN);
+    background: #ffffffd1;
     color: var(--yellow);
 }
 
