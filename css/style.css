@@ -624,7 +624,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn  .github {
-    color: var(--white);
+    color: var(--fondo);
     font-weight: 900;
 }
 
@@ -713,7 +713,7 @@ header .navbar ul li a {
     background: #a5cddf;
 }
 .button_span_btn:nth-child(4):hover span {
-    background: #cacaca7d;
+    background: #727272bd;
 }y
 
 
