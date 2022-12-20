@@ -235,14 +235,14 @@ header .navbar ul li a {
 
 
 .home h3 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     color: var(--white);
     font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
-    font-size: 5rem;
+    font-size: 8rem;
     color: var(--white);
     font-weight: 300;
 }
@@ -978,6 +978,13 @@ header .navbar ul li a {
 
     header {
         width: 100%;
+    }
+
+    .home h1{
+        font-size: 6rem;
+    }
+    .home h3{
+        font-size: 3.5rem;
     }
 
     .home p{
