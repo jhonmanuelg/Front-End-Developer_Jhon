@@ -116,7 +116,7 @@ section {
     width: 91%;
     text-align: center;
     margin: 0 6rem;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 1rem;
     border-bottom: .1rem solid var(--fondoBTN);
     color: var(--white);
@@ -180,7 +180,7 @@ header .user-modelo1 .post {
 
 header .navbar {
     width: 100%;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 header .navbar ul {
@@ -195,7 +195,7 @@ header .navbar ul li a {
     width: 22rem;
     display: block;
     padding: 1rem;
-    margin: 1.5rem 0;
+    margin: 0.5rem 0;
     background-color: #5321181a;
     color: var(--yellow);
     font-size: 2rem;
@@ -242,7 +242,7 @@ header .navbar ul li a {
 }
 
 .home h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     color: var(--white);
     font-weight: 300;
 }
@@ -868,6 +868,28 @@ header .navbar ul li a {
 
     .home {
         padding: 1rem 4rem;
+    }
+    .home h1 {
+        font-size: 4rem;
+    }
+    home h3 {
+        font-size: 3.5rem;
+    }
+
+    .home .span {      
+        font-size: 2.5rem;
+    }
+
+    header .navbar {        
+        margin-bottom: 0rem;
+    }
+
+    header .navbar ul li a{
+        margin: 0.5rem 0;
+    }
+
+    .btn {
+        width: 28rem;
     }
 
 }
