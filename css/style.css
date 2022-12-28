@@ -984,14 +984,14 @@ header .navbar ul li a {
     }
 
     .home h1{
-        font-size: 6rem;
+        font-size: 4.5rem;
     }
     .home h3{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .home p{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     header .navbar {
@@ -999,10 +999,11 @@ header .navbar ul li a {
     }
 
     .heading {
+        font-size: 3rem;
         margin: 0 3rem;
     }
     .row .info p{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .about .row .counter .box {
@@ -1012,7 +1013,7 @@ header .navbar ul li a {
     }
 
     .about .row .counter .box p{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }    
 
     .education .box-container .box {
@@ -1021,10 +1022,10 @@ header .navbar ul li a {
         
     }
     .education .box-container .box h3{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     .education .box-container .box p{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .portfolio .box-container .box {
@@ -1042,7 +1043,7 @@ header .navbar ul li a {
     }
 
     .span {
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     
 
