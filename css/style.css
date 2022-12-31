@@ -993,6 +993,22 @@ header .navbar ul li a {
         margin-top: 5rem;        
     }
 
+    .home p {
+        font-size: 1.8rem;
+    }
+
+    .row .info p {
+        font-size: 1.8rem;
+    }
+    .about .row .counter .box p {
+        font-size: 1.8rem;
+    }
+    .education .box-container .box p {
+        font-size: 1.8rem;
+    }
+    .contactParafo {
+        font-size: 1.8rem;
+    }
 
     .btn {
         margin-left: 0;
@@ -1012,10 +1028,6 @@ header .navbar ul li a {
         font-size: 3rem;
     }
 
-    .home p{
-        font-size: 1.6rem;
-    }
-
     header .navbar {
         width: 69%;       
     }
@@ -1024,19 +1036,12 @@ header .navbar ul li a {
         font-size: 3rem;
         margin: 0 3rem;
     }
-    .row .info p{
-        font-size: 1.6rem;
-    }
 
     .about .row .counter .box {
         width: 44rem;
         height: 32rem;
        
-    }
-
-    .about .row .counter .box p{
-        font-size: 1.6rem;
-    }    
+    }  
 
     .education .box-container .box {
         width: 42rem;
@@ -1045,9 +1050,6 @@ header .navbar ul li a {
     }
     .education .box-container .box h3{
         font-size: 2.3rem;
-    }
-    .education .box-container .box p{
-        font-size: 1.6rem;
     }
 
     .portfolio .box-container .box {
