@@ -923,13 +923,13 @@ header .navbar ul li a {
     }
 
     .home{
-        margin-top: -23rem;
+        margin-top: -6rem;
     }
 
 }
-@media (max-width:830px){
+@media (max-width:825px){
     .home {
-        margin-top: -15rem;
+        margin-top: -2rem;
     }
 }
 
@@ -950,7 +950,7 @@ header .navbar ul li a {
     }
 
     .home {
-        margin-top: -6rem;
+        margin-top: 7rem;
     }
 
     .about .row .counter .box {
@@ -1012,7 +1012,7 @@ header .navbar ul li a {
     }
 
     .home{
-        margin-top: 0rem;
+        margin-top: 13rem;
     }
 
     .row .info p {
@@ -1037,6 +1037,9 @@ header .navbar ul li a {
 
     header {
         width: 100%;
+    }
+    .home {
+        margin-top: 3rem;
     }
 
     .home h1{
