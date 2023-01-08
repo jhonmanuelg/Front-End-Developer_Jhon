@@ -346,6 +346,7 @@ header .navbar ul li a {
 /* ==================== CSS Meu Formação ================*/
 
 .education .box-container {
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -357,7 +358,7 @@ header .navbar ul li a {
 
 .education .box-container .box {
     width: 27rem;
-    margin: 4rem 1rem;
+    margin: 2rem 1rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid var(--yellow);
     position: relative;
@@ -1069,7 +1070,7 @@ header .navbar ul li a {
     .education .box-container .box {
         width: 42rem;
         height: 15rem;
-        
+        margin-bottom: 2rem;
     }
     .education .box-container .box h3{
         font-size: 2.3rem;
