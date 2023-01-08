@@ -222,9 +222,6 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
-    background-image: url('../img/cogigo-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: column;
