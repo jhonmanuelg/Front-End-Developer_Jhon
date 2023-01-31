@@ -55,7 +55,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
-    width: 25rem;
+    width: 26rem;
     padding: 0.8em 1.8em;
     border: 3px solid var(--yellow);
     position: relative;
