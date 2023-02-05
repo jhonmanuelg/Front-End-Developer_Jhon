@@ -731,7 +731,7 @@ y
     margin-bottom: 4rem;
 }
 
-/* ============ Error menssagem */
+/* ============ Error menssagem ======================= */
 
 
 
@@ -759,14 +759,23 @@ y
 }
 
 .mensaje_modal h1 {
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
-    color: #00A700;
+    color: #0eff0e;
     text-align: center;
 }
 
 .mensaje_modal h3 {
-    color: red;
+    color: #ff0505;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.mensaje_modal h2 {
+    color: #9bff05;
     text-align: center;
     font-family: 'Ubuntu';
     font-size: 30px;
@@ -785,30 +794,30 @@ y
 
 .mensaje_modal p:before {
     content: 'X ';
-    font-family: 'Ubuntu';
     font-weight: bold;
+    font-size: 25px;
     display: inline-block;
     margin-right: 12px;
-    color: red;
+    color: #ff0505;
 
 }
 
 .mensaje_modal p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: var(--white);
 }
 
 
 #btnClose {
-    font-size: 14px;
+    font-size: 19px;
     display: inline-block;
     padding: 3px 10px;
     margin-top: 18px;
     width: 60%;
     text-align: center;
 
-    background: rgb(77, 0, 0);
+    background: #ff0505;
     color: var(--white);
     font-weight: bold;
     border: none;
@@ -820,14 +829,14 @@ y
 }
 
 #btnClose:hover {
-    background-color: rgba(202, 76, 76, 0.533);
+    background-color: rgba(170, 38, 38, 0.651);
 }
 
 
 /* FIN ============ Error menssagem */
 
 
-/* ==========style para flecha varibar =========*/
+/* ==========arrow pointing up style =========*/
 
 .none {
     display: inline;

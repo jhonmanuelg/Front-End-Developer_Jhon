@@ -1,3 +1,5 @@
+/*   formspree = en vio de archivo json */
+
 var form = document.getElementById("my-form");
 async function handleSubmit(event) {
   event.preventDefault();
@@ -9,91 +11,102 @@ async function handleSubmit(event) {
     headers: {
       Accept: "application/json",
     },
-  })
-    .then((response) => {
-      if (response.ok) {
-        status.innerHTML = "Thanks for your submission!";
-        var mensajeModal =
-            '<div class="modal_wrap">' +
-            '<div class="mensaje_modal">' +
-            "<h1>✔</h1> <h3>E-mail Enviado</h3>" +
-            '<span id="btnClose">Cerrar</span>' +
-            "</div>" +
-            "</div>";
-        
-          $("body").append(mensajeModal);
-        
-        $("#btnClose").click(function () {
-          $(".modal_wrap").remove();
-        });
-        form.reset();
-        
+  }).then((response) => {
+    if (response.ok) {
+      var mensajeModal =
+        '<div class="modal_wrap">' +
+        '<div class="mensaje_modal">' +
+        "<h1>✔</h1> <h2>E-mail Enviado</h2>" +
+        '<span id="btnClose">Cerrar</span>' +
+        "</div>" +
+        "</div>";
 
-      } else {
-        response.json().then((data) => {
-          if (Object.hasOwn(data, "errors")) {
-            status.innerHTML = data["errors"]
-              .map((error) => error["message"])
-              .join(", ");
-          } else {
-            status.innerHTML = "Oops! There was a problem submitting your form";
-          }
-        });
-      }
-     
-    })
-    
-    .catch((error) => {
-      status.innerHTML = "Oops! There was a problem submitting your form";
-    });
+      $("body").append(mensajeModal);
+
+      $("#btnClose").click(function () {
+        $(".modal_wrap").remove();
+      });
+      form.reset();
+    }
+  });
 }
 
+/*   validacion del formulario */
 
+$(document).ready(function () {
 
+  $("#my-form-button").click(function () {   
+    
+    var errores = "";  
+    
+
+    // Validado Nombre ==============================
+    if ($("#names").val() == "") {
+      errores += "<p>Escreva seu nome</p>";
+      $("#names").css("border-left-color", "#f9ca24");
+    } else {
+      $("#names").css("border-left-color", "#222");
+    };
+
+    // validar assunto =============================
+    if ($("#assunto").val() == "") {
+      errores += "<p>Escreva seu assunto</p>";
+      $("#assunto").css("border-left-color", "#f9ca24");
+    } else {
+      $("#assunto").css("border-left-color", "#222");
+    };
+
+    // validar assunto =============================
+    if ($("#phone").val() == "") {
+        errores += "<p>Escreva sue telefone</p>";
+        $("#phone").css("border-left-color", "#f9ca24");
+      } else {
+        $("#phone").css("border-left-color", "#222");
+      };
+
+    // Validado Correo ==============================
+    if ($("#email").val() == "") {
+      errores += "<p>Digite sue E-mail</p>";
+      $("#email").css("border-left-color", "#f9ca24");
+    } else {
+      $("#email").css("border-left-color", "#222");
+    };
+
+    // Validado Mensaje ==============================
+    if ($("#mensaje").val() == "") {
+      errores += "<p>Escreve sue mensagem</p>";
+      $("#mensaje").css("border-left-color", "#f9ca24");
+    } else {
+      $("#mensaje").css("border-left-color", "#222");
+    };
+
+    // ENVIANDO MENSAJE ============================
+    if ((errores == "") == false) {
+      var mensajeModal =
+        '<div class="modal_wrap">' +
+        '<div class="mensaje_modal">' +
+        "<h3>Erros Encontrados</h3>" +
+        errores +
+        '<span id="btnClose">Cerrar</span>' +
+        "</div>" +
+        "</div>";
+
+      $("body").append(mensajeModal);
+    };
+   
+
+    // CERRANDO MODAL ==============================
+    $("#btnClose").click(function () {
+      $(".modal_wrap").remove();
+    });
+
+    
+    
+  });
+  
+});
 
 
 
 form.addEventListener("submit", handleSubmit);
 
-
-
-
-
-
-
-
-
-
-
-
-
-// const $form = document.querySelector("#form");
-
-// $form.addEventListener("submit", btnSend);
-
-// async function btnSend(event) {
-//   event.preventDefault();
-
-//   const form = new FormData(this);
-//   const response = await fetch(event.target.action, {
-//     method: form.method,
-//     body: data,
-//     headers: {
-//       'Accept': 'application/json'
-//   })
-//   if (response.ok) {
-//     this.reset();
-//     var mensajeModal =
-//       '<div class="modal_wrap">' +
-//       '<div class="mensaje_modal">' +
-//       "<h1>✔</h1> <h3>E-mail Enviado</h3>" +
-//       '<span id="btnClose">Cerrar</span>' +
-//       "</div>" +
-//       "</div>";
-
-//     $("body").append(mensajeModal);
-//   }
-//   $("#btnClose").click(function () {
-//     $(".modal_wrap").remove();
-//   });
-// }
