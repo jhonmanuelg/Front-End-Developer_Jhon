@@ -74,6 +74,7 @@ section {
 }
 
 .btn i {
+    color: var(--white);
     margin-left: 9px;
     padding: 0 .5rem;
     font-size: 1.8rem;
