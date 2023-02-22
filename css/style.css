@@ -230,14 +230,14 @@ header .navbar ul li a {
 
 
 .home h3 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: var(--white);
     font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     color: var(--white);
     font-weight: 300;
 }
@@ -249,7 +249,7 @@ header .navbar ul li a {
 
 .home p {
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -286,7 +286,7 @@ header .navbar ul li a {
 .row .info p {
     margin-top: 2rem;
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -564,7 +564,7 @@ header .navbar ul li a {
 
 .contactParafo {
     align-items: cente;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
     text-align: justify;
     font-weight: 500;
