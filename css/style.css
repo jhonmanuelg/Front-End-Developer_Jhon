@@ -1029,7 +1029,7 @@ y
     }
 
     .home p {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
     }
 
     .home {
@@ -1037,7 +1037,7 @@ y
     }
 
     .row .info p {
-        font-size: 1.8rem;
+         font-size: 2.1rem;
     }
 
     .about .row .counter .box p {
@@ -1049,7 +1049,7 @@ y
     }
 
     .contactParafo {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
     }
 
     .btn {
@@ -1135,10 +1135,4 @@ y
     .contactComigo {
         width: 48rem;
     }
-
-    .contactParafo {
-        font-size: 2rem;
-    }
-
-
 }
