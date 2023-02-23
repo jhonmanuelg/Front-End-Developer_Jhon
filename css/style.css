@@ -65,7 +65,7 @@ section {
     background: #00000036;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 2rem;
     transition: 0.3s;
     z-index: 1;
