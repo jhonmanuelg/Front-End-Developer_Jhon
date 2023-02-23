@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #07b4fe;
-    --white: #ffffff;
-    --fondo: #1b4155;
-    --fondoBTN: #2e9ed6;
-    --fondoCard: #012f47;
+    --yellow: #ffaa00;
+    --white: #fae5c2;
+    --fondo: #000000;
+    --fondoBTN: #ffaa00;
+    --fondoCard: #3e2800;
     --fonttitle: 'sans-serif';
 }
 
@@ -20,7 +20,7 @@
 }
 
 *::selection {
-    background: #ffffffd1;
+    background: #5a5244d1;
     color: var(--yellow);
 }
 
