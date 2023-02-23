@@ -1128,9 +1128,7 @@ y
     }
 
 
-    .btn::before {
-        display: none;
-    }
+    
 
     .contactComigo {
         width: 48rem;
