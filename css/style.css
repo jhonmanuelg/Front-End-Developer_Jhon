@@ -1027,6 +1027,9 @@ y
     header .navbar ul {
         margin-top: 5rem;
     }
+    .btn{
+        font-size: 2rem;
+    }
 
     .home p {
         font-size: 2.1rem;
