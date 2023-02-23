@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
-    --yellow: #EF9B0F;
+    --yellow: #07b4fe;
     --white: #ffffff;
-    --fondo: #0a0500;
-    --fondoBTN: #ae3a00ce;
-    --fondoCard: #532118;
+    --fondo: #1b4155;
+    --fondoBTN: #2e9ed6;
+    --fondoCard: #012f47;
     --fonttitle: 'sans-serif';
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,6 +45,7 @@ body {
     background: var(--fondo);
     overflow-x: hidden;
     padding-left: 35rem;
+    font-family: var(--fonttitle);
 }
 
 section {
@@ -66,8 +66,8 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 16px;
-    transition: .3s;
+    font-size: 2rem;
+    transition: 0.3s;
     z-index: 1;
     font-family: inherit;
     color: var(--yellow);
@@ -171,9 +171,9 @@ header .user-modelo1 .name {
 }
 
 header .user-modelo1 .post {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--white);
-    font-weight: 800;
+    font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
@@ -197,7 +197,7 @@ header .navbar ul li a {
     background-color: #5321181a;
     color: var(--yellow);
     font-weight: 1000;
-    font-size: 16px;
+    font-size: 2rem;
     border-radius: 0.2rem;
     transition: all 0.9s;
 }
@@ -249,7 +249,7 @@ header .navbar ul li a {
 
 .home p {
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -286,7 +286,7 @@ header .navbar ul li a {
 .row .info p {
     margin-top: 2rem;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -335,7 +335,7 @@ header .navbar ul li a {
 .about .row .counter .box p {
     text-align: justify;
     margin-top: 3rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: var(--white);
     position: relative;
 
@@ -364,7 +364,7 @@ header .navbar ul li a {
 
 
 .education .box-container .education .box-container .box span {
-    font-size: 1.3rem;
+    font-size: 2rem;
     background: var(--fondoCard);
     color: var(--white);
     border-radius: 5rem;
@@ -372,13 +372,13 @@ header .navbar ul li a {
 }
 
 .education .box-container .box h3 {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     color: var(--white);
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     color: var(--white);
     padding: 1rem 0;
 }
@@ -424,7 +424,7 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--yellow);
     margin-bottom: 2.5rem;
     font-weight: 500;
@@ -564,7 +564,7 @@ header .navbar ul li a {
 
 .contactParafo {
     align-items: cente;
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     margin-top: 2rem;
     text-align: justify;
     font-weight: 500;
