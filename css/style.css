@@ -55,7 +55,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
-    width: 26rem;
+    width: 22rem;
     padding: 0.8em 1.8em;
     border: 3px solid var(--yellow);
     position: relative;
@@ -66,7 +66,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
     transition: 0.3s;
     z-index: 1;
     font-family: inherit;
