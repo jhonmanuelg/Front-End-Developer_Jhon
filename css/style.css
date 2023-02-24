@@ -305,7 +305,7 @@ header .navbar ul li a {
     width: 30rem;
     height: 22rem;     
     background-color: rgba(248, 248, 248, 0.074);
-    border: 1px solid rgba(248, 146, 4, 0.222);
+    border: 1px solid rgba(248, 146, 4, 0.477);
     text-align: start;
     padding: 2rem;
     margin: 2rem;
@@ -356,9 +356,9 @@ header .navbar ul li a {
     width: 29rem;
     height: 17rem;
     margin: 2rem 1rem 1rem;
-    padding-left: 4rem;
+    padding: 1rem 2rem 1rem;
     background-color: rgba(248, 248, 248, 0.074);
-    border: 1px solid rgba(226, 170, 91, 0.222);
+    border: 1px solid rgba(248, 146, 4, 0.477);
     border-left: 0.2rem solid var(--yellow);
     position: relative;
     display: flex;
