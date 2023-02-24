@@ -99,7 +99,7 @@ section {
     width: 110%;
 }
 
-.btn:hover  {
+.btn:hover {
     color: #111;
     font-weight: 900;
 }
@@ -111,8 +111,6 @@ section {
 
 
 /*============= fin Button ==================*/
-
-
 
 .heading {
     width: 91%;
@@ -304,14 +302,14 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box {
-    width: 28rem;
-    height: 22rem;
-    transition: all 300ms;
-    background: var(--fondoCard);
+    width: 30rem;
+    height: 22rem;     
+    background-color: rgba(248, 248, 248, 0.074);
+    border: 1px solid rgba(248, 146, 4, 0.222);
     text-align: start;
     padding: 2rem;
     margin: 2rem;
-    border-radius: 3px;
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -355,11 +353,18 @@ header .navbar ul li a {
 }
 
 .education .box-container .box {
-    width: 27rem;
+    width: 29rem;
+    height: 17rem;
     margin: 2rem 1rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid var(--yellow);
+    background-color: rgba(248, 248, 248, 0.074);
+    border: 1px solid rgba(226, 170, 91, 0.222);
+    border-left: 0.2rem solid var(--yellow);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -372,15 +377,16 @@ header .navbar ul li a {
 }
 
 .education .box-container .box h3 {
+    margin-top: 1rem;
     font-size: 1.8rem;
     color: var(--white);
-    padding-top: 1.5rem;
 }
 
 .education .box-container .box p {
     font-size: 1.6rem;
     color: var(--white);
-    padding: 1rem 0;
+    padding: 1rem 0rem;
+    text-align: left;
 }
 
 .education .box-container .box i {
@@ -920,6 +926,7 @@ y
         width: 46%;
         height: 100%;
     }
+
     header .user-modelo1 {
         margin-bottom: 11rem;
         margin-top: -10rem;
@@ -944,11 +951,11 @@ y
 }
 
 @media (max-width:825px) {
-   
+
     .home {
         margin-top: -13rem;
     }
-    
+
 }
 
 
@@ -961,9 +968,10 @@ y
     header {
         width: 36%;
     }
+
     header .user-modelo1 {
-        margin-top: -2rem;       
-     }
+        margin-top: -2rem;
+    }
 
     header .navbar ul li a {
         width: 28rem;
@@ -1037,7 +1045,7 @@ y
     }
 
     .row .info p {
-         font-size: 2.1rem;
+        font-size: 2.1rem;
     }
 
     .about .row .counter .box p {
@@ -1089,14 +1097,19 @@ y
     }
 
     .about .row .counter .box {
-        width: 44rem;
-        height: 32rem;
+        width: 39rem;
+        height: 23rem;
 
     }
 
+    .education .box-container {
+        padding-left: 0rem;
+    }
+
     .education .box-container .box {
-        width: 42rem;
-        height: 15rem;
+        width: 39rem;
+        height: 23rem;
+
         margin-bottom: 2rem;
     }
 
