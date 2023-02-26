@@ -464,8 +464,8 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box:hover img {
-    opacity: 0.8;
-    transform: scale(1.09);
+    opacity: 0.9;
+    transform: scale(1.05);
 
 }
 
