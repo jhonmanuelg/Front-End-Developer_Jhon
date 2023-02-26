@@ -314,11 +314,12 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition:  0.5s;
 }
 
 .about .row .counter .box:hover {
-    opacity: 0.8;
-    transform: scale(1.09);
+    opacity: 0.9;
+    transform: scale(1.05);
 }
 
 
@@ -366,11 +367,12 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    transition:  0.5s;
 }
 
 .education .box-container .box:hover {
-    opacity: 0.8;
-    transform: scale(1.09);
+    opacity: 0.9;
+    transform: scale(1.05);
 }
 
 .education .box-container .education .box-container .box span {
