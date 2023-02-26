@@ -55,7 +55,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
-    width: 22rem;
+    width: 24rem;
     padding: 0.8em 1.8em;
     border: 3px solid var(--yellow);
     position: relative;
@@ -89,6 +89,7 @@ section {
 
 .btn:hover::before {
     width: 110%;
+    border-radius: 4px;
 }
 
 .btn:hover {
