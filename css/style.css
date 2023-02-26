@@ -367,6 +367,10 @@ header .navbar ul li a {
     align-content: center;
 }
 
+.education .box-container .box:hover {
+    opacity: 0.8;
+    transform: scale(1.09);
+}
 
 .education .box-container .education .box-container .box span {
     font-size: 2rem;
