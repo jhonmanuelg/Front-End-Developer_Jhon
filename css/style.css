@@ -66,20 +66,12 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
     transition: 0.3s;
     z-index: 1;
     font-family: inherit;
     color: var(--yellow);
 }
-
-.btn i {
-    color: var(--white);
-    margin-left: 9px;
-    padding: 0 .5rem;
-    font-size: 2rem;
-}
-
 
 .btn::before {
     content: '';
@@ -878,9 +870,6 @@ y
 
 /* media queries  */
 
-
-/* media queries  */
-
 @media (max-width:1200px) {
 
     html {
@@ -912,7 +901,7 @@ y
     }
 
     .btn {
-        width: 28rem;
+        width: 24rem;
     }
 
 }
