@@ -901,10 +901,6 @@ y
         margin: 0.5rem 0;
     }
 
-    .btn {
-        width: 24rem;
-    }
-
 }
 
 
@@ -986,10 +982,7 @@ y
         width: 39rem;
     }
 
-    .btn {
-        width: 36rem;
-        margin-left: auto;
-    }
+  
 
     .btnDownl {
         margin-left: -1.5rem;
@@ -1046,11 +1039,15 @@ y
     }
 
     .about .row .counter .box {
-        width: 41rem;
+        width: 53rem;
     }
 
     .about .row .counter .box p {
         font-size: 1.8rem;
+    }
+
+    .education .box-container .box{
+        width: 53rem;
     }
 
     .education .box-container .box p {
@@ -1062,7 +1059,6 @@ y
     }
 
     .btn {
-        width: 21rem;
         font-size: 2rem;
         margin-left: 0px;
     }
@@ -1099,7 +1095,7 @@ y
     }
 
     .about .row .counter .box {
-        width: 36rem;
+        width: 44rem;
     }
 
     .education .box-container {
@@ -1107,7 +1103,7 @@ y
     }
 
     .education .box-container .box {
-        width: 36rem;
+        width: 42rem;
         margin-bottom: 2rem;
     }
 
