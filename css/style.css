@@ -296,7 +296,7 @@ header .navbar ul li a {
 
 .about .row .counter .box {
     width: 30rem;
-    height: 22rem;     
+    height: 22rem;
     background-color: rgba(241, 128, 7, 0.151);
     border: 1px solid rgba(248, 146, 4, 0.477);
     text-align: start;
@@ -307,7 +307,7 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition:  0.5s;
+    transition: 0.5s;
 }
 
 .about .row .counter .box:hover {
@@ -353,14 +353,14 @@ header .navbar ul li a {
     padding: 1rem 2rem 1rem;
     background-color: rgba(241, 128, 7, 0.151);
 
-    border: 1px solid rgba(248, 146, 4, 0.515); 
+    border: 1px solid rgba(248, 146, 4, 0.515);
     border-left: 0.2rem solid var(--yellow);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    transition:  0.5s;
+    transition: 0.5s;
 }
 
 .education .box-container .box:hover {
@@ -979,11 +979,11 @@ y
     }
 
     .about .row .counter .box {
-        width: 42rem;
+        width: 39rem;
     }
 
     .portfolio .box-container .box {
-        width: 42rem;
+        width: 39rem;
     }
 
     .btn {
@@ -1045,6 +1045,10 @@ y
         font-size: 2.1rem;
     }
 
+    .about .row .counter .box {
+        width: 41rem;
+    }
+
     .about .row .counter .box p {
         font-size: 1.8rem;
     }
@@ -1058,8 +1062,9 @@ y
     }
 
     .btn {
+        width: 21rem;
         font-size: 2rem;
-        margin-left: 0;
+        margin-left: 0px;
     }
 }
 
@@ -1094,9 +1099,7 @@ y
     }
 
     .about .row .counter .box {
-        width: 42rem;
-        height: 23rem;
-
+        width: 36rem;
     }
 
     .education .box-container {
@@ -1104,9 +1107,7 @@ y
     }
 
     .education .box-container .box {
-        width: 42rem;
-        height: 23rem;
-
+        width: 36rem;
         margin-bottom: 2rem;
     }
 
@@ -1141,4 +1142,5 @@ y
     .contactComigo {
         width: 48rem;
     }
+   
 }
