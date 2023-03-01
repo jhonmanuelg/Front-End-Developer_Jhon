@@ -1076,9 +1076,7 @@ y
         font-size: 2rem;
         margin-left: 0px;
     }
-    #menu {
-        display: none;
-    }
+    
 }
 
 @media (max-width:430px) {
