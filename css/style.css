@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+
 
 :root {
-    --yellow: #ffaa00;
-    --white: #fae5c2;
-    --fondo: #000000;
-    --fondoBTN: #ffaa00;
-    --fondoCard: #3e2800;
-    --fonttitle: 'sans-serif';
+    --yellow: #ffffff;
+    --white: #1f2f3a;
+    --whiteBtm: #060212;
+    --fondo: #dadada;
+    --fondoBTN: #474747;
+    --fondoCard: #000000;
+    --fonttitle: 'Open Sans';
 }
+
 
 * {
     margin: 0;
@@ -34,7 +39,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: var(--fondoCard);
+    background: var(--whiteBtm);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -62,7 +67,8 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: #00000036;
+    background: var(--whiteBtm);
+    box-shadow: 0px 9px 16px #000000;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -93,7 +99,7 @@ section {
 }
 
 .btn:hover {
-    color: #111;
+    color: var(--white);
     font-weight: 900;
 }
 
@@ -143,7 +149,7 @@ header .user-modelo1 {
 
 header .user-modelo1 img {
     border-radius: 50%;
-    background: #393838;
+    background: var(--fondoBTN);
     box-shadow: -16px 16px 33px #2a2929, 16px -16px 33px #484747;
     height: 14rem;
     width: 14rem;
@@ -151,19 +157,17 @@ header .user-modelo1 img {
     object-fit: cover;
 }
 
-header .user-modelo1 span {
-    color: var(--yellow);
-}
+
 
 header .user-modelo1 .name {
     font-size: 3.5rem;
-    color: var(--white);
+    color: var(--yellow);
     font-weight: 700;
 }
 
 header .user-modelo1 .post {
     font-size: 2.5rem;
-    color: var(--white);
+    color: var(--yellow);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
@@ -185,7 +189,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    background-color: #5321181a;
+    background-color: var(--whiteBtm);
     color: var(--yellow);
     font-weight: bold;
     font-size: 2rem;
@@ -199,8 +203,9 @@ header .navbar ul li a {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: var(--fondoCard);
-    color: var(--white);
+    background: var(--whiteBtm);
+    color: var(--yellow);
+    box-shadow: 0px 9px 16px #000000;
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -222,34 +227,34 @@ header .navbar ul li a {
 
 .home h3 {
     font-size: 3.5rem;
-    color: var(--white);
+    color: var(--whiteBtm);
     font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
     font-size: 5rem;
-    color: var(--white);
+    color: var(--whiteBtm);
     font-weight: 300;
 }
 
 .home h1 span {
-    color: var(--yellow);
+    color: var(--whiteBtm);
     font-weight: 700;
 }
 
 .home p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--whiteBtm);
     padding: 1rem 0;
     font-weight: 300;
 }
 
 
 .home .span {
-    color: var(--yellow);
+    color: var(--whiteBtm);
     font-size: 3rem;
     font-weight: bold;
 }
@@ -275,9 +280,8 @@ header .navbar ul li a {
 }
 
 .row .info p {
-    margin-top: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
-    font-size: 2rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -297,8 +301,9 @@ header .navbar ul li a {
 .about .row .counter .box {
     width: 30rem;
     height: 22rem;
-    background-color: rgba(241, 128, 7, 0.151);
-    border: 1px solid rgba(248, 146, 4, 0.477);
+    background-color: var(--fondoCard);
+    border: 2px solid rgba(0, 0, 0, 0.799);
+    box-shadow: 0px 9px 16px #000000;
     text-align: start;
     padding: 2rem;
     margin: 2rem;
@@ -328,7 +333,7 @@ header .navbar ul li a {
     text-align: justify;
     margin-top: 3rem;
     font-size: 1.4rem;
-    color: var(--white);
+    color: var(--yellow);
     position: relative;
 
 }
@@ -351,10 +356,10 @@ header .navbar ul li a {
     height: 19rem;
     margin: 2rem 1rem 1rem;
     padding: 1rem 2rem 1rem;
-    background-color: rgba(241, 128, 7, 0.151);
-
-    border: 1px solid rgba(248, 146, 4, 0.515);
+    background-color: var(--fondoCard);
+    border: 2px solid rgba(0, 0, 0, 0.799);
     border-left: 0.2rem solid var(--yellow);
+    box-shadow: 0px 9px 16px #000000;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -371,7 +376,7 @@ header .navbar ul li a {
 .education .box-container .education .box-container .box span {
     font-size: 2rem;
     background: var(--fondoCard);
-    color: var(--white);
+    color: var(--yellow);
     border-radius: 5rem;
     padding: .5rem 2.5rem;
 }
@@ -379,12 +384,12 @@ header .navbar ul li a {
 .education .box-container .box h3 {
     margin-top: 1rem;
     font-size: 1.8rem;
-    color: var(--white);
+    color: var(--yellow);
 }
 
 .education .box-container .box p {
     font-size: 1.6rem;
-    color: var(--white);
+    color: var(--yellow);
     padding: 1rem 0rem;
     text-align: left;
 }
@@ -399,7 +404,7 @@ header .navbar ul li a {
     line-height: 5rem;
     text-align: center;
     font-size: 3.3rem;
-    color: var(--fondoCard);
+    color: var(--whiteBtm);
     background: var(--yellow);
 }
 
@@ -425,14 +430,15 @@ header .navbar ul li a {
     height: 18rem;
     width: 29rem;
     border-radius: 0.2rem;
-    margin: 3rem 2rem 7rem;
+    margin: 5rem 2rem 8rem;
     overflow: visible;
+    background-color: var(--fondoCard);
 }
 
 .portfolio .box-container .box h3 {
     font-size: 1.7rem;
     color: var(--yellow);
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     font-weight: 500;
     padding: 3px;
     display: flex;
@@ -458,13 +464,14 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box img {
-    height: 100%;
+    height: 20rem;
     width: 100%;
     object-fit: fill;
+    box-shadow: 0px 9px 16px #000000;
 }
 
 .portfolio .box-container .box:hover img {
-    opacity: 0.9;
+    opacity: 10;
     transform: scale(1.05);
 
 }
@@ -503,7 +510,8 @@ header .navbar ul li a {
     padding: 1.5rem;
     margin: 1rem 0;
     background: var(--fondoCard);
-    color: var(--white);
+    color: var(--yellow);
+    box-shadow: 0px 9px 16px #000000;
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
@@ -526,13 +534,14 @@ header .navbar ul li a {
 
 .contact .row form .box::placeholder {
     text-transform: capitalize;
+    color: #ffffff8c;
 }
 
 .contact .row form .message {
     padding: 1.5rem;
     margin: 1rem 0;
     background: var(--fondoCard);
-    color: var(--white);
+    color: var(--yellow);
     text-transform: none;
     font-size: 1.7rem;
     height: 25rem;
@@ -566,15 +575,15 @@ header .navbar ul li a {
     width: 87%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contactParafo {
-    align-items: cente;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
     text-align: justify;
     font-weight: 500;
-    color: var(--white);
+    color: var(--whiteBtm);
     padding: 1rem 0;
 }
 
@@ -611,7 +620,7 @@ header .navbar ul li a {
     left: -5px;
     width: 100%;
     height: 10px;
-    background: var(--yellow);
+    background: var(--whiteBtm);
     transform: skewX(-41deg);
 }
 
@@ -631,7 +640,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn .github {
-    color: var(--fondo);
+    color: var(--whiteBtm);
     font-weight: 900;
 }
 
@@ -653,6 +662,7 @@ header .navbar ul li a {
     width: 100%;
     height: 100%;
     background: #f9ad16;
+    box-shadow: -12px 15px 15px #0000004c;
 
     font-size: 25px;
     transition: 0.6s ease-out;
@@ -855,6 +865,8 @@ y
 
 .top img {
     width: 30px;
+    box-shadow: 0px 9px 16px #000000;
+    border-radius: 50%;
 }
 
 .top {
@@ -865,7 +877,6 @@ y
     bottom: 7.5rem;
     right: 2px;
     z-index: 100;
-
 }
 
 
@@ -892,6 +903,12 @@ y
     .home .span {
         font-size: 2.5rem;
     }
+    header{
+        height: 131.5rem;
+    }
+    header .user-modelo1{
+        margin-bottom: 13rem;
+    }
 
     header .navbar {
         margin-bottom: 0rem;
@@ -899,14 +916,6 @@ y
 
     header .navbar ul li a {
         margin: 0.5rem 0;
-    }
-
-}
-
-
-@media (max-width:1024px) {
-    header {
-        height: 64.5rem;
     }
 
 }
@@ -982,7 +991,7 @@ y
         width: 39rem;
     }
 
-  
+
 
     .btnDownl {
         margin-left: -1.5rem;
@@ -1046,12 +1055,16 @@ y
         font-size: 1.8rem;
     }
 
-    .education .box-container .box{
+    .education .box-container .box {
         width: 53rem;
     }
+    
 
     .education .box-container .box p {
         font-size: 1.8rem;
+    }
+    .portfolio .box-container .box {
+        width: 53rem;
     }
 
     .contactParafo {
@@ -1061,6 +1074,9 @@ y
     .btn {
         font-size: 2rem;
         margin-left: 0px;
+    }
+    #menu {
+        display: none;
     }
 }
 
@@ -1126,6 +1142,10 @@ y
         font-size: 2rem;
     }
 
+    .portfolio .box-container .box img {
+        height: 26rem;
+    }
+
     .span {
         font-size: 2.6rem;
     }
@@ -1138,5 +1158,5 @@ y
     .contactComigo {
         width: 48rem;
     }
-   
+
 }
