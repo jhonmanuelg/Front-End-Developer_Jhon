@@ -37,5 +37,8 @@ $(document).ready(function() {
 
 });
 
-
+// efecto scroll
+AOS.init({
+    duration: 2000,
+});
 
