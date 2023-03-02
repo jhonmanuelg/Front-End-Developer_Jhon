@@ -117,8 +117,8 @@ section {
     margin: 0 6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: .1rem solid var(--fondoBTN);
-    color: var(--white);
+    border-bottom: 0.2rem solid var(--fondoCard);
+    color: var(--whiteBtm);
 }
 
 .heading span {
@@ -229,14 +229,14 @@ header .navbar ul li a {
 .home h3 {
     font-size: 3.5rem;
     color: var(--whiteBtm);
-    font-weight: 300;
+    font-weight:7300;
     margin-bottom: 6px;
 }
 
 .home h1 {
     font-size: 5rem;
     color: var(--whiteBtm);
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .home h1 span {
@@ -247,10 +247,10 @@ header .navbar ul li a {
 .home p {
     text-align: justify;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--whiteBtm);
     padding: 1rem 0;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 
@@ -284,9 +284,9 @@ header .navbar ul li a {
     font-size: 1.5rem;
     text-align: justify;
     font-weight: 600;
-    color: var(--white);
+    color: var(--whiteBtm);
     padding: 1rem 0;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .about .row .counter {
@@ -296,7 +296,7 @@ header .navbar ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    transition: all 0.3s;
+    
 }
 
 .about .row .counter .box {
@@ -313,11 +313,11 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 .about .row .counter .box:hover {
-    opacity: 0.9;
+    opacity: 10;
     transform: scale(1.05);
 }
 
@@ -336,6 +336,7 @@ header .navbar ul li a {
     font-size: 1.4rem;
     color: var(--yellow);
     position: relative;
+    font-weight: 600;
 
 }
 
@@ -366,11 +367,11 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    transition: 0.5s;
+    transition: all 300ms;
 }
 
 .education .box-container .box:hover {
-    opacity: 0.9;
+    opacity: 10;
     transform: scale(1.05);
 }
 
@@ -384,15 +385,17 @@ header .navbar ul li a {
 
 .education .box-container .box h3 {
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--yellow);
+    font-weight: 600;
 }
 
 .education .box-container .box p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--yellow);
-    padding: 1rem 0rem;
+    padding: 0.1rem 0rem;
     text-align: left;
+    font-weight: 600;
 }
 
 .education .box-container .box i {
@@ -413,6 +416,7 @@ header .navbar ul li a {
     color: var(--yellow);
     font-weight: 600;
     font-size: 2rem;
+    margin-bottom: -1rem;
 }
 
 /* =================== Css Meu Projeto ========= */
@@ -437,7 +441,7 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--yellow);
     margin-bottom: 1rem;
     font-weight: 500;
@@ -567,6 +571,7 @@ header .navbar ul li a {
     width: 100%;
     margin: 1rem;
     margin-bottom: 4rem;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,7 +588,7 @@ header .navbar ul li a {
     font-size: 1.5rem;
     margin-top: 2rem;
     text-align: justify;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--whiteBtm);
     padding: 1rem 0;
 }
@@ -1076,6 +1081,9 @@ y
     .btn {
         font-size: 2rem;
         margin-left: 0px;
+    }
+    #menu{
+        display: none;
     }
     
 }
