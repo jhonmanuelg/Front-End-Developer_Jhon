@@ -50,7 +50,7 @@ body {
     background: var(--fondo);
     padding-left: 35rem;
     font-family: var(--fonttitle);
-    overflow-x: visible;
+    /* overflow-x: visible; */
 }
 
 section {
@@ -1054,6 +1054,7 @@ y
 
     .education .box-container .box {
         width: 53rem;
+        margin-right: 4rem;
     }
 
 
