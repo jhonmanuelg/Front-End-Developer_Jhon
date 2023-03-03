@@ -47,9 +47,10 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: var(--fondo);    
+    background: var(--fondo);
     padding-left: 35rem;
     font-family: var(--fonttitle);
+    overflow-x: visible;
 }
 
 section {
@@ -225,7 +226,7 @@ header .navbar ul li a {
 .home h3 {
     font-size: 3.5rem;
     color: var(--whiteBtm);
-    font-weight:7300;
+    font-weight: 7300;
     margin-bottom: 6px;
 }
 
@@ -280,7 +281,7 @@ header .navbar ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 .about .row .counter .box {
@@ -419,7 +420,7 @@ header .navbar ul li a {
     height: 18rem;
     width: 29rem;
     border-radius: 0.2rem;
-    margin: 5rem 2rem 8rem;
+    margin: 3rem 2rem 7rem;
     overflow: visible;
     background-color: var(--fondoCard);
 }
@@ -745,7 +746,7 @@ y
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
-    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -894,10 +895,12 @@ y
     .home .span {
         font-size: 2.5rem;
     }
-    header{
+
+    header {
         height: 131.5rem;
     }
-    header .user-modelo1{
+
+    header .user-modelo1 {
         margin-bottom: 13rem;
     }
 
@@ -1026,6 +1029,9 @@ y
         margin-top: 5rem;
     }
 
+    .heading{
+        margin: 0px 3rem;
+    }
     .home p {
         font-size: 2.1rem;
     }
@@ -1049,13 +1055,15 @@ y
     .education .box-container .box {
         width: 53rem;
     }
-    
+
 
     .education .box-container .box p {
         font-size: 1.8rem;
     }
+
     .portfolio .box-container .box {
         width: 53rem;
+        margin: 3rem 2rem 8rem;
     }
 
     .contactParafo {
@@ -1066,10 +1074,11 @@ y
         font-size: 2rem;
         margin-left: 0px;
     }
-    #menu{
+
+    #menu {
         display: none;
     }
-    
+
 }
 
 @media (max-width:430px) {
@@ -1082,7 +1091,8 @@ y
     }
 
     .home {
-        margin-top: 3rem;
+        margin-top: 17rem;
+        width: 54rem;
     }
 
     .home h1 {
@@ -1099,11 +1109,16 @@ y
 
     .heading {
         font-size: 3rem;
-        margin: 0 3rem;
+        margin: 0 6rem;
     }
 
+    .about .row{
+        width: 54rem;
+    }
     .about .row .counter .box {
         width: 44rem;
+        height: 32rem;
+        margin-left: 2rem;
     }
 
     .education .box-container {
@@ -1111,8 +1126,10 @@ y
     }
 
     .education .box-container .box {
-        width: 42rem;
+        width: 44rem;
+        height: 32rem;
         margin-bottom: 2rem;
+        margin-right: -11rem;
     }
 
     .education .box-container .box h3 {
@@ -1123,6 +1140,7 @@ y
         width: 44rem;
         height: 32rem;
         font-size: 2rem;
+        margin-right: -10rem;
     }
 
     .about .row .counter .box span {
@@ -1144,11 +1162,26 @@ y
 
 
     .contact .row form {
-        margin: 3rem 0;
+        margin: 3rem 5rem;
+        width: 34rem;
+        
     }
 
+    .contact .row .content{
+        margin-left: 1rem;
+        width: 120%;
+    }
+
+    .divContactParafo{
+        margin-left: 7rem;
+    }
     .contactComigo {
         width: 48rem;
+        margin-left: 5rem;
+    }
+
+    .icons_button{
+        margin-left: 5rem;
     }
 
 }
