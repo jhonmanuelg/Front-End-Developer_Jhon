@@ -47,8 +47,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: var(--fondo);
-    overflow-x: hidden;
+    background: var(--fondo);    
     padding-left: 35rem;
     font-family: var(--fonttitle);
 }
@@ -121,9 +120,6 @@ section {
     color: var(--whiteBtm);
 }
 
-.heading span {
-    color: var(--yellow);
-}
 
 header {
     position: fixed;
@@ -239,10 +235,6 @@ header .navbar ul li a {
     font-weight: 700;
 }
 
-.home h1 span {
-    color: var(--whiteBtm);
-    font-weight: 700;
-}
 
 .home p {
     text-align: justify;
@@ -252,14 +244,6 @@ header .navbar ul li a {
     padding: 1rem 0;
     font-weight: 700;
 }
-
-
-.home .span {
-    color: var(--whiteBtm);
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 
 .about .row {
     display: flex;
