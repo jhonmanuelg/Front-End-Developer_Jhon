@@ -45,7 +45,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background: var(--fondo);
-    overflow-x: hidden;
+    overflow-y: hidden;
     padding-left: 35rem;
     font-family: var(--fonttitle);
 }
