@@ -957,6 +957,7 @@ y
     .education .box-container .box {
         width: 39rem;
         height: 25rem;
+        margin-bottom: 2rem;
     }
 
     .about .row .counter .box p {       
@@ -966,7 +967,7 @@ y
     .portfolio .box-container .box {
         width: 38rem;
         height: 25rem; 
-        margin-bottom: 4rem;       
+        margin-bottom: 5.3rem;       
     }
 
     .portfolio .box-container .box h3{
