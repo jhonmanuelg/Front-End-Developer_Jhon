@@ -1,7 +1,4 @@
-/* font  */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 :root {
     --yellow: #ffffff;
@@ -10,10 +7,10 @@
     --fondo: #dadada;
     --fondoBTN: #474747;
     --fondoCard: #000000;
-    --fonttitle: 'Open Sans';
+    --fonttitle: 'sans-serif';
 }
 
-
+    
 * {
     margin: 0;
     padding: 0;
@@ -48,9 +45,9 @@ html::-webkit-scrollbar-thumb {
 
 body {
     background: var(--fondo);
+    overflow-x: hidden;
     padding-left: 35rem;
     font-family: var(--fonttitle);
-    /* overflow-x: visible; */
 }
 
 section {
@@ -68,7 +65,7 @@ section {
     border-radius: 0.1rem;
     overflow: hidden;
     background: var(--whiteBtm);
-    box-shadow: 0px 9px 16px #000000;
+    box-shadow: 0px 23px 27px #000000;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -117,10 +114,13 @@ section {
     margin: 0 6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: 0.2rem solid var(--fondoCard);
-    color: var(--whiteBtm);
+    border-bottom: .1rem solid var(--fondoBTN);
+    color: var(--white);
 }
 
+.heading span {
+    color: var(--yellow);
+}
 
 header {
     position: fixed;
@@ -130,6 +130,7 @@ header {
     height: 100%;
     width: 35rem;
     color: var(--fondoCard);
+    box-shadow: 0px 23px 27px #000000;
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,6 +143,7 @@ header {
 
 header .user-modelo1 {
     width: 100%;
+    margin-bottom: 4rem;
 }
 
 header .user-modelo1 img {
@@ -185,9 +187,8 @@ header .navbar ul li a {
     width: 22rem;
     display: block;
     padding: 1rem;
-    margin: 0.7rem 0;
+    margin: 0.5rem 0;
     background-color: var(--whiteBtm);
-    box-shadow: -2px 5px 6px #9d9d9df7;
     color: var(--yellow);
     font-weight: bold;
     font-size: 2rem;
@@ -203,7 +204,7 @@ header .navbar ul li a {
     right: 2rem;
     background: var(--whiteBtm);
     color: var(--yellow);
-    box-shadow: 0px 9px 16px #000000;
+    box-shadow: 0px 23px 27px #000000;
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -226,25 +227,37 @@ header .navbar ul li a {
 .home h3 {
     font-size: 3.5rem;
     color: var(--whiteBtm);
-    font-weight: 7300;
+    font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
     font-size: 5rem;
     color: var(--whiteBtm);
-    font-weight: 700;
+    font-weight: 300;
 }
 
+.home h1 span {
+    color: var(--whiteBtm);
+    font-weight: 700;
+}
 
 .home p {
     text-align: justify;
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 600;
     color: var(--whiteBtm);
     padding: 1rem 0;
-    font-weight: 700;
+    font-weight: 300;
 }
+
+
+.home .span {
+    color: var(--whiteBtm);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 
 .about .row {
     display: flex;
@@ -266,12 +279,13 @@ header .navbar ul li a {
 }
 
 .row .info p {
-    font-size: 1.5rem;
+    margin-top: 2rem;
     text-align: justify;
+    font-size: 2rem;
     font-weight: 600;
-    color: var(--whiteBtm);
+    color: var(--white);
     padding: 1rem 0;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .about .row .counter {
@@ -281,7 +295,7 @@ header .navbar ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    transition: all 0.3s;
 }
 
 .about .row .counter .box {
@@ -289,7 +303,7 @@ header .navbar ul li a {
     height: 22rem;
     background-color: var(--fondoCard);
     border: 2px solid rgba(0, 0, 0, 0.799);
-    box-shadow: 0px 9px 16px #000000;
+    box-shadow: 0px 23px 27px #000000;
     text-align: start;
     padding: 2rem;
     margin: 2rem;
@@ -298,11 +312,11 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s;
+    transition: 0.5s;
 }
 
 .about .row .counter .box:hover {
-    opacity: 10;
+    opacity: 0.9;
     transform: scale(1.05);
 }
 
@@ -321,7 +335,6 @@ header .navbar ul li a {
     font-size: 1.4rem;
     color: var(--yellow);
     position: relative;
-    font-weight: 600;
 
 }
 
@@ -339,24 +352,24 @@ header .navbar ul li a {
 }
 
 .education .box-container .box {
-    width: 29rem;
-    height: 19rem;
+    width: 30rem;
+    height: 22rem;
     margin: 2rem 1rem 1rem;
     padding: 1rem 2rem 1rem;
     background-color: var(--fondoCard);
     border: 2px solid rgba(0, 0, 0, 0.799);
     border-left: 0.2rem solid var(--yellow);
-    box-shadow: 0px 9px 16px #000000;
+    box-shadow: 0px 23px 27px #000000;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    transition: all 300ms;
+    transition: 0.5s;
 }
 
 .education .box-container .box:hover {
-    opacity: 10;
+    opacity: 0.9;
     transform: scale(1.05);
 }
 
@@ -370,17 +383,15 @@ header .navbar ul li a {
 
 .education .box-container .box h3 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--yellow);
-    font-weight: 600;
 }
 
 .education .box-container .box p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--yellow);
-    padding: 0.1rem 0rem;
+    padding: 1rem 0rem;
     text-align: left;
-    font-weight: 600;
 }
 
 .education .box-container .box i {
@@ -401,7 +412,6 @@ header .navbar ul li a {
     color: var(--yellow);
     font-weight: 600;
     font-size: 2rem;
-    margin-bottom: -1rem;
 }
 
 /* =================== Css Meu Projeto ========= */
@@ -417,16 +427,16 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    height: 18rem;
-    width: 29rem;
+    width: 30rem;
+    height: 22rem;
     border-radius: 0.2rem;
-    margin: 3rem 2rem 7rem;
+    margin: 5rem 2rem 8rem;
     overflow: visible;
     background-color: var(--fondoCard);
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--yellow);
     margin-bottom: 1rem;
     font-weight: 500;
@@ -454,10 +464,10 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box img {
-    height: 20rem;
+    height:  20rem;
     width: 100%;
     object-fit: fill;
-    box-shadow: 0px 9px 16px #000000;
+    box-shadow: 0px 23px 27px #000000;
 }
 
 .portfolio .box-container .box:hover img {
@@ -501,12 +511,12 @@ header .navbar ul li a {
     margin: 1rem 0;
     background: var(--fondoCard);
     color: var(--yellow);
-    box-shadow: 0px 9px 16px #000000;
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
     width: 100%;
     font-weight: 700;
+    box-shadow: 0px 23px 27px #000000;
 }
 
 .contact .row form .box:focus {
@@ -556,7 +566,6 @@ header .navbar ul li a {
     width: 100%;
     margin: 1rem;
     margin-bottom: 4rem;
-    font-weight: 600;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -570,10 +579,11 @@ header .navbar ul li a {
 }
 
 .contactParafo {
-    font-size: 1.5rem;
+    
+    font-size: 2rem;
     margin-top: 2rem;
     text-align: justify;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--whiteBtm);
     padding: 1rem 0;
 }
@@ -601,6 +611,7 @@ header .navbar ul li a {
     border: none;
     background: transparent;
     font-family: inherit;
+    box-shadow: -20px 24px 22px #000000;
 }
 
 
@@ -653,7 +664,6 @@ header .navbar ul li a {
     width: 100%;
     height: 100%;
     background: #f9ad16;
-    box-shadow: -12px 15px 15px #0000004c;
 
     font-size: 25px;
     transition: 0.6s ease-out;
@@ -760,10 +770,9 @@ y
 .mensaje_modal {
     border-radius: 3px;
     box-shadow: 0px 0px 4px var(--yellow);
-    width: 399px;
+    width: 280px;
     padding: 30px 20px 15px;
-    background: var(--fondoCard);
-    box-shadow: 0px 9px 16px #000000;
+    background: var(--fondo);
 }
 
 .mensaje_modal h1 {
@@ -813,7 +822,7 @@ y
 .mensaje_modal p {
     font-size: 16px;
     font-weight: bold;
-    color: var(--yellow);
+    color: var(--white);
 }
 
 
@@ -826,7 +835,7 @@ y
     text-align: center;
 
     background: #ff0505;
-    color: var(--yellow);
+    color: var(--white);
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -857,8 +866,6 @@ y
 
 .top img {
     width: 30px;
-    box-shadow: 0px 9px 16px #000000;
-    border-radius: 50%;
 }
 
 .top {
@@ -869,15 +876,20 @@ y
     bottom: 7.5rem;
     right: 2px;
     z-index: 100;
+
 }
 
 
 /* media queries  */
 
-@media (max-width:1200px) {
+@media (max-width:1280px) {
 
     html {
         font-size: 55%;
+    }
+
+    header .user-modelo1 {
+        margin-bottom: 4rem;
     }
 
     .home {
@@ -896,14 +908,6 @@ y
         font-size: 2.5rem;
     }
 
-    header {
-        height: 131.5rem;
-    }
-
-    header .user-modelo1 {
-        margin-bottom: 13rem;
-    }
-
     header .navbar {
         margin-bottom: 0rem;
     }
@@ -915,6 +919,9 @@ y
 }
 
 
+
+
+
 @media (max-width:991px) {
 
     header {
@@ -923,10 +930,6 @@ y
         height: 100%;
     }
 
-    header .user-modelo1 {
-        margin-bottom: 11rem;
-        margin-top: -10rem;
-    }
 
     #menu {
         display: block;
@@ -951,11 +954,44 @@ y
     .home {
         margin-top: -13rem;
     }
+    .education .box-container .box {
+        width: 39rem;
+        height: 25rem;
+    }
+
+    .about .row .counter .box p {       
+        font-size: 2rem;       
+    }
+
+    .portfolio .box-container .box {
+        width: 38rem;
+        height: 25rem;        
+    }
+
+    .portfolio .box-container .box h3{
+        font-size: 2rem;
+    }
+
+    .portfolio .box-container .box img {
+        height: 25rem;
+    }
+
+    .education .box-container .box .span{
+        font-size: 3rem;
+    }
+
+    .education .box-container .box h3 {        
+        font-size: 2.3rem;       
+    }
+
+    .education .box-container .box p {
+        font-size: 2rem;        
+    }
 
 }
 
 
-@media (max-width:768px) {
+@media (max-width:769px) {
 
     html {
         font-size: 50%;
@@ -979,13 +1015,10 @@ y
 
     .about .row .counter .box {
         width: 39rem;
+        height: 25rem;
     }
 
-    .portfolio .box-container .box {
-        width: 39rem;
-    }
-
-
+    
 
     .btnDownl {
         margin-left: -1.5rem;
@@ -1009,7 +1042,7 @@ y
 
 @media (max-width: 560px) {
     header {
-        width: 64%;
+        width: 74%;
     }
 
     header .user-modelo1 {
@@ -1029,9 +1062,10 @@ y
         margin-top: 5rem;
     }
 
-    .heading{
-        margin: 0px 3rem;
+    header.toggle {
+        width: 37rem;
     }
+
     .home p {
         font-size: 2.1rem;
     }
@@ -1044,28 +1078,10 @@ y
         font-size: 2.1rem;
     }
 
-    .about .row .counter .box {
-        width: 53rem;
+    .heading {
+        margin: 0 2rem;
     }
 
-    .about .row .counter .box p {
-        font-size: 1.8rem;
-    }
-
-    .education .box-container .box {
-        width: 53rem;
-        margin-right: 4rem;
-    }
-
-
-    .education .box-container .box p {
-        font-size: 1.8rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 53rem;
-        margin: 3rem 2rem 8rem;
-    }
 
     .contactParafo {
         font-size: 2.1rem;
@@ -1075,11 +1091,6 @@ y
         font-size: 2rem;
         margin-left: 0px;
     }
-
-    #menu {
-        display: none;
-    }
-
 }
 
 @media (max-width:430px) {
@@ -1092,8 +1103,7 @@ y
     }
 
     .home {
-        margin-top: 17rem;
-        width: 54rem;
+        margin-top: 3rem;
     }
 
     .home h1 {
@@ -1110,79 +1120,31 @@ y
 
     .heading {
         font-size: 3rem;
-        margin: 0 6rem;
-    }
-
-    .about .row{
-        width: 54rem;
-    }
-    .about .row .counter .box {
-        width: 44rem;
-        height: 32rem;
-        margin-left: 2rem;
-    }
-
-    .education .box-container {
-        padding-left: 0rem;
-    }
+        margin: 0 3rem;
+    }    
 
     .education .box-container .box {
-        width: 44rem;
-        height: 32rem;
-        margin-bottom: 2rem;
-        margin-right: -11rem;
-    }
-
-    .education .box-container .box h3 {
-        font-size: 2.3rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 44rem;
-        height: 32rem;
-        font-size: 2rem;
-        margin-right: -10rem;
-    }
-
-    .about .row .counter .box span {
-        font-size: 3rem;
-
+        margin-right: 3rem;
     }
 
     .portfolio .box-container .box h3 {
         font-size: 2rem;
     }
 
-    .portfolio .box-container .box img {
-        height: 26rem;
-    }
-
     .span {
         font-size: 2.6rem;
     }
 
-
     .contact .row form {
-        margin: 3rem 5rem;
-        width: 34rem;
-        
+        margin: 3rem 0;
     }
 
-    .contact .row .content{
-        margin-left: 1rem;
-        width: 120%;
-    }
-
-    .divContactParafo{
-        margin-left: 7rem;
-    }
     .contactComigo {
         width: 48rem;
-        margin-left: 5rem;
     }
 
-    .icons_button{
-        margin-left: 5rem;
+    .divContactParafo {
+        width: 79%;
     }
-
+   
 }
