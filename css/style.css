@@ -10,7 +10,7 @@
     --fonttitle: 'sans-serif';
 }
 
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -354,7 +354,7 @@ header .navbar ul li a {
 .education .box-container .box {
     width: 30rem;
     height: 22rem;
-    margin: 2rem 1rem 1rem;
+    margin: 2rem;
     padding: 1rem 2rem 1rem;
     background-color: var(--fondoCard);
     border: 2px solid rgba(0, 0, 0, 0.799);
@@ -430,7 +430,7 @@ header .navbar ul li a {
     width: 30rem;
     height: 22rem;
     border-radius: 0.2rem;
-    margin: 5rem 2rem 8rem;
+    margin: 2rem 2rem 5rem;
     overflow: visible;
     background-color: var(--fondoCard);
 }
@@ -464,7 +464,7 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box img {
-    height:  20rem;
+    height: 20rem;
     width: 100%;
     object-fit: fill;
     box-shadow: 0px 23px 27px #000000;
@@ -579,7 +579,7 @@ header .navbar ul li a {
 }
 
 .contactParafo {
-    
+
     font-size: 2rem;
     margin-top: 2rem;
     text-align: justify;
@@ -954,41 +954,49 @@ y
     .home {
         margin-top: -13rem;
     }
-    .education .box-container .box {
-        width: 39rem;
-        height: 25rem;
-        margin-bottom: 2rem;
-    }
 
-    .about .row .counter .box p {       
-        font-size: 2rem;       
+    .about .row .counter .box p {
+        font-size: 2rem;
     }
 
     .portfolio .box-container .box {
         width: 38rem;
-        height: 25rem; 
-        margin-bottom: 5.3rem;       
+        height: 25rem;
+
     }
 
-    .portfolio .box-container .box h3{
+    .education .box-container .box {
+        width: 30rem;
+        height: 22rem;
+    }
+
+    .education .box-container .box .span {
+        font-size: 3rem;
+    }
+
+    .education .box-container .box h3 {
+        font-size: 2.3rem;
+    }
+
+    .education .box-container .box p {
+        font-size: 2rem;
+    }
+
+    .portfolio .box-container .box {
+        width: 30rem;
+        height: 22rem;
+        margin-bottom: 9.5rem;
+    }
+
+    .portfolio .box-container .box h3 {
         font-size: 2rem;
     }
 
     .portfolio .box-container .box img {
-        height: 25rem;
+        height: 23rem;
     }
 
-    .education .box-container .box .span{
-        font-size: 3rem;
-    }
 
-    .education .box-container .box h3 {        
-        font-size: 2.3rem;       
-    }
-
-    .education .box-container .box p {
-        font-size: 2rem;        
-    }
 
 }
 
@@ -1014,13 +1022,6 @@ y
     .home {
         margin-top: -3rem;
     }
-
-    .about .row .counter .box {
-        width: 39rem;
-        height: 25rem;
-    }
-
-    
 
     .btnDownl {
         margin-left: -1.5rem;
@@ -1123,7 +1124,7 @@ y
     .heading {
         font-size: 3rem;
         margin: 0 3rem;
-    }    
+    }
 
     .education .box-container .box {
         margin-right: 3rem;
@@ -1148,5 +1149,5 @@ y
     .divContactParafo {
         width: 79%;
     }
-   
+
 }
