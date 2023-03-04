@@ -1092,7 +1092,27 @@ y
     .heading {
         margin: 0 2rem;
     }
+    
+    .about .row .counter .box{
+        width: 49rem;
+    height: 25rem;
+    }
 
+
+    .education .box-container .box{
+        width: 49rem;
+        height: 25rem;
+    }
+
+    .education .box-container .box {
+        width: 49rem;
+        height: 22rem;
+    }
+
+    .portfolio .box-container .box{
+        width: 49rem;
+        height: 22rem;
+    }
 
     .contactParafo {
         font-size: 2.1rem;
@@ -1134,8 +1154,12 @@ y
         margin: 0 3rem;
     }
 
+    .about .row .counter .box {
+        width: 42rem;       
+    }
+
     .education .box-container .box {
-        margin-right: 3rem;
+        margin-left: -1rem;
     }
 
     .portfolio .box-container .box h3 {
