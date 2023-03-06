@@ -22,7 +22,7 @@
 }
 
 *::selection {
-    background: #5a5244d1;
+    background: #000000d1;
     color: var(--yellow);
 }
 
@@ -553,6 +553,7 @@ header .navbar ul li a {
 
 }
 
+
 .contact .row .content .info {
     width: 41rem;
     height: 0rem;
@@ -869,6 +870,8 @@ y
 
 .top img {
     width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 15px 24px #000000;
 }
 
 .top {
@@ -879,7 +882,6 @@ y
     bottom: 7.5rem;
     right: 2px;
     z-index: 100;
-
 }
 
 
