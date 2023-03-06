@@ -218,7 +218,7 @@ header .navbar ul li a {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 0 15rem;
+    padding: 0 8rem;
     transition: all 0.5s;
 }
 
@@ -898,6 +898,7 @@ y
     }
 
     .home {
+        margin-top: 5rem;
         padding: 1rem 4rem;
     }
 
@@ -1087,7 +1088,7 @@ y
     }
 
     .home {
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
 
     .row .info p {
@@ -1150,6 +1151,10 @@ y
         font-size: 3rem;
     }
 
+    .home p {
+        font-size: 1.9rem;
+    }
+
     header .navbar {
         width: 69%;
     }
@@ -1163,12 +1168,20 @@ y
         width: 42rem;       
     }
 
+    .row .info p {
+        font-size: 1.9rem;
+    }
+
     .education .box-container .box {
         margin-left: -1rem;
     }
 
     .portfolio .box-container .box h3 {
         font-size: 2rem;
+    }
+
+    .about .row .counter .box p {
+        font-size: 1.9rem;
     }
 
     .span {
@@ -1185,6 +1198,10 @@ y
 
     .divContactParafo {
         width: 79%;
+    }
+
+    .contactParafo {
+        font-size: 1.9rem;
     }
 
 }
