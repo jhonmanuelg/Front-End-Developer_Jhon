@@ -939,9 +939,6 @@ y
 }
 
 
-
-
-
 @media (max-width:991px) {
 
     header {
@@ -976,7 +973,7 @@ y
 @media (max-width:825px) {
 
     .home {
-        margin-top: -13rem;
+        margin-top: 15rem;
     }
 
     header .navbar {
@@ -1045,10 +1042,6 @@ y
 
     header .navbar ul li a {
         width: 28rem;
-    }
-
-    .home {
-        margin-top: -3rem;
     }
 
     .btnDownl {
