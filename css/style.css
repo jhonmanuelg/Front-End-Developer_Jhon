@@ -922,6 +922,20 @@ y
         margin: 0.5rem 0;
     }
 
+    .about .row .counter .box {
+        width: 28rem;
+        height: 22rem;
+    }
+
+    .education .box-container .box {
+        width: 28rem;
+        height: 22rem;
+    }
+
+    .portfolio .box-container .box {
+        width: 28rem;
+    }
+
 }
 
 
