@@ -329,8 +329,8 @@ header .navbar ul li a {
 
 .about .row .counter .box p {
     text-align: justify;
-    margin-top: 3rem;
-    font-size: 1.4rem;
+    margin-top: 2rem;
+    font-size: 1.9rem;
     color: var(--yellow);
     position: relative;
 
@@ -896,7 +896,7 @@ y
     }
 
     .home {
-        margin-top: 5rem;
+        margin-top: 1rem;
         padding: 1rem 4rem;
     }
 
@@ -971,7 +971,7 @@ y
 @media (max-width:825px) {
 
     .home {
-        margin-top: 15rem;
+        margin-top: -2rem;
     }
 
     header .navbar {
@@ -979,7 +979,7 @@ y
     }
 
     .about .row .counter .box p {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .portfolio .box-container .box {
