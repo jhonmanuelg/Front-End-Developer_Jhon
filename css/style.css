@@ -130,7 +130,7 @@ header {
     height: 100%;
     width: 35rem;
     color: var(--fondoCard);
-    box-shadow: 0px 23px 27px #000000;
+    /* box-shadow: 0px 23px 27px #000000; */
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,8 +150,8 @@ header .user-modelo1 img {
     border-radius: 50%;
     background: var(--fondoBTN);
     box-shadow: -16px 16px 33px #2a2929, 16px -16px 33px #484747;
-    height: 21rem;
-    width: 21rem;
+    height: 15rem;
+    width: 15rem;
     margin-top: 0rem;
     object-fit: cover;
 }
