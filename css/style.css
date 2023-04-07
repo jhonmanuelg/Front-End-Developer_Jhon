@@ -57,7 +57,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
-    width: 24rem;
+    width: 19rem;
     padding: 1rem;
     border: 3px solid var(--yellow);
     position: relative;
@@ -130,7 +130,7 @@ header {
     height: 100%;
     width: 35rem;
     color: var(--fondoCard);
-    /* box-shadow: 0px 23px 27px #000000; */
+    box-shadow: 0px 23px 27px #000000;
     background-image: url("../img/teclado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,18 +138,16 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    text-align: center;
 }
 
 header .user-modelo1 {
-    width: 100%;
     margin-bottom: 1rem;
 }
 
 header .user-modelo1 img {
     border-radius: 50%;
     background: var(--fondoBTN);
-    box-shadow: -16px 16px 33px #2a2929, 16px -16px 33px #484747;
+    box-shadow: -13px 16px 31px #161616, 17px 73px 39px #0b0a0a;
     height: 15rem;
     width: 15rem;
     margin-top: 0rem;
@@ -184,7 +182,7 @@ header .navbar ul {
 }
 
 header .navbar ul li a {
-    width: 22rem;
+    width: 19rem;
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
