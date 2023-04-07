@@ -57,7 +57,7 @@ section {
 
 /*======================================== Button ==================*/
 .btn {
-    width: 19rem;
+    width: 15rem;
     padding: 1rem;
     border: 3px solid var(--yellow);
     position: relative;
@@ -69,7 +69,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: 0.3s;
     z-index: 1;
     font-family: inherit;
@@ -182,14 +182,14 @@ header .navbar ul {
 }
 
 header .navbar ul li a {
-    width: 19rem;
+    width: 15rem;
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
     background-color: var(--whiteBtm);
     color: var(--yellow);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 0.2rem;
     transition: all 0.9s;
 }
