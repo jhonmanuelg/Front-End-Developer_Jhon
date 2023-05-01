@@ -650,9 +650,9 @@ header .navbar ul li a {
 
 .button_span_btn .whatsapp {
     color: #2c8b00;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 4rem;
-    margin-top: -0.2rem;
+    margin-top: -0.1rem;
 }
 
 
