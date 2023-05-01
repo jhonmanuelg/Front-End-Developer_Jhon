@@ -636,6 +636,7 @@ header .navbar ul li a {
     background: transparent;
     font-family: inherit;
     box-shadow: -20px 24px 22px #000000;
+    cursor: pointer;
 }
 
 
