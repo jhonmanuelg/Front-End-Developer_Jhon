@@ -631,7 +631,7 @@ header .navbar ul li a {
     position: relative;
     list-style: none;
     width: 45px;
-    height: 41px;
+    height: 38px;
     border: none;
     background: transparent;
     font-family: inherit;
@@ -653,26 +653,30 @@ header .navbar ul li a {
 .button_span_btn .whatsapp {
     color: #2c8b00;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 0.4rem;
 }
 
 
 .button_span_btn .download {
     color: #b60101;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 0.4rem;
 }
 
 .button_span_btn .linkedin {
     color: #0A66C2;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 0.4rem;
 }
 
 .button_span_btn .github {
     color: var(--whiteBtm);
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 0.4rem;
 }
 
 .button_span_btn:after {
@@ -689,11 +693,10 @@ header .navbar ul li a {
 .button_span_btn span {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0;    
     width: 100%;
     height: 100%;
     background: #f9ad16;
-    font-size: 25px;
     transition: 0.6s ease-out;
 }
 
