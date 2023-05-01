@@ -694,7 +694,7 @@ header .navbar ul li a {
 .button_span_btn span {
     position: absolute;
     top: 0;
-    left: 0;    
+    left: 0;
     width: 100%;
     height: 100%;
     background: #f9c66181;
@@ -957,6 +957,23 @@ y
     .iconsBtn .icons_button {
         margin-right: 10rem;
     }
+    
+    .button_span_btn .download {
+            margin-top: 0.3rem;
+    }
+    
+    .button_span_btn .whatsapp {
+            margin-top: 0.3rem;
+        font-weight: 800;
+    }
+    
+    .button_span_btn .linkedin {
+            margin-top: 0.3rem;
+    }
+    
+    .button_span_btn .github {
+            margin-top: 0.3rem;
+    }
 
     .about .row .counter .box {
         width: 28rem;
@@ -976,10 +993,10 @@ y
 
 
 
-@media (max-width:991px) {
+@media (max-width:921px) {
 
     header {
-        left: -120%;      
+        left: -120%;
         height: 100%;
     }
 
@@ -997,7 +1014,7 @@ y
     }
 
     #menu {
-        display: block;    
+        display: block;
     }
 
     header.toggle {
@@ -1010,7 +1027,7 @@ y
     }
 
     .home {
-        margin-top: -12rem;
+        margin-top: -20rem;
     }
 
 }
@@ -1058,23 +1075,62 @@ y
         margin-right: 2rem;
     }
 
-}
-.button_span_btn .download {
-    margin-top: 0.1rem;
-}
+    .button_span_btn .download {
+        margin-top: 0.1rem;
+    }
 
-.button_span_btn .whatsapp {
-    margin-top: 0.1rem;
-    font-weight: 800;
-}
+    .button_span_btn .whatsapp {
+        margin-top: 0.1rem;
+        font-weight: 800;
+    }
 
-.button_span_btn .linkedin {
-    margin-top: 0.1rem;
-}
+    .button_span_btn .linkedin {
+        margin-top: 0.1rem;
+    }
 
-.button_span_btn .github {
-    margin-top: 0.2rem;
-}
+    .button_span_btn .github {
+        margin-top: 0.2rem;
+    }
+
+    .about .row .counter .box {
+        width: 49rem;
+        height: 25rem;
+    }
+    
+    
+    .education .box-container .box {
+        width: 49rem;
+        height: 25rem;
+    }
+    
+    .education .box-container .box {
+        width: 49rem;
+        height: 22rem;
+    }
+    
+    .portfolio .box-container .box {
+        width: 49rem;
+        height: 22rem;
+    }
+    
+    .contactParafo {
+        font-size: 2.1rem;
+    }
+    
+    .btn {
+        font-size: 2rem;
+        margin-left: 0px;
+    }
+    
+    .button_span_btn {
+        width: 40px;
+        height: 31px;
+    }
+    
+    .top img {
+        display: none;
+    }
+
 
     .home p {
         font-size: 2.1rem;
@@ -1090,49 +1146,13 @@ y
 
     .heading {
         margin: 0 2rem;
-    }
 
-    .about .row .counter .box {
-        width: 49rem;
-        height: 25rem;
-    }
-
-
-    .education .box-container .box {
-        width: 49rem;
-        height: 25rem;
-    }
-
-    .education .box-container .box {
-        width: 49rem;
-        height: 22rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 49rem;
-        height: 22rem;
-    }
-
-    .contactParafo {
-        font-size: 2.1rem;
-    }
-
-    .btn {
-        font-size: 2rem;
-        margin-left: 0px;
-    }
-
-    .button_span_btn {
-        width: 40px;
-        height: 31px;
-    }
-    .top img{
-        display: none;
     }
 }
 
+
 @media (max-width:430px) {
-   
+
 
     header .user-modelo1 {
         margin-top: 28rem;
@@ -1156,7 +1176,7 @@ y
 
     .home p {
         font-size: 1.9rem;
-    }   
+    }
 
     .iconsBtn .icons_button {
         margin-right: 0rem;
@@ -1208,4 +1228,3 @@ y
     }
 
 }
-
