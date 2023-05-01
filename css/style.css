@@ -1065,6 +1065,10 @@ y
         width: 28rem;
     }
 
+    .home {
+        padding: 4rem;
+    }
+
     /* para ocultar testo */
     .butto_leer {
         display: block;
@@ -1085,20 +1089,24 @@ y
     }
 
     .button_span_btn .download {
-        margin-top: 0.1rem;
+        margin-top: 0rem;
+        font-size: 4rem;
     }
 
     .button_span_btn .whatsapp {
-        margin-top: 0.1rem;
+        margin-top: 0rem;
+        font-size: 4rem;
         font-weight: 800;
     }
 
     .button_span_btn .linkedin {
-        margin-top: 0.1rem;
+        margin-top: 0rem;
+        font-size: 4rem;
     }
 
     .button_span_btn .github {
-        margin-top: 0.2rem;
+        margin-top: 0.3rem;
+        font-size: 4rem;
     }
 
     .about .row .counter .box {
@@ -1132,8 +1140,8 @@ y
     }
 
     .button_span_btn {
-        width: 40px;
-        height: 31px;
+        width: 48px;
+        height: 39px;
     }
 
     .top img {
@@ -1157,7 +1165,8 @@ y
         margin: 0 2rem;
 
     }
-    .contact .row .content{
+
+    .contact .row .content {
         width: 57rem;
     }
 }
@@ -1237,7 +1246,11 @@ y
     .contactParafo {
         font-size: 1.9rem;
     }
+
     .contact .row .content {
-       width: 46rem;
+        width: 46rem;
+    }
+    .button_span_btn {
+        margin: 2rem;
     }
 }
