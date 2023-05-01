@@ -153,7 +153,7 @@ header {
     width: 35rem;
     color: var(--fondoCard);
     box-shadow: 0px 23px 27px #000000;
-    background-image: url("../img/teclado.jpg");
+    background-image: url("../img/teclado.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -605,7 +605,6 @@ header .navbar ul li a {
 }
 
 .contactParafo {
-
     font-size: 2rem;
     margin-top: 2rem;
     text-align: justify;
