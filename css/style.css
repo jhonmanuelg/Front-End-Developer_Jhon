@@ -160,7 +160,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    transition: all 0.9s;
+    transition: all 0.8s;
 }
 
 header .user-modelo1 {
@@ -1171,6 +1171,9 @@ y
     .button_span_btn {
         width: 40px;
         height: 31px;
+    }
+    .top img{
+        display: none;
     }
 }
 
