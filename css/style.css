@@ -615,15 +615,11 @@ header .navbar ul li a {
 }
 
 .icons_button {
-    width: 60rem;
-    height: 14rem;
     margin-top: 31px;
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
 }
 
 .button_span_btn {
@@ -655,30 +651,30 @@ header .navbar ul li a {
 .button_span_btn .whatsapp {
     color: #2c8b00;
     font-weight: 900;
-    font-size: 3rem;
-    margin-top: 0.4rem;
+    font-size: 4rem;
+    margin-top: -0.2rem;
 }
 
 
 .button_span_btn .download {
     color: #b60101;
     font-weight: 900;
-    font-size: 3rem;
-    margin-top: 0.4rem;
+    font-size: 4rem;
+    margin-top: -0.2rem;
 }
 
 .button_span_btn .linkedin {
     color: #0A66C2;
     font-weight: 900;
-    font-size: 3rem;
-    margin-top: 0.4rem;
+    font-size: 4rem;
+    margin-top: -0.1rem;
 }
 
 .button_span_btn .github {
     color: var(--whiteBtm);
     font-weight: 900;
-    font-size: 3rem;
-    margin-top: 0.4rem;
+    font-size: 4rem;
+    margin-top: 0rem;
 }
 
 .button_span_btn:after {
@@ -982,14 +978,18 @@ y
 @media (max-width:991px) {
 
     header {
-        left: -120%;
-        width: 46%;
+        left: -120%;      
         height: 100%;
+    }
+
+    header .user-modelo1 {
+        margin-top: 35rem;
     }
 
     header .navbar {
         margin-bottom: 41rem;
     }
+
 
     .iconsBtn {
         position: relative;
@@ -1001,6 +1001,7 @@ y
     }
 
     header.toggle {
+        width: 28rem;
         left: 0%;
     }
 
@@ -1009,7 +1010,7 @@ y
     }
 
     .home {
-        margin-top: -25rem;
+        margin-top: 8rem;
     }
 
 }
@@ -1019,15 +1020,14 @@ y
         margin-bottom: 17rem;
     }
 
-    .home {
-        margin-top: -2rem;
-    }
-
     .iconsBtn {
         position: relative;
         right: -8rem;
     }
 
+    header .user-modelo1 {
+        margin-top: 17rem;
+    }
 
     .about .row .counter .box p {
         font-size: 1.9rem;
@@ -1036,7 +1036,6 @@ y
     .portfolio .box-container .box {
         width: 38rem;
         height: 25rem;
-
     }
 
     .education .box-container .box {
@@ -1070,8 +1069,6 @@ y
         height: 23rem;
     }
 
-
-
 }
 
 
@@ -1081,16 +1078,8 @@ y
         font-size: 50%;
     }
 
-    header {
-        width: 36%;
-    }
-
     header .user-modelo1 {
-        margin-top: -2rem;
-    }
-
-    header .navbar ul li a {
-        width: 28rem;
+        margin-top: 10rem;
     }
 
     .top img {
@@ -1111,10 +1100,6 @@ y
 
 @media (max-width: 560px) {
 
-    header {
-        width: 74%;
-    }
-
     header .user-modelo1 {
         margin-top: 23rem;
         margin-bottom: 0;
@@ -1133,7 +1118,7 @@ y
     }
 
     header.toggle {
-        width: 37rem;
+        width: 28rem;
     }
 
     /* para ocultar testo */
@@ -1151,9 +1136,8 @@ y
 
     /* fin para ocultar testo */
 
-    .iconsBtn {
-        position: relative;
-        right: -13rem;
+    .iconsBtn .icons_button {
+        margin-right: 16rem;
     }
 
     .home p {
@@ -1209,9 +1193,7 @@ y
 }
 
 @media (max-width:430px) {
-    header {
-        width: 94%;
-    }
+   
 
     header .user-modelo1 {
         margin-top: 28rem;
@@ -1235,11 +1217,7 @@ y
 
     .home p {
         font-size: 1.9rem;
-    }
-
-    .iconsBtn {
-        right: -14rem;
-    }
+    }   
 
     .heading {
         font-size: 3rem;
@@ -1288,9 +1266,3 @@ y
 
 }
 
-@media (max-width:380px) {
-    .iconsBtn {
-        right: -14rem;
-    }
-
-}
