@@ -153,7 +153,7 @@ header {
     width: 35rem;
     color: var(--fondoCard);
     box-shadow: 0px 23px 27px #000000;
-    background-image: url("../img/teclado.webp");
+    background-image: url("../img/projeco_codig.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1021,7 +1021,7 @@ y
 
     .iconsBtn {
         position: relative;
-        right: -8rem;
+        right: -14rem;
     }
 
     header .user-modelo1 {
@@ -1136,7 +1136,7 @@ y
     /* fin para ocultar testo */
 
     .iconsBtn .icons_button {
-        margin-right: 16rem;
+        margin-right: 29rem;
     }
 
     .home p {
