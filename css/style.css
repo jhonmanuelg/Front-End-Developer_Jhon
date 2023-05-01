@@ -78,6 +78,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -1152,7 +1153,7 @@ y
 
     .iconsBtn {
         position: relative;
-        right: 6rem;
+        right: -13rem;
     }
 
     .home p {
@@ -1237,7 +1238,7 @@ y
     }
 
     .iconsBtn {
-        right: 12rem;
+        right: -14rem;
     }
 
     .heading {
@@ -1289,7 +1290,7 @@ y
 
 @media (max-width:380px) {
     .iconsBtn {
-        right: 15rem;
+        right: -14rem;
     }
 
 }
