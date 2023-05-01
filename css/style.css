@@ -656,7 +656,7 @@ header .navbar ul li a {
     color: #3ab800;
     font-weight: bold;
     font-size: 3.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 
@@ -664,21 +664,21 @@ header .navbar ul li a {
     color: #b60101;
     font-weight: 900;
     font-size: 3.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 .button_span_btn .linkedin {
     color: #0097fc;
     font-weight: 900;
     font-size: 3.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 .button_span_btn .github {
     color: var(--whiteBtm);
     font-weight: 900;
     font-size: 3.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 .button_span_btn:after {
