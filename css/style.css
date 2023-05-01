@@ -55,6 +55,31 @@ section {
     padding: 1rem;
 }
 
+/* para ocultar testo */
+.butto_leer {
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    font-style: oblique;
+    cursor: pointer;
+    color: var(--whiteBtm);
+    font-weight: bold;
+    background-color: transparent;
+    display: none;
+}
+
+.butto_leer:hover {
+    color: var(--yellow);
+}
+
+/* Iconos rddes socilaes arriba */
+.iconsBtn {
+    width: 94rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*======================================== Button ==================*/
 .btn {
     width: 19rem;
@@ -98,11 +123,6 @@ section {
 .btn:hover {
     color: var(--white);
     font-weight: 900;
-}
-
-
-.btnDownl {
-    margin-right: 14rem;
 }
 
 
@@ -213,6 +233,7 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -517,7 +538,7 @@ header .navbar ul li a {
     box-shadow: 0px 23px 27px #000000;
 }
 
-.contact .row form .box:hover{
+.contact .row form .box:hover {
     border-left-color: rgb(255, 255, 255);
 }
 
@@ -609,8 +630,8 @@ header .navbar ul li a {
     transform-style: preserve-3d;
     position: relative;
     list-style: none;
-    width: 42px;
-    height: 32px;
+    width: 45px;
+    height: 41px;
     border: none;
     background: transparent;
     font-family: inherit;
@@ -629,24 +650,29 @@ header .navbar ul li a {
     transform: skewX(-41deg);
 }
 
-.button_span_btn .twitter {
-    color: #1D9BF0;
+.button_span_btn .whatsapp {
+    color: #2c8b00;
     font-weight: 900;
+    font-size: 4rem;
 }
 
-.button_span_btn .instagram {
-    color: #fa0c0e;
+
+.button_span_btn .download {
+    color: #b60101;
     font-weight: 900;
+    font-size: 4rem;
 }
 
 .button_span_btn .linkedin {
     color: #0A66C2;
     font-weight: 900;
+    font-size: 4rem;
 }
 
 .button_span_btn .github {
     color: var(--whiteBtm);
     font-weight: 900;
+    font-size: 4rem;
 }
 
 .button_span_btn:after {
@@ -723,11 +749,11 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(1):hover span {
-    background: #91b9fe;
+    background: #f1492b5e;
 }
 
 .button_span_btn:nth-child(2):hover span {
-    background: #ff91bd;
+    background: #5adb265d;
 }
 
 .button_span_btn:nth-child(3):hover span {
@@ -895,6 +921,14 @@ y
         margin-bottom: 1rem;
     }
 
+    header .navbar {
+        margin-bottom: 0rem;
+    }
+
+    header .navbar ul li a {
+        margin: 0.5rem 0;
+    }
+
     .home {
         margin-top: 1rem;
         padding: 1rem 4rem;
@@ -904,7 +938,7 @@ y
         font-size: 4rem;
     }
 
-    home h3 {
+    .home h3 {
         font-size: 3.5rem;
     }
 
@@ -912,12 +946,8 @@ y
         font-size: 2.5rem;
     }
 
-    header .navbar {
-        margin-bottom: 0rem;
-    }
-
-    header .navbar ul li a {
-        margin: 0.5rem 0;
+    .iconsBtn .icons_button {
+        margin-right: 10rem;
     }
 
     .about .row .counter .box {
@@ -936,6 +966,13 @@ y
 
 }
 
+@media (max-width:1024px) {
+
+    .iconsBtn .icons_button {
+        margin-right: 29rem;
+    }
+
+}
 
 @media (max-width:991px) {
 
@@ -949,6 +986,10 @@ y
         margin-bottom: 41rem;
     }
 
+    .iconsBtn {
+        position: relative;
+        right: -12rem;
+    }
 
     #menu {
         display: block;
@@ -969,14 +1010,19 @@ y
 }
 
 @media (max-width:825px) {
+    header .navbar {
+        margin-bottom: 17rem;
+    }
 
     .home {
         margin-top: -2rem;
     }
 
-    header .navbar {
-        margin-bottom: 17rem;
+    .iconsBtn {
+        position: relative;
+        right: -8rem;
     }
+
 
     .about .row .counter .box p {
         font-size: 1.9rem;
@@ -1042,10 +1088,6 @@ y
         width: 28rem;
     }
 
-    .btnDownl {
-        margin-left: -1.5rem;
-    }
-
     .top img {
         display: none;
     }
@@ -1063,6 +1105,7 @@ y
 
 
 @media (max-width: 560px) {
+
     header {
         width: 74%;
     }
@@ -1088,6 +1131,26 @@ y
         width: 37rem;
     }
 
+    /* para ocultar testo */
+    .butto_leer {
+        display: block;
+    }
+
+    .ocultar {
+        display: none;
+    }
+
+    .mostrar {
+        display: block;
+    }
+
+    /* fin para ocultar testo */
+
+    .iconsBtn {
+        position: relative;
+        right: 6rem;
+    }
+
     .home p {
         font-size: 2.1rem;
     }
@@ -1103,14 +1166,14 @@ y
     .heading {
         margin: 0 2rem;
     }
-    
-    .about .row .counter .box{
+
+    .about .row .counter .box {
         width: 49rem;
-    height: 25rem;
+        height: 25rem;
     }
 
 
-    .education .box-container .box{
+    .education .box-container .box {
         width: 49rem;
         height: 25rem;
     }
@@ -1120,7 +1183,7 @@ y
         height: 22rem;
     }
 
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 49rem;
         height: 22rem;
     }
@@ -1133,6 +1196,11 @@ y
         font-size: 2rem;
         margin-left: 0px;
     }
+
+    .button_span_btn {
+        width: 40px;
+        height: 31px;
+    }
 }
 
 @media (max-width:430px) {
@@ -1142,6 +1210,10 @@ y
 
     header .user-modelo1 {
         margin-top: 28rem;
+    }
+
+    header .navbar {
+        width: 69%;
     }
 
     .home {
@@ -1160,8 +1232,8 @@ y
         font-size: 1.9rem;
     }
 
-    header .navbar {
-        width: 69%;
+    .iconsBtn {
+        right: 12rem;
     }
 
     .heading {
@@ -1170,7 +1242,7 @@ y
     }
 
     .about .row .counter .box {
-        width: 42rem;       
+        width: 42rem;
     }
 
     .row .info p {
@@ -1207,6 +1279,13 @@ y
 
     .contactParafo {
         font-size: 1.9rem;
+    }
+
+}
+
+@media (max-width:380px) {
+    .iconsBtn {
+        right: 15rem;
     }
 
 }
