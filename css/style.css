@@ -236,7 +236,8 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
-    margin-top: 5rem;
+    position: relative;
+    top: 7rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -938,8 +939,7 @@ y
     }
 
     .home {
-        margin-top: 1rem;
-        padding: 1rem 4rem;
+        top: 4rem;
     }
 
     .home h1 {
@@ -957,22 +957,22 @@ y
     .iconsBtn .icons_button {
         margin-right: 10rem;
     }
-    
+
     .button_span_btn .download {
-            margin-top: 0.3rem;
+        margin-top: 0.3rem;
     }
-    
+
     .button_span_btn .whatsapp {
-            margin-top: 0.3rem;
+        margin-top: 0.3rem;
         font-weight: 800;
     }
-    
+
     .button_span_btn .linkedin {
-            margin-top: 0.3rem;
+        margin-top: 0.3rem;
     }
-    
+
     .button_span_btn .github {
-            margin-top: 0.3rem;
+        margin-top: 0.3rem;
     }
 
     .about .row .counter .box {
@@ -1001,11 +1001,13 @@ y
     }
 
     header .user-modelo1 {
-        margin-top: 35rem;
+        position: absolute;
+        top: 22rem;
     }
 
     header .navbar {
-        margin-bottom: 41rem;
+        position: absolute;
+        top: 49rem;
     }
 
 
@@ -1027,21 +1029,28 @@ y
     }
 
     .home {
-        margin-top: -20rem;
+        top: -17rem;
     }
 
+}
+
+@media (max-width: 768px) {
+    .home {
+        top: 0rem;
+    }
 }
 
 
 @media (max-width: 560px) {
 
     header .user-modelo1 {
-        margin-top: 23rem;
-        margin-bottom: 0;
+        position: absolute;
+        top: 12rem;
     }
 
     header .navbar {
-        margin-bottom: 203px;
+        position: absolute;
+        top: 32rem;
     }
 
     header .navbar ul li {
@@ -1096,37 +1105,37 @@ y
         width: 49rem;
         height: 25rem;
     }
-    
-    
+
+
     .education .box-container .box {
         width: 49rem;
         height: 25rem;
     }
-    
+
     .education .box-container .box {
         width: 49rem;
         height: 22rem;
     }
-    
+
     .portfolio .box-container .box {
         width: 49rem;
         height: 22rem;
     }
-    
+
     .contactParafo {
         font-size: 2.1rem;
     }
-    
+
     .btn {
         font-size: 2rem;
         margin-left: 0px;
     }
-    
+
     .button_span_btn {
         width: 40px;
         height: 31px;
     }
-    
+
     .top img {
         display: none;
     }
@@ -1152,14 +1161,13 @@ y
 
 
 @media (max-width:430px) {
-
-
     header .user-modelo1 {
-        margin-top: 28rem;
+        top: 9rem;
     }
 
     header .navbar {
         width: 69%;
+        top: 27rem;
     }
 
     .home {
