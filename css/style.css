@@ -160,6 +160,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    transition: all 0.9s;
 }
 
 header .user-modelo1 {
@@ -224,7 +225,7 @@ header .navbar ul li a {
     right: 2rem;
     background: var(--whiteBtm);
     color: var(--yellow);
-    box-shadow: 0px 23px 27px #000000;
+    box-shadow: 0px 23px 27px #0000009a;
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -454,6 +455,7 @@ header .navbar ul li a {
     margin: 2rem 2rem 5rem;
     overflow: visible;
     background-color: var(--fondoCard);
+    transition: all 0.9s;
 }
 
 .portfolio .box-container .box h3 {
@@ -538,6 +540,7 @@ header .navbar ul li a {
     width: 100%;
     font-weight: 700;
     box-shadow: 0px 23px 27px #000000;
+    transition: all 0.9s;
 }
 
 .contact .row form .box:hover {
@@ -969,7 +972,7 @@ y
 @media (max-width:1024px) {
 
     .iconsBtn .icons_button {
-        margin-right: 29rem;
+        margin-right: 3rem;
     }
 
 }
@@ -990,13 +993,13 @@ y
     }
 
 
-    .iconsBtn {
-        position: relative;
-        right: -12rem;
+    .iconsBtn .icons_button {
+        margin-right: 5rem;
     }
 
     #menu {
         display: block;
+        transition: all 0.9s;
     }
 
     header.toggle {
@@ -1009,7 +1012,7 @@ y
     }
 
     .home {
-        margin-top: 8rem;
+        margin-top: -17rem;
     }
 
 }
@@ -1017,6 +1020,9 @@ y
 @media (max-width:825px) {
     header .navbar {
         margin-bottom: 17rem;
+    }
+    .home {
+        margin-top: -6rem;
     }
 
     .iconsBtn {
@@ -1067,31 +1073,8 @@ y
     .portfolio .box-container .box img {
         height: 23rem;
     }
-
-}
-
-
-@media (max-width:769px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    header .user-modelo1 {
-        margin-top: 10rem;
-    }
-
-    .top img {
-        display: none;
-    }
-
-    .contact .row {
-        margin-bottom: 5rem;
-    }
-
-    .contact .row .content {
-        width: 100%;
-
+    .iconsBtn .icons_button {
+        margin-right: 25rem;
     }
 
 }
