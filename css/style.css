@@ -651,7 +651,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn .whatsapp {
-    color: #2c8b00;
+    color: #287c01;
     font-weight: bold;
     font-size: 3.5rem;
     margin-top: -0.1rem;
@@ -752,19 +752,19 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(1):hover span {
-    background: #f1492b5e;
+    background: #f7745d5e;
 }
 
 .button_span_btn:nth-child(2):hover span {
-    background: #5adb265d;
+    background: #5ead3f63;
 }
 
 .button_span_btn:nth-child(3):hover span {
-    background: #53c2f6;
+    background: #43accc8e;
 }
 
 .button_span_btn:nth-child(4):hover span {
-    background: #727272bd;
+    background: #8f8e8e77;
 }
 
 y
