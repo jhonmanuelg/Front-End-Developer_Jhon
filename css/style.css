@@ -666,7 +666,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn .linkedin {
-    color: #0043fc;
+    color: #0097fc;
     font-weight: 900;
     font-size: 3.5rem;
     margin-top: -0.1rem;
@@ -752,19 +752,19 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(1):hover span {
-    background: #f7745d5e;
+    background: #ffffff5e;
 }
 
 .button_span_btn:nth-child(2):hover span {
-    background: #5ead3f38;
+    background: #ffffff38;
 }
 
 .button_span_btn:nth-child(3):hover span {
-    background: #43accc8e;
+    background: #ffffff8e;
 }
 
 .button_span_btn:nth-child(4):hover span {
-    background: #8f8e8e77;
+    background: #ffffff77;
 }
 
 y
