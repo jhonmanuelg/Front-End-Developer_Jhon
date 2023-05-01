@@ -755,17 +755,17 @@ header .navbar ul li a {
 
 .button_span_btn:nth-child(1):hover span {
     background: #ffffff9f;
-    border: 1px solid #38383879;
+    border: 1px solid #c6040499;
 }
 
 .button_span_btn:nth-child(2):hover span {
     background: #ffffff38;
-    border: 1px solid #38383879;
+    border: 1px solid #41d800a3;
 }
 
 .button_span_btn:nth-child(3):hover span {
     background: #ffffff8e;
-    border: 1px solid #38383879;
+    border: 1px solid #04a6b49c;
 }
 
 .button_span_btn:nth-child(4):hover span {
@@ -1157,6 +1157,9 @@ y
         margin: 0 2rem;
 
     }
+    .contact .row .content{
+        width: 57rem;
+    }
 }
 
 
@@ -1234,5 +1237,7 @@ y
     .contactParafo {
         font-size: 1.9rem;
     }
-
+    .contact .row .content {
+       width: 46rem;
+    }
 }
