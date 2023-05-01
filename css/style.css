@@ -651,7 +651,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn .whatsapp {
-    color: #287c01;
+    color: #3ab800;
     font-weight: bold;
     font-size: 3.5rem;
     margin-top: -0.1rem;
@@ -756,7 +756,7 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(2):hover span {
-    background: #5ead3f63;
+    background: #5ead3f38;
 }
 
 .button_span_btn:nth-child(3):hover span {
