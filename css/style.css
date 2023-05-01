@@ -686,7 +686,7 @@ header .navbar ul li a {
     left: -9px;
     width: 9px;
     height: 100%;
-    background: #77521eaf;
+    background: #77521e7e;
     transform: skewY(-49deg);
 }
 
@@ -752,19 +752,23 @@ header .navbar ul li a {
 }
 
 .button_span_btn:nth-child(1):hover span {
-    background: #ffffff5e;
+    background: #ffffff9f;
+    border: 1px solid #38383879;
 }
 
 .button_span_btn:nth-child(2):hover span {
     background: #ffffff38;
+    border: 1px solid #38383879;
 }
 
 .button_span_btn:nth-child(3):hover span {
     background: #ffffff8e;
+    border: 1px solid #38383879;
 }
 
 .button_span_btn:nth-child(4):hover span {
     background: #ffffff77;
+    border: 1px solid #38383879;
 }
 
 y
@@ -969,13 +973,7 @@ y
 
 }
 
-@media (max-width:1024px) {
 
-    .iconsBtn .icons_button {
-        margin-right: 3rem;
-    }
-
-}
 
 @media (max-width:991px) {
 
@@ -998,8 +996,7 @@ y
     }
 
     #menu {
-        display: block;
-        transition: all 0.9s;
+        display: block;    
     }
 
     header.toggle {
@@ -1012,69 +1009,7 @@ y
     }
 
     .home {
-        margin-top: -17rem;
-    }
-
-}
-
-@media (max-width:825px) {
-    header .navbar {
-        margin-bottom: 17rem;
-    }
-    .home {
-        margin-top: -6rem;
-    }
-
-    .iconsBtn {
-        position: relative;
-        right: -14rem;
-    }
-
-    header .user-modelo1 {
-        margin-top: 17rem;
-    }
-
-    .about .row .counter .box p {
-        font-size: 1.9rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 38rem;
-        height: 25rem;
-    }
-
-    .education .box-container .box {
-        width: 30rem;
-        height: 22rem;
-    }
-
-    .education .box-container .box .span {
-        font-size: 3rem;
-    }
-
-    .education .box-container .box h3 {
-        font-size: 2.3rem;
-    }
-
-    .education .box-container .box p {
-        font-size: 2rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 30rem;
-        height: 22rem;
-        margin-bottom: 9.5rem;
-    }
-
-    .portfolio .box-container .box h3 {
-        font-size: 2rem;
-    }
-
-    .portfolio .box-container .box img {
-        height: 23rem;
-    }
-    .iconsBtn .icons_button {
-        margin-right: 25rem;
+        margin-top: -12rem;
     }
 
 }
@@ -1203,6 +1138,10 @@ y
     .home p {
         font-size: 1.9rem;
     }   
+
+    .iconsBtn .icons_button {
+        margin-right: 0rem;
+    }
 
     .heading {
         font-size: 3rem;
