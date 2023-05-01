@@ -58,8 +58,9 @@ section {
 /* para ocultar testo */
 .butto_leer {
     margin-top: 1rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-style: oblique;
+    text-decoration: underline;
     cursor: pointer;
     color: var(--whiteBtm);
     font-weight: bold;
@@ -73,7 +74,7 @@ section {
 
 /* Iconos rddes socilaes arriba */
 .iconsBtn {
-    width: 94rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
