@@ -811,9 +811,8 @@ header .navbar ul li a {
 
 .top img {
     width: 30px;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
-    background-color: #d1d0d0;
+    border: 2px solid #ffffff;
+    background-color: #c2c2c2;
     box-shadow: 6px 15px 24px #000000;
 }
 
