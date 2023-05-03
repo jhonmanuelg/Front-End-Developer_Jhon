@@ -72,14 +72,90 @@ section {
     color: var(--yellow);
 }
 
-/* Iconos rddes socilaes arriba */
-.iconsBtn {
-    width: 100%;
+/* ============== Iconos rddes socilaes arriba y bajo */
+.social-links {
+    margin: 2rem;
+}
+
+.social-links,
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
+
+.social-btn {
+    border: 3px solid var(--yellow);
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 0px 23px 27px #000000;
+    background: var(--whiteBtm);
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.social-btn svg {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+}
+
+#download svg {
+    fill: #c002ff;
+}
+
+#download span {
+    color: #c002ff;
+    font-size: 1.5rem;
+}
+
+#linkedin svg {
+    fill: #0b7cc2;
+}
+
+#linkedin span {
+    color: #0b7cc2;
+    font-size: 1.5rem;
+}
+
+#github svg {
+    fill: #ffffff !important;
+}
+
+#github span {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+#whatsApp svg {
+    color: rgb(110, 228, 0) ;
+}
+
+#whatsApp span {
+    color: rgb(110, 228, 0) !important;
+    font-size: 1.5rem;
+}
+
 
 
 /*======================================== Button ==================*/
@@ -226,6 +302,7 @@ header .navbar ul li a {
     background: var(--whiteBtm);
     color: var(--yellow);
     box-shadow: 0px 23px 27px #0000009a;
+    border: 3px solid var(--yellow);
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -591,190 +668,7 @@ header .navbar ul li a {
     width: 50%;
 }
 
-/* ================= Redes sociales start================= */
-.contactComigo {
-    width: 100%;
-    margin: 1rem;
-    margin-bottom: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.divContactParafo {
-    width: 87%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactParafo {
-    font-size: 2rem;
-    margin-top: 2rem;
-    text-align: justify;
-    font-weight: 500;
-    color: var(--whiteBtm);
-    padding: 1rem 0;
-}
-
-.icons_button {
-    margin-top: 31px;
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    align-items: center;
-}
-
-.button_span_btn {
-    margin: 3rem;
-    transform: rotate(16deg) skew(12deg);
-    transform-style: preserve-3d;
-    position: relative;
-    list-style: none;
-    width: 45px;
-    height: 38px;
-    border: none;
-    background: transparent;
-    font-family: inherit;
-    box-shadow: -20px 24px 22px #000000;
-    cursor: pointer;
-}
-
-
-.button_span_btn:before {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: -5px;
-    width: 100%;
-    height: 10px;
-    background: var(--whiteBtm);
-    transform: skewX(-41deg);
-}
-
-.button_span_btn .whatsapp {
-    color: #3ab800;
-    font-weight: bold;
-    font-size: 3.5rem;
-    margin-top: 0.1rem;
-}
-
-
-.button_span_btn .download {
-    color: #b60101;
-    font-weight: 900;
-    font-size: 3.5rem;
-    margin-top: 0.1rem;
-}
-
-.button_span_btn .linkedin {
-    color: #0097fc;
-    font-weight: 900;
-    font-size: 3.5rem;
-    margin-top: 0.1rem;
-}
-
-.button_span_btn .github {
-    color: var(--whiteBtm);
-    font-weight: 900;
-    font-size: 3.5rem;
-    margin-top: 0.1rem;
-}
-
-.button_span_btn:after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: -9px;
-    width: 9px;
-    height: 100%;
-    background: #77521e7e;
-    transform: skewY(-49deg);
-}
-
-.button_span_btn span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f9c66181;
-    transition: 0.6s ease-out;
-}
-
-.button_span_btn:hover span {
-    z-index: 1000;
-    transition: .3s;
-}
-
-.button_span_btn:hover span:nth-child(5) {
-    transform: translate(40px, -40px);
-    opacity: 1;
-}
-
-.button_span_btn:hover span:nth-child(4) {
-    transform: translate(30px, -30px);
-    opacity: .8;
-}
-
-.button_span_btn:hover span:nth-child(3) {
-    transform: translate(20px, -20px);
-    opacity: .6;
-}
-
-.button_span_btn:hover span:nth-child(2) {
-    transform: translate(10px, -10px);
-    opacity: .4;
-}
-
-.button_span_btn:hover span:nth-child(1) {
-    transform: translate(0px, 0px);
-    opacity: .2;
-}
-
-.button_span_btn:active span:nth-child(5) {
-    transform: translate(20px, -20px);
-    opacity: 1;
-}
-
-.button_span_btn:active span:nth-child(4) {
-    transform: translate(15px, -15px);
-}
-
-.button_span_btn:active span:nth-child(3) {
-    transform: translate(10px, -10px);
-}
-
-.button_span_btn:active span:nth-child(2) {
-    transform: translate(5px, -5px);
-}
-
-.button_span_btn:active span:nth-child(1) {
-    transform: translate(0px, 0px);
-}
-
-.button_span_btn:nth-child(1):hover span {
-    background: #ffffff9f;
-    border: 1px solid #c6040499;
-}
-
-.button_span_btn:nth-child(2):hover span {
-    background: #ffffff38;
-    border: 1px solid #41d800a3;
-}
-
-.button_span_btn:nth-child(3):hover span {
-    background: #ffffff8e;
-    border: 1px solid #04a6b49c;
-}
-
-.button_span_btn:nth-child(4):hover span {
-    background: #ffffff77;
-    border: 1px solid #38383879;
-}
-
-y
-/* ====================== Redes sociales end============================= */
+/* ================= contact================= */
 
 
 
@@ -785,6 +679,20 @@ y
     margin-bottom: 4rem;
 }
 
+
+.contact_div .contact_p{
+ text-align: center;
+ margin-top: 3rem;
+}
+
+.contact_p p{
+    font-size: 2rem;
+    text-align: justify;
+    color: var(--fondoCard);
+    font-weight: 500;
+    padding: 7rem;
+}
+/* ====================== contact fin============================= */
 /* ============ Error menssagem ======================= */
 
 
@@ -954,27 +862,6 @@ y
         font-size: 2.5rem;
     }
 
-    .iconsBtn .icons_button {
-        margin-right: 10rem;
-    }
-
-    .button_span_btn .download {
-        margin-top: 0.3rem;
-    }
-
-    .button_span_btn .whatsapp {
-        margin-top: 0.3rem;
-        font-weight: 800;
-    }
-
-    .button_span_btn .linkedin {
-        margin-top: 0.3rem;
-    }
-
-    .button_span_btn .github {
-        margin-top: 0.3rem;
-    }
-
     .about .row .counter .box {
         width: 28rem;
         height: 22rem;
@@ -1008,11 +895,6 @@ y
     header .navbar {
         position: absolute;
         top: 49rem;
-    }
-
-
-    .iconsBtn .icons_button {
-        margin-right: 1rem;
     }
 
     #menu {
@@ -1065,6 +947,7 @@ y
         width: 28rem;
     }
 
+
     .home {
         padding: 4rem;
     }
@@ -1083,31 +966,6 @@ y
     }
 
     /* fin para ocultar testo */
-
-    .iconsBtn .icons_button {
-        margin-right: 2rem;
-    }
-
-    .button_span_btn .download {
-        margin-top: 0rem;
-        font-size: 4rem;
-    }
-
-    .button_span_btn .whatsapp {
-        margin-top: 0rem;
-        font-size: 4rem;
-        font-weight: 800;
-    }
-
-    .button_span_btn .linkedin {
-        margin-top: 0rem;
-        font-size: 4rem;
-    }
-
-    .button_span_btn .github {
-        margin-top: 0.3rem;
-        font-size: 4rem;
-    }
 
     .about .row .counter .box {
         width: 49rem;
@@ -1130,19 +988,11 @@ y
         height: 22rem;
     }
 
-    .contactParafo {
-        font-size: 2.1rem;
-    }
-
     .btn {
         font-size: 2rem;
         margin-left: 0px;
     }
 
-    .button_span_btn {
-        width: 48px;
-        height: 39px;
-    }
 
     .top img {
         display: none;
@@ -1198,10 +1048,6 @@ y
         font-size: 1.9rem;
     }
 
-    .iconsBtn .icons_button {
-        margin-right: 0rem;
-    }
-
     .heading {
         font-size: 3rem;
         margin: 0 3rem;
@@ -1235,22 +1081,8 @@ y
         margin: 3rem 0;
     }
 
-    .contactComigo {
-        width: 48rem;
-    }
-
-    .divContactParafo {
-        width: 279px;
-    }
-
-    .contactParafo {
-        font-size: 1.9rem;
-    }
-
     .contact .row .content {
         width: 46rem;
     }
-    .button_span_btn {
-        margin: 2rem;
-    }
+
 }
