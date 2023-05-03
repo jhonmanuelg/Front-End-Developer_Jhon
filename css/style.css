@@ -627,7 +627,7 @@ header .navbar ul li a {
 
 .button_span_btn {
     margin: 3rem;
-    transform: rotate(-25deg) skew(25deg);
+    transform: rotate(16deg) skew(12deg);
     transform-style: preserve-3d;
     position: relative;
     list-style: none;
