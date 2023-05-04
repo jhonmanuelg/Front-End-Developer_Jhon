@@ -1,43 +1,34 @@
-$(document).ready(function() {
+$(document).ready(function () {
+  $("#menu").click(function () {
+    $(this).toggleClass("fa-times");
+    $("header").toggleClass("toggle");
+  });
 
-    $('#menu').click(function() {
-        $(this).toggleClass('fa-times');
-        $('header').toggleClass('toggle');
-    });
+  $(window).on("scroll load", function () {
+    $("#menu").removeClass("fa-times");
+    $("header").removeClass("toggle");
 
-    $(window).on('scroll load', function() {
+    if ($(window).scrollTop() > 0) {
+      $(".top").show();
+    } else {
+      $(".top").hide();
+    }
+  });
 
-        $('#menu').removeClass('fa-times');
-        $('header').removeClass('toggle');
+  // smooth scrolling
 
-        if ($(window).scrollTop() > 0) {
-            $('.top').show();
-        } else {
-            $('.top').hide();
-        }
+  $('a[href*="#"]').on("click", function (e) {
+    e.preventDefault();
 
-    });
-
-    // smooth scrolling 
-
-    $('a[href*="#"]').on('click', function(e) {
-
-        e.preventDefault();
-
-        $('html, body').animate({
-
-                scrollTop: $($(this).attr('href')).offset().top,
-
-            },
-            650,
-            'linear'
-        );
-
-    });
-
+    $("html, body").animate(
+      {
+        scrollTop: $($(this).attr("href")).offset().top,
+      },
+      600,
+      "linear"
+    );
+  });
 });
-
-
 
 // para ocultar texto 1 presentacion
 
@@ -47,30 +38,26 @@ let span_text = document.getElementById("span_text");
 
 btne_ver_mas.addEventListener("click", act_style);
 
-function act_style(){
-    span_text.classList.add("mostrar");
-    btne_ver_mas.classList.add("ocultar");
+function act_style() {
+  span_text.classList.add("mostrar");
+  btne_ver_mas.classList.add("ocultar");
 }
 
 btne_ver_menos.addEventListener("click", ocultarTexto);
 
-function ocultarTexto(){
-    span_text.classList.remove("mostrar")
+function ocultarTexto() {
+  span_text.classList.remove("mostrar");
 
-  if(span_text.classList.contains("mostrar")){
-    btne_ver_mas.classList.add("mostrar")
-  }else{
-    btne_ver_mas.classList.remove("ocultar")
+  if (span_text.classList.contains("mostrar")) {
+    btne_ver_mas.classList.add("mostrar");
+  } else {
+    btne_ver_mas.classList.remove("ocultar");
   }
 }
 
 // función de WhatsApp
-const botaoWhatsapp = document.querySelector('#WhatsApp-link');
+const botaoWhatsapp = document.querySelector("#WhatsApp-link");
 
-botaoWhatsapp.addEventListener('click', function() {
-  window.open('https://wa.me/11958838782', '_blank');
+botaoWhatsapp.addEventListener("click", function () {
+  window.open("https://wa.me/11958838782", "_blank");
 });
-
-
-
-

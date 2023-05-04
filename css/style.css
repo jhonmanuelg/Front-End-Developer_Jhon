@@ -121,20 +121,20 @@ section {
 }
 
 #download svg {
-    fill: #c002ff;
+    fill: #ffffff;
 }
 
 #download span {
-    color: #c002ff;
+    color: #ffffff;
     font-size: 1.5rem;
 }
 
 #linkedin svg {
-    fill: #0b7cc2;
+    fill: #ffffff;
 }
 
 #linkedin span {
-    color: #0b7cc2;
+    color: #ffffff;
     font-size: 1.5rem;
 }
 
@@ -148,11 +148,11 @@ section {
 }
 
 #whatsApp svg {
-    color: rgb(110, 228, 0) ;
+    color: #ffffff ;
 }
 
 #whatsApp span {
-    color: rgb(110, 228, 0) !important;
+    color: #ffffff !important;
     font-size: 1.5rem;
 }
 
@@ -808,22 +808,33 @@ header .navbar ul li a {
     justify-content: center;
     align-items: center;
 }
-
-.top img {
-    width: 30px;
-    border: 2px solid #ffffff;
-    background-color: #c2c2c2;
-    box-shadow: 6px 15px 24px #000000;
-}
-
+/* ======scroll======== */
 .top {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 2.7%;
+    width: 2rem;
     position: fixed;
     bottom: 7.5rem;
-    right: 2px;
+    right: 12px;
     z-index: 100;
+    text-decoration: none;
+}
+
+
+.top svg {
+    
+    border: 2px solid var(--yellow);
+    width: 29px;
+    height: 3rem;
+    box-shadow: 6px 15px 24px #000000;
+   text-decoration: none;
+   color: #ffffff;
+   background-color: var(--fondoCard);
+}
+
+
+.top svg path{
+    font-size: 4rem;
 }
 
 
