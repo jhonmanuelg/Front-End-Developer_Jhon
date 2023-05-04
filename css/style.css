@@ -290,7 +290,6 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 0.2rem;
-    transition: all 0.9s;
 }
 
 /* ============ CSS menu ============ */
@@ -833,11 +832,6 @@ header .navbar ul li a {
 }
 
 
-.top svg path{
-    font-size: 4rem;
-}
-
-
 /* media queries  */
 
 @media (max-width:1280px) {
@@ -1006,7 +1000,7 @@ header .navbar ul li a {
     }
 
 
-    .top img {
+    .top svg {
         display: none;
     }
 
