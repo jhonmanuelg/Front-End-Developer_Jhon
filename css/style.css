@@ -236,7 +236,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    transition: all 0.8s;
+    transition: all 0.6s;
 }
 
 header .user-modelo1 {
@@ -244,13 +244,15 @@ header .user-modelo1 {
 }
 
 header .user-modelo1 img {
-    border-radius: 50%;
+    border: 3px solid var(--yellow);
     background: var(--fondoBTN);
     box-shadow: -13px 16px 31px #161616, 17px 73px 39px #0b0a0a;
-    height: 15rem;
+    height: 17rem;
     width: 15rem;
     margin-top: 0rem;
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
