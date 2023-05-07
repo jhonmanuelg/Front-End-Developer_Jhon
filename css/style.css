@@ -244,7 +244,7 @@ header .user-modelo1 {
 }
 
 header .user-modelo1 img {
-    border: 3px solid var(--yellow);
+    border: 2px solid var(--yellow);
     background: var(--fondoBTN);
     box-shadow: -13px 16px 31px #161616, 17px 73px 39px #0b0a0a;
     height: 17rem;
