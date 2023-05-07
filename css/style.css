@@ -228,7 +228,6 @@ header {
     height: 100%;
     width: 35rem;
     color: var(--fondoCard);
-    box-shadow: 0px 23px 27px #000000;
     background-image: url("../img/projeco_codig.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,7 +245,6 @@ header .user-modelo1 {
 header .user-modelo1 img {
     border: 2px solid var(--yellow);
     background: var(--fondoBTN);
-    box-shadow: -13px 16px 31px #161616, 17px 73px 39px #0b0a0a;
     height: 17rem;
     width: 15rem;
     margin-top: 0rem;
