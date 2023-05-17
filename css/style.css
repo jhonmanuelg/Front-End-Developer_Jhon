@@ -398,10 +398,10 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box {
-    width: 30rem;
-    height: 22rem;
+    width: 25rem;
+    height: 16rem;
     background-color: var(--fondoCard);
-    border: 2px solid rgba(0, 0, 0, 0.799);
+    border: 3px solid var(--yellow);
     box-shadow: 0px 23px 27px #000000;
     text-align: start;
     padding: 2rem;
@@ -423,15 +423,15 @@ header .navbar ul li a {
 .about .row .counter .box span {
     text-align: center;
     font-weight: bold;
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: var(--yellow);
 }
 
 
 .about .row .counter .box p {
     text-align: justify;
-    margin-top: 2rem;
-    font-size: 1.9rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
     color: var(--yellow);
     position: relative;
 
@@ -451,12 +451,11 @@ header .navbar ul li a {
 }
 
 .education .box-container .box {
-    width: 30rem;
-    height: 22rem;
+    width: 25rem;
+    height: 16rem;
     margin: 2rem;
-    padding: 1rem 2rem 1rem;
     background-color: var(--fondoCard);
-    border: 2px solid rgba(0, 0, 0, 0.799);
+    border: 3px solid var(--yellow);
     border-left: 0.2rem solid var(--yellow);
     box-shadow: 0px 23px 27px #000000;
     position: relative;
@@ -477,20 +476,24 @@ header .navbar ul li a {
     background: var(--fondoCard);
     color: var(--yellow);
     border-radius: 5rem;
-    padding: .5rem 2.5rem;
+    padding: 0.5rem 2.5rem;
+   margin-left: 1rem;
 }
 
 .education .box-container .box h3 {
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--yellow);
+    margin: 0rem;
+   margin-left: 1rem;
 }
 
 .education .box-container .box p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--yellow);
     padding: 1rem 0rem;
     text-align: left;
+   margin-left: 1rem;
 }
 
 .education .box-container .box i {
@@ -511,6 +514,8 @@ header .navbar ul li a {
     color: var(--yellow);
     font-weight: 600;
     font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 /* =================== Css Meu Projeto ========= */
@@ -526,17 +531,18 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    width: 30rem;
-    height: 22rem;
+    width: 25rem;
+    height: 19rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
     overflow: visible;
+    border: 3px solid var(--yellow);
     background-color: var(--fondoCard);
     transition: all 0.9s;
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     color: var(--yellow);
     margin-bottom: 1rem;
     font-weight: 500;
@@ -564,10 +570,12 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box img {
-    height: 20rem;
-    width: 100%;
+    height: 13rem;
+    width: 76%;
     object-fit: fill;
     box-shadow: 0px 23px 27px #000000;
+    border: 1px solid var(--yellow);
+    margin: -1rem 3.4rem;
 }
 
 .portfolio .box-container .box:hover img {
@@ -618,6 +626,7 @@ header .navbar ul li a {
     font-weight: 700;
     box-shadow: 0px 23px 27px #000000;
     transition: all 0.9s;
+        border: 3px solid var(--yellow);
 }
 
 .contact .row form .box:hover {
@@ -625,7 +634,7 @@ header .navbar ul li a {
 }
 
 .contact .row form .box:focus {
-    border-left: 4px solid var(--yellow);
+    border-left: 4px solid var(--whiteBtm);
 }
 
 .aimg {
@@ -953,9 +962,26 @@ header .navbar ul li a {
         width: 28rem;
     }
 
+    .heading {
+        margin: 0 2rem;
+
+    }
 
     .home {
         padding: 4rem;
+    }
+    
+
+    .home p {
+        font-size: 2.1rem;
+    }
+
+    .home {
+        margin-top: 6rem;
+    }
+
+    .row .info p {
+        font-size: 2.1rem;
     }
 
     /* para ocultar testo */
@@ -994,6 +1020,22 @@ header .navbar ul li a {
         height: 22rem;
     }
 
+    .about .row .counter .box p {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .education .box-container .box h3 {
+        font-size: 1.8rem;
+    }
+    .education .box-container .box p {
+        font-size: 1.8rem;
+    }
+    .portfolio .box-container .box img {
+        height: 14rem;
+        width: 73%;
+        margin: 0rem 6rem;
+    }
     .btn {
         font-size: 2rem;
         margin-left: 0px;
@@ -1005,25 +1047,12 @@ header .navbar ul li a {
     }
 
 
-    .home p {
-        font-size: 2.1rem;
-    }
-
-    .home {
-        margin-top: 6rem;
-    }
-
-    .row .info p {
-        font-size: 2.1rem;
-    }
-
-    .heading {
-        margin: 0 2rem;
-
-    }
-
     .contact .row .content {
         width: 57rem;
+    }
+
+    .contact_p p {
+        padding: 3rem;
     }
 }
 
