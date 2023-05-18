@@ -1017,6 +1017,7 @@ header .navbar ul li a {
     .education .box-container .box p {
         font-size: 1.8rem;
     }
+   
     .portfolio .box-container .box img {
         height: 14rem;
         width: 25rem;
@@ -1075,7 +1076,7 @@ header .navbar ul li a {
     }
 
     .about .row .counter .box {
-        width: 39rem;
+        width: 36.5rem;
     }
 
     .row .info p {
@@ -1090,8 +1091,13 @@ header .navbar ul li a {
         font-size: 2rem;
     }
 
+    .portfolio .box-container .box {
+        width: 36.5rem;
+    }
+
+
     .portfolio .box-container .box img {
-        margin: 0rem 8.5rem;
+        margin: 0rem 5rem;
     }
 
     .about .row .counter .box p {
@@ -1107,7 +1113,7 @@ header .navbar ul li a {
     }
 
     .contact .row .content {
-        width: 46rem;
+        width: 37rem;
     }
 
 }
