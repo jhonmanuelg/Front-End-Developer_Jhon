@@ -570,10 +570,10 @@ header .navbar ul li a {
 
 .portfolio .box-container .box img {
     height: 15rem;
-    width: 80%;
+    width: 24rem;
     object-fit: fill;
     border: 1px solid var(--yellow);
-    margin: -1rem 2.4rem;
+    margin: 0rem 0.3rem;
 }
 
 .portfolio .box-container .box:hover img {
@@ -877,6 +877,9 @@ header .navbar ul li a {
     .portfolio .box-container .box {
         width: 28rem;
     }
+    .portfolio .box-container .box img {
+        margin: -1rem 1.8rem;
+    }
 
 }
 
@@ -915,7 +918,9 @@ header .navbar ul li a {
     .home {
         top: -17rem;
     }
-
+    .portfolio .box-container .box img {
+        margin: -1rem 1.7rem;
+    }
 }
 
 @media (max-width: 768px) {
