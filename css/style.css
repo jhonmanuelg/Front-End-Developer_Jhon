@@ -532,7 +532,7 @@ header .navbar ul li a {
 
 .portfolio .box-container .box {
     width: 25rem;
-    height: 19rem;
+    height: 20rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
     overflow: visible;
@@ -573,7 +573,6 @@ header .navbar ul li a {
     height: 13rem;
     width: 76%;
     object-fit: fill;
-    box-shadow: 0px 23px 27px #000000;
     border: 1px solid var(--yellow);
     margin: -1rem 3.4rem;
 }
@@ -1102,6 +1101,10 @@ header .navbar ul li a {
 
     .portfolio .box-container .box h3 {
         font-size: 2rem;
+    }
+
+    .portfolio .box-container .box img {
+        margin: 0rem 8.5rem;
     }
 
     .about .row .counter .box p {
