@@ -961,15 +961,12 @@ header .navbar ul li a {
 
     .home {
         padding: 4rem;
+        margin-top: 6rem;
     }
     
 
     .home p {
         font-size: 2.1rem;
-    }
-
-    .home {
-        margin-top: 6rem;
     }
 
     .row .info p {
@@ -997,11 +994,6 @@ header .navbar ul li a {
     }
     .about .row .counter {
         width: 0rem;
-    }
-
-    .education .box-container .box {
-        width: 45rem;
-        height: 25rem;
     }
 
     .education .box-container .box {
@@ -1087,9 +1079,13 @@ header .navbar ul li a {
         margin: 0 3rem;
     }
 
+    .about .row .counter .box {
+        width: 36rem;
+    }
+
     .education .box-container .box {
          width: 36.5rem;
-        
+         margin-left: -1rem;
     }
 
     .portfolio .box-container .box {
@@ -1101,16 +1097,12 @@ header .navbar ul li a {
         font-size: 1.9rem;
     }
 
-    .education .box-container .box {
-        margin-left: -1rem;
-    }
-
     .portfolio .box-container .box h3 {
         font-size: 2rem;
     }
 
     .portfolio .box-container .box {
-        width: 36.5rem;
+       
     }
 
 
