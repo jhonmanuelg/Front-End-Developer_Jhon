@@ -995,22 +995,26 @@ header .navbar ul li a {
         width: 49rem;
         height: 25rem;
     }
-
+    .about .row .counter {
+        width: 0rem;
+    }
 
     .education .box-container .box {
-        width: 49rem;
+        width: 45rem;
         height: 25rem;
     }
 
     .education .box-container .box {
-        width: 49rem;
+        width: 45rem;
         height: 22rem;
+        margin-left: -3rem;
     }
 
     .portfolio .box-container .box {
-        width: 49rem;
+        width: 45rem;
         height: 22rem;
         margin-bottom: 2rem;
+        margin-left: 0rem;
     }
 
     .about .row .counter .box p {
@@ -1028,7 +1032,7 @@ header .navbar ul li a {
     .portfolio .box-container .box img {
         height: 14rem;
         width: 25rem;
-        margin: 0rem 12rem;
+        margin: 0rem 10rem;
     }
     .btn {
         font-size: 2rem;
@@ -1052,6 +1056,7 @@ header .navbar ul li a {
 
 
 @media (max-width:430px) {
+
     header .user-modelo1 {
         top: 9rem;
     }
@@ -1082,8 +1087,14 @@ header .navbar ul li a {
         margin: 0 3rem;
     }
 
-    .about .row .counter .box {
-        width: 36.5rem;
+    .education .box-container .box {
+         width: 36.5rem;
+        
+    }
+
+    .portfolio .box-container .box {
+         width: 38.5rem;
+         margin-left: 2rem;
     }
 
     .row .info p {
@@ -1114,13 +1125,17 @@ header .navbar ul li a {
     .span {
         font-size: 2.6rem;
     }
+    .contact .row{
+        width: -2rem;
+    }
 
     .contact .row form {
         margin: 3rem 0;
     }
-
+    
     .contact .row .content {
-        width: 37rem;
+        width: 41rem;
+        margin-left: -2rem;
     }
-
+   
 }
