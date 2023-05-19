@@ -993,7 +993,7 @@ header .navbar ul li a {
     /* fin para ocultar testo */
 
     .about .row .counter .box {
-        width: 45rem;
+        width: 43rem;
         height: 25rem;
     }
 
@@ -1131,7 +1131,7 @@ header .navbar ul li a {
 
     .contact .row .content {
         width: 41rem;
-        margin-left: -2rem;
+        margin-left: 1rem;
     }
 
 }
