@@ -916,16 +916,16 @@ header .navbar ul li a {
     }
 
     .home {
-        top: -17rem;
+        top: 4rem;
     }
     .portfolio .box-container .box img {
         margin: -1rem 1.7rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 821px) {
     .home {
-        top: 0rem;
+        top: -3rem;
     }
 }
 
