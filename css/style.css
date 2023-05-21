@@ -584,96 +584,14 @@ header .navbar ul li a {
 
 
 
-/*============ Icons de contacto ============*/
+/* ================= contact================= */
 .contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    padding: 1rem 0;
 }
-
-.contact .row {
-    margin-bottom: 7rem;
-    width: 100%;
-    transition: all 0.5s;
-}
-
-
-.contact .row .content {
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-}
-
-
-.contact .row form .box {
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: var(--fondoCard);
-    color: var(--yellow);
-    text-transform: none;
-    font-size: 1.7rem;
-    border-radius: 0.2rem;
-    width: 100%;
-    font-weight: 700;
-    box-shadow: 0px 23px 27px #000000;
-    transition: all 0.9s;
-    border: 3px solid var(--yellow);
-}
-
-.contact .row form .box:hover {
-    border-left-color: rgb(255, 255, 255);
-}
-
-.contact .row form .box:focus {
-    border-left: 4px solid var(--whiteBtm);
-}
-
-
-.contact .row form .box::placeholder {
-    text-transform: capitalize;
-    color: #ffffff8c;
-}
-
-.contact .row form .message {
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: var(--fondoCard);
-    color: var(--yellow);
-    text-transform: none;
-    font-size: 1.7rem;
-    height: 25rem;
-    resize: none;
-
-}
-
-
-.contact .row .content .info {
-    width: 41rem;
-    height: 0rem;
-    margin-bottom: 10rem;
-
-}
-
-
-
-/* ================= contact================= */
-
-
-
-.contact .row form {
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    margin-bottom: 4rem;
-}
-
 
 .contact_div .contact_p {
     text-align: center;
@@ -688,7 +606,69 @@ header .navbar ul li a {
     padding: 3rem;
 }
 
+
+
+.contact  .cont_form {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 6rem;
+   
+}
+
+.cont_form .box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--fondoCard);
+    color: var(--yellow);
+    text-transform: none;
+    font-size: 1.7rem;
+    border-radius: 0.2rem;
+    width:55rem;
+    font-weight: 700;
+    box-shadow: 0px 23px 27px #000000;
+    transition: all 0.9s;
+    border: 3px solid var(--yellow);
+}
+
+.cont_form .box:hover {
+    border-left-color: rgb(255, 255, 255);
+}
+
+.cont_form .box:focus {
+    border-left: 4px solid var(--whiteBtm);
+}
+
+
+.cont_form .box::placeholder {
+    text-transform: capitalize;
+    color: #ffffff8c;
+}
+
+.cont_form .message {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--fondoCard);
+    color: var(--yellow);
+    text-transform: none;
+    font-size: 1.7rem;
+    height: 25rem;
+    resize: none;
+
+}
+
+
+.cont_formt .info {
+    width: 41rem;
+    height: 0rem;
+    margin-bottom: 10rem;
+
+}
+
 /* ====================== contact fin============================= */
+
 /* ============ Error menssagem ======================= */
 
 
@@ -787,7 +767,7 @@ header .navbar ul li a {
 }
 
 #btnClose:hover {
-    background-color: rgba(170, 38, 38, 0.651);
+    background-color: rgba(127, 31, 31, 0.651);
 }
 
 
@@ -1050,6 +1030,16 @@ header .navbar ul li a {
 
     .contact_p p {
         padding: 3rem;
+        margin: 0rem 5rem 0rem 1rem;
+    }
+
+    .contact .cont_form{
+        width: 58rem;
+    }
+    .cont_form .box{
+        width: 49rem;
+        position: relative;
+        left: 0rem;
     }
 }
 
@@ -1121,17 +1111,13 @@ header .navbar ul li a {
         font-size: 2.6rem;
     }
 
-    .contact .row {
-        width: -2rem;
+    .contact .cont_form{
+        width: 42rem;
     }
-
-    .contact .row form {
-        margin: 3rem 0;
-    }
-
-    .contact .row .content {
-        width: 41rem;
-        margin-left: 1rem;
+    .cont_form .box{
+        width: 39rem;
+        position: relative;
+        left: -2.5rem;
     }
 
 }

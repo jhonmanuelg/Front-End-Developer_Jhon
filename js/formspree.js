@@ -43,41 +43,41 @@ $(document).ready(function () {
     // Validado Nombre ==============================
     if ($("#names").val() == "") {
       errores += "<p>Escreva seu nome</p>";
-      $("#names").css("border-left-color", "#f9ca24");
+      $("#names").css("border-left-color", "var(--yellow)");
     } else {
-      $("#names").css("border-left-color", "#222");
+      $("#names").css("border-left-color", "var(--fondoCard");
     };
 
     // validar assunto =============================
     if ($("#assunto").val() == "") {
       errores += "<p>Escreva seu assunto</p>";
-      $("#assunto").css("border-left-color", "#f9ca24");
+      $("#assunto").css("border-left-color", "var(--yellow)");
     } else {
-      $("#assunto").css("border-left-color", "#222");
+      $("#assunto").css("border-left-color", "var(--fondoCard");
     };
 
     // validar assunto =============================
     if ($("#phone").val() == "") {
         errores += "<p>Escreva sue telefone</p>";
-        $("#phone").css("border-left-color", "#f9ca24");
+        $("#phone").css("border-left-color", "var(--yellow)");
       } else {
-        $("#phone").css("border-left-color", "#222");
+        $("#phone").css("border-left-color", "var(--fondoCard");
       };
 
     // Validado Correo ==============================
     if ($("#email").val() == "") {
       errores += "<p>Digite sue E-mail</p>";
-      $("#email").css("border-left-color", "#f9ca24");
+      $("#email").css("border-left-color", "var(--yellow)");
     } else {
-      $("#email").css("border-left-color", "#222");
+      $("#email").css("border-left-color", "var(--fondoCard");
     };
 
     // Validado Mensaje ==============================
     if ($("#mensaje").val() == "") {
       errores += "<p>Escreve sue mensagem</p>";
-      $("#mensaje").css("border-left-color", "#f9ca24");
+      $("#mensaje").css("border-left-color", "var(--yellow)");
     } else {
-      $("#mensaje").css("border-left-color", "#222");
+      $("#mensaje").css("border-left-color", "var(--fondoCard");
     };
 
     // ENVIANDO MENSAJE ============================
