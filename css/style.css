@@ -902,7 +902,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box img {
-        margin: 1rem 0.8rem;
+        margin: 2rem 0.8rem;
     }
 }
 
@@ -1012,8 +1012,8 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         height: 20rem;
-        width: 39rem;
-        margin: 2rem 1.7rem;
+        width: 41rem;
+        margin: 3rem 0.8rem;
     }
     .portfolio .box-container .box h3 {
         font-size: 2rem;
@@ -1108,9 +1108,9 @@ header .navbar ul li a {
 
 
     .portfolio .box-container .box img {
-        margin: 0.8rem 3.8rem;
+        margin: 0.8rem 0.8rem;
         height: 22rem;
-        width: 30rem;
+        width: 36rem;
     }
 
 
