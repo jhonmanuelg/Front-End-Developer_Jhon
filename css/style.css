@@ -357,7 +357,12 @@ header .navbar ul li a {
     font-weight: bold;
 }
 
+.info .undraw_mobile {
+    width: 100%;
 
+}
+
+/* =================CSS minhas Experiência =========== */
 .about .row {
     display: flex;
     align-items: center;
@@ -367,12 +372,6 @@ header .navbar ul li a {
     transition: all 0.5s;
 }
 
-.info .undraw_mobile {
-    width: 100%;
-
-}
-
-/* =================CSS minhas Experiência =========== */
 .row .info {
     width: 87%;
 }
@@ -398,8 +397,8 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box {
-    width: 25rem;
-    height: 16rem;
+    width: 27rem;
+    height: 20rem;
     background-color: var(--fondoCard);
     border: 3px solid var(--yellow);
     box-shadow: 0px 23px 27px #000000;
@@ -451,8 +450,8 @@ header .navbar ul li a {
 }
 
 .education .box-container .box {
-    width: 25rem;
-    height: 16rem;
+    width: 27rem;
+    height: 20rem;
     margin: 2rem;
     background-color: var(--fondoCard);
     border: 3px solid var(--yellow);
@@ -531,7 +530,7 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    width: 25rem;
+    width: 27rem;
     height: 20rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
@@ -570,7 +569,7 @@ header .navbar ul li a {
 
 .portfolio .box-container .box img {
     height: 15rem;
-    width: 24rem;
+    width: 26rem;
     object-fit: fill;
     border: 1px solid var(--yellow);
     margin: 0rem 0.3rem;
@@ -608,14 +607,14 @@ header .navbar ul li a {
 
 
 
-.contact  .cont_form {
+.contact .cont_form {
     width: 60rem;
     display: flex;
     flex-direction: column;
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 6rem;
-   
+
 }
 
 .cont_form .box {
@@ -626,7 +625,7 @@ header .navbar ul li a {
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
-    width:55rem;
+    width: 55rem;
     font-weight: 700;
     box-shadow: 0px 23px 27px #000000;
     transition: all 0.9s;
@@ -858,10 +857,11 @@ header .navbar ul li a {
 
     .portfolio .box-container .box {
         width: 28rem;
+        height: 22rem;
     }
 
     .portfolio .box-container .box img {
-        margin: -1rem 1.8rem;
+        margin: 1rem 0.8rem;
     }
 
 }
@@ -903,7 +903,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box img {
-        margin: -1rem 1.7rem;
+        margin: 1rem 0.8rem;
     }
 }
 
@@ -1009,13 +1009,13 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         height: 14rem;
-        width: 25rem;
-        margin: 0rem 10rem;
+        width: 29rem;
+        margin: 0rem 9rem;
     }
 
     .btn {
         font-size: 2rem;
-        margin-left: 0px;
+        margin-left: 5px;
     }
 
 
@@ -1033,13 +1033,14 @@ header .navbar ul li a {
         margin: 0rem 5rem 0rem 1rem;
     }
 
-    .contact .cont_form{
+    .contact .cont_form {
         width: 58rem;
     }
-    .cont_form .box{
+
+    .cont_form .box {
         width: 49rem;
         position: relative;
-        left: 0rem;
+        left: 1rem;
     }
 }
 
@@ -1100,8 +1101,11 @@ header .navbar ul li a {
 
 
     .portfolio .box-container .box img {
-        margin: 0rem 5rem;
+        margin: 0rem 3.8rem;
+        height: 16rem;
+        width: 30rem;
     }
+
 
     .about .row .counter .box p {
         font-size: 1.9rem;
@@ -1111,13 +1115,17 @@ header .navbar ul li a {
         font-size: 2.6rem;
     }
 
-    .contact .cont_form{
+    .contact .cont_form {
         width: 42rem;
     }
-    .cont_form .box{
+
+    .cont_form .box {
         width: 39rem;
         position: relative;
         left: -2.5rem;
+    }
+    .btn {
+        margin-left: -21px;
     }
 
 }
