@@ -974,7 +974,7 @@ header .navbar ul li a {
 
     .about .row .counter .box {
         width: 43rem;
-        height: 25rem;
+        height: 28rem;
     }
 
     .about .row .counter {
@@ -982,14 +982,14 @@ header .navbar ul li a {
     }
 
     .education .box-container .box {
-        width: 45rem;
-        height: 22rem;
+        width: 43rem;
+        height: 28rem;
         margin-left: -3rem;
     }
 
     .portfolio .box-container .box {
-        width: 45rem;
-        height: 22rem;
+        width: 43rem;
+        height: 28rem;
         margin-bottom: 2rem;
         margin-left: 0rem;
     }
@@ -1003,14 +1003,21 @@ header .navbar ul li a {
         font-size: 1.8rem;
     }
 
+    .span {
+        font-size: 2.3rem;
+    }
+
     .education .box-container .box p {
         font-size: 1.8rem;
     }
 
     .portfolio .box-container .box img {
-        height: 14rem;
-        width: 29rem;
-        margin: 0rem 9rem;
+        height: 20rem;
+        width: 39rem;
+        margin: 2rem 1.7rem;
+    }
+    .portfolio .box-container .box h3 {
+        font-size: 2rem;
     }
 
     .btn {
@@ -1102,7 +1109,7 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         margin: 0rem 3.8rem;
-        height: 16rem;
+        height: 22rem;
         width: 30rem;
     }
 
@@ -1124,6 +1131,7 @@ header .navbar ul li a {
         position: relative;
         left: -2.5rem;
     }
+
     .btn {
         margin-left: -21px;
     }
