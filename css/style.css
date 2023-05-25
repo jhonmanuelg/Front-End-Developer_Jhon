@@ -546,17 +546,14 @@ header .navbar ul li a {
 .portfolio .box-container .box h3 {
     font-size: 1.4rem;
     color: var(--yellow);
-    margin-bottom: 1rem;
+    margin: 0rem 0.3rem 0.2rem;
     font-weight: 500;
     padding: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .portfolio .box-container .box h3 a i {
     color: var(--yellow);
-    margin: auto;
+    
     border-radius: 50%;
     font-size: 26px;
     transition: all 300ms;
@@ -574,12 +571,12 @@ header .navbar ul li a {
     width: 26rem;
     object-fit: fill;
     border: 1px solid var(--yellow);
-    margin: 0rem 0.3rem;
+    margin: 0.8rem 0.3rem;
 }
 
 .portfolio .box-container .box:hover img {
     opacity: 10;
-    transform: scale(1.05);
+    transform: scale(1.02);
 
 }
 
@@ -863,7 +860,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box img {
-        margin: 1rem 0.8rem;
+        margin: 2rem 0.8rem;
     }
 
 }
@@ -1038,6 +1035,7 @@ header .navbar ul li a {
     }
 
     .contact_p p {
+        font-size: 1.9rem;
         padding: 3rem;
         margin: 0rem 5rem 0rem 1rem;
     }
@@ -1110,7 +1108,7 @@ header .navbar ul li a {
 
 
     .portfolio .box-container .box img {
-        margin: 0rem 3.8rem;
+        margin: 0.8rem 3.8rem;
         height: 22rem;
         width: 30rem;
     }
