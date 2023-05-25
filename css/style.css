@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 
 :root {
     --yellow: #ffffff;
@@ -7,7 +9,7 @@
     --fondo: #dadada;
     --fondoBTN: #474747;
     --fondoCard: #000000;
-    --fonttitle: 'sans-serif';
+    --fonttitle: 'DM Sans', sans-serif;
 }
 
 
@@ -256,7 +258,7 @@ header .user-modelo1 img {
 
 
 header .user-modelo1 .name {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     color: var(--yellow);
     font-weight: 700;
 }
@@ -343,7 +345,7 @@ header .navbar ul li a {
 
 .home p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--whiteBtm);
     padding: 1rem 0;
@@ -379,7 +381,7 @@ header .navbar ul li a {
 .row .info p {
     margin-top: 2rem;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--white);
     padding: 1rem 0;
@@ -598,7 +600,7 @@ header .navbar ul li a {
 }
 
 .contact_p p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
     color: var(--fondoCard);
     font-weight: 500;
