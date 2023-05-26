@@ -88,8 +88,8 @@ section {
 
 .social-btn {
     border: 3px solid var(--yellow);
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     font-family: 'Titillium Web', sans-serif;
     box-shadow: 0px 23px 27px #000000;
     background: var(--whiteBtm);
@@ -99,6 +99,7 @@ section {
 }
 
 .social-btn svg {
+    margin: 0rem 0rem 0rem 0.5rem;
     cursor: pointer;
     height: 24px;
     width: 24px;
