@@ -553,7 +553,8 @@ header .navbar ul li a {
 
 .portfolio .box-container .box h3 a i {
     color: var(--yellow);
-    
+    position: relative;
+    top: 0.5rem;
     border-radius: 50%;
     font-size: 26px;
     transition: all 300ms;
