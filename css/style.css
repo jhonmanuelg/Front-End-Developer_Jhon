@@ -853,6 +853,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box img {
+        height: 17.1rem;
         margin: 0.2rem 0rem 0rem 0rem;
     }
 
@@ -1012,7 +1013,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box img {
-        height: 24rem;
+        height: 24.5rem;
         width: 42.8rem;
         margin: 0.5rem 0.8rem 0rem 0rem;
     }
@@ -1112,7 +1113,7 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         margin: 0.8rem -0.2rem 0rem 0rem;
-        height: 24rem;
+        height: 24.9rem;
         width: 36.8rem;
     }
 
