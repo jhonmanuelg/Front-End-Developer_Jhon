@@ -7,7 +7,7 @@
     --whiteBtm: #060212;
     --fondo: #dadada;
     --fondoBTN: #474747;
-    --fondoCard: #000000;
+    --fondoCard: #b62306;
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -23,7 +23,7 @@
 }
 
 *::selection {
-    background: #000000d1;
+    background: #b62306;
     color: var(--yellow);
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: var(--whiteBtm);
+    background: #b62306;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -91,7 +91,7 @@ section {
     width: 45px;
     font-family: 'Titillium Web', sans-serif;
     box-shadow: 0px 23px 27px #000000;
-    background: var(--whiteBtm);
+    background: #b62306;
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
@@ -170,7 +170,7 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: var(--whiteBtm);
+    background: #b62306;
     box-shadow: 0px 23px 27px #000000;
     text-align: center;
     text-transform: uppercase;
@@ -297,7 +297,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    background-color: var(--whiteBtm);
+    background-color: #b62306;
     color: var(--yellow);
     font-weight: bold;
     font-size: 1.5rem;
@@ -310,7 +310,7 @@ header .navbar ul li a {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: var(--whiteBtm);
+    background: #b62306;
     color: var(--yellow);
     border: 3px solid var(--yellow);
     cursor: pointer;
@@ -468,7 +468,7 @@ header .navbar ul li a {
 
 
 .span {
-    color: var(--fondoCard);
+    color: var(--whiteBtm);
     font-weight: 600;
     font-size: 2rem;
     margin: 2rem 0rem 0rem 1rem;
@@ -477,14 +477,14 @@ header .navbar ul li a {
 .education .box-container .box h3 {
     margin-top: 1rem;
     font-size: 1.5rem;
-    color: var(--fondoCard);
+    color: var(--whiteBtm);
     font-weight: 600;
     margin: 0rem 0rem 0rem 1rem;
 }
 
 .education .box-container .box p {
     font-size: 1.4rem;
-    color: var(--fondoCard);
+    color: var(--whiteBtm);
     padding: 1rem 0rem;
     margin: 0rem 0rem 0rem 1rem;
     font-weight: 600;
@@ -500,8 +500,8 @@ header .navbar ul li a {
     line-height: 4rem;
     text-align: center;
     font-size: 2rem;
-    color: var(--whiteBtm);
-    background: var(--yellow);
+    color: var(--yellow);
+    background: #b62306;
 }
 
 
@@ -583,7 +583,7 @@ header .navbar ul li a {
 .contact_p p {
     font-size: 1.7rem;
     text-align: justify;
-    color: var(--fondoCard);
+    color: var(--whiteBtm);
     font-weight: 500;
     padding: 3rem;
 }
