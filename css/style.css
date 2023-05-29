@@ -229,9 +229,9 @@ header {
     left: 0;
     z-index: 1000;
     height: 100%;
-    width: 35rem;
-    color: var(--fondoCard);
-    background-image: url("../img/projeco_codig.webp");
+    width: 32rem;
+    background-color: var(--fondoCard);
+    background-image: url("../img/codigo\ we.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -241,16 +241,24 @@ header {
     transition: all 0.6s;
 }
 
-header .user-modelo1 {
-    margin-bottom: 1rem;
+
+.section_home{
+    background-color: #000000d5;
+    width: 16rem;
+    height: 51rem;
+    position: relative;
+    top: 0rem;
 }
+
 
 header .user-modelo1 img {
     border: 2px solid var(--yellow);
     background: var(--fondoBTN);
-    height: 17rem;
-    width: 15rem;
-    margin-top: 0rem;
+    height: 14rem;
+    width: 12rem;
+   position: relative;
+   top: 0rem;
+   left: 1.7rem;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,7 +267,7 @@ header .user-modelo1 img {
 
 
 header .user-modelo1 .name {
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     color: var(--yellow);
     font-weight: 700;
 }
@@ -268,11 +276,12 @@ header .user-modelo1 .post {
     font-size: 2.5rem;
     color: var(--yellow);
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 header .navbar {
-    width: 100%;
+    margin-top: 1rem;
+    width: 6ren;
 }
 
 header .navbar ul {
@@ -303,7 +312,6 @@ header .navbar ul li a {
     right: 2rem;
     background: var(--whiteBtm);
     color: var(--yellow);
-    box-shadow: 0px 23px 27px #0000009a;
     border: 3px solid var(--yellow);
     cursor: pointer;
     font-size: 2.5rem;
@@ -801,8 +809,8 @@ header .navbar ul li a {
         font-size: 55%;
     }
 
-    header .user-modelo1 {
-        margin-bottom: 1rem;
+    .section_home{
+       top: -6rem;
     }
 
     header .navbar {
@@ -861,7 +869,7 @@ header .navbar ul li a {
 
 
 
-@media (max-width:921px) {
+@media (max-width: 1025px) {
 
     header {
         left: -120%;
@@ -870,12 +878,16 @@ header .navbar ul li a {
 
     header .user-modelo1 {
         position: absolute;
-        top: 13rem;
+        top: 1rem;
+    }
+    .section_home {
+        top: -14rem;
     }
 
     header .navbar {
         position: absolute;
-        top: 40rem;
+        top: 22rem;
+        left: -2.5rem;
     }
 
     #menu {
@@ -903,6 +915,10 @@ header .navbar ul li a {
         top: -3rem;
     }
 
+    .section_home {
+        top: 0rem;
+    }
+
     .education .box-container .box {
         width: 28rem;
         height: 22rem;
@@ -913,18 +929,13 @@ header .navbar ul li a {
 
 @media (max-width: 560px) {
 
-    header .user-modelo1 {
-        position: absolute;
-        top: 12rem;
+    .section_home {
+        top: 0rem;
     }
 
     header .navbar {
         position: absolute;
-        top: 32rem;
-    }
-
-    header .navbar ul li {
-        margin-top: 14px;
+        top: 18rem;
     }
 
     header .navbar ul {
@@ -1057,14 +1068,14 @@ header .navbar ul li a {
 
 @media (max-width:430px) {
 
-    header .user-modelo1 {
-        top: 9rem;
-    }
+    .section_home {
+        top: 0rem;
+    }  
 
     header .navbar {
-        width: 69%;
-        top: 27rem;
+        top: 17rem;
     }
+
 
     .home {
         margin-top: 3rem;
