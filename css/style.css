@@ -923,7 +923,7 @@ header .navbar ul li a {
         margin: 0rem 0rem 5rem 0rem;
     }
 }
-@media (max-width: 821px){
+@media (max-width: 910px){
     .section_home {
         top: 2rem;
     }
