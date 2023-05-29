@@ -810,7 +810,7 @@ header .navbar ul li a {
     }
 
     .section_home{
-       top: -6rem;
+       top: 0rem;
     }
 
     header .navbar {
@@ -880,9 +880,7 @@ header .navbar ul li a {
         position: absolute;
         top: 1rem;
     }
-    .section_home {
-        top: -14rem;
-    }
+   
 
     header .navbar {
         position: absolute;
@@ -910,13 +908,13 @@ header .navbar ul li a {
 
 }
 
-@media (max-width: 891px) {
+@media (max-width: 914px) {
     .home {
         top: -3rem;
     }
 
     .section_home {
-        top: 0rem;
+        top: -14rem;
     }
 
     .education .box-container .box {
@@ -925,7 +923,11 @@ header .navbar ul li a {
         margin: 0rem 0rem 5rem 0rem;
     }
 }
-
+@media (max-width: 821px){
+    .section_home {
+        top: 2rem;
+    }
+}
 
 @media (max-width: 560px) {
 
