@@ -383,11 +383,11 @@ header .navbar ul li a {
 }
 
 .row .info {
+    margin-top: 2rem;
     width: 87%;
 }
 
-.row .info p {
-    margin-top: 2rem;
+.row p {   
     text-align: justify;
     font-size: 1.7rem;
     font-weight: 500;
@@ -419,20 +419,13 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
 }
-
-.about .row .counter .box:hover {
-    opacity: 0.9;
-    transform: scale(1.05);
-}
-
 
 .about .row .counter .box span {
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 3rem;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
     color: var(--yellow);
 }
 
@@ -440,7 +433,6 @@ header .navbar ul li a {
 
 .about .row .counter .box p {
     text-align: justify;
-    margin-top: 1rem;
     font-size: 1.4rem;
     color: var(--yellow);
     position: relative;
@@ -462,7 +454,7 @@ header .navbar ul li a {
 
 .education .box-container .box {
     width: 27rem;
-    height: 16rem;
+    height: 14rem;
     margin: 2rem;
     padding: 1rem;
     border-left: 3px solid var(--fondoCard);
@@ -479,25 +471,23 @@ header .navbar ul li a {
     color: var(--fondoCard);
     font-weight: 600;
     font-size: 2rem;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0rem 0rem 1rem;
 }
 
 .education .box-container .box h3 {
     margin-top: 1rem;
     font-size: 1.5rem;
     color: var(--fondoCard);
-    margin: 0rem;
-    margin-left: 1rem;
+    font-weight: 600;
+    margin: 0rem 0rem 0rem 1rem;
 }
 
 .education .box-container .box p {
     font-size: 1.4rem;
     color: var(--fondoCard);
-
     padding: 1rem 0rem;
-    text-align: left;
-    margin-left: 1rem;
+    margin: 0rem 0rem 0rem 1rem;
+    font-weight: 600;
 }
 
 .education .box-container .box i {
@@ -519,6 +509,7 @@ header .navbar ul li a {
 /* =================== Css Meu Projeto ========= */
 
 .portfolio .box-container {
+    margin: 5rem 0rem 0rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
