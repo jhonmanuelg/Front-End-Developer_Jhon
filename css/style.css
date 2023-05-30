@@ -1000,8 +1000,7 @@ header .navbar ul li a {
     .portfolio .box-container .box {
         width: 43rem;
         height: 28.5rem;
-        margin-bottom: 2rem;
-        margin-left: 0rem;
+        margin: 5rem 0rem 2rem 0rem;
     }
 
     .about .row .counter .box p {
@@ -1115,7 +1114,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         top: -3.5rem;
     }
 
