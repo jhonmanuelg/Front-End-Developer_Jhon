@@ -521,6 +521,8 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
+    width: 27%;
+    height: 20rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
     overflow: visible;
@@ -552,8 +554,9 @@ header .navbar ul li a {
     height: 20.8rem;
     width: 28.6rem;
     object-fit: fill;
+    border: 3px solid var(--yellow);
     margin: -3.2rem 0rem 0rem 0rem;
-    background-color: transparent;
+    
 }
 
 .portfolio .box-container .box:hover img {
