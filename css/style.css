@@ -123,7 +123,7 @@ section {
 }
 
 #download svg {
-    fill: #f72d2d;
+    fill: #fd5656;
 }
 
 #download span {
@@ -132,7 +132,7 @@ section {
 }
 
 #linkedin svg {
-    fill: #2a9cff;
+    fill: #45a8ff;
 }
 
 #linkedin span {
@@ -150,7 +150,7 @@ section {
 }
 
 #whatsApp svg {
-    color: #3bd200;
+    color: #4cf10a;
 }
 
 #whatsApp span {
@@ -521,7 +521,7 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    width: 27%;
+    width: 25%;
     height: 20rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
@@ -1115,7 +1115,7 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         top: -3.5rem;
     }
 
