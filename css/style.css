@@ -5,9 +5,9 @@
     --yellow: #ffffff;
     --white: #1f2f3a;
     --whiteBtm: #060212;
-    --fondo: #dadada;
-    --fondoBTN: #474747;
-    --fondoCard: #b62306;
+    --fondo: #d3d3d3;
+    --fondoBTN: #c4c4c4;
+    --fondoCard: #000000;
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -23,7 +23,7 @@
 }
 
 *::selection {
-    background: #b62306;
+    background: var(--fondoCard);
     color: var(--yellow);
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #b62306;
+    background: var(--fondoCard);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb {
 body {
     background: var(--fondo);
     overflow-y: hidden;
-    padding-left: 35rem;
+    padding-left: 38rem;
     font-family: var(--fonttitle);
 }
 
@@ -91,7 +91,7 @@ section {
     width: 45px;
     font-family: 'Titillium Web', sans-serif;
     box-shadow: 0px 23px 27px #000000;
-    background: #b62306;
+    background: var(--fondoCard);
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
@@ -123,38 +123,38 @@ section {
 }
 
 #download svg {
-    fill: #ffffff;
+    fill: #f72d2d;
 }
 
 #download span {
-    color: #ffffff;
+    color: var(--yellow);
     font-size: 1.5rem;
 }
 
 #linkedin svg {
-    fill: #ffffff;
+    fill: #04559b;
 }
 
 #linkedin span {
-    color: #ffffff;
+    color: var(--yellow);
     font-size: 1.5rem;
 }
 
 #github svg {
-    fill: #ffffff !important;
+    fill: var(--yellow) !important;
 }
 
 #github span {
-    color: #ffffff;
+    color: var(--yellow);
     font-size: 1.5rem;
 }
 
 #whatsApp svg {
-    color: #ffffff;
+    color: #399b04;
 }
 
 #whatsApp span {
-    color: #ffffff !important;
+    color: var(--yellow) !important;
     font-size: 1.5rem;
 }
 
@@ -170,7 +170,7 @@ section {
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: #b62306;
+    background: var(--fondoCard);
     box-shadow: 0px 23px 27px #000000;
     text-align: center;
     text-transform: uppercase;
@@ -215,7 +215,7 @@ section {
     margin: 0 6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: .1rem solid var(--fondoBTN);
+    border-bottom: 0.3rem solid var(--fondoCard);
     color: var(--white);
 }
 
@@ -242,7 +242,7 @@ header {
 }
 
 
-.section_home{
+.section_home {
     background-color: #000000d5;
     width: 16rem;
     height: 51rem;
@@ -256,9 +256,9 @@ header .user-modelo1 img {
     background: var(--fondoBTN);
     height: 14rem;
     width: 12rem;
-   position: relative;
-   top: 0rem;
-   left: 1.7rem;
+    position: relative;
+    top: 0rem;
+    left: 1.7rem;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -297,7 +297,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    background-color: #b62306;
+    background-color: var(--fondoCard);
     color: var(--yellow);
     font-weight: bold;
     font-size: 1.5rem;
@@ -310,7 +310,7 @@ header .navbar ul li a {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: #b62306;
+    background: var(--fondoCard);
     color: var(--yellow);
     border: 3px solid var(--yellow);
     cursor: pointer;
@@ -387,7 +387,7 @@ header .navbar ul li a {
     width: 87%;
 }
 
-.row p {   
+.row p {
     text-align: justify;
     font-size: 1.7rem;
     font-weight: 500;
@@ -425,7 +425,7 @@ header .navbar ul li a {
     text-align: center;
     font-weight: bold;
     font-size: 2.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.3rem;
     color: var(--yellow);
 }
 
@@ -501,7 +501,7 @@ header .navbar ul li a {
     text-align: center;
     font-size: 2rem;
     color: var(--yellow);
-    background: #b62306;
+    background: var(--fondoCard);
 }
 
 
@@ -521,26 +521,26 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    width: 27.8rem;
-    height: 20.5rem;
     border-radius: 0.2rem;
     margin: 2rem 2rem 5rem;
     overflow: visible;
+    background-color: transparent;
     box-shadow: 0px 23px 27px #000000;
-    border-left: 3px solid var(--yellow);
-    background-color: var(--fondoCard);
     transition: all 0.9s;
 }
 
 .portfolio .box-container .box h3 {
     font-size: 1.4rem;
-    color: var(--yellow);
-    margin: 0rem 0.3rem 0.2rem;
-    font-weight: 500;
+    color: var(--whiteBtm);
+    margin: 0rem -0.2rem 0.2rem;
+    font-weight: 800;
     padding: 3px;
+    position: relative;
+    top: -3.3rem;
 }
 
-.portfolio .box-container .box h3 i{
+.portfolio .box-container .box h3 i {
+    color: var(--whiteBtm);
     position: relative;
     top: 0.2rem;
     left: 0.3rem;
@@ -549,10 +549,11 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box img {
-    height: 16.8rem;
-    width: 27.6rem;
+    height: 20.8rem;
+    width: 28.6rem;
     object-fit: fill;
-    margin: 0.8rem 0rem 0rem 0rem;
+    margin: -3.2rem 0rem 0rem 0rem;
+    background-color: transparent;
 }
 
 .portfolio .box-container .box:hover img {
@@ -737,7 +738,7 @@ header .navbar ul li a {
     width: 60%;
     text-align: center;
 
-    background: #ff0505;
+    background: var(--fondoCard);
     color: var(--yellow);
     font-weight: bold;
     border: none;
@@ -787,7 +788,7 @@ header .navbar ul li a {
     height: 3rem;
     box-shadow: 6px 15px 24px #000000;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--yellow);
     background-color: var(--fondoCard);
 }
 
@@ -795,13 +796,16 @@ header .navbar ul li a {
 /* media queries  */
 
 @media (max-width:1281px) {
+    body {
+        padding-left: 33rem;
+    }
 
     html {
         font-size: 55%;
     }
 
-    .section_home{
-       top: 0rem;
+    .section_home {
+        top: 0rem;
     }
 
     header .navbar {
@@ -825,7 +829,7 @@ header .navbar ul li a {
     }
 
     .home p {
-        font-size: 1.7rem;        
+        font-size: 1.7rem;
     }
 
     .home .span {
@@ -833,7 +837,7 @@ header .navbar ul li a {
     }
 
     .row .info p {
-        font-size: 1.7rem;  
+        font-size: 1.7rem;
     }
 
     .about .row .counter .box {
@@ -851,10 +855,7 @@ header .navbar ul li a {
         height: 20.3rem;
     }
 
-    .portfolio .box-container .box img {
-        height: 17.1rem;
-        margin: 0.2rem 0rem 0rem 0rem;
-    }
+
 
 }
 
@@ -871,7 +872,7 @@ header .navbar ul li a {
         position: absolute;
         top: 1rem;
     }
-   
+
 
     header .navbar {
         position: absolute;
@@ -895,7 +896,7 @@ header .navbar ul li a {
     .home {
         top: 4rem;
     }
-    
+
 
 }
 
@@ -914,7 +915,8 @@ header .navbar ul li a {
         margin: 0rem 0rem 5rem 0rem;
     }
 }
-@media (max-width: 910px){
+
+@media (max-width: 910px) {
     .section_home {
         top: 2rem;
     }
@@ -982,7 +984,7 @@ header .navbar ul li a {
         width: 0rem;
     }
 
-    .about .row .counter .box span{
+    .about .row .counter .box span {
         font-size: 2.7rem;
     }
 
@@ -1016,14 +1018,13 @@ header .navbar ul li a {
         font-size: 1.8rem;
     }
 
-    .portfolio .box-container .box img {
-        height: 24.5rem;
-        width: 42.8rem;
-        margin: 0.5rem 0.8rem 0rem 0rem;
-    }
-
     .portfolio .box-container .box h3 {
         font-size: 2rem;
+    }
+
+    .portfolio .box-container .box img {
+        height: 28.8rem;
+        width: 43.6rem;
     }
 
     .btn {
@@ -1063,7 +1064,7 @@ header .navbar ul li a {
 
     .section_home {
         top: 0rem;
-    }  
+    }
 
     header .navbar {
         top: 17rem;
@@ -1101,9 +1102,9 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box {
-        width: 37rem;
+        width: 33.5rem;
         height: 28.9rem;
-        margin-left: 1.5rem;
+        margin: 6rem 0rem 0rem 0rem;
     }
 
     .row .info p {
@@ -1111,19 +1112,17 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
+        top: -3.5rem;
     }
-
-
-    .portfolio .box-container .box img {
-        margin: 0.8rem -0.2rem 0rem 0rem;
-        height: 24.9rem;
-        width: 36.8rem;
-    }
-
 
     .about .row .counter .box p {
         font-size: 1.9rem;
+    }
+
+    .portfolio .box-container .box img {
+        height: 28.8rem;
+        width: 34.6rem;
     }
 
     .span {
@@ -1134,7 +1133,7 @@ header .navbar ul li a {
         width: 42rem;
     }
 
-    .cont_form .box {       
+    .cont_form .box {
         width: 36rem;
         position: relative;
         left: -1rem;
