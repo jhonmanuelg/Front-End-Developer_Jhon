@@ -215,7 +215,7 @@ section {
     margin: 0 6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: 0.3rem solid var(--fondoCard);
+    border-bottom: 0.2rem solid var(--fondoCard);
     color: var(--white);
 }
 
@@ -748,7 +748,6 @@ header .navbar ul li a {
     cursor: pointer;
     border-radius: 2px;
     border: none;
-
     float: right;
 }
 
