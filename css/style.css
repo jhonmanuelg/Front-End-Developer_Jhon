@@ -89,6 +89,7 @@ section {
     border: 3px solid var(--yellow);
     height: 45px;
     width: 45px;
+    
     box-shadow: -4px 7px 20px #000000;
     background: var(--fondoCard);
     margin: 5px;
@@ -214,7 +215,7 @@ section {
     margin: 0 6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: 0.2rem solid #470101;
+    border-bottom: 0.2rem solid var(--fondoCard);
     color: var(--white);
 }
 
@@ -229,10 +230,10 @@ header {
     z-index: 1000;
     height: 100%;
     width: 32rem;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #000000, #940202); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: var(--fondoCard);
+    background-image: url("../img/codigo\ we.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,6 +243,7 @@ header {
 
 
 .section_home {
+    background-color: #000000d5;
     width: 16rem;
     height: 51rem;
     position: relative;
@@ -406,10 +408,7 @@ header .navbar ul li a {
 .about .row .counter .box {
     width: 27rem;
     height: 20rem;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: var(--fondoCard);
     border: 3px solid var(--yellow);
     box-shadow: -4px 7px 20px #000000;
     text-align: start;
@@ -502,10 +501,7 @@ header .navbar ul li a {
     text-align: center;
     font-size: 2rem;
     color: var(--yellow);
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: var(--fondoCard);
 }
 
 
@@ -557,7 +553,7 @@ header .navbar ul li a {
     border: 3px solid var(--yellow);
     box-shadow: -4px 7px 20px #000000;
     margin: -3.2rem 0rem 0rem 0rem;
-
+    
 }
 
 .portfolio .box-container .box:hover img {
@@ -609,10 +605,7 @@ header .navbar ul li a {
     width: 100%;
     padding: 1.2rem;
     margin: 1rem 0;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #391414, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: var(--fondoCard);
     color: var(--yellow);
     text-transform: none;
     font-size: 1.7rem;
@@ -640,10 +633,7 @@ header .navbar ul li a {
 .cont_form .message {
     padding: 1.5rem;
     margin: 1rem 0;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #000000, #470101); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: var(--fondoCard);
     color: var(--yellow);
     text-transform: none;
     font-size: 1.7rem;
@@ -798,7 +788,7 @@ header .navbar ul li a {
     box-shadow: -4px 7px 20px #000000;
     text-decoration: none;
     color: var(--yellow);
-    background-color: var(--whiteBtm);
+    background-color: var(--fondoCard);
 }
 
 
