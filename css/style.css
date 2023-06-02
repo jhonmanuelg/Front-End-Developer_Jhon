@@ -89,7 +89,7 @@ section {
     border: 3px solid var(--yellow);
     height: 45px;
     width: 45px;
-    
+
     box-shadow: -4px 7px 20px #000000;
     background: var(--fondoCard);
     margin: 5px;
@@ -454,15 +454,13 @@ header .navbar ul li a {
 
 .education .box-container .box {
     width: 27rem;
-    height: 14rem;
-    margin: 2rem;
+    height: 12rem;
+    margin: 7rem 1rem 1rem 0rem;
     padding: 1rem;
     border-left: 3px solid var(--fondoCard);
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     transition: 0.5s;
 }
 
@@ -471,7 +469,7 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     font-weight: 600;
     font-size: 2rem;
-    margin: 2rem 0rem 0rem 1rem;
+    margin: -2rem 0rem 0rem 1rem;
 }
 
 .education .box-container .box h3 {
@@ -490,20 +488,13 @@ header .navbar ul li a {
     font-weight: 600;
 }
 
-.education .box-container .box i {
+.education .box-container .box svg {
     position: absolute;
-    top: -0.7rem;
-    left: -1.5rem;
-    height: 3.5rem;
+    top: -2.4rem;
+    left: -1.8rem;
+    height: 2.5rem;
     width: 3.5rem;
-    border-radius: 50%;
-    line-height: 4rem;
-    text-align: center;
-    font-size: 2rem;
-    color: var(--yellow);
-    background: var(--fondoCard);
 }
-
 
 
 /* =================== Css Meu Projeto ========= */
@@ -530,20 +521,20 @@ header .navbar ul li a {
 .portfolio .box-container .box h3 {
     font-size: 1.4rem;
     color: var(--whiteBtm);
-    margin: 0rem -0.2rem 0.2rem;
+    margin: 0rem -0.2rem 1.2rem;
     font-weight: 800;
     padding: 3px;
     position: relative;
     top: -3.3rem;
 }
 
-.portfolio .box-container .box h3 i {
+.portfolio .box-container .box h3 svg {
     color: var(--whiteBtm);
     position: relative;
     top: 0.2rem;
     left: 0.3rem;
     border-radius: 50%;
-    font-size: 2rem;
+    width: 2.5rem;
 }
 
 .portfolio .box-container .box img {
@@ -553,7 +544,7 @@ header .navbar ul li a {
     border: 3px solid var(--yellow);
     box-shadow: -4px 7px 20px #000000;
     margin: -3.2rem 0rem 0rem 0rem;
-    
+
 }
 
 .portfolio .box-container .box:hover img {
@@ -846,7 +837,7 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 27.6rem;
-        height: 20.5rem;
+        height: 13.5rem;
     }
 
     .portfolio .box-container .box {
@@ -910,8 +901,8 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 28rem;
-        height: 22rem;
-        margin: 0rem 0rem 5rem 0rem;
+        height: 13rem;
+        margin: 1rem 0rem 5rem 0rem
     }
 }
 
@@ -989,8 +980,8 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 43rem;
-        height: 28rem;
-        margin-left: -3rem;
+        height: 14rem;
+        margin: 7rem 5rem 0rem 0rem;
     }
 
     .portfolio .box-container .box {
@@ -1095,8 +1086,9 @@ header .navbar ul li a {
     }
 
     .education .box-container .box {
-        width: 36.5rem;
-        margin-left: -1rem;
+        height: 18rem;
+        margin: 6rem 4rem 0rem 0rem;
+        width: 36.5rem;        
     }
 
     .portfolio .box-container .box {
