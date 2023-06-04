@@ -333,14 +333,17 @@ header .navbar ul li a {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: var(--fondoCard);
-    color: var(--yellow);
-    border: 3px solid var(--yellow);
+    color: var(--whiteBtm);
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    font-weight: bold;
     padding: 0.5rem 1rem;
     z-index: 1000;
     display: none;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
 }
 
 
@@ -935,9 +938,9 @@ header .navbar ul li a {
 
 
     header .navbar {
-        position: absolute;
-        top: 22rem;
-        left: -2.5rem;
+        position: fixed;
+        top: 25rem;
+        left: -1rem;
     }
 
     #menu {
@@ -990,8 +993,7 @@ header .navbar ul li a {
     }
 
     header .navbar {
-        position: absolute;
-        top: 18rem;
+        top: 20rem;
     }
 
     header .navbar ul {
@@ -1093,8 +1095,8 @@ header .navbar ul li a {
     }
 
 
-    .top svg {
-        display: none;
+    .top {
+        display: none !important;
     }
 
 
@@ -1121,10 +1123,6 @@ header .navbar ul li a {
 
 
 @media (max-width:430px) {
-
-    header .navbar {
-        top: 17rem;
-    }
 
     .home {
         margin-top: 3rem;
