@@ -96,12 +96,10 @@ section {
     height: 45px;
     width: 45px;
     border-radius: 8px;
-    /* box-shadow: -4px 7px 20px #000000;
-    background: var(--fondoCard); */
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
-    background: rgba(47, 47, 47, 0.161);
+    background: rgba(180, 180, 180, 0.308);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.049);
     backdrop-filter: blur(5px);
 
@@ -180,13 +178,10 @@ section {
 .btn {
     width: 19rem;
     padding: 1rem;
-    border: 3px solid var(--yellow);
     position: relative;
     margin-top: 40px;
     border-radius: 0.1rem;
     overflow: hidden;
-    background: var(--fondoCard);
-    box-shadow: -4px 7px 20px #000000;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -194,7 +189,12 @@ section {
     transition: 0.3s;
     z-index: 1;
     font-family: inherit;
-    color: var(--yellow);
+    color: var(--fondoCard);
+    border-radius: 8px;
+
+    background: rgba(180, 180, 180, 0.308);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -206,7 +206,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(35deg);
-    background: var(--yellow);
+    background: var(--fondoCard);
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -218,7 +218,7 @@ section {
 }
 
 .btn:hover {
-    color: var(--white);
+    color: var(--yellow);
     font-weight: 900;
 }
 
@@ -318,10 +318,14 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    background-color: var(--fondoCard);
     color: var(--yellow);
     font-weight: bold;
     font-size: 1.5rem;
+    border-radius: 8px;
+
+    background: rgba(180, 180, 180, 0.308);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
     border-radius: 8px;
 }
 
