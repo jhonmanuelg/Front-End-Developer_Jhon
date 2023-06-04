@@ -3,10 +3,10 @@
 
 :root {
     --yellow: #ffffff;
-    --white: #1f2f3a;
-    --whiteBtm: #060212;
-    --fondo: #ede8e8;
-    --fondoBTN: #fefefe;
+    --white: #0e0d0d;
+    --whiteBtm: #000000;
+    --fondo: #fff8fc;
+    --fondoBTN: #000000;
     --fondoCard: #000000;
     --fonttitle: 'DM Sans', sans-serif;
 }
@@ -100,7 +100,7 @@ section {
     transition: 0.3s;
     justify-content: center;
     background: rgba(255, 255, 255, 0.143);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.156);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
 
 
@@ -263,7 +263,7 @@ header {
     position: fixed;
     top: 8rem;
     background: rgba(255, 255, 255, .05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
@@ -322,7 +322,7 @@ header .navbar ul li a {
     font-size: 1.5rem;
     border-radius: 8px;
     background: rgba(255, 255, 255, .05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(8px);
     border-radius: 8px;
 }
@@ -341,7 +341,7 @@ header .navbar ul li a {
     z-index: 1000;
     display: none;
     background: rgba(255, 255, 255, .05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
@@ -398,7 +398,7 @@ header .navbar ul li a {
     font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 1rem 0;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 
@@ -441,7 +441,7 @@ header .navbar ul li a {
     font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 0.3rem 1rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .about .row .counter {
@@ -456,11 +456,9 @@ header .navbar ul li a {
 
 .about .row .counter .box {
     width: 27rem;
-    box-shadow: -4px 7px 20px #000000;
     text-align: start;
     padding: 2rem;
     margin: 2rem;
-    border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -500,18 +498,19 @@ header .navbar ul li a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     transition: all 0.5s;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     padding-left: 3rem;
 }
 
 .education .box-container .box {
-    width: 27rem;
-    height: 14rem;
-    margin: 3rem 1rem 1rem 0rem;
+    width: 30rem;
+    height: 15rem;
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 0.5rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    transition: 0.5s;    
+    transition: 0.5s;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
@@ -538,7 +537,7 @@ header .navbar ul li a {
     font-size: 1.4rem;
     color: var(--whiteBtm);
     padding: 1rem 0rem;
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0rem 1rem 1rem 1rem;
     font-weight: 600;
 }
 
@@ -602,7 +601,7 @@ header .navbar ul li a {
     width: 28.6rem;
     object-fit: fill;
     border-radius: 8px;
-    box-shadow: -4px 7px 20px #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     margin: -3.2rem 0rem 0rem 0rem;
 
 }
@@ -730,7 +729,7 @@ header .navbar ul li a {
 .mensaje_modal {   
     width: 296px;
     padding: 30px 20px 15px;
-    background: rgba(255, 255, 255, .05);
+    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.275);
     backdrop-filter: blur(5px);
     border-radius: 8px;
@@ -912,10 +911,11 @@ header .navbar ul li a {
     .education .box-container .box {
         width: 27.6rem;
         height: 13.5rem;
+        margin: 4rem 0rem 0rem 0rem;
     }
 
     .portfolio .box-container .box {
-        width: 27.9rem;
+        width: 28.3rem;
         height: 20.3rem;
     }
 
@@ -978,9 +978,9 @@ header .navbar ul li a {
     }
 
     .education .box-container .box {
-        width: 28rem;
-        height: 13rem;
-        margin: 1rem 0rem 5rem 0rem
+        width: 35rem;
+        height: 15rem;
+        margin: 4rem 0rem 0rem 0rem;
     }
 }
 
@@ -1055,7 +1055,7 @@ header .navbar ul li a {
     .education .box-container .box {
         width: 43rem;
         height: 14rem;
-        margin: 7rem 5rem 0rem 0rem;
+        margin: 4rem 5rem 0rem 0rem;
     }
 
     .portfolio .box-container .box {
@@ -1156,7 +1156,7 @@ header .navbar ul li a {
 
     .education .box-container .box {
         height: 18rem;
-        margin: 6rem 4rem 0rem 0rem;
+        margin: 4rem 4rem 0rem 0rem;
         width: 36.5rem;
     }
 

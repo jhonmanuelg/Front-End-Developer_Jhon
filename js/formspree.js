@@ -38,7 +38,7 @@ $(document).ready(function () {
   $("#my-form-button").click(function () {   
     
     var errores = "";  
-    
+  
 
     // Validado Nombre ==============================
     if ($("#names").val() == "") {
