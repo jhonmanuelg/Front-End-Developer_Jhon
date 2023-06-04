@@ -307,6 +307,7 @@ header .navbar ul li a {
 /* ============ CSS menu ============ */
 
 #menu {
+    width: 7rem;
     position: fixed;
     top: 2rem;
     right: 2rem;
@@ -314,7 +315,7 @@ header .navbar ul li a {
     color: var(--yellow);
     border: 3px solid var(--yellow);
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding: 1rem 1.5rem;
     z-index: 1000;
     display: none;
@@ -351,10 +352,10 @@ header .navbar ul li a {
 .home h1 span {
     color: var(--whiteBtm);
     font-weight: 700;
-   
+
 }
 
-.home_p{
+.home_p {
     margin-top: 3rem;
     width: 100%;
 }
@@ -394,12 +395,12 @@ header .navbar ul li a {
     width: 100%;
 }
 
-.info p{
+.info p {
     text-align: justify;
     font-size: 1.5rem;
     color: var(--whiteBtm);
     padding: 0rem 7rem;
-} 
+}
 
 .about .row .counter {
     border-radius: 0.2rem;
@@ -540,7 +541,7 @@ header .navbar ul li a {
     top: 0.2rem;
     left: 0.3rem;
     border-radius: 50%;
-    width: 2.5rem;
+    width: 3.5rem;
 }
 
 .portfolio .box-container .box img {
@@ -902,7 +903,8 @@ header .navbar ul li a {
     }
 
     .section_home {
-        top: -14rem;
+        position: fixed;
+        top: 24rem;
     }
 
     .education .box-container .box {
@@ -912,16 +914,13 @@ header .navbar ul li a {
     }
 }
 
-@media (max-width: 910px) {
-    .section_home {
-        top: 2rem;
-    }
-}
+
 
 @media (max-width: 560px) {
 
     .section_home {
-        top: 0rem;
+        position: fixed;
+        top: 13rem;
     }
 
     header .navbar {
@@ -1057,14 +1056,9 @@ header .navbar ul li a {
 
 @media (max-width:430px) {
 
-    .section_home {
-        top: 0rem;
-    }
-
     header .navbar {
         top: 17rem;
     }
-
 
     .home {
         margin-top: 3rem;
@@ -1087,6 +1081,10 @@ header .navbar ul li a {
         margin: 0 3rem;
     }
 
+    .section_home {
+        top: 12rem;
+    }
+
     .about .row .counter .box {
         width: 36rem;
     }
@@ -1100,7 +1098,7 @@ header .navbar ul li a {
     .portfolio .box-container .box {
         width: 35.5rem;
         height: 28.9rem;
-        margin: 7rem 0rem 0rem -0.5rem;
+        margin: 5rem 0rem 6rem -0.5rem;
     }
 
     .row .info p {
