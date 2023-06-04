@@ -79,25 +79,33 @@ section {
 /* ============== Iconos rddes socilaes arriba y bajo */
 .social-links {
     margin: 2rem;
+    
+
 }
 
 .social-links,
 .flex-center {
+
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .social-btn {
-    border: 3px solid var(--yellow);
     height: 45px;
     width: 45px;
     border-radius: 8px;
-    box-shadow: -4px 7px 20px #000000;
-    background: var(--fondoCard);
+    /* box-shadow: -4px 7px 20px #000000;
+    background: var(--fondoCard); */
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
+    background: rgba(47, 47, 47, 0.161);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.049);
+    backdrop-filter: blur(5px);
+
+
 }
 
 .social-btn svg {
@@ -130,35 +138,39 @@ section {
 }
 
 #download span {
-    color: var(--yellow);
+    color: #D00C00;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #linkedin svg {
-    fill: #45a8ff;
+    fill: #378bd4;
 }
 
 #linkedin span {
-    color: var(--yellow);
+    color:#378bd4;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #github svg {
-    fill: var(--yellow) !important;
+    fill: var(--whiteBtm) !important;
 }
 
 #github span {
-    color: var(--yellow);
+    color: var(--whiteBtm);
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 #whatsApp svg {
-    color: #4cf10a;
+    color: #2cb946;
 }
 
 #whatsApp span {
-    color: var(--yellow) !important;
+    color:#39B027 !important;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 
