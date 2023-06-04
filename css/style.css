@@ -5,7 +5,7 @@
     --yellow: #ffffff;
     --white: #1f2f3a;
     --whiteBtm: #060212;
-    --fondo: #eeeded;
+    --fondo: #ede8e8;
     --fondoBTN: #fefefe;
     --fondoCard: #000000;
     --fonttitle: 'DM Sans', sans-serif;
@@ -49,9 +49,9 @@ body {
     padding-left: 29rem;
     font-family: var(--fonttitle);
     background-color: var(--fondo);
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(24,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(133,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='7.26'%3E%3Cpath transform='translate(-88.9 13.599999999999998) rotate(6.7 1409 581) scale(1.008344)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='2.4200000000000004' transform='translate(-76 58) rotate(11.4 800 450) scale(1.016862)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(33 -120) rotate(108 401 736) scale(1.016862)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='2.2'%3E%3Cpath transform='translate(348 -11.2) rotate(2.8 150 345) scale(0.965448)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='4.840000000000001' transform='translate(-166 -151) rotate(122.39999999999999 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-280.8 87.2) rotate(20.400000000000002 1400 132) scale(0.94)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(24,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(133,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='7.26'%3E%3Cpath transform='translate(-88.9 13.599999999999998) rotate(6.7 1409 581) scale(1.008344)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='2.4200000000000004' transform='translate(-76 58) rotate(11.4 800 450) scale(1.016862)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(33 -120) rotate(108 401 736) scale(1.016862)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='2.2'%3E%3Cpath transform='translate(348 -11.2) rotate(2.8 150 345) scale(0.965448)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='4.840000000000001' transform='translate(-166 -151) rotate(122.39999999999999 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-280.8 87.2) rotate(20.400000000000002 1400 132) scale(0.94)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 section {
@@ -336,7 +336,15 @@ header .navbar ul li a {
     transition: all 0.5s;
 }
 
-
+.home_conte {
+    width: 100%;
+    padding: 1.5rem;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
 
 .home h3 {
     font-size: 3.5rem;
@@ -364,7 +372,7 @@ header .navbar ul li a {
 
 .home_p p {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--whiteBtm);
     padding: 1rem 0;
     font-weight: 900;
@@ -391,18 +399,25 @@ header .navbar ul li a {
     flex-wrap: wrap;
     padding: 1rem 0;
     transition: all 0.5s;
+    
 }
 
-.row .info {
-    margin-top: 3rem;
+.info {
     width: 100%;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 .info p {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--whiteBtm);
-    padding: 0rem 7rem;
+    padding: 0.3rem 1rem;
     font-weight: 900;
 }
 
@@ -418,9 +433,6 @@ header .navbar ul li a {
 
 .about .row .counter .box {
     width: 27rem;
-    height: 20rem;
-    background-color: var(--fondoCard);
-    border: 3px solid var(--yellow);
     box-shadow: -4px 7px 20px #000000;
     text-align: start;
     padding: 2rem;
@@ -430,6 +442,11 @@ header .navbar ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 .about .row .counter .box span {
@@ -437,7 +454,7 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 2.3rem;
     margin-bottom: 0.3rem;
-    color: var(--yellow);
+    color: var(--whiteBtm);
 }
 
 
@@ -445,7 +462,7 @@ header .navbar ul li a {
 .about .row .counter .box p {
     text-align: justify;
     font-size: 1.4rem;
-    color: var(--yellow);
+    color: var(--whiteBtm);
     position: relative;
 
 }
@@ -465,14 +482,16 @@ header .navbar ul li a {
 
 .education .box-container .box {
     width: 27rem;
-    height: 12rem;
-    margin: 7rem 1rem 1rem 0rem;
-    padding: 1rem;
-    border-left: 3px solid var(--fondoCard);
+    height: 14rem;
+    margin: 3rem 1rem 1rem 0rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    transition: 0.5s;
+    transition: 0.5s;    
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 
@@ -480,7 +499,7 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     font-weight: 600;
     font-size: 2rem;
-    margin: -2rem 0rem 0rem 1rem;
+    margin: 2rem 0rem 0rem 1rem;
 }
 
 .education .box-container .box h3 {
@@ -501,7 +520,7 @@ header .navbar ul li a {
 
 .education .box-container .box svg {
     position: absolute;
-    top: -2.4rem;
+    top: -0.4rem;
     left: -1.8rem;
     height: 2.5rem;
     width: 3.5rem;
@@ -523,10 +542,15 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    border-radius: 0.2rem;
-    margin: 2rem 2rem 5rem;
+    padding: 3rem 0rem 0rem 0rem;
+    margin: 2rem 2rem 9rem;
     overflow: visible;
     transition: all 0.9s;
+    height: 20rem;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 .portfolio .box-container .box h3 {
@@ -537,12 +561,13 @@ header .navbar ul li a {
     padding: 3px;
     position: relative;
     top: -3.3rem;
+    left: 0.5rem;
 }
 
 .portfolio .box-container .box h3 svg {
     color: var(--whiteBtm);
     position: relative;
-    top: 0.2rem;
+    top: 0.9rem;
     left: 0.3rem;
     border-radius: 50%;
     width: 3.5rem;
@@ -552,7 +577,7 @@ header .navbar ul li a {
     height: 20.8rem;
     width: 28.6rem;
     object-fit: fill;
-    border: 3px solid var(--yellow);
+    border-radius: 8px;
     box-shadow: -4px 7px 20px #000000;
     margin: -3.2rem 0rem 0rem 0rem;
 
@@ -589,6 +614,11 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     font-weight: 500;
     padding: 3rem;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 
@@ -607,19 +637,21 @@ header .navbar ul li a {
     width: 100%;
     padding: 1.2rem;
     margin: 1rem 0;
-    background: var(--fondoCard);
-    color: var(--yellow);
     text-transform: none;
     font-size: 1.7rem;
     border-radius: 0.2rem;
     font-weight: 700;
     box-shadow: -4px 7px 20px #000000;
     transition: all 0.9s;
-    border: 3px solid var(--yellow);
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 .cont_form .box:hover {
-    border-left-color: rgb(255, 255, 255);
+    border-left-color: rgb(74, 74, 74);
 }
 
 .cont_form .box:focus {
@@ -629,19 +661,20 @@ header .navbar ul li a {
 
 .cont_form .box::placeholder {
     text-transform: capitalize;
-    color: #ffffff8c;
+    color: #4d4d4d9e;
 }
 
 .cont_form .message {
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: var(--fondoCard);
-    color: var(--yellow);
+    
+    color:var(--whiteBtm);
     text-transform: none;
     font-size: 1.7rem;
     height: 25rem;
     resize: none;
-
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 
@@ -996,7 +1029,7 @@ header .navbar ul li a {
     .portfolio .box-container .box {
         width: 43rem;
         height: 28.5rem;
-        margin: 5rem 0rem 2rem 0rem;
+        margin: 11rem 0rem 2rem 0rem;
     }
 
     .about .row .counter .box p {
