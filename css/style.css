@@ -811,26 +811,33 @@ header .navbar ul li a {
 
 /* ======scroll======== */
 .top {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
     position: fixed;
     bottom: 7.5rem;
     right: 12px;
     z-index: 100;
     text-decoration: none;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 
 .top svg {
-
-    border: 2px solid var(--yellow);
-    width: 29px;
+    width: 3rem;
     height: 3rem;
-    box-shadow: -4px 7px 20px #000000;
+    text-align: center;
     text-decoration: none;
-    color: var(--yellow);
-    background-color: var(--fondoCard);
+    color: var(--whiteBtm);
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    position: fixed;
+    top: 0.7rem;
+    left: 0.7rem;
 }
 
 
