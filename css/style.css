@@ -367,12 +367,12 @@ header .navbar ul li a {
 
 .home_p {
     margin-top: 3rem;
-    width: 100%;
+    
 }
 
 .home_p p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 1rem 0;
     font-weight: 900;
@@ -403,7 +403,7 @@ header .navbar ul li a {
 }
 
 .info {
-    width: 100%;
+    width: 86%;
     margin-top: 3rem;
     padding: 1.5rem;
     height: inherit;
@@ -415,10 +415,10 @@ header .navbar ul li a {
 
 .info p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 0.3rem 1rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .about .row .counter {
@@ -462,6 +462,7 @@ header .navbar ul li a {
 .about .row .counter .box p {
     text-align: justify;
     font-size: 1.4rem;
+    font-weight: 500;
     color: var(--whiteBtm);
     position: relative;
 
