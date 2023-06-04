@@ -1103,6 +1103,7 @@ header .navbar ul li a {
 
     .row .info p {
         font-size: 1.9rem;
+        padding: 0rem 2rem;
     }
 
     .portfolio .box-container .box h3 {
