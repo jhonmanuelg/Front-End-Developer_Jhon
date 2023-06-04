@@ -99,8 +99,8 @@ section {
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
-    background: rgba(180, 180, 180, 0.308);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.049);
+    background: rgba(255, 255, 255, 0.143);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.156);
     backdrop-filter: blur(5px);
 
 
@@ -191,8 +191,7 @@ section {
     font-family: inherit;
     color: var(--fondoCard);
     border-radius: 8px;
-
-    background: rgba(180, 180, 180, 0.308);
+    background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     border-radius: 8px;
@@ -322,8 +321,7 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 8px;
-
-    background: rgba(180, 180, 180, 0.308);
+    background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(8px);
     border-radius: 8px;
