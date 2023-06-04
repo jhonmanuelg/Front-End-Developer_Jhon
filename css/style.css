@@ -823,19 +823,24 @@ header .navbar ul li a {
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
+.top i:hover{
+    background: rgba(38, 38, 38, 0.013);
+}
 
-
-.top svg {
-    width: 3rem;
-    height: 3rem;
+.top i {
+    font-size: 3rem;
+    font-weight:900;
     text-align: center;
     text-decoration: none;
     color: var(--whiteBtm);    
     position: fixed;
-    top: 0.7rem;
+    top: 0.5rem;
     left: 0.7rem;
 }
 
+.top i:hover{
+    color: #278800;
+}
 
 /* media queries  */
 
