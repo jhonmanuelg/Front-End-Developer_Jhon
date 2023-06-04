@@ -820,16 +820,13 @@ header .navbar ul li a {
     text-decoration: none;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     border-radius: 8px;
-}
-.top i:hover{
-    background: rgba(38, 38, 38, 0.013);
 }
 
 .top i {
     font-size: 3rem;
-    font-weight:900;
+    font-weight: 900;
     text-align: center;
     text-decoration: none;
     color: var(--whiteBtm);    
