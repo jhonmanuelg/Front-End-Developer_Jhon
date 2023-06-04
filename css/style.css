@@ -253,7 +253,7 @@ header {
     top: 8rem;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -348,7 +348,7 @@ header .navbar ul li a {
     height: inherit;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -415,7 +415,7 @@ header .navbar ul li a {
     height: inherit;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -451,7 +451,7 @@ header .navbar ul li a {
     height: inherit;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -497,7 +497,7 @@ header .navbar ul li a {
     transition: 0.5s;    
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -556,7 +556,7 @@ header .navbar ul li a {
     height: 20rem;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -624,7 +624,7 @@ header .navbar ul li a {
     height: inherit;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -653,7 +653,7 @@ header .navbar ul li a {
     height: inherit;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -680,7 +680,7 @@ header .navbar ul li a {
     resize: none;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -820,7 +820,7 @@ header .navbar ul li a {
     text-decoration: none;
     background: rgba(255, 255, 255, .05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-radius: 8px;
 }
 
@@ -830,11 +830,7 @@ header .navbar ul li a {
     height: 3rem;
     text-align: center;
     text-decoration: none;
-    color: var(--whiteBtm);
-    background: rgba(255, 255, 255, .05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
-    border-radius: 8px;
+    color: var(--whiteBtm);    
     position: fixed;
     top: 0.7rem;
     left: 0.7rem;
