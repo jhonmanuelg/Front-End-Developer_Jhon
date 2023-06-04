@@ -307,7 +307,6 @@ header .navbar ul li a {
 /* ============ CSS menu ============ */
 
 #menu {
-    width: 7rem;
     position: fixed;
     top: 2rem;
     right: 2rem;
@@ -315,8 +314,8 @@ header .navbar ul li a {
     color: var(--yellow);
     border: 3px solid var(--yellow);
     cursor: pointer;
-    font-size: 3.5rem;
-    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem;
     z-index: 1000;
     display: none;
 }
