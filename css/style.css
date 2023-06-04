@@ -92,7 +92,7 @@ section {
     border: 3px solid var(--yellow);
     height: 45px;
     width: 45px;
-
+    border-radius: 8px;
     box-shadow: -4px 7px 20px #000000;
     background: var(--fondoCard);
     margin: 5px;
@@ -183,6 +183,7 @@ section {
     z-index: 1;
     font-family: inherit;
     color: var(--yellow);
+    border-radius: 8px;
 }
 
 .btn::before {
@@ -246,11 +247,14 @@ header {
 
 
 .section_home {
-    background-color: #000000d5;
-    width: 16rem;
-    height: 51rem;
-    position: relative;
-    top: 0rem;
+    width: 19rem;
+    height: 54rem;
+    position: fixed;
+    top: 8rem;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
 }
 
 
@@ -260,17 +264,19 @@ header .user-modelo1 img {
     height: 14rem;
     width: 12rem;
     position: relative;
-    top: 0rem;
-    left: 1.7rem;
+    top: 2rem;
+    left: 3.5rem;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 8px;
 }
 
 
 
 header .user-modelo1 .name {
-    font-size: 3.4rem;
+    margin: 2rem 0rem 0rem 2rem;
+    font-size: 3.2rem;
     color: var(--yellow);
     font-weight: 700;
 }
@@ -304,7 +310,7 @@ header .navbar ul li a {
     color: var(--yellow);
     font-weight: bold;
     font-size: 1.5rem;
-    border-radius: 0.2rem;
+    border-radius: 8px;
 }
 
 /* ============ CSS menu ============ */
@@ -840,7 +846,7 @@ header .navbar ul li a {
     }
 
     .section_home {
-        top: 0rem;
+        top: 14rem;
     }
 
     header .navbar {
@@ -930,6 +936,9 @@ header .navbar ul li a {
 
     .home {
         top: 4rem;
+    }
+    .section_home {
+        top: 6rem;
     }
 
 
