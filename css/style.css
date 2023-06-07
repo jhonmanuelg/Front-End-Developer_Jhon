@@ -38,12 +38,12 @@ html::-webkit-scrollbar {
     width: 1.4rem;
 }
 
-html::-webkit-scrollbar-track {
-    background: var(--fondoCard);
+html::-webkit-scrollbar-track {   
+    background: #F7F5F5;
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--yellow);
+    background: var(--fondoCard);
 }
 
 body {
