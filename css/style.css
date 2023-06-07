@@ -858,90 +858,54 @@ header .navbar ul li a {
 
 /* media queries  */
 
-@media (max-width:1281px) {
-    body {
-        padding-left: 33rem;
-    }
+
+
+/* media queries  */
+
+@media (max-width:1200px) {
 
     html {
         font-size: 55%;
     }
 
     .section_home {
-        top: 14rem;
-    }
-
-    header .navbar {
-        margin-bottom: 0rem;
-    }
-
-    header .navbar ul li a {
-        margin: 0.5rem 0;
+        top: 11rem;
     }
 
     .home {
-        top: 4rem;
+        padding: 2rem 6rem;
+        top: 0;
     }
 
-    .home h1 {
-        font-size: 4rem;
+    .home_conte {
+        position: relative;
+        top: 12rem;
     }
-
-    .home h3 {
-        font-size: 3.5rem;
-    }
-
-    .home p {
-        font-size: 1.7rem;
-    }
-
-    .home .span {
-        font-size: 2.5rem;
-    }
-
-    .row .info p {
-        font-size: 1.7rem;
-    }
-
-    .about .row .counter .box {
-        width: 28rem;
-        height: 22rem;
-    }
-
-    .education .box-container .box {
-        width: 27.6rem;
-        height: 13.5rem;
-        margin: 4rem 0rem 0rem 0rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 28.3rem;
-        height: 20.3rem;
-    }
-
-
 
 }
 
+@media (max-width:1025px) {
+    .home_conte {
+        top: 4rem;
+    }
 
+    .section_home {
+        top: 6rem;
+    }
+}
 
-@media (max-width: 1025px) {
+@media (max-width:991px) {
 
     header {
         left: -120%;
-        height: 100%;
     }
 
-    header .user-modelo1 {
-        position: absolute;
-        top: 1rem;
+    .home_conte {
+        left: 4rem;
     }
 
-
-    header .navbar {
-        position: fixed;
-        top: 25rem;
-        left: -1rem;
+    .section_home {
+        top: 20rem;
     }
 
     #menu {
@@ -949,7 +913,6 @@ header .navbar ul li a {
     }
 
     header.toggle {
-        width: 28rem;
         left: 0%;
     }
 
@@ -957,75 +920,63 @@ header .navbar ul li a {
         padding: 0;
     }
 
-    .home {
-        top: 4rem;
-    }
-    .section_home {
-        top: 6rem;
+    .education .box-container .box {
+        width: 25rem;
     }
 
+    .home_conte {
+        width: 91%;
+        position: absolute;
+        top: 34rem;
+    }
 
 }
 
-@media (max-width: 914px) {
-    .home {
-        top: -3rem;
+@media (max-width:768px) {
+
+    html {
+        font-size: 50%;
     }
 
     .section_home {
-        position: fixed;
         top: 24rem;
     }
 
-    .education .box-container .box {
-        width: 35rem;
-        height: 15rem;
-        margin: 4rem 0rem 0rem 0rem;
-    }
+
 }
 
+@media (max-width:542px) {
+    .top {
+        display: none;
+    }
 
-
-@media (max-width: 560px) {
+    #menu{
+        border: 3px solid var(--fondoBTN);
+    }
 
     .section_home {
-        position: fixed;
-        top: 13rem;
-    }
-
-    header .navbar {
-        top: 20rem;
-    }
-    
-    header .user-modelo1 .post {
-        margin-left: 2.5rem;
-    }
-
-    header .navbar ul {
-        margin-top: 5rem;
+        top: 17rem;
     }
 
     header.toggle {
-        width: 28rem;
+        width: 26rem;
     }
 
-    .heading {
-        margin: 0 2rem;
-
+    .home_conte {
+        width: 91%;
+        position: absolute;
+        top: 24rem;
+        left: 3rem;
     }
 
-    .home {
-        padding: 4rem;
-        margin-top: 6rem;
+    .titeli_he {
+        width: 85%;
+        margin: 0 3.5rem;
     }
 
-
-    .home p {
-        font-size: 2.1rem;
-    }
-
-    .row .info p {
-        font-size: 2.1rem;
+    .contact_div .contact_p {
+        width: 88%;
+        margin-left: 4rem;
     }
 
     /* para ocultar testo */
@@ -1043,168 +994,98 @@ header .navbar ul li a {
 
     /* fin para ocultar testo */
 
-    .about .row .counter .box {
-        width: 43rem;
-        height: 28rem;
+
+}
+
+
+@media (max-width:413px) {
+
+
+    header {
+        width: 100vw;
     }
 
-    .about .row .counter {
-        width: 0rem;
+    .section_home {
+        top: 17rem;
     }
 
-    .about .row .counter .box span {
-        font-size: 2.7rem;
+    .home_conte {
+        left: 2.5rem;
     }
 
-    .education .box-container .box {
-        width: 43rem;
-        height: 14rem;
-        margin: 4rem 5rem 0rem 0rem;
+    .home h1 {
+        font-size: 3rem;
     }
 
-    .portfolio .box-container .box {
-        width: 43rem;
-        height: 28.5rem;
-        margin: 11rem 0rem 2rem 0rem;
-    }
-
-    .about .row .counter .box p {
-        font-size: 1.8rem;
-        margin-top: 3rem;
-    }
-
-    .education .box-container .box h3 {
-        font-size: 1.8rem;
+    .home_p p {
+        font-size: 1.9rem;
     }
 
     .span {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
+    }
+
+    .education .box-container .box h3 {
+        font-size: 1.9rem;
     }
 
     .education .box-container .box p {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 2rem;
-    }
-
-    .portfolio .box-container .box img {
-        height: 28.8rem;
-        width: 43.6rem;
-    }
-
-    .btn {
-        font-size: 2rem;
-        margin-left: 16px;
-    }
-
-
-    .top {
-        display: none !important;
-    }
-
-
-    .contact .row .content {
-        width: 57rem;
+        font-size: 1.9rem;
     }
 
     .contact_p p {
         font-size: 1.9rem;
-        padding: 3rem;
-        margin: 0rem 5rem 0rem 5rem;
     }
 
-    .contact .cont_form {
-        width: 58rem;
-    }
-
-    .cont_form .box {
-        width: 89%;
-        position: relative;
-        left: 2rem;
-    }
-}
-
-
-@media (max-width:430px) {
-
-    .home {
-        margin-top: 3rem;
-    }
-
-    .home h1 {
-        font-size: 4.5rem;
-    }
-
-    .home h3 {
-        font-size: 3rem;
-    }
-
-    .home p {
+    .info p {
         font-size: 1.9rem;
-    }
-
-    .heading {
-        font-size: 3rem;
-        margin: 0 3rem;
-    }
-
-    .section_home {
-        top: 12rem;
-    }
-
-    .about .row .counter .box {
-        width: 36rem;
-    }
-
-    .education .box-container .box {
-        height: 18rem;
-        margin: 4rem 4rem 0rem 0rem;
-        width: 36.5rem;
-    }
-
-    .portfolio .box-container .box {
-        width: 35.5rem;
-        height: 28.9rem;
-        margin: 5rem 0rem 6rem -0.5rem;
-    }
-
-    .row .info p {
-        font-size: 1.9rem;
-        padding: 0rem 2rem;
-    }
-
-    .portfolio .box-container .box h3 {
-        font-size: 2rem;
-        top: -3.5rem;
     }
 
     .about .row .counter .box p {
         font-size: 1.9rem;
     }
 
-    .portfolio .box-container .box img {
-        height: 28.8rem;
-        width: 35.6rem;
+    .home .span {
+        margin: 0rem 0rem -3rem 0rem;
     }
 
-    .span {
-        font-size: 2.6rem;
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 94%;
+        height: 29rem;
+    }
+
+    .portfolio .box-container .box img {
+        height: 24rem;
+        width: 100%;
+    }
+
+    .contact_div .contact_p {
+        margin-left: 3rem;
     }
 
     .contact .cont_form {
-        width: 42rem;
+        width: 44rem;
     }
 
     .cont_form .box {
-        width: 36rem;
-        position: relative;
-        left: -1rem;
+        font-weight: 500;
     }
 
-    .btn {
-        margin-left: -10px;
-    }
 
 }
