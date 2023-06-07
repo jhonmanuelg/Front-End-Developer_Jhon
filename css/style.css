@@ -944,7 +944,13 @@ header .navbar ul li a {
 
 @media (max-width:542px) {
     .top {
+        border: 3px solid var(--fondoBTN);
         display: none;
+    }
+
+    .top i {
+        top: 0.1rem;
+        left: 0.5rem;
     }
 
     #menu {
@@ -994,7 +1000,7 @@ header .navbar ul li a {
         width: 26rem;
     }
 
-    .about .row .counter .box p{
+    .about .row .counter .box p {
         font-size: 1.8rem;
     }
 
