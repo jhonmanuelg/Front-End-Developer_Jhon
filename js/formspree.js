@@ -43,7 +43,7 @@ $(document).ready(function () {
     // Validado Nombre ==============================
     if ($("#names").val() == "") {
       errores += "<p>Escreva seu nome</p>";
-      $("#names").css("border-left-color", "var(--yellow)");
+      $("#names").css("border-left-color", "var(--fondoBTN)");
     } else {
       $("#names").css("border-left-color", "var(--fondoCard");
     };
@@ -51,23 +51,25 @@ $(document).ready(function () {
     // validar assunto =============================
     if ($("#assunto").val() == "") {
       errores += "<p>Escreva seu assunto</p>";
-      $("#assunto").css("border-left-color", "var(--yellow)");
+      $("#assunto").css("border-left-color", "var(--fondoBTN)");
     } else {
       $("#assunto").css("border-left-color", "var(--fondoCard");
     };
 
     // validar assunto =============================
+    
     if ($("#phone").val() == "") {
         errores += "<p>Escreva sue telefone</p>";
-        $("#phone").css("border-left-color", "var(--yellow)");
+        $("#phone").css("border-left-color", "var(--fondoBTN)");
       } else {
         $("#phone").css("border-left-color", "var(--fondoCard");
       };
 
     // Validado Correo ==============================
+    
     if ($("#email").val() == "") {
       errores += "<p>Digite sue E-mail</p>";
-      $("#email").css("border-left-color", "var(--yellow)");
+      $("#email").css("border-left-color", "var(--fondoBTN)");
     } else {
       $("#email").css("border-left-color", "var(--fondoCard");
     };
@@ -75,7 +77,7 @@ $(document).ready(function () {
     // Validado Mensaje ==============================
     if ($("#mensaje").val() == "") {
       errores += "<p>Escreve sue mensagem</p>";
-      $("#mensaje").css("border-left-color", "var(--yellow)");
+      $("#mensaje").css("border-left-color", "var(--fondoBTN)");
     } else {
       $("#mensaje").css("border-left-color", "var(--fondoCard");
     };
