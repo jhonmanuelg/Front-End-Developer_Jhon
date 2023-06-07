@@ -8,8 +8,8 @@
     --fondo: #f7f5f5;
     --fondoBTN: #000000;
     --fondoCard: #000000;
-    --box-shadow-mirror: 0 0 10px rgba(0, 0, 0, 0.443);
-    --backgr-mirror: rgba(255, 255, 255, .05);
+    --box-shadow-mirror: 0 0 10px rgba(0, 0, 0, 0.57);
+    --backgr-mirror: rgba(213, 213, 213, 0.221);
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -101,7 +101,7 @@ section {
     margin: 5px;
     transition: 0.3s;
     justify-content: center;
-    background: var(--backgr-mirror);
+    background: #ffffff00;
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
 
@@ -364,7 +364,7 @@ header .navbar ul li a {
     width: 100%;
     padding: 1.5rem;
     height: inherit;
-    background: rgba(242, 238, 238, 0.141);
+    background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
     border-radius: 8px;
