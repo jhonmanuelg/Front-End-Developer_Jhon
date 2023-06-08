@@ -3,14 +3,15 @@
 
 :root {
     --yellow: #ffffff;
-    --white: #0e0d0d;
+    --white: #6f6f6f;
     --whiteBtm: #000000;
-    --fondo: #c1c1c1;
+    --fondo: #ffffff48;
     --fondoBTN: #000000;
     --fondoCard: #000000;
-    --box-shadow-mirror: 0 0 10px rgba(0, 0, 0, 0.57);
-    --backgr-mirror: rgba(222, 247, 249, 0.319);
+    --box-shadow-mirror: 0 0 10px rgba(0, 0, 0, 0.622);
+    --backgr-mirror: rgba(255, 255, 255, 0.431);
     --fonttitle: 'DM Sans', sans-serif;
+    --backdrop-filtro: blur(9px);
 }
 
 
@@ -35,11 +36,11 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 1.4rem;
+    width: 1.3rem;
 }
 
 html::-webkit-scrollbar-track {   
-    background: #F7F5F5;
+    background: var(--fondo);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -104,8 +105,6 @@ section {
     background: #ffffff00;
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
-
-
 }
 
 .social-btn svg {
@@ -192,7 +191,7 @@ section {
     font-family: inherit;
     color: var(--fondoCard);
     border-radius: 8px;
-    background: var(--backgr-mirror);
+    background: rgba(244, 243, 243, 0.884);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
     border-radius: 8px;
@@ -265,7 +264,7 @@ header {
     top: 8rem;
     background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
-    backdrop-filter: blur(5px);
+    backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
 }
 
@@ -322,9 +321,9 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 8px;
-    background: rgba(242, 238, 238, 0.217);
+    background: rgba(205, 205, 205, 0.884);
     box-shadow: var(--box-shadow-mirror);
-    backdrop-filter: blur(8px);
+    backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
 }
 
@@ -366,7 +365,7 @@ header .navbar ul li a {
     height: inherit;
     background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
-    backdrop-filter: blur(5px);
+    backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
 }
 
@@ -542,12 +541,13 @@ header .navbar ul li a {
     font-weight: 600;
 }
 
-.education .box-container .box svg {
+.education .box-container .box .bi {
     position: absolute;
     top: -0.4rem;
     left: -1.8rem;
     height: 2.5rem;
-    width: 3.5rem;
+    width: 5rem;
+    color: #ffffff;
 }
 
 
@@ -683,7 +683,7 @@ header .navbar ul li a {
 
 .cont_form .box::placeholder {
     text-transform: capitalize;
-    color: #4d4d4d9e;
+    color: #0d0d0d68;
 }
 
 .cont_form .message {
@@ -833,7 +833,7 @@ header .navbar ul li a {
     right: 12px;
     z-index: 100;
     text-decoration: none;
-    background: var(--backgr-mirror);
+    background: rgba(255, 255, 255, 0.694);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(3px);
     border-radius: 8px;
@@ -849,13 +849,6 @@ header .navbar ul li a {
     top: 0.5rem;
     left: 0.7rem;
 }
-
-.top i:hover {
-    color: #278800;
-}
-
-
-
 
 /* media queries  */
 
