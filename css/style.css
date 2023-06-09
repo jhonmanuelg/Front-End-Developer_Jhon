@@ -321,7 +321,7 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 8px;
-    background: rgba(134, 134, 134, 0.452);
+    background: rgba(242, 242, 242, 0.452);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
