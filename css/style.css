@@ -232,7 +232,7 @@ section {
     font-size: 3rem;
     padding: 1rem;
     border-bottom: 0.2rem solid var(--fondoCard);
-    color: var(--white);
+    color: var(--whiteBtm);
 }
 
 .heading span {
@@ -262,7 +262,7 @@ header {
     height: 54rem;
     position: fixed;
     top: 8rem;
-    background: var(--backgr-mirror);
+    background: rgba(244, 243, 243, 0.277);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
