@@ -519,8 +519,8 @@ header .navbar ul li a {
 
 .education .box-container .box .bi {
     position: absolute;
-    top: -0.4rem;
-    left: 0.3rem;
+    top: -0.1rem;
+    left: 0.4rem;
     height: 4rem;
     width: 4rem;
     color: #000000;
@@ -964,10 +964,14 @@ header .navbar ul li a {
         top: 24rem;
         left: 3rem;
     }
+    .home_p p {
+        font-size: 1.9rem;
+    }
 
     .titeli_he {
         width: 85%;
         margin: 0 3.5rem;
+        font-size: 4rem;
     }
 
     .contact_div .contact_p {
@@ -995,6 +999,9 @@ header .navbar ul li a {
     /* fin para ocultar testo */
     .about .row .counter .box {
         width: 26rem;
+    }
+    .about .row .counter .box span {
+        font-size: 2.9rem;
     }
 
     .about .row .counter .box p {
@@ -1029,7 +1036,7 @@ header .navbar ul li a {
 
     .home_conte {
         left: 2.3rem;
-        top: 37rem;
+        top: 24rem;
     }
 
     .home h1 {
@@ -1037,7 +1044,7 @@ header .navbar ul li a {
     }
 
     .home_p p {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
     .span {
@@ -1045,27 +1052,27 @@ header .navbar ul li a {
     }
 
     .education .box-container .box h3 {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .education .box-container .box p {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .contact_p p {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .info p {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .about .row .counter .box p {
-        font-size: 1.9rem;
+       font-size: 2rem;
     }
 
     .home .span {
@@ -1082,12 +1089,13 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 100%;
-        height: 19.5rem;
+        height: 20.8rem;
     }
 
     .portfolio .box-container .box {
         width: 94%;
         height: 29rem;
+        margin: 5rem 2rem 0rem;
     }
 
     .portfolio .box-container .box img {
@@ -1113,7 +1121,7 @@ header .navbar ul li a {
 
 @media (max-width: 378px) {
     .home_conte {
-        top: 15rem;
+        top: 9rem;
         left: 2rem;
     }
 }
