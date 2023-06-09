@@ -317,11 +317,11 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    color: var(--yellow);
+    color: var(--fondoBTN);
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 8px;
-    background: rgba(242, 242, 242, 0.452);
+    background: rgba(242, 242, 242, 0.934);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
