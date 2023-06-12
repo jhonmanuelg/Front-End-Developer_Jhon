@@ -39,7 +39,7 @@ html::-webkit-scrollbar {
     width: 1.3rem;
 }
 
-html::-webkit-scrollbar-track {   
+html::-webkit-scrollbar-track {
     background: var(--fondo);
 }
 
@@ -69,7 +69,7 @@ section {
     font-style: oblique;
     text-decoration: underline;
     cursor: pointer;
-    color: var(--whiteBtm);
+    color: darkcyan;
     font-weight: bold;
     background-color: transparent;
     display: none;
@@ -524,7 +524,7 @@ header .navbar ul li a {
     height: 4rem;
     width: 4rem;
     color: #000000;
-    
+
 }
 
 .span {
@@ -601,8 +601,7 @@ header .navbar ul li a {
     height: 20.8rem;
     width: 28.6rem;
     object-fit: fill;
-    border-radius: 0  0 8px 8px;
-    box-shadow: var(--box-shadow-mirror);
+    border-radius: 0 0 8px 8px;
     margin: -3.2rem 0rem 0rem 0rem;
 
 }
@@ -891,6 +890,9 @@ header .navbar ul li a {
     }
 
     .home_conte {
+        width: 91%;
+        position: absolute;
+        top: 34rem;
         left: 4rem;
     }
 
@@ -912,12 +914,6 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 25rem;
-    }
-
-    .home_conte {
-        width: 91%;
-        position: absolute;
-        top: 34rem;
     }
 
 }
@@ -954,6 +950,10 @@ header .navbar ul li a {
         top: 17rem;
     }
 
+    .home .span {
+        font-size: 3.5rem;
+    }
+
     header.toggle {
         width: 26rem;
     }
@@ -961,11 +961,12 @@ header .navbar ul li a {
     .home_conte {
         width: 91%;
         position: absolute;
-        top: 24rem;
+        top: 12rem;
         left: 3rem;
     }
+
     .home_p p {
-        font-size: 1.9rem;
+        font-size: 2.3rem;
     }
 
     .titeli_he {
@@ -988,6 +989,10 @@ header .navbar ul li a {
         width: 93%;
     }
 
+    .info p {
+        font-size: 2.2rem;
+    }
+
     .ocultar {
         display: none;
     }
@@ -998,27 +1003,56 @@ header .navbar ul li a {
 
     /* fin para ocultar testo */
     .about .row .counter .box {
-        width: 26rem;
+        width: 56rem;
+        height: 23rem;
     }
+
     .about .row .counter .box span {
         font-size: 2.9rem;
     }
 
     .about .row .counter .box p {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        margin-top: 2rem;
     }
-    
-    .education .box-container .box{
+
+    .education .box-container .box {
+        width: 56rem;
         height: 19.8rem;
     }
 
+    .span {
+        font-size: 2.5rem;
+    }
+
     .portfolio .box-container .box {
-        width: 26rem;
+        width: 56rem;
+        height: 34rem;
     }
 
     .portfolio .box-container .box img {
-        height: 20rem;
-        width: 26.2rem;
+        height: 28.2rem;
+        width: 56.2rem;
+    }
+
+    .about .row .counter .box p {
+        font-size: 2.3rem;
+    }
+
+    .education .box-container .box h3 {
+        font-size: 2rem;
+    }
+
+    .education .box-container .box p {
+        font-size: 2rem;
+    }
+
+    .portfolio .box-container .box h3 {
+        font-size: 2rem;
+    }
+
+    .contact_p p {
+        font-size: 2.2rem;
     }
 }
 
@@ -1049,30 +1083,6 @@ header .navbar ul li a {
 
     .span {
         font-size: 2.2rem;
-    }
-
-    .education .box-container .box h3 {
-       font-size: 2rem;
-    }
-
-    .education .box-container .box p {
-       font-size: 2rem;
-    }
-
-    .portfolio .box-container .box h3 {
-       font-size: 2rem;
-    }
-
-    .contact_p p {
-       font-size: 2rem;
-    }
-
-    .info p {
-       font-size: 2rem;
-    }
-
-    .about .row .counter .box p {
-       font-size: 2rem;
     }
 
     .home .span {
