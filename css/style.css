@@ -1028,6 +1028,7 @@ header .navbar ul li a {
     .portfolio .box-container .box {
         width: 56rem;
         height: 34rem;
+        margin: 4rem 2rem 0rem;
     }
 
     .portfolio .box-container .box img {
