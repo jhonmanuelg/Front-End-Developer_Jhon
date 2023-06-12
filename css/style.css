@@ -254,7 +254,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    transition: all 0.6s;
 }
 
 .section_home {
@@ -372,20 +371,16 @@ header .navbar ul li a {
 .home h3 {
     font-size: 3.5rem;
     color: var(--whiteBtm);
-    font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
     font-size: 5rem;
     color: var(--whiteBtm);
-    font-weight: 300;
 }
 
 .home h1 span {
     color: var(--whiteBtm);
-    font-weight: 700;
-
 }
 
 .home_p {
@@ -566,11 +561,11 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
+    height: 26rem;
     padding: 3rem 0rem 0rem 0rem;
-    margin: 2rem 2rem 9rem;
+    margin: 3rem 2rem 0rem;
     overflow: visible;
     transition: all 0.9s;
-    height: 20rem;
     background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
