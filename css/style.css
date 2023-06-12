@@ -188,9 +188,7 @@ section {
     font-size: 1.5rem;
     transition: 0.3s;
     z-index: 1;
-    font-family: inherit;
     color: var(--fondoCard);
-    border-radius: 8px;
     background: rgba(244, 243, 243, 0.884);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
@@ -288,13 +286,11 @@ header .user-modelo1 .name {
     margin: 2rem 0rem 0rem 2rem;
     font-size: 3.2rem;
     color: var(--yellow);
-    font-weight: 700;
 }
 
 header .user-modelo1 .post {
     font-size: 2.5rem;
     color: var(--yellow);
-    font-weight: bold;
     text-align: center;
 }
 
@@ -317,9 +313,7 @@ header .navbar ul li a {
     padding: 1rem;
     margin: 0.5rem 0;
     color: var(--fondoBTN);
-    font-weight: bold;
     font-size: 1.5rem;
-    border-radius: 8px;
     background: rgb(242, 242, 242);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
@@ -522,7 +516,7 @@ header .navbar ul li a {
 
 }
 
-.span {
+.education .box-container .box .span {
     color: var(--whiteBtm);
     font-weight: 600;
     font-size: 2rem;
@@ -530,7 +524,6 @@ header .navbar ul li a {
 }
 
 .education .box-container .box h3 {
-    margin-top: 1rem;
     font-size: 1.5rem;
     color: var(--whiteBtm);
     font-weight: 600;
@@ -553,7 +546,6 @@ header .navbar ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
     flex-wrap: wrap;
     padding: 1rem 0;
     transition: all 300ms;
@@ -1016,7 +1008,7 @@ header .navbar ul li a {
         height: 19.8rem;
     }
 
-    .span {
+    .education .box-container .box .span {
         font-size: 2.5rem;
     }
 
@@ -1066,7 +1058,7 @@ header .navbar ul li a {
 
     .home_conte {
         left: 2.3rem;
-        top: 24rem;
+        top: 30rem;
     }
 
     .home h1 {
@@ -1077,11 +1069,8 @@ header .navbar ul li a {
         font-size: 2rem;
     }
 
-    .span {
-        font-size: 2.2rem;
-    }
-
     .home .span {
+        font-size: 2.2rem;
         margin: 0rem 0rem -3rem 0rem;
     }
 
