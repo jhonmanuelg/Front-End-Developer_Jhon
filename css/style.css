@@ -1059,6 +1059,15 @@ header .navbar ul li a {
     .home_conte {
         left: 2.3rem;
         top: 30rem;
+        height: 71rem;
+    }
+
+    .home_p {
+        margin-top: 7rem;
+    }
+
+    .social-links, .flex-center {
+        margin-top: 4rem;
     }
 
     .home h1 {
@@ -1118,5 +1127,9 @@ header .navbar ul li a {
     .home_conte {
         top: 9rem;
         left: 2rem;
+        height: 67rem;
+    }
+    .social-links, .flex-center {
+        margin-top: 2rem;
     }
 }
