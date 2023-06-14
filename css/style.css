@@ -866,7 +866,7 @@ header .navbar ul li a {
     }
 
     .section_home {
-        top: 6rem;
+        top: 15rem;
     }
 }
 
@@ -967,8 +967,8 @@ header .navbar ul li a {
     }
 
     .contact_div .contact_p {
-        width: 88%;
-        margin-left: 4rem;
+        width: 60%;
+        margin-left: -4rem;
     }
 
     /* para ocultar testo */
@@ -1113,7 +1113,8 @@ header .navbar ul li a {
     }
 
     .contact_div .contact_p {
-        margin-left: 3rem;
+        margin-left: 2.5rem;
+        width: 90%;
     }
 
     .contact .cont_form {
