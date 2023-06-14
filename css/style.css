@@ -838,7 +838,7 @@ header .navbar ul li a {
 
 /* media queries  */
 
-@media (max-width:1200px) {
+@media (max-width:1400px) {
 
     html {
         font-size: 55%;
@@ -860,7 +860,7 @@ header .navbar ul li a {
 
 }
 
-@media (max-width:1025px) {
+@media (max-width:1200px) {
     .home_conte {
         top: 4rem;
     }
@@ -915,10 +915,14 @@ header .navbar ul li a {
         top: 24rem;
     }
 
+    .contact_div{
+        width: 52rem;
+    }
+
 
 }
 
-@media (max-width:542px) {
+@media (max-width:576px) {
     .top {
         border: 3px solid var(--fondoBTN);
         display: none;
@@ -948,7 +952,7 @@ header .navbar ul li a {
     .home_conte {
         width: 91%;
         position: absolute;
-        top: 12rem;
+        top: 26rem;
         left: 3rem;
     }
 
@@ -1058,7 +1062,7 @@ header .navbar ul li a {
 
     .home_conte {
         left: 2.3rem;
-        top: 30rem;
+        top: 24rem;
         height: 71rem;
     }
 
@@ -1089,6 +1093,7 @@ header .navbar ul li a {
 
     .about .row .counter .box {
         width: 100%;
+        height: 28rem;
     }
 
     .education .box-container .box {
@@ -1131,5 +1136,11 @@ header .navbar ul li a {
     }
     .social-links, .flex-center {
         margin-top: 2rem;
+    }
+    .about .row .counter .box {
+        height: 30rem;
+    }
+    .contact_div{
+        width: 46rem;
     }
 }
