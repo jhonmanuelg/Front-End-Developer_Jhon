@@ -880,7 +880,7 @@ header .navbar ul li a {
     .home_conte {
         width: 91%;
         position: absolute;
-        top: 34rem;
+        top: 40rem;
         left: 4rem;
     }
 
@@ -920,7 +920,9 @@ header .navbar ul li a {
         width: 52rem;
     }
 
-
+    .titeli_he{
+        margin: 0 4rem;
+    }
 }
 
 @media (max-width:576px) {
