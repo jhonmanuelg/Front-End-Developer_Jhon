@@ -940,10 +940,6 @@ header .navbar ul li a {
         border: 3px solid var(--fondoBTN);
     }
 
-    .home {
-        top: -135px;
-    }
-
     .section_home {
         top: 17rem;
     }
