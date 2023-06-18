@@ -255,25 +255,30 @@ header {
 }
 
 .section_home {
-    width: 19rem;
+    width: 22rem;
     height: 54rem;
-    position: absolute;
-    top: 8rem;
     background: rgba(244, 243, 243, 0.277);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.user-modelo1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
 
 header .user-modelo1 img {
     border: 2px solid var(--yellow);
     background: var(--fondoBTN);
     height: 14rem;
     width: 12rem;
-    position: relative;
-    top: 2rem;
-    left: 3.5rem;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +288,7 @@ header .user-modelo1 img {
 
 
 header .user-modelo1 .name {
-    margin: 2rem 0rem 0rem 2rem;
+    
     font-size: 3.2rem;
     color: var(--yellow);
 }
@@ -295,16 +300,14 @@ header .user-modelo1 .post {
 }
 
 header .navbar {
-    margin-top: 1rem;
+   
     width: 6ren;
 }
 
 header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 header .navbar ul li a {
@@ -844,9 +847,7 @@ header .navbar ul li a {
         font-size: 55%;
     }
 
-    .section_home {
-        top: 15rem;
-    }
+    
 
     .home {
         padding: 2rem 6rem;
@@ -865,9 +866,6 @@ header .navbar ul li a {
         top: 4rem;
     }
 
-    .section_home {
-        top: 7rem;
-    }
     
 }
 
@@ -875,17 +873,6 @@ header .navbar ul li a {
 
     header {
         left: -120%;
-    }
-
-    .home_conte {
-        width: 91%;
-        position: absolute;
-        top: 40rem;
-        left: 4rem;
-    }
-
-    .section_home {
-        top: 44rem;
     }
 
     #menu {
@@ -912,10 +899,6 @@ header .navbar ul li a {
         font-size: 50%;
     }
 
-    .section_home {
-        top: 39rem;
-    }
-
     .contact_div{
         width: 52rem;
     }
@@ -938,10 +921,6 @@ header .navbar ul li a {
 
     #menu {
         border: 3px solid var(--fondoBTN);
-    }
-
-    .section_home {
-        top: 17rem;
     }
 
     .home .span {
@@ -1059,10 +1038,6 @@ header .navbar ul li a {
         width: 100vw;
     }
 
-    .section_home {
-        top: 26rem;
-    }
-
     .home_conte {
         left: 2.3rem;
         top: 24rem;
@@ -1138,9 +1113,7 @@ header .navbar ul li a {
         left: 2rem;
         height: 67rem;
     }
-    .section_home {
-        top: 12rem;
-    }
+
     .social-links, .flex-center {
         margin-top: 2rem;
     }
