@@ -845,7 +845,7 @@ header .navbar ul li a {
     }
 
     .section_home {
-        top: 5rem;
+        top: 15rem;
     }
 
     .home {
@@ -860,13 +860,13 @@ header .navbar ul li a {
 
 }
 
-@media (max-width:1283px) {
+@media (max-width:1033px) {
     .home_conte {
         top: 4rem;
     }
 
     .section_home {
-        top: 16rem;
+        top: 7rem;
     }
     
 }
