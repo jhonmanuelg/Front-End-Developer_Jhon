@@ -891,6 +891,11 @@ header .navbar ul li a {
     .contact_div {
         width: 52rem;
     }
+
+    .home {
+        margin-bottom: 24rem;
+    }
+    
     .home_conte {
         margin-top: 30rem;
     }
