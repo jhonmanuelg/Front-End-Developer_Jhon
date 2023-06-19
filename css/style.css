@@ -267,7 +267,7 @@ header {
     align-items: center;
 }
 
-.user-modelo1{
+.user-modelo1 {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -288,7 +288,7 @@ header .user-modelo1 img {
 
 
 header .user-modelo1 .name {
-    
+
     font-size: 3.2rem;
     color: var(--yellow);
 }
@@ -300,14 +300,14 @@ header .user-modelo1 .post {
 }
 
 header .navbar {
-   
+
     width: 6ren;
 }
 
 header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
-    
+
 }
 
 header .navbar ul li a {
@@ -553,7 +553,8 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    height: 26rem;
+    max-width: 28.6rem;
+    height: 43rem;
     padding: 3rem 0rem 0rem 0rem;
     margin: 3rem 2rem 0rem;
     overflow: visible;
@@ -565,21 +566,24 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: var(--whiteBtm);
-    margin: 0rem -0.2rem 1.2rem;
+    margin: 0rem 0.8rem 1.2rem;
     font-weight: 800;
-    padding: 3px;
-    position: relative;
-    top: -3.3rem;
-    left: 0.5rem;
+}
+
+.portfolio .box-container .box p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: justify;
+    font-weight: 500;
 }
 
 .portfolio .box-container .box h3 svg {
     color: var(--whiteBtm);
     position: relative;
     top: 0.9rem;
-    left: 0.3rem;
+    left: 1.5rem;
     border-radius: 50%;
     width: 3.5rem;
 }
@@ -588,7 +592,7 @@ header .navbar ul li a {
     height: 20.8rem;
     width: 28.6rem;
     object-fit: fill;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px 8px 0 0;
     margin: -3.2rem 0rem 0rem 0rem;
 
 }
@@ -847,10 +851,7 @@ header .navbar ul li a {
 
 }
 
-@media (max-width:1033px) {
-
-    
-}
+@media (max-width:1033px) {}
 
 @media (max-width:991px) {
 
@@ -858,7 +859,7 @@ header .navbar ul li a {
         left: -120%;
     }
 
-    section{
+    section {
         min-height: 79vh;
     }
 
@@ -886,11 +887,11 @@ header .navbar ul li a {
         font-size: 50%;
     }
 
-    .contact_div{
+    .contact_div {
         width: 52rem;
     }
 
-    .titeli_he{
+    .titeli_he {
         margin: 0 4rem;
     }
 }
@@ -899,6 +900,7 @@ header .navbar ul li a {
     section {
         min-height: 101vh;
     }
+
     .top {
         border: 3px solid var(--fondoBTN);
         display: none;
@@ -917,6 +919,7 @@ header .navbar ul li a {
         width: 110%;
         margin: 0rem -2rem -14rem
     }
+
     .home .span {
         font-size: 3.5rem;
     }
@@ -936,7 +939,7 @@ header .navbar ul li a {
     }
 
     .contact_div .contact_p {
-        width: 60%;
+        width: 114%;
         margin-left: -4rem;
     }
 
@@ -986,14 +989,25 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box {
-        width: 56rem;
-        height: 34rem;
+        max-width: 55.6rem;
+        height: 58rem;
         margin: 4rem 2rem 0rem;
     }
 
     .portfolio .box-container .box img {
-        height: 28.2rem;
-        width: 56.2rem;
+        height: 31.2rem;
+        width: 55.6rem;
+    }
+
+    .portfolio .box-container .box h3 svg {
+        position: absolute;
+        left: 50rem;
+        top: 31.8rem;
+    }
+
+    .portfolio .box-container .box p {
+        font-size: 1.9rem;
+        padding: 1.3rem;
     }
 
     .about .row .counter .box p {
@@ -1009,11 +1023,13 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box h3 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin-top: 1.3rem;
     }
 
     .contact_p p {
         font-size: 2.2rem;
+
     }
 }
 
@@ -1029,11 +1045,13 @@ header .navbar ul li a {
         width: 130%;
         margin: 0rem -5rem -10rem;
     }
+
     .home_p {
         margin-top: 7rem;
     }
 
-    .social-links, .flex-center {
+    .social-links,
+    .flex-center {
         margin-top: 4rem;
     }
 
@@ -1065,14 +1083,17 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box {
-        width: 94%;
-        height: 29rem;
         margin: 5rem 2rem 0rem;
     }
 
     .portfolio .box-container .box img {
         height: 24rem;
         width: 100%;
+    }
+
+    .portfolio .box-container .box h3 svg {
+        left: 38rem;
+        top: 24.8rem;
     }
 
     .contact_div .contact_p {
@@ -1097,13 +1118,24 @@ header .navbar ul li a {
         margin: 0rem -4rem -1rem;
     }
 
-    .social-links, .flex-center {
+    .social-links,
+    .flex-center {
         margin-top: 2rem;
     }
+
     .about .row .counter .box {
         height: 30rem;
     }
-    .contact_div{
+
+    .contact_div {
         width: 46rem;
+    }
+
+    .portfolio .box-container .box {
+        height: 52rem;
+    }
+
+    .portfolio .box-container .box h3 svg {
+        left: 32rem;
     }
 }
