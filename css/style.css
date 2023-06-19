@@ -346,8 +346,6 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
-    position: relative;
-    top: 7rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -359,7 +357,6 @@ header .navbar ul li a {
     width: 100%;
     padding: 1.5rem;
     height: inherit;
-    background: rgba(244, 243, 243, 0);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
@@ -847,24 +844,10 @@ header .navbar ul li a {
         font-size: 55%;
     }
 
-    
-
-    .home {
-        padding: 2rem 6rem;
-        top: 0;
-    }
-
-    .home_conte {
-        position: relative;
-        top: 5rem;
-    }
 
 }
 
 @media (max-width:1033px) {
-    .home_conte {
-        top: 4rem;
-    }
 
     
 }
@@ -873,6 +856,10 @@ header .navbar ul li a {
 
     header {
         left: -120%;
+    }
+
+    section{
+        min-height: 79vh;
     }
 
     #menu {
@@ -909,6 +896,9 @@ header .navbar ul li a {
 }
 
 @media (max-width:576px) {
+    section {
+        min-height: 101vh;
+    }
     .top {
         border: 3px solid var(--fondoBTN);
         display: none;
@@ -923,19 +913,16 @@ header .navbar ul li a {
         border: 3px solid var(--fondoBTN);
     }
 
+    .home_conte {
+        width: 110%;
+        margin: 0rem -2rem -14rem
+    }
     .home .span {
         font-size: 3.5rem;
     }
 
     header.toggle {
         width: 26rem;
-    }
-
-    .home_conte {
-        width: 91%;
-        position: absolute;
-        top: 13rem;
-        left: 3rem;
     }
 
     .home_p p {
@@ -1039,11 +1026,9 @@ header .navbar ul li a {
     }
 
     .home_conte {
-        left: 2.3rem;
-        top: 24rem;
-        height: 71rem;
+        width: 130%;
+        margin: 0rem -5rem -10rem;
     }
-
     .home_p {
         margin-top: 7rem;
     }
@@ -1109,9 +1094,7 @@ header .navbar ul li a {
 
 @media (max-width: 378px) {
     .home_conte {
-        top: 9rem;
-        left: 2rem;
-        height: 67rem;
+        margin: 0rem -4rem -1rem;
     }
 
     .social-links, .flex-center {
