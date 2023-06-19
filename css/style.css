@@ -346,6 +346,7 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
+    margin-bottom: 6rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
