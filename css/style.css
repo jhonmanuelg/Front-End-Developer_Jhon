@@ -299,10 +299,7 @@ header .user-modelo1 .post {
     text-align: center;
 }
 
-header .navbar {
 
-    width: 6ren;
-}
 
 header .navbar ul {
     list-style: none;
@@ -310,8 +307,13 @@ header .navbar ul {
 
 }
 
+
+header .navbar ul li{
+    margin: 0rem 0rem 1rem;
+}
+
 header .navbar ul li a {
-    width: 15rem;
+    width: 20rem;
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
@@ -621,6 +623,11 @@ header .navbar ul li a {
 .contact_div .contact_p {
     text-align: center;
     margin-top: 3rem;
+    padding: 1rem;
+    background: var(--backgr-mirror);
+    box-shadow: var(--box-shadow-mirror);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
 }
 
 .contact_p p {
@@ -630,10 +637,7 @@ header .navbar ul li a {
     font-weight: 500;
     padding: 3rem;
     height: inherit;
-    background: var(--backgr-mirror);
-    box-shadow: var(--box-shadow-mirror);
-    backdrop-filter: blur(5px);
-    border-radius: 8px;
+   
 }
 
 
@@ -852,7 +856,7 @@ header .navbar ul li a {
 
 }
 
-@media (max-width:1033px) {}
+/* @media (max-width:1033px) {} */
 
 @media (max-width:991px) {
 
@@ -934,7 +938,7 @@ header .navbar ul li a {
     }
 
     header.toggle {
-        width: 26rem;
+        width: 35rem;
     }
 
     .home_p p {
@@ -945,11 +949,6 @@ header .navbar ul li a {
         width: 85%;
         margin: 0 3.5rem;
         font-size: 4rem;
-    }
-
-    .contact_div .contact_p {
-        width: 114%;
-        margin-left: -4rem;
     }
 
     /* para ocultar testo */
@@ -1035,11 +1034,18 @@ header .navbar ul li a {
         font-size: 2.5rem;
         margin-top: 1.3rem;
     }
+    .contact_div {
+        width: 56rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-    .contact_p p {
-        font-size: 2.2rem;
+    .contact_div .contact_p {
+        font-size:1rem;
 
     }
+
 }
 
 
@@ -1117,7 +1123,12 @@ header .navbar ul li a {
     .cont_form .box {
         font-weight: 500;
     }
-
+    .contact_div {
+        width: 49rem;
+    }
+    .contact_div .contact_p {
+         margin-left: 0rem;
+    }
 
 }
 
@@ -1141,10 +1152,13 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box {
-        height: 52rem;
+        height: 63rem;
     }
 
     .portfolio .box-container .box h3 svg {
         left: 32rem;
+    }
+    .contact_div {
+        width: 42rem;
     }
 }
