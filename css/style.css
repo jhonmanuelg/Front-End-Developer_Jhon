@@ -255,7 +255,7 @@ header {
 }
 
 .section_home {
-    width: 22rem;
+    width: 24rem;
     height: 54rem;
     background: rgba(244, 243, 243, 0.277);
     box-shadow: var(--box-shadow-mirror);
@@ -308,7 +308,7 @@ header .navbar ul {
 }
 
 
-header .navbar ul li{
+header .navbar ul li {
     margin: 0rem 0rem 1rem;
 }
 
@@ -637,7 +637,7 @@ header .navbar ul li a {
     font-weight: 500;
     padding: 3rem;
     height: inherit;
-   
+
 }
 
 
@@ -853,6 +853,22 @@ header .navbar ul li a {
         font-size: 55%;
     }
 
+    header.toggle {
+        width: 40rem;        
+    }
+
+    .section_home {
+        height: 60rem;
+        width: 24rem;
+    }
+    
+
+    header .user-modelo1 img {
+        margin-top: 1.1rem;
+        height: 19rem;
+        width: 16rem;
+    }
+
 
 }
 
@@ -875,6 +891,12 @@ header .navbar ul li a {
     header.toggle {
         left: 0%;
     }
+    .section_home {
+        width: 28rem;
+    }
+    header .navbar ul li a {
+        width: 24rem;
+    }
 
     body {
         padding: 0;
@@ -896,10 +918,14 @@ header .navbar ul li a {
         width: 52rem;
     }
 
+    header .user-modelo1 img {
+        margin-top: 2.1rem;
+    }
+
     .home {
         margin-bottom: 24rem;
     }
-    
+
     .home_conte {
         margin-top: 30rem;
     }
@@ -912,6 +938,16 @@ header .navbar ul li a {
 @media (max-width:576px) {
     section {
         min-height: 101vh;
+    }
+    header.toggle {
+        width: 35rem;
+    }
+
+    .section_home {
+        width: 28rem;
+    }
+    header .navbar ul li a {
+        width: 24rem;
     }
 
     .top {
@@ -937,10 +973,6 @@ header .navbar ul li a {
         font-size: 3.5rem;
     }
 
-    header.toggle {
-        width: 35rem;
-    }
-
     .home_p p {
         font-size: 2.3rem;
     }
@@ -950,6 +982,7 @@ header .navbar ul li a {
         margin: 0 3.5rem;
         font-size: 4rem;
     }
+
 
     /* para ocultar testo */
     .butto_leer {
@@ -1034,6 +1067,7 @@ header .navbar ul li a {
         font-size: 2.5rem;
         margin-top: 1.3rem;
     }
+
     .contact_div {
         width: 56rem;
         display: flex;
@@ -1042,7 +1076,7 @@ header .navbar ul li a {
     }
 
     .contact_div .contact_p {
-        font-size:1rem;
+        font-size: 1rem;
 
     }
 
@@ -1123,11 +1157,13 @@ header .navbar ul li a {
     .cont_form .box {
         font-weight: 500;
     }
+
     .contact_div {
         width: 49rem;
     }
+
     .contact_div .contact_p {
-         margin-left: 0rem;
+        margin-left: 0rem;
     }
 
 }
@@ -1158,6 +1194,7 @@ header .navbar ul li a {
     .portfolio .box-container .box h3 svg {
         left: 32rem;
     }
+
     .contact_div {
         width: 42rem;
     }
