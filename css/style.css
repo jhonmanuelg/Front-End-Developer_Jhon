@@ -622,7 +622,7 @@ header .navbar ul li a {
 
 .contact_div .contact_p {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
     padding: 1rem;
     background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
@@ -869,6 +869,9 @@ header .navbar ul li a {
         width: 16rem;
     }
 
+.contact_div .contact_p {
+    margin-top: 6rem;
+}
 
 }
 
@@ -979,7 +982,7 @@ header .navbar ul li a {
 
     .titeli_he {
         width: 85%;
-        margin: 0 3.5rem;
+        margin: 0px 5rem;
         font-size: 4rem;
     }
 
@@ -1093,6 +1096,9 @@ header .navbar ul li a {
     .home_conte {
         width: 130%;
         margin: 0rem -5rem -10rem;
+    }
+    .titeli_he{
+        margin: 0px 3.5rem;
     }
 
     .home_p {
