@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
@@ -10,7 +10,7 @@
     --fondoCard: #000000;
     --box-shadow-mirror: 0 0 10px rgba(0, 0, 0, 0.622);
     --backgr-mirror: rgba(255, 255, 255, 0.431);
-    --fonttitle: 'DM Sans', sans-serif;
+    --fonttitle: 'Open Sans', sans-serif;
     --backdrop-filtro: blur(9px);
 }
 
@@ -854,14 +854,14 @@ header .navbar ul li a {
     }
 
     header.toggle {
-        width: 40rem;        
+        width: 40rem;
     }
 
     .section_home {
         height: 60rem;
         width: 24rem;
     }
-    
+
 
     header .user-modelo1 img {
         margin-top: 1.1rem;
@@ -869,9 +869,9 @@ header .navbar ul li a {
         width: 16rem;
     }
 
-.contact_div .contact_p {
-    margin-top: 6rem;
-}
+    .contact_div .contact_p {
+        margin-top: 6rem;
+    }
 
 }
 
@@ -894,9 +894,11 @@ header .navbar ul li a {
     header.toggle {
         left: 0%;
     }
+
     .section_home {
         width: 28rem;
     }
+
     header .navbar ul li a {
         width: 24rem;
     }
@@ -942,6 +944,7 @@ header .navbar ul li a {
     section {
         min-height: 101vh;
     }
+
     header.toggle {
         width: 35rem;
     }
@@ -949,6 +952,7 @@ header .navbar ul li a {
     .section_home {
         width: 28rem;
     }
+
     header .navbar ul li a {
         width: 24rem;
     }
@@ -1097,7 +1101,8 @@ header .navbar ul li a {
         width: 130%;
         margin: 0rem -5rem -10rem;
     }
-    .titeli_he{
+
+    .titeli_he {
         margin: 0px 3.5rem;
     }
 
