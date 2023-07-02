@@ -3,7 +3,7 @@
 ![img do projeto](img/user-grado.jpg)
 
 --------
-link web:  https://jhonmanuelg.github.io/Portfolho-jhon-Front-End_Jr/
+link web:  https://jhonmanuelg.github.io/Front-End-eveloper_Jhon/
  
  ### Objetivos 🧑‍🎓🧑‍🎓🧑‍🎓
  * Este projeto foi elaborado em sala de aula no curso com o Toti, colocando em prática os conhecimentos adquiridos durante o seu desenvolvimento, graças à orientação dos instrutores e sua mentoria, os objetivos traçados no curso foram alcançados.
