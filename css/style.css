@@ -586,7 +586,7 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     position: relative;
     top: 0.9rem;
-    left: 1.5rem;
+    left: 1rem;
     border-radius: 50%;
     width: 3.5rem;
 }
@@ -873,6 +873,9 @@ header .navbar ul li a {
         margin-top: 6rem;
     }
 
+    .portfolio .box-container .box h3 svg {
+        left: 0.7rem;
+    }
 }
 
 /* @media (max-width:1033px) {} */
