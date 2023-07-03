@@ -132,8 +132,9 @@ section {
     width: 80px;
 }
 
-#download svg {
-    fill: #D00C00;
+#download a i {
+    font-size: 3rem;
+    color: #D00C00;
 }
 
 #download span {
@@ -142,8 +143,9 @@ section {
     font-weight: 500;
 }
 
-#linkedin svg {
-    fill: #378bd4;
+#linkedin a i {
+    font-size: 3rem;
+    color: #378bd4;
 }
 
 #linkedin span {
@@ -152,8 +154,10 @@ section {
     font-weight: 500;
 }
 
-#github svg {
-    fill: var(--whiteBtm) !important;
+#github a i {
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--whiteBtm);
 }
 
 #github span {
@@ -162,7 +166,8 @@ section {
     font-weight: 500;
 }
 
-#whatsApp svg {
+#whatsApp a i {
+    font-size: 3rem;
     color: #2cb946;
 }
 
@@ -509,12 +514,12 @@ header .navbar ul li a {
     border-radius: 8px;
 }
 
-.education .box-container .box .bi {
+.education .box-container .box i {
     position: absolute;
-    top: -0.1rem;
+    top: 0.5rem;
     left: 0.4rem;
     height: 4rem;
-    width: 4rem;
+    font-size: 2.5rem;
     color: #000000;
 
 }
@@ -582,13 +587,13 @@ header .navbar ul li a {
     font-weight: 500;
 }
 
-.portfolio .box-container .box h3 svg {
+.portfolio .box-container .box h3 i {
     color: var(--whiteBtm);
     position: relative;
-    top: 0.9rem;
+    top: 0.1rem;
     left: 1rem;
     border-radius: 50%;
-    width: 3.5rem;
+   font-size: 2.5rem;
 }
 
 .portfolio .box-container .box img {
@@ -786,19 +791,17 @@ header .navbar ul li a {
     margin-top: 18px;
     width: 60%;
     text-align: center;
-    color: var(--yellow);
+    color: var(--fondoBTN) !important;
     font-weight: bold;
-    border: none;
     cursor: pointer;
-    border-radius: 2px;
     border: none;
     float: right;
-
-    background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.462);
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
+
+
 
 #btnClose:hover {
     background-color: var(--whiteBtm);
@@ -841,7 +844,7 @@ header .navbar ul li a {
     text-decoration: none;
     color: var(--whiteBtm);
     position: fixed;
-    top: 0.5rem;
+    top: 0.2rem;
     left: 0.7rem;
 }
 
@@ -873,7 +876,7 @@ header .navbar ul li a {
         margin-top: 6rem;
     }
 
-    .portfolio .box-container .box h3 svg {
+    .portfolio .box-container .box h3 i {
         left: 0.7rem;
     }
 }
@@ -1050,7 +1053,7 @@ header .navbar ul li a {
         width: 55.6rem;
     }
 
-    .portfolio .box-container .box h3 svg {
+    .portfolio .box-container .box h3 i {
         position: absolute;
         left: 50rem;
         top: 31.8rem;
@@ -1154,7 +1157,7 @@ header .navbar ul li a {
         width: 100%;
     }
 
-    .portfolio .box-container .box h3 svg {
+    .portfolio .box-container .box h3 i {
         left: 38rem;
         top: 24.8rem;
     }
@@ -1205,7 +1208,7 @@ header .navbar ul li a {
         height: 63rem;
     }
 
-    .portfolio .box-container .box h3 svg {
+    .portfolio .box-container .box h3 i {
         left: 32rem;
     }
 
