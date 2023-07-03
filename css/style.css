@@ -133,6 +133,7 @@ section {
 }
 
 #download a i {
+    margin-left: 0.5rem;
     font-size: 3rem;
     color: #D00C00;
 }
@@ -144,6 +145,7 @@ section {
 }
 
 #linkedin a i {
+    margin-left: 0.5rem;
     font-size: 3rem;
     color: #378bd4;
 }
@@ -155,6 +157,7 @@ section {
 }
 
 #github a i {
+    margin-left: 0.5rem;
     text-decoration: none;
     font-size: 3rem;
     color: var(--whiteBtm);
@@ -167,6 +170,7 @@ section {
 }
 
 #whatsApp a i {
+    margin-left: 0.5rem;
     font-size: 3rem;
     color: #2cb946;
 }
