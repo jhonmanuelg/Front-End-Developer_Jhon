@@ -732,7 +732,7 @@ header .navbar ul li a {
 .mensaje_modal {
     width: 296px;
     padding: 30px 20px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.275);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 122.275);
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
@@ -809,6 +809,7 @@ header .navbar ul li a {
 
 #btnClose:hover {
     background-color: var(--whiteBtm);
+    color: var(--yellow) !important;
 }
 
 
