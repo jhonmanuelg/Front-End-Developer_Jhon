@@ -532,14 +532,7 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     font-weight: 600;
     font-size: 2rem;
-    margin: 4rem 0rem 0rem 2rem;
-}
-
-.education .box-container .box h3 {
-    font-size: 1.5rem;
-    color: var(--whiteBtm);
-    font-weight: 600;
-    margin: 0rem 0rem 0rem 2rem;
+    margin: 2.5rem 0rem 0rem 2rem;
 }
 
 .education .box-container .box p {
@@ -566,7 +559,7 @@ header .navbar ul li a {
 
 .portfolio .box-container .box {
     max-width: 28.6rem;
-    height: 43rem;
+    height: 50rem;
     padding: 3rem 0rem 0rem 0rem;
     margin: 3rem 2rem 0rem;
     overflow: visible;
@@ -575,17 +568,21 @@ header .navbar ul li a {
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 .portfolio .box-container .box h3 {
     font-size: 1.7rem;
+    margin-top: 0.5rem;
     color: var(--whiteBtm);
-    margin: 0rem 0.8rem 1.2rem;
     font-weight: 800;
 }
 
 .portfolio .box-container .box p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 1rem;
     text-align: justify;
     font-weight: 500;
@@ -606,13 +603,11 @@ header .navbar ul li a {
     object-fit: fill;
     border-radius: 8px 8px 0 0;
     margin: -3.2rem 0rem 0rem 0rem;
-
 }
 
 .portfolio .box-container .box:hover img {
     opacity: 10;
     transform: scale(1.02);
-
 }
 
 
@@ -881,12 +876,9 @@ header .navbar ul li a {
         margin-top: 6rem;
     }
 
-    .portfolio .box-container .box h3 i {
-        left: 0.7rem;
-    }
+    
 }
 
-/* @media (max-width:1033px) {} */
 
 @media (max-width:991px) {
 
@@ -1058,12 +1050,6 @@ header .navbar ul li a {
         width: 55.6rem;
     }
 
-    .portfolio .box-container .box h3 i {
-        position: absolute;
-        left: 50rem;
-        top: 31.8rem;
-    }
-
     .portfolio .box-container .box p {
         font-size: 1.9rem;
         padding: 1.3rem;
@@ -1159,12 +1145,7 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         height: 24rem;
-        width: 100%;
-    }
-
-    .portfolio .box-container .box h3 i {
-        left: 38rem;
-        top: 24.8rem;
+        width: 46rem;
     }
 
     .contact_div .contact_p {
@@ -1213,8 +1194,8 @@ header .navbar ul li a {
         height: 63rem;
     }
 
-    .portfolio .box-container .box h3 i {
-        left: 32rem;
+    .portfolio .box-container .box img {
+        width: 41rem;
     }
 
     .contact_div {
