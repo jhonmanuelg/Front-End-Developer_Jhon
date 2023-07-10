@@ -59,7 +59,7 @@ $(document).ready(function () {
     // validar assunto =============================
     
     if ($("#phone").val() == "") {
-        errores += "<p>Escreva sue telefone</p>";
+        errores += "<p>Exemplo (XX)9XXXXXXXX</p>";
         $("#phone").css("border-left-color", "var(--fondoBTN)");
       } else {
         $("#phone").css("border-left-color", "var(--fondoCard");

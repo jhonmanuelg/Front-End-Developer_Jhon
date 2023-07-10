@@ -176,7 +176,7 @@ section {
 }
 
 #whatsApp span {
-    color: #39B027 ;
+    color: #39B027;
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -594,7 +594,7 @@ header .navbar ul li a {
     top: 0.1rem;
     left: 1rem;
     border-radius: 50%;
-   font-size: 2.7rem;
+    font-size: 2.7rem;
 }
 
 .portfolio .box-container .box img {
@@ -876,7 +876,7 @@ header .navbar ul li a {
         margin-top: 6rem;
     }
 
-    
+
 }
 
 
