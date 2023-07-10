@@ -170,6 +170,7 @@ section {
 }
 
 #whatsApp a i {
+    cursor: pointer;
     margin-left: 0.5rem;
     font-size: 3rem;
     color: #2cb946;
