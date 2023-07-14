@@ -31,7 +31,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    
     overflow-x: hidden;
 }
 
@@ -841,7 +841,6 @@ header .navbar ul li a {
 .top i {
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
     text-decoration: none;
     color: var(--whiteBtm);
     position: fixed;
@@ -967,7 +966,7 @@ header .navbar ul li a {
     }
 
     .top i {
-        top: 0.1rem;
+        top: -0.1rem;
         left: 0.5rem;
     }
 
@@ -1084,6 +1083,10 @@ header .navbar ul li a {
         font-size: 1rem;
 
     }
+    
+    .contact .cont_form{
+        width: 64rem;
+    }
 
 }
 
@@ -1155,7 +1158,7 @@ header .navbar ul li a {
     }
 
     .contact .cont_form {
-        width: 44rem;
+        width: 52rem;
     }
 
     .cont_form .box {
@@ -1201,5 +1204,9 @@ header .navbar ul li a {
 
     .contact_div {
         width: 42rem;
+    }
+
+    .contact .cont_form {
+        width: 46rem;
     }
 }
