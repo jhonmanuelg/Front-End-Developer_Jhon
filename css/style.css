@@ -898,6 +898,10 @@ header .navbar ul li a {
         left: 0%;
     }
 
+    .home {
+        margin-bottom: 32rem;
+    }
+
     .section_home {
         width: 28rem;
     }
