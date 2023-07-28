@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
     --yellow: #ffffff;
@@ -134,7 +133,7 @@ section {
 
 #download a i {
     margin-left: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #D00C00;
 }
 
@@ -146,7 +145,7 @@ section {
 
 #linkedin a i {
     margin-left: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #378bd4;
 }
 
@@ -159,7 +158,7 @@ section {
 #github a i {
     margin-left: 0.5rem;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--whiteBtm);
 }
 
@@ -172,7 +171,7 @@ section {
 #whatsApp a i {
     cursor: pointer;
     margin-left: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #2cb946;
 }
 
@@ -265,8 +264,8 @@ header {
 }
 
 .section_home {
-    width: 24rem;
-    height: 54rem;
+    width: 19rem;
+    height: 47rem;
     background: rgba(244, 243, 243, 0.277);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
@@ -298,13 +297,12 @@ header .user-modelo1 img {
 
 
 header .user-modelo1 .name {
-
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     color: var(--yellow);
 }
 
 header .user-modelo1 .post {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--yellow);
     text-align: center;
 }
@@ -322,18 +320,24 @@ header .navbar ul li {
     margin: 0rem 0rem 1rem;
 }
 
-header .navbar ul li a {
-    width: 20rem;
+.navbar ul li .link_btn{
+    width: 16rem;
+    height: 3rem;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
+    text-align: center;
     margin: 0.5rem 0;
     color: var(--fondoBTN);
     font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
     background: rgb(242, 242, 242);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
 }
+
+
 
 /* ============ CSS menu ============ */
 
@@ -369,20 +373,20 @@ header .navbar ul li a {
 .home_conte {
     width: 100%;
     padding: 1.5rem;
-    height: inherit;
+    height: 34rem;
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: var(--backdrop-filtro);
     border-radius: 8px;
 }
 
 .home h3 {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     color: var(--whiteBtm);
     margin-bottom: 6px;
 }
 
 .home h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
     color: var(--whiteBtm);
 }
 
@@ -390,14 +394,11 @@ header .navbar ul li a {
     color: var(--whiteBtm);
 }
 
-.home_p {
-    margin-top: 3rem;
-
-}
 
 .home_p p {
-    text-align: justify;
-    font-size: 1.6rem;
+    text-align: inherit;
+    font-size: 1.3rem;
+    margin-top: 1rem;
     color: var(--whiteBtm);
     padding: 1rem 0;
     font-weight: 400;
@@ -406,7 +407,7 @@ header .navbar ul li a {
 
 .home .span {
     color: var(--whiteBtm);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0rem 0rem 0rem 0rem;
 }
@@ -439,8 +440,8 @@ header .navbar ul li a {
 }
 
 .info p {
-    text-align: justify;
-    font-size: 1.6rem;
+    text-align: inherit;
+    font-size: 1.3rem;
     color: var(--whiteBtm);
     padding: 0.3rem 1rem;
     font-weight: 400;
@@ -457,15 +458,14 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box {
-    width: 27rem;
-    text-align: start;
+    width: 23rem;
+    height: 18rem;
     padding: 2rem;
     margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: inherit;
     background: var(--backgr-mirror);
     box-shadow: var(--box-shadow-mirror);
     backdrop-filter: blur(5px);
@@ -483,8 +483,8 @@ header .navbar ul li a {
 
 
 .about .row .counter .box p {
-    text-align: justify;
-    font-size: 1.5rem;
+    text-align: inherit;
+    font-size: 1.3rem;
     font-weight: 500;
     color: var(--whiteBtm);
     position: relative;
@@ -505,8 +505,8 @@ header .navbar ul li a {
 }
 
 .education .box-container .box {
-    width: 30rem;
-    height: 17rem;
+    width: 22rem;
+    height: 21rem;
     margin: 3rem 0rem 0rem 0rem;
     padding: 0.5rem;
     position: relative;
@@ -540,7 +540,7 @@ header .navbar ul li a {
     font-size: 1.4rem;
     color: var(--whiteBtm);
     padding: 1rem 0rem;
-    margin: 0rem 1rem 1rem 2rem;
+    margin: 0rem 1rem 1rem 1rem;
     font-weight: 600;
 }
 
@@ -559,8 +559,8 @@ header .navbar ul li a {
 
 
 .portfolio .box-container .box {
-    max-width: 28.6rem;
-    height: 50rem;
+    max-width: 23.6rem;
+    height: 43rem;
     padding: 3rem 0rem 0rem 0rem;
     margin: 3rem 2rem 0rem;
     overflow: visible;
@@ -576,16 +576,16 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-top: 0.5rem;
     color: var(--whiteBtm);
     font-weight: 800;
 }
 
 .portfolio .box-container .box p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 1rem;
-    text-align: justify;
+    text-align: inherit;
     font-weight: 500;
 }
 
@@ -593,14 +593,14 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     position: relative;
     top: 0.1rem;
-    left: 1rem;
+    left: 0.3rem;
     border-radius: 50%;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
 }
 
 .portfolio .box-container .box img {
     height: 20.8rem;
-    width: 28.6rem;
+    width: 23.6rem;
     object-fit: fill;
     border-radius: 8px 8px 0 0;
     margin: -3.2rem 0rem 0rem 0rem;
