@@ -254,7 +254,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    transition: all 0.6s;
 }
 
 .section_home {
@@ -389,8 +388,7 @@ header .navbar ul li a {
 }
 
 .home_p {
-    margin-top: 3rem;
-    
+    margin-top: 3rem;    
 }
 
 .home_p p {
