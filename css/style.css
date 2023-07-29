@@ -80,7 +80,7 @@ section {
 /* ============== Iconos rddes socilaes arriba y bajo */
 .social-links {
     margin: 2rem;
-    
+
 
 }
 
@@ -90,7 +90,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .social-btn {
@@ -107,12 +107,11 @@ section {
 
 }
 
-.social-btn i {
+/* .social-btn i {
     margin: 0rem 0rem 0rem 1rem;
     cursor: pointer;
-    height: 29px;
-    width: 31px;
-}
+    font-size: 3.5rem;
+} */
 
 .social-btn span {
     width: 0px;
@@ -137,8 +136,9 @@ section {
 }
 
 #download a {
+    margin-left: 0.5rem;
     color: #D00C00;
-        font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -147,8 +147,9 @@ section {
 }
 
 #linkedin a {
-    color:#378bd4;
-        font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: #378bd4;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -157,8 +158,9 @@ section {
 }
 
 #github a {
+    margin-left: 0.5rem;
     color: var(--whiteBtm);
-        font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -167,8 +169,9 @@ section {
 }
 
 #whatsApp a {
-    color:#39B027 !important;
-        font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: #39B027 !important;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -217,7 +220,7 @@ section {
     border-radius: 4px;
 }
 
-.btn:hover  {
+.btn:hover {
     color: var(--yellow);
     font-weight: 900;
 }
@@ -388,7 +391,7 @@ header .navbar ul li a {
 }
 
 .home_p {
-    margin-top: 3rem;    
+    margin-top: 3rem;
 }
 
 .home_p p {
@@ -420,7 +423,7 @@ header .navbar ul li a {
     flex-wrap: wrap;
     padding: 1rem 0;
     transition: all 0.5s;
-    
+
 }
 
 .info {
@@ -572,7 +575,7 @@ header .navbar ul li a {
     justify-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     background: var(--backgr-mirror);
-    
+
     backdrop-filter: blur(5px);
     border-radius: 8px;
 }
@@ -591,7 +594,7 @@ header .navbar ul li a {
     font-weight: 500;
 }
 
-.portfolio .box-container .box  i {
+.portfolio .box-container .box i {
     color: var(--whiteBtm);
     position: relative;
     top: 0.1rem;
@@ -626,7 +629,8 @@ header .navbar ul li a {
     padding: 1rem 0;
     transition: all 300ms;
 }
-.contact_div{
+
+.contact_div {
     margin-top: 3rem;
     background: var(--backgr-mirror);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -634,7 +638,7 @@ header .navbar ul li a {
     border-radius: 8px;
 }
 
-.contact_div .contact_p {   
+.contact_div .contact_p {
     text-align: center;
     margin-top: 3rem;
 }
@@ -646,7 +650,7 @@ header .navbar ul li a {
     font-weight: 500;
     padding: 3rem;
     height: inherit;
-    
+
 }
 
 
@@ -692,8 +696,8 @@ header .navbar ul li a {
     color: #4d4d4d9e;
 }
 
-.cont_form .message {    
-    color:var(--whiteBtm);
+.cont_form .message {
+    color: var(--whiteBtm);
     text-transform: none;
     font-size: 1.7rem;
     height: 25rem;
@@ -731,7 +735,7 @@ header .navbar ul li a {
     align-items: center;
 }
 
-.mensaje_modal {   
+.mensaje_modal {
     width: 296px;
     padding: 30px 20px 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.275);
@@ -850,13 +854,13 @@ header .navbar ul li a {
     font-weight: 900;
     text-align: center;
     text-decoration: none;
-    color: var(--whiteBtm);    
+    color: var(--whiteBtm);
     position: fixed;
     top: 0.5rem;
     left: 0.7rem;
 }
 
-.top i:hover{
+.top i:hover {
     color: #278800;
 }
 
@@ -963,6 +967,7 @@ header .navbar ul li a {
     .home {
         top: 4rem;
     }
+
     .section_home {
         top: 6rem;
     }
@@ -999,7 +1004,7 @@ header .navbar ul li a {
     header .navbar {
         top: 20rem;
     }
-    
+
     header .user-modelo1 .post {
         margin-left: 2.5rem;
     }
@@ -1072,7 +1077,7 @@ header .navbar ul li a {
 
     .portfolio .box-container .box img {
         width: 25.6rem;
-    }    
+    }
 
     .about .row .counter .box p {
         font-size: 1.8rem;
@@ -1099,7 +1104,7 @@ header .navbar ul li a {
         font-size: 1.3rem;
     }
 
-    .titeli_he{
+    .titeli_he {
         margin: 0 2.6rem;
     }
 
@@ -1134,7 +1139,7 @@ header .navbar ul li a {
         left: 2rem;
     }
 
-    .contact_div{
+    .contact_div {
         width: 89%;
     }
 }
@@ -1182,8 +1187,8 @@ header .navbar ul li a {
     }
 
     .portfolio .box-container .box {
-        max-width: 33.6rem;  
-        height: 43rem;     
+        max-width: 33.6rem;
+        height: 43rem;
         margin: 5rem 0rem 6rem -0.5rem;
     }
 
