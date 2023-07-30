@@ -450,7 +450,7 @@ header .navbar ul li a {
 }
 
 .about .row .counter .box {
-    width: 27rem;
+    width: 30rem;
     text-align: start;
     padding: 2rem;
     margin: 2rem;
@@ -463,6 +463,7 @@ header .navbar ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
     border-radius: 8px;
+    transition: 0.5s;
 }
 
 .about .row .counter .box span {
