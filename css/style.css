@@ -477,7 +477,7 @@ header .navbar ul li a {
 
 .about .row .counter .box p {
     text-align: inherit;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: var(--whiteBtm);
     position: relative;
@@ -558,7 +558,7 @@ header .navbar ul li a {
 
 .portfolio .box-container .box {
     max-width: 23.6rem;
-    height: 43rem;
+    height: 51rem;
     padding: 3rem 0rem 0rem 0rem;
     margin: 3rem 2rem 0rem;
     overflow: visible;
@@ -582,7 +582,7 @@ header .navbar ul li a {
 }
 
 .portfolio .box-container .box p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 1rem;
     text-align: inherit;
     font-weight: 500;
@@ -912,7 +912,7 @@ header .navbar ul li a {
 
     .education .box-container .box {
         width: 27.6rem;
-        height: 13.5rem;
+        height: 16.6rem;
         margin: 4rem 0rem 0rem 0rem;
     }
 
