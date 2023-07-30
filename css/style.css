@@ -80,8 +80,6 @@ section {
 /* ============== Iconos rddes socilaes arriba y bajo */
 .social-links {
     margin: 2rem;
-
-
 }
 
 .social-links,
@@ -125,8 +123,10 @@ section {
     width: 80px;
 }
 
-#download i {
-    fill: #D00C00;
+#download span {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #D00C00 ;
 }
 
 #download a {
@@ -136,8 +136,10 @@ section {
     font-weight: 500;
 }
 
-#linkedin i {
-    fill: #378bd4;
+#linkedin span {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #378bd4;
 }
 
 #linkedin a {
@@ -147,8 +149,10 @@ section {
     font-weight: 500;
 }
 
-#github i {
-    fill: var(--whiteBtm) !important;
+#github span {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--whiteBtm);
 }
 
 #github a {
@@ -158,7 +162,9 @@ section {
     font-weight: 500;
 }
 
-#whatsApp i {
+#whatsApp span {
+    font-size: 1.5rem;
+    font-weight: 900;
     color: #2cb946;
 }
 
