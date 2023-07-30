@@ -319,11 +319,10 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    color: var(--yellow);
+    color: var(--whiteBtm);
     font-weight: bold;
     font-size: 1.5rem;
-    border-radius: 8px;
-    background: rgba(242, 238, 238, 0.217);
+    background: rgba(242, 238, 238, 0.927);
     box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(8px);
     border-radius: 8px;
