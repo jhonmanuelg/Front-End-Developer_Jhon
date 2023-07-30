@@ -1117,9 +1117,10 @@ header .navbar ul li a {
     }
 
     .contact_p p {
-        font-size: 1.9rem;
-        padding: 3rem;
-        margin: 0rem 5rem 0rem 5rem;
+        text-align: inherit;
+        font-size: 1.6rem;
+        padding: 2rem;
+        margin: 0rem 1rem 0rem 0rem;
     }
 
     .contact .cont_form {
