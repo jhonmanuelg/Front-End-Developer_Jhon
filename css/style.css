@@ -126,7 +126,7 @@ section {
 #download span {
     font-size: 1.5rem;
     font-weight: 900;
-    color: #D00C00 ;
+    color: #D00C00;
 }
 
 #download a {
@@ -638,13 +638,14 @@ header .navbar ul li a {
 }
 
 .contact_div .contact_p {
+    max-width: 51rem;
     text-align: center;
     margin-top: 3rem;
 }
 
 .contact_p p {
     font-size: 1.7rem;
-    text-align: inherit;
+    text-align: initial;
     color: var(--whiteBtm);
     font-weight: 500;
     padding: 3rem;
@@ -1124,8 +1125,9 @@ header .navbar ul li a {
         width: 57rem;
     }
 
+
     .contact_p p {
-        text-align: inherit;
+        text-align: left;
         font-size: 1.6rem;
         padding: 2rem;
         margin: 0rem 1rem 0rem 0rem;
@@ -1142,7 +1144,11 @@ header .navbar ul li a {
     }
 
     .contact_div {
-        width: 89%;
+        margin: 7rem 2rem 0rem 0rem
+    }
+
+    .contact_div .contact_p {
+        max-width: 44rem;
     }
 }
 
@@ -1182,7 +1188,7 @@ header .navbar ul li a {
         width: 36rem;
     }
 
-    .education .box-container{
+    .education .box-container {
         padding: 0rem 0rem;
     }
 
@@ -1227,6 +1233,13 @@ header .navbar ul li a {
         width: 36rem;
         position: relative;
         left: -1rem;
+    }
+
+    .contact_div {
+        margin: 7rem 0rem 0rem 0rem
+    }
+    .contact_div .contact_p {
+        max-width: 37rem;
     }
 
     .btn {
