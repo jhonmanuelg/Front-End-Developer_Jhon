@@ -322,7 +322,7 @@ header .navbar ul li a {
     color: var(--whiteBtm);
     font-weight: bold;
     font-size: 1.5rem;
-    background: rgba(242, 238, 238, 0.927);
+    background: rgb(255, 255, 281);
     box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(8px);
     border-radius: 8px;
@@ -1029,10 +1029,12 @@ header .navbar ul li a {
 
     .home p {
         font-size: 2.1rem;
+        text-align: left;
     }
 
     .row .info p {
         font-size: 2.1rem;
+        text-align: left;
     }
 
     /* para ocultar testo */
