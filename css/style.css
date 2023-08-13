@@ -99,10 +99,9 @@ section {
     transition: 0.3s;
     justify-content: center;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
-
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
 }
 
 .social-btn span {
@@ -195,8 +194,8 @@ section {
     color: var(--fondoCard);
     border-radius: 8px;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -262,16 +261,15 @@ header {
 .section_home {
     width: 19rem;
     height: 54rem;
-    position: fixed;
-    top: 8rem;
+   
     background: var(--backgr-mirror);
-    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.424);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
 
-header .user-modelo1 img {
+header  img {
     border: 2px solid var(--yellow);
     background: var(--fondoBTN);
     height: 14rem;
@@ -287,14 +285,14 @@ header .user-modelo1 img {
 
 
 
-header .user-modelo1 .name {
+header .name {
     margin: 2rem 0rem 0rem 2rem;
     font-size: 3.2rem;
     color: var(--yellow);
     font-weight: 700;
 }
 
-header .user-modelo1 .post {
+header .post {
     font-size: 2.5rem;
     color: var(--yellow);
     font-weight: bold;
@@ -342,8 +340,8 @@ header .navbar ul li a {
     z-index: 1000;
     display: none;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.275);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -351,8 +349,6 @@ header .navbar ul li a {
 /* ============= CSS Seja Bem-vindo. ================== */
 
 .home {
-    position: relative;
-    top: 7rem;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -365,8 +361,8 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -398,7 +394,7 @@ header .navbar ul li a {
     font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 1rem 0;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 
@@ -431,8 +427,8 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -441,7 +437,7 @@ header .navbar ul li a {
     font-size: 1.6rem;
     color: var(--whiteBtm);
     padding: 0.3rem 1rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .about .row .counter {
@@ -465,8 +461,8 @@ header .navbar ul li a {
     align-items: center;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -484,7 +480,7 @@ header .navbar ul li a {
 .about .row .counter .box p {
     text-align: inherit;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--whiteBtm);
     position: relative;
 
@@ -512,8 +508,8 @@ header .navbar ul li a {
     flex-direction: column;
     transition: 0.5s;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -572,10 +568,9 @@ header .navbar ul li a {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     background: var(--backgr-mirror);
-
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -590,7 +585,7 @@ header .navbar ul li a {
     font-size: 1.4rem;
     padding: 1rem;
     text-align: inherit;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .portfolio .box-container .box i {
@@ -632,8 +627,8 @@ header .navbar ul li a {
 .contact_div {
     margin-top: 3rem;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -647,7 +642,7 @@ header .navbar ul li a {
     font-size: 1.7rem;
     text-align: initial;
     color: var(--whiteBtm);
-    font-weight: 500;
+    font-weight: 600;
     padding: 3rem;
     height: inherit;
 
@@ -677,8 +672,8 @@ header .navbar ul li a {
     transition: all 0.9s;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -703,8 +698,8 @@ header .navbar ul li a {
     height: 25rem;
     resize: none;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -738,8 +733,8 @@ header .navbar ul li a {
 .mensaje_modal {
     width: 296px;
     padding: 30px 20px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.275);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
     border-radius: 8px;
 }
 
@@ -810,8 +805,8 @@ header .navbar ul li a {
     float: right;
 
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(8px);
     border-radius: 8px;
 }
 
@@ -873,10 +868,6 @@ header .navbar ul li a {
 
     html {
         font-size: 55%;
-    }
-
-    .section_home {
-        top: 14rem;
     }
 
     header .navbar {
@@ -968,21 +959,12 @@ header .navbar ul li a {
         top: 4rem;
     }
 
-    .section_home {
-        top: 6rem;
-    }
-
 
 }
 
 @media (max-width: 914px) {
     .home {
         top: -3rem;
-    }
-
-    .section_home {
-        position: fixed;
-        top: 24rem;
     }
 
     .education .box-container .box {
@@ -996,11 +978,7 @@ header .navbar ul li a {
 
 @media (max-width: 560px) {
 
-    .section_home {
-        position: fixed;
-        top: 13rem;
-    }
-
+   
     header .navbar {
         top: 20rem;
     }
@@ -1174,10 +1152,6 @@ header .navbar ul li a {
     .heading {
         font-size: 3rem;
         margin: 0 3rem;
-    }
-
-    .section_home {
-        top: 12rem;
     }
 
     .titeli_he {
