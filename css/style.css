@@ -123,7 +123,7 @@ section {
 }
 
 #download span {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: #D00C00;
 }
@@ -136,7 +136,7 @@ section {
 }
 
 #linkedin span {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: #378bd4;
 }
@@ -149,7 +149,7 @@ section {
 }
 
 #github span {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: var(--whiteBtm);
 }
@@ -162,7 +162,7 @@ section {
 }
 
 #whatsApp span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 900;
     color: #2cb946;
 }
