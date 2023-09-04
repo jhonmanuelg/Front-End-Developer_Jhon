@@ -727,7 +727,7 @@ header .navbar ul li a {
 .mensaje_modal {
     width: 296px;
     padding: 30px 20px 15px;    
-    box-shadow: 0 0 10px rgba(190, 189, 189, 0.626);
+    box-shadow: 0 0 10px rgba(190, 189, 189, 0.275);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
