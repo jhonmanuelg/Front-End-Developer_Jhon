@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $("#menu").click(function () {
-    $(this).toggleClass("bi-x-circle-fill");
+    $(this).toggleClass("fa-less-than");
     $("header").toggleClass("toggle");
   });
 
   $(window).on("scroll load", function () {
-    $("#menu").removeClass("bi-x-circle-fill");
+    $("#menu").removeClass("fa-arrow-up-from-bracket");
     $("header").removeClass("toggle");
 
     if ($(window).scrollTop() > 0) {

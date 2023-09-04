@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 :root {
-    --yellow: #ffffff;
-    --white: #0e0d0d;
-    --whiteBtm: #000000;
+    --scrollbar: #667775;
+    --whiteBtm: #282828;
     --fondo: #f7f5f5;
-    --fondoBTN: #000000;
+    --fondoBTN: #aba7a7;
     --fondoCard: #000000;
-    --backgr-mirror: rgba(255, 255, 255, .05);
+    --backgr-mirror: rgba(255, 253, 253, 0.472);
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -24,7 +23,7 @@
 
 *::selection {
     background: var(--fondoCard);
-    color: var(--yellow);
+    color: var(--white);
 }
 
 html {
@@ -37,11 +36,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: var(--fondoCard);
+    background: var(--scrollbar);
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--yellow);
+    background: #223937;
 }
 
 body {
@@ -49,7 +48,8 @@ body {
     padding-left: 29rem;
     font-family: var(--fonttitle);
     background-color: var(--fondo);
-    background-image: url("../img/scattered-forcefields.webp");
+    /* background-image: url("../img/scattered-forcefields.webp"); */
+    background-image: url("../img/subtle-prism.svg");
     background-attachment: fixed;
     background-size: contain;
 }
@@ -66,14 +66,14 @@ section {
     font-style: oblique;
     text-decoration: underline;
     cursor: pointer;
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: bold;
     background-color: transparent;
     display: none;
 }
 
 .butto_leer:hover {
-    color: var(--yellow);
+    color: var(--white);
 }
 
 /* ============== Iconos rddes socilaes arriba y bajo */
@@ -122,7 +122,7 @@ section {
 }
 
 #download span {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #D00C00;
 }
@@ -135,7 +135,7 @@ section {
 }
 
 #linkedin span {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #378bd4;
 }
@@ -148,7 +148,7 @@ section {
 }
 
 #github span {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: var(--whiteBtm);
 }
@@ -161,7 +161,7 @@ section {
 }
 
 #whatsApp span {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #2cb946;
 }
@@ -192,10 +192,9 @@ section {
     z-index: 1;
     font-family: inherit;
     color: var(--fondoCard);
-    border-radius: 8px;
-    background: var(--backgr-mirror);
+    background: var(--fondoBTN);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -220,7 +219,7 @@ section {
 }
 
 .btn:hover {
-    color: var(--yellow);
+    color: var(--white);
     font-weight: 900;
 }
 
@@ -233,12 +232,12 @@ section {
     margin: 0 6rem;
     font-size: 6rem;
     padding: 1rem;
-    border-bottom: 0.2rem solid var(--fondoCard);
+    border-bottom: 0.7rem solid var(--scrollbar);
     color: var(--white);
 }
 
 .heading span {
-    color: var(--yellow);
+    color: var(--white);
 }
 
 header {
@@ -261,16 +260,16 @@ header {
 .box_home {
     width: 19rem;
     height: 54rem;
-   
+
     background: var(--backgr-mirror);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
 
-header  img {
-    border: 2px solid var(--yellow);
+header img {
+    border: 2px solid var(--white);
     background: var(--fondoBTN);
     height: 14rem;
     width: 12rem;
@@ -288,13 +287,13 @@ header  img {
 header .name {
     margin: 2rem 0rem 0rem 2rem;
     font-size: 3.2rem;
-    color: var(--yellow);
+    color: var(--white);
     font-weight: 700;
 }
 
 header .post {
     font-size: 2.5rem;
-    color: var(--yellow);
+    color: var(--white);
     font-weight: bold;
     text-align: center;
 }
@@ -317,12 +316,11 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 0.5rem 0;
-    color: var(--whiteBtm);
+    color: var(--fondoCard);
     font-weight: bold;
     font-size: 1.5rem;
     background: rgb(255, 255, 281);
-    box-shadow: -10px -14px 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(114, 114, 114, 0.819);
     border-radius: 8px;
 }
 
@@ -341,7 +339,7 @@ header .navbar ul li a {
     display: none;
     background: var(--backgr-mirror);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -361,26 +359,26 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
 .home h3 {
     font-size: 3.5rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 300;
     margin-bottom: 6px;
 }
 
 .home h1 {
     font-size: 5rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 300;
 }
 
 .home h1 span {
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 700;
 
 }
@@ -392,14 +390,14 @@ header .navbar ul li a {
 .home_p p {
     text-align: justify;
     font-size: 1.6rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     padding: 1rem 0;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
 .home .span {
-    color: var(--whiteBtm);
+    color: var(--white);
     font-size: 3rem;
     font-weight: bold;
     margin: 0rem 0rem 0rem 0rem;
@@ -427,17 +425,17 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
 .about_info p {
     text-align: justify;
     font-size: 1.6rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     padding: 0.3rem 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .about .abou_row .about_counter {
@@ -461,8 +459,8 @@ header .navbar ul li a {
     align-items: center;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -472,7 +470,7 @@ header .navbar ul li a {
     font-weight: bold;
     font-size: 2.3rem;
     margin-bottom: 0.3rem;
-    color: var(--whiteBtm);
+    color: var(--white);
 }
 
 
@@ -480,8 +478,8 @@ header .navbar ul li a {
 .about .abou_row .about_counter .box p {
     text-align: inherit;
     font-size: 1.4rem;
-    font-weight: 600;
-    color: var(--whiteBtm);
+    font-weight: 400;
+    color: var(--white);
     position: relative;
 
 }
@@ -508,14 +506,14 @@ header .navbar ul li a {
     flex-direction: column;
     transition: 0.5s;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(3px);
     border-radius: 8px;
 }
 
 
 .span {
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 600;
     font-size: 2rem;
     margin: 3rem 0rem 0rem 1rem;
@@ -524,17 +522,17 @@ header .navbar ul li a {
 .about_education .box-container .box h3 {
     margin-top: 1rem;
     font-size: 1.5rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 600;
     margin: 0rem 0rem 0rem 1rem;
 }
 
 .about_education .box-container .box p {
     font-size: 1.4rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     padding: 0rem;
     margin: 0rem 1rem 1rem 1rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .about_education .box-container .box i {
@@ -542,6 +540,7 @@ header .navbar ul li a {
     top: 0.9rem;
     left: 0.9rem;
     font-size: 2.2rem;
+    color: var(--whiteBtm);
 }
 
 
@@ -569,15 +568,15 @@ header .navbar ul li a {
     align-items: center;
     justify-items: center;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
 .box_portfolio .box-container .box h3 {
     font-size: 1.4rem;
     margin-top: 0.5rem;
-    color: var(--whiteBtm);
+    color: var(--white);
     font-weight: 800;
 }
 
@@ -585,7 +584,8 @@ header .navbar ul li a {
     font-size: 1.4rem;
     padding: 1rem;
     text-align: inherit;
-    font-weight: 600;
+    color: var(--white);
+    font-weight: 400;
 }
 
 .box_portfolio .box-container .box i {
@@ -627,8 +627,8 @@ header .navbar ul li a {
 .contact_div {
     margin-top: 3rem;
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -641,8 +641,8 @@ header .navbar ul li a {
 .contact_p p {
     font-size: 1.7rem;
     text-align: initial;
-    color: var(--whiteBtm);
-    font-weight: 600;
+    color: var(--white);
+    font-weight: 400;
     padding: 3rem;
     height: inherit;
 
@@ -666,40 +666,34 @@ header .navbar ul li a {
     margin: 1rem 0;
     text-transform: none;
     font-size: 1.7rem;
-    border-radius: 0.2rem;
     font-weight: 700;
-    box-shadow: -4px 7px 20px #000000;
     transition: all 0.9s;
     height: inherit;
+    color: var(--white);
     background: var(--backgr-mirror);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
-.cont_form .box:hover {
-    border-left-color: rgb(74, 74, 74);
-}
-
 .cont_form .box:focus {
-    border-left: 4px solid var(--whiteBtm);
+    border-left: 4px solid var(--white);
 }
 
 
 .cont_form .box::placeholder {
     text-transform: capitalize;
-    color: #4d4d4d9e;
+    color: #00000081;
 }
 
 .cont_form .message {
-    color: var(--whiteBtm);
     text-transform: none;
     font-size: 1.7rem;
     height: 25rem;
     resize: none;
     background: var(--backgr-mirror);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -733,8 +727,8 @@ header .navbar ul li a {
 .mensaje_modal {
     width: 296px;
     padding: 30px 20px 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(9px);
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.57);
+    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -746,7 +740,7 @@ header .navbar ul li a {
 }
 
 .mensaje_modal h3 {
-    color: #a50000;
+    color: #ff0000;
     text-align: center;
     font-family: 'Ubuntu';
     font-size: 30px;
@@ -785,7 +779,7 @@ header .navbar ul li a {
 .mensaje_modal p {
     font-size: 16px;
     font-weight: bold;
-    color: var(--yellow);
+    color: var(--white);
 }
 
 
@@ -796,22 +790,22 @@ header .navbar ul li a {
     margin-top: 18px;
     width: 60%;
     text-align: center;
-    color: var(--yellow);
+    color: var(--fondoCard);
     font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 2px;
     border: none;
     float: right;
-
-    background: var(--backgr-mirror);
+    background: var(--fondoBTN);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
     backdrop-filter: blur(8px);
     border-radius: 8px;
 }
 
 #btnClose:hover {
-    background-color: var(--whiteBtm);
+    background: var(--fondoCard);
+    color: var(--white);
 }
 
 
@@ -822,7 +816,7 @@ header .navbar ul li a {
 
 .none {
     display: inline;
-    color: var(--yellow);
+    color: var(--white);
     font-size: 2rem;
     display: flex;
     justify-content: center;
@@ -847,16 +841,15 @@ header .navbar ul li a {
 .top i {
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
     text-decoration: none;
     color: var(--whiteBtm);
     position: fixed;
-    top: 0.5rem;
-    left: 0.7rem;
+    top: 0.7rem;
+    left: 0.9rem;
 }
 
 .top i:hover {
-    color: #278800;
+    color: #EFF0F0;
 }
 
 /* media queries  */
@@ -978,7 +971,7 @@ header .navbar ul li a {
 
 @media (max-width: 560px) {
 
-   
+
     header .navbar {
         top: 20rem;
     }
@@ -1070,6 +1063,7 @@ header .navbar ul li a {
 
     .span {
         font-size: 2.3rem;
+        margin-top: 4rem;
     }
 
     .about_education .box-container .box p {
@@ -1160,6 +1154,7 @@ header .navbar ul li a {
 
     .about .abou_row .about_counter .box {
         width: 36rem;
+        height: 25rem;
     }
 
     .about_education .box-container {
@@ -1167,7 +1162,7 @@ header .navbar ul li a {
     }
 
     .about_education .box-container .box {
-        height: 22rem;
+        height: 19rem;
         margin: 4rem 1rem 0rem 0.5rem;
         width: 36.5rem;
     }
@@ -1195,9 +1190,6 @@ header .navbar ul li a {
         width: 28.6rem;
     }
 
-    /* .span {
-        font-size: 2.6rem;
-    } */
 
     .contact .cont_form {
         width: 42rem;
@@ -1212,6 +1204,7 @@ header .navbar ul li a {
     .contact_div {
         margin: 7rem 0rem 0rem 0rem
     }
+
     .contact_div .contact_p {
         max-width: 37rem;
     }
