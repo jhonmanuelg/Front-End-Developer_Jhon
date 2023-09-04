@@ -1169,7 +1169,7 @@ header .navbar ul li a {
     .box_portfolio .box-container .box {
         max-width: 33.6rem;
         height: 39rem;
-        margin: 5rem 0rem 6rem -0.5rem;
+        margin: 5rem 0rem -1rem -0.5rem;
     }
 
     .abou_row .about_info p {
