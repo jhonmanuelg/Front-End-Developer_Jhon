@@ -2,11 +2,12 @@
 
 :root {
     --scrollbar: #667775;
+    --white: #000000;
     --whiteBtm: #282828;
     --fondo: #f7f5f5;
     --fondoBTN: #aba7a7;
     --fondoCard: #000000;
-    --backgr-mirror: rgba(255, 253, 253, 0.472);
+    --backgr-mirror: rgba(255, 255, 255, 0.406);
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -48,7 +49,6 @@ body {
     padding-left: 29rem;
     font-family: var(--fonttitle);
     background-color: var(--fondo);
-    /* background-image: url("../img/scattered-forcefields.webp"); */
     background-image: url("../img/subtle-prism.svg");
     background-attachment: fixed;
     background-size: contain;
@@ -130,7 +130,7 @@ section {
 #download a {
     margin-left: 0.5rem;
     color: #D00C00;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -192,9 +192,8 @@ section {
     z-index: 1;
     font-family: inherit;
     color: var(--fondoCard);
-    background: var(--fondoBTN);
+    background: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
@@ -219,7 +218,7 @@ section {
 }
 
 .btn:hover {
-    color: var(--white);
+    color: #fff;
     font-weight: 900;
 }
 
