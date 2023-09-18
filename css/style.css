@@ -7,7 +7,7 @@
     --fondo: #f7f5f5;
     --fondoBTN: #aba7a7;
     --fondoCard: #000000;
-    --backgr-mirror: rgba(255, 255, 255, 0.623);
+    --backgr-mirror: rgba(255, 255, 255, 0.603);
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -47,11 +47,13 @@ html::-webkit-scrollbar-thumb {
 body {
     overflow-y: hidden;
     padding-left: 29rem;
+    width: 100%;
     font-family: var(--fonttitle);
     background-color: var(--fondo);
-    background-image: url("../img/subtle-prism.svg");
+    background-image: url("../img/4\ scattered-forcefields.svg");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section {
@@ -259,7 +261,6 @@ header {
 .box_home {
     width: 19rem;
     height: 54rem;
-
     background: var(--backgr-mirror);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
@@ -358,7 +359,7 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -424,7 +425,7 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -458,7 +459,7 @@ header .navbar ul li a {
     align-items: center;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
     transition: 0.5s;
@@ -505,7 +506,7 @@ header .navbar ul li a {
     flex-direction: column;
     transition: 0.5s;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(3px);
     border-radius: 8px;
 }
@@ -567,7 +568,7 @@ header .navbar ul li a {
     align-items: center;
     justify-items: center;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -626,7 +627,7 @@ header .navbar ul li a {
 .contact_div {
     margin-top: 3rem;
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -670,7 +671,7 @@ header .navbar ul li a {
     height: inherit;
     color: var(--white);
     background: var(--backgr-mirror);
-    box-shadow: 0 9px 19px rgb(70, 70, 70);
+    box-shadow: 0 1px 10px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
