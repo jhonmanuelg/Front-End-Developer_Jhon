@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 :root {
-    --scrollbar: #667775;
+    --scrollbar: #010403;
     --white: #000000;
     --whiteBtm: #282828;
     --fondo: #f7f5f5;
@@ -41,7 +41,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #223937;
+    background: #00ecd9;
 }
 
 body {
@@ -233,7 +233,7 @@ section {
     margin: 0 6rem;
     font-size: 6rem;
     padding: 1rem;
-    border-bottom: 0.7rem solid var(--scrollbar);
+    border-bottom: 0.7rem solid #00ecd9;
     color: var(--white);
 }
 
