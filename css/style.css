@@ -1088,9 +1088,9 @@ i:hover {
         font-size: 1.8rem;
     }
 
-    .span {
+    .about_education .box-container .box  .span {
         font-size: 2.3rem;
-        margin-top: 4rem;
+        margin: 5rem 0rem 0rem 1rem;
     }
 
     .about_education .box-container .box p {
