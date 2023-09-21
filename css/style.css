@@ -7,7 +7,7 @@
     --fondo: #f7f5f5;
     --fondoBTN: #aba7a7;
     --fondoCard: #000000;
-    --backgr-mirror: rgba(255, 255, 255, 0.603);
+    --backgr-mirror: rgba(255, 255, 255, 0.688);
     --fonttitle: 'DM Sans', sans-serif;
 }
 
@@ -359,7 +359,7 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -425,7 +425,7 @@ header .navbar ul li a {
     padding: 1.5rem;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -459,7 +459,7 @@ header .navbar ul li a {
     align-items: center;
     height: inherit;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
     transition: 0.5s;
@@ -506,17 +506,17 @@ header .navbar ul li a {
     flex-direction: column;
     transition: 0.5s;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(3px);
     border-radius: 8px;
 }
 
 
-.span {
+.about_education .box-container .box .span {
     color: var(--white);
     font-weight: 600;
     font-size: 2rem;
-    margin: 3rem 0rem 0rem 1rem;
+    margin: 4rem 0rem 0rem 1rem;
 }
 
 .about_education .box-container .box h3 {
@@ -558,7 +558,7 @@ header .navbar ul li a {
 
 .box_portfolio .box-container .box {
     max-width: 23.6rem;
-    height: 40rem;
+    height: 44rem;
     padding: 3rem 0rem 0rem 0rem;
     margin: 3rem 2rem 0rem;
     overflow: visible;
@@ -568,13 +568,13 @@ header .navbar ul li a {
     align-items: center;
     justify-items: center;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
 
 .box_portfolio .box-container .box h3 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     margin-top: 0.5rem;
     color: var(--white);
     font-weight: 800;
@@ -588,11 +588,32 @@ header .navbar ul li a {
     font-weight: 400;
 }
 
-.box_portfolio .box-container .box i {
-    color: var(--whiteBtm);
+.box_portfolio .box-container .box .box_1 {
     position: relative;
-    top: 0.1rem;
-    left: 0.3rem;
+    top: 3rem;
+}
+
+.box_portfolio .box-container .box .box_2 {
+    position: relative;
+    top: 3rem;
+}
+
+.box_portfolio .box-container .box .box_3 {
+    position: relative;
+    top: 1.5rem;
+}
+
+.box_portfolio .box-container .box .box_4 {
+    position: relative;
+    top: 5rem;
+}
+
+.box_portfolio .box-container .box div a {
+    color: var(--whiteBtm);
+    /* position: relative;
+    top: 0rem;
+    left: 0rem; */
+    margin: auto;
     border-radius: 50%;
     font-size: 3rem;
 }
@@ -627,7 +648,7 @@ header .navbar ul li a {
 .contact_div {
     margin-top: 3rem;
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -671,7 +692,7 @@ header .navbar ul li a {
     height: inherit;
     color: var(--white);
     background: var(--backgr-mirror);
-    box-shadow: 0 1px 10px rgb(70, 70, 70);
+    box-shadow: 0 1px 4px rgb(70, 70, 70);
     backdrop-filter: blur(6px);
     border-radius: 8px;
 }
@@ -727,7 +748,7 @@ header .navbar ul li a {
 
 .mensaje_modal {
     width: 296px;
-    padding: 30px 20px 15px;    
+    padding: 30px 20px 15px;
     box-shadow: 0 0 10px rgba(190, 189, 189, 0.275);
     backdrop-filter: blur(6px);
     border-radius: 8px;
@@ -839,6 +860,10 @@ header .navbar ul li a {
     border-radius: 8px;
 }
 
+.top:hover {
+    background-color: #000000;
+}
+
 .top i {
     font-size: 3rem;
     font-weight: 900;
@@ -849,8 +874,9 @@ header .navbar ul li a {
     left: 0.9rem;
 }
 
-.top i:hover {
-    color: #EFF0F0;
+.top,
+i:hover {
+    color: #00ecd9;
 }
 
 /* media queries  */
@@ -1040,13 +1066,13 @@ header .navbar ul li a {
 
     .about_education .box-container .box {
         width: 43rem;
-        height: 16rem;
+        height: 20rem;
         margin: 4rem 5rem 0rem 0rem;
     }
 
     .box_portfolio .box-container .box {
         max-width: 25.6rem;
-        height: 41rem;
+        height: 56rem;
     }
 
     .box_portfolio .box-container .box img {
@@ -1054,7 +1080,7 @@ header .navbar ul li a {
     }
 
     .about .abou_row .about_counter .box p {
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin-top: 3rem;
     }
 
@@ -1068,15 +1094,17 @@ header .navbar ul li a {
     }
 
     .about_education .box-container .box p {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .box_portfolio .box-container .box h3 {
-        font-size: 1.6rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
+
     .box_portfolio .box-container .box p {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .about_titeli {
@@ -1101,7 +1129,7 @@ header .navbar ul li a {
 
     .contact_p p {
         text-align: left;
-        font-size: 1.6rem;
+        font-size: 2rem;
         padding: 2rem;
         margin: 0rem 1rem 0rem 0rem;
     }
@@ -1159,15 +1187,37 @@ header .navbar ul li a {
     }
 
     .about_education .box-container .box {
-        height: 19rem;
+        height: 24rem;
         margin: 4rem 1rem 0rem 0.5rem;
         width: 36.5rem;
     }
 
     .box_portfolio .box-container .box {
         max-width: 33.6rem;
-        height: 39rem;
+        height: 52rem;
         margin: 5rem 0rem -1rem -0.5rem;
+    }
+
+    .box_portfolio .box-container .box .box_1 {
+        position: relative;
+        top: 2.5rem;
+    }
+
+    .box_portfolio .box-container .box .box_2 {
+        position: relative;
+        top: 2.7rem;
+    }
+
+
+    .box_portfolio .box-container .box .box_3 {
+        position: relative;
+        top: 2.6rem;
+    }
+
+
+    .box_portfolio .box-container .box .box_4 {
+        position: relative;
+        top: 5rem;
     }
 
     .abou_row .about_info p {
