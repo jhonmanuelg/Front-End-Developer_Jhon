@@ -39,16 +39,4 @@ link web:  https://jhonmanuelg.github.io/Front-End-Developer_Jhon/
  #### Capture de tela 
  ![img do projeto](img/Front%20End.png)
  -------
- ![img do projeto](img/front%20end%201.png)
- ----
-------
-![img do projeto](img/front%20end%201.2.png)
- ------
-![img do projeto](img/front%20end%201.3.png)
-
----------
-![img do projeto](img/front%20end%201.4.png)
-----------
-![img do projeto](img/front%20end%201.5.png)
------------
-![img do projeto](img/front%20end%202.png)
+ 
