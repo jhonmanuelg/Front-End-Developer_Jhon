@@ -233,7 +233,7 @@ section {
     margin: 0 6rem;
     font-size: 6rem;
     padding: 1rem;
-    border-bottom: 0.7rem solid #00ecd9;
+    border-bottom: 0.3rem solid #00ecd9;
     color: var(--white);
 }
 
@@ -476,12 +476,14 @@ header .navbar ul li a {
 
 
 .about .abou_row .about_counter .box p {
-    text-align: inherit;
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: var(--white);
+    text-align: center;    
     position: relative;
+}
 
+.about .abou_row .about_counter .box p i{
+    margin-top: 1rem;
+    font-size: 7rem;
+    
 }
 
 /* ==================== CSS Meu Formação ================*/
@@ -869,13 +871,13 @@ header .navbar ul li a {
     font-weight: 900;
     text-decoration: none;
     color: var(--whiteBtm);
+    padding: 0.5rem;
     position: fixed;
-    top: 0.7rem;
-    left: 0.9rem;
+    top: 0.2rem;
+    left: 0.4rem;
 }
 
-.top,
-i:hover {
+.top i:hover {
     color: #00ecd9;
 }
 
